@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MITRE Ecosystem Atlas</title>
+<meta name="description" content="Explorador do ecossistema MITRE ATT&CK, D3FEND, ATLAS, CTID e comunidade, em português.">
+<style>
+:root{
+  --bg:#f6f8fa;--panel:#ffffff;--panel2:#f0f3f6;--ink:#1f2328;--muted:#59636e;--line:#d1d9e0;
+  --accent:#0969da;--accent-ink:#ffffff;--ok:#1a7f37;--warn:#9a6700;--chip:#eef2f6;--shadow:0 1px 2px rgba(31,35,40,.08),0 4px 16px rgba(31,35,40,.06);
+  --mono:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0b1020;--panel:#121a2e;--panel2:#18223a;--ink:#e6edf3;--muted:#9aa7bd;--line:#263250;
+  --accent:#7ee0d6;--accent-ink:#0b1020;--ok:#3fb950;--warn:#d29922;--chip:#1b2643;--shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.25);}}
+:root[data-theme="dark"]{
+  --bg:#0b1020;--panel:#121a2e;--panel2:#18223a;--ink:#e6edf3;--muted:#9aa7bd;--line:#263250;
+  --accent:#7ee0d6;--accent-ink:#0b1020;--ok:#3fb950;--warn:#d29922;--chip:#1b2643;--shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.25);}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+button,input,select{font:inherit;color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 16px}
+header.top{background:linear-gradient(120deg,#0b1020,#111a33 60%,#1a1240);color:#fff;padding:28px 0 0}
+.brand{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;flex-wrap:wrap}
+.kicker{font:600 12px/1 var(--mono);letter-spacing:.2em;color:#7d8bb0;text-transform:uppercase}
+h1{margin:8px 0 4px;font-size:clamp(26px,4vw,40px);font-weight:800;letter-spacing:-.02em}
+h1 span{color:#7ee0d6}
+.sub{color:#c9d1e9;margin:0}
+.themebtn{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);color:#fff;border-radius:999px;padding:6px 14px;cursor:pointer}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:22px 0 0}
+.stat{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:10px 14px}
+.stat b{display:block;font:800 24px/1.1 var(--sans)}
+.stat small{color:#aab4d0}
+nav.tabs{display:flex;gap:4px;margin-top:22px;overflow-x:auto}
+nav.tabs a{color:#c9d1e9;text-decoration:none;padding:10px 16px;border-radius:10px 10px 0 0;white-space:nowrap;font-weight:600}
+nav.tabs a[aria-current="page"]{background:var(--bg);color:var(--ink)}
+main{padding:22px 0 60px}
+section[hidden]{display:none}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
+.search{flex:3 1 320px;display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:0 12px}
+.search input{border:0;background:transparent;outline:0;padding:11px 0;width:100%}
+select{flex:0 1 auto;max-width:220px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:9px 10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 14px}
+.chip{border:1px solid var(--line);background:var(--chip);border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.chip i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip .n{font:600 11px var(--mono);opacity:.7}
+.meta{color:var(--muted);font-size:13px;margin:0 0 12px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.linkbtn{background:none;border:0;color:var(--accent);cursor:pointer;padding:0;text-decoration:underline}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px 12px;box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column;gap:8px}
+.card::before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:var(--c)}
+.card.focus{outline:3px solid var(--accent)}
+.card h3{margin:0;font-size:16px;line-height:1.3}
+.card h3 a{color:var(--ink);text-decoration:none}
+.card h3 a:hover{color:var(--accent);text-decoration:underline}
+.id{font:600 11px var(--mono);color:var(--muted)}
+.badges{display:flex;flex-wrap:wrap;gap:5px}
+.b{font-size:11.5px;border-radius:6px;padding:2px 7px;background:var(--panel2);border:1px solid var(--line);white-space:nowrap}
+.b.p1{background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:700}
+.b.st-ativo{color:var(--ok)}.b.st-baixa-atividade{color:var(--warn)}.b.st-parado{color:#cf222e}.b.st-nv{color:var(--muted)}
+.card p{margin:0;font-size:14px}
+.out{color:var(--muted);font-size:13px}
+.ver{font:12px var(--mono);color:var(--muted)}
+.card details{font-size:13px;color:var(--muted)}
+.card summary{cursor:pointer;color:var(--accent)}
+.rels{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.rel{font-size:12px;border:1px dashed var(--line);background:transparent;border-radius:6px;padding:1px 7px;cursor:pointer}
+.empty{padding:40px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}
+/* mapa */
+.flow{display:grid;grid-template-columns:repeat(7,1fr);gap:10px;align-items:stretch}
+.lane-title{font:600 12px var(--mono);letter-spacing:.15em;color:var(--muted);text-transform:uppercase;margin:22px 0 10px}
+.layer{background:var(--panel);border:1px solid var(--line);border-top:5px solid var(--c);border-radius:12px;padding:12px;cursor:pointer;text-align:left;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:4px;min-height:132px}
+.layer:hover{transform:translateY(-2px)}
+.layer b{font-size:15px}.layer .n{font:800 22px var(--mono);color:var(--c)}
+.layer small{color:var(--muted);font-size:12px}
+.layer ul{margin:6px 0 0;padding-left:16px;font-size:12px;color:var(--muted)}
+.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.base{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+@media (max-width:900px){.flow{grid-template-columns:repeat(2,1fr)}}
+/* trilha */
+.now{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:var(--shadow);max-width:780px}
+.now .week{font:600 12px var(--mono);letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+.now h2{margin:8px 0 6px;font-size:clamp(20px,3vw,26px);line-height:1.3}
+.now .deliv{color:var(--muted);margin:0 0 14px}
+.cmd{display:flex;gap:8px;align-items:stretch;margin:12px 0}
+.cmd code{flex:1;background:#0b1020;color:#7ee0d6;border-radius:10px;padding:10px 12px;font:13px var(--mono);overflow-x:auto;white-space:nowrap}
+.btn{border:1px solid var(--line);background:var(--panel2);border-radius:10px;padding:10px 16px;cursor:pointer;font-weight:600}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.bar{height:10px;background:var(--panel2);border-radius:999px;overflow:hidden;margin:14px 0 4px;border:1px solid var(--line)}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,#2ea7a0,#7ee0d6);width:0}
+.weeks{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin-top:22px}
+.wk{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.wk h4{margin:0 0 6px;font-size:14px}
+.wk ol{margin:0;padding-left:18px;font-size:13px}
+.wk li{cursor:pointer;margin:2px 0}.wk li.done{color:var(--muted);text-decoration:line-through}.wk li.cur{font-weight:700;color:var(--accent)}
+/* migração */
+table{border-collapse:collapse;width:100%;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:14px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--panel2);font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+td code{font:13px var(--mono)}
+.tablewrap{overflow-x:auto}
+.note{background:var(--panel2);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:10px;padding:12px 14px;margin:0 0 14px;font-size:14px}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding:18px 0 40px}
+@media (max-width:640px){.stats{grid-template-columns:repeat(4,1fr);gap:6px}.stat{padding:7px 8px}.stat b{font-size:17px}.stat small{font-size:10.5px;line-height:1.2;display:block}.chips{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}.chip{white-space:nowrap}select{flex:1 1 45%;max-width:none}.now{padding:18px}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <div>
+        <div class="kicker">CTI · Detection Engineering · Purple Team · IR</div>
+        <h1>MITRE <span>Ecosystem</span> Atlas</h1>
+        <p class="sub">Da inteligência à defesa validada · curadoria independente em português</p>
+      </div>
+      <button class="themebtn" id="theme" type="button" aria-label="Alternar tema">◐ Tema</button>
+    </div>
+    <div class="stats" id="stats"></div>
+    <nav class="tabs" aria-label="Seções">
+      <a href="#explorar" data-tab="explorar">🔭 Explorar</a>
+      <a href="#mapa" data-tab="mapa">🧱 Mapa</a>
+      <a href="#trilha" data-tab="trilha">🧗 Trilha</a>
+      <a href="#migracao" data-tab="migracao">🔁 Migração v20</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="tab-explorar">
+    <div class="toolbar">
+      <label class="search"><span aria-hidden="true">🔎</span><span class="sr">Buscar</span>
+        <input id="q" type="search" placeholder="Buscar por nome, finalidade, ID (E001) ou formato…" autocomplete="off"></label>
+      <select id="f-owner" aria-label="Origem"></select>
+      <select id="f-status" aria-label="Status"></select>
+      <select id="f-domain" aria-label="Domínio"></select>
+      <select id="f-prio" aria-label="Prioridade"><option value="">Toda prioridade</option><option value="P1">P1 · começar aqui</option><option value="P2">P2 · aprofundar</option></select>
+    </div>
+    <div class="chips" id="layers" role="group" aria-label="Camadas"></div>
+    <div class="meta"><span id="count"></span><button class="linkbtn" id="clear" type="button">limpar filtros</button></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="tab-mapa" hidden>
+    <p class="meta">Clique numa camada para ver os recursos dela. O fluxo principal vai do adversário à maturidade; defesa e engano entram entre o cenário e a validação; a fundação alimenta tudo.</p>
+    <div class="lane-title">Fluxo principal</div><div class="flow" id="map-main"></div>
+    <div class="lane-title">Apoio</div><div class="duo" id="map-side"></div>
+    <div class="lane-title">Fundação</div><div class="base" id="map-base"></div>
+  </section>
+
+  <section id="tab-trilha" hidden>
+    <div class="now" id="now"></div>
+    <div class="weeks" id="weeks"></div>
+  </section>
+
+  <section id="tab-migracao" hidden>
+    <div class="note">Técnicas que saíram entre o ATT&amp;CK <b>18.1</b> e o <b>20.0</b>, com a substituta declarada pelo próprio ATT&amp;CK (<code>revoked-by</code>). Confira cada regra: às vezes uma subtécnica da nova técnica descreve melhor o comportamento. Para cruzar com as suas regras: <code>python3 scripts/attack_diff.py 18.1 20.0 --rules &lt;pasta&gt;</code>.</div>
+    <div class="toolbar"><label class="search"><span aria-hidden="true">🔎</span><span class="sr">Filtrar</span><input id="mq" type="search" placeholder="Filtrar por ID ou nome (ex.: T1562, firewall)"></label>
+      <a class="btn" href="crosswalks/attack-v18.1-v20.0-substituicoes.tsv" download>⬇ TSV</a></div>
+    <div class="tablewrap"><table><thead><tr><th>Saiu</th><th>Nome antigo</th><th>Use agora</th><th>Nome novo</th></tr></thead><tbody id="mig"></tbody></table></div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span id="foot"></span> · <a href="https://github.com/Ridd1kulusC0d3r/mitre">repositório</a> · <a href="docs/catalogo.md">catálogo</a> · <a href="data/ecosystem.json">JSON</a> · sem afiliação ou endosso da MITRE.
+</footer>
+
+<script src="assets/ecosystem.js"></script>
+<script>
+(() => {
+  "use strict";
+  const DATA = window.ECOSYSTEM;
+  if (!DATA) { document.querySelector("main").innerHTML = '<p class="empty">Não encontrei assets/ecosystem.js. Rode <code>python3 scripts/build_catalog.py</code>.</p>'; return; }
+  const C = DATA.catalog, V = C.vocab, E = C.entries, BY = Object.fromEntries(E.map(e => [e.id, e]));
+  const COLOR = {adversario:"#f85149",modelagem:"#f0883e",telemetria:"#d29922",deteccao:"#3fb950",validacao:"#2ea7a0",resposta:"#388bfd",maturidade:"#a371f7",defesa:"#39c5cf",engano:"#db61a2",vulnerabilidade:"#c38b5f",cti:"#8b949e",dados:"#6e7681",conformidade:"#768390",padrao:"#636e7b",formacao:"#9ea700"};
+  const ICON = {adversario:"🎯",modelagem:"🧭",telemetria:"📡",deteccao:"🔎",defesa:"🛡️",engano:"🎭",validacao:"🧪",resposta:"🚑",vulnerabilidade:"🩹",cti:"🕵️",maturidade:"📈",dados:"🗄️",conformidade:"⚙️",padrao:"📐",formacao:"🎓"};
+  const ORDER = ["adversario","modelagem","telemetria","deteccao","defesa","engano","validacao","resposta","vulnerabilidade","cti","maturidade","dados","conformidade","padrao","formacao"];
+  const STATUS_ICON = {"ativo":"✅","baixa-atividade":"⏸️","parado":"🧊","n/v":"❔"};
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem("mitre-atlas:" + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+    set(k, v) { try { localStorage.setItem("mitre-atlas:" + k, JSON.stringify(v)); } catch {} }
+  };
+
+  /* tema */
+  const applyTheme = t => { if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme; };
+  applyTheme(store.get("theme", null));
+  $("#theme").onclick = () => {
+    const dark = matchMedia("(prefers-color-scheme: dark)").matches;
+    const cur = document.documentElement.dataset.theme || (dark ? "dark" : "light");
+    const next = cur === "dark" ? "light" : "dark"; applyTheme(next); store.set("theme", next);
+  };
+
+  /* números */
+  const cnt = (k, v) => E.filter(e => e[k] === v).length;
+  const rels = E.reduce((a, e) => a + (e.relations || []).length, 0);
+  $("#stats").innerHTML = [
+    [E.length, "recursos"], [cnt("owner_type","mitre"), "MITRE oficial"], [cnt("owner_type","ctid"), "CTID"],
+    [cnt("owner_type","comunidade") + cnt("owner_type","fornecedor"), "comunidade e fornecedores"],
+    [rels, "relações"], [cnt("status","ativo"), "ativos"], [C.historical.length, "históricos"]
+  ].map(([n, l]) => `<div class="stat"><b>${n}</b><small>${l}</small></div>`).join("");
+  $("#foot").textContent = `Revisão ${C.reviewed_on} · schema ${C.schema_version}`;
+
+  /* filtros */
+  const fill = (sel, label, dict, key, many) => {
+    const counts = {}; E.forEach(e => (many ? e[key] : [e[key]]).forEach(v => counts[v] = (counts[v] || 0) + 1));
+    $(sel).innerHTML = `<option value="">${label}</option>` + Object.entries(dict).filter(([k]) => counts[k]).map(([k, v]) => `<option value="${k}">${esc(v)} (${counts[k]})</option>`).join("");
+  };
+  fill("#f-owner", "Toda origem", V.owner_type, "owner_type");
+  fill("#f-status", "Todo status", V.status, "status");
+  fill("#f-domain", "Todo domínio", V.domains, "domains", true);
+  const state = {layers: new Set(), q: "", owner: "", status: "", domain: "", prio: "", focus: null};
+  $("#layers").innerHTML = ORDER.filter(k => cnt("layer", k)).map(k =>
+    `<button class="chip" type="button" data-layer="${k}" aria-pressed="false" title="${esc(V.layer[k])}"><i style="background:${COLOR[k]}"></i>${ICON[k]} ${esc(V.layer[k])} <span class="n">${cnt("layer", k)}</span></button>`).join("");
+  $("#layers").addEventListener("click", ev => {
+    const b = ev.target.closest(".chip"); if (!b) return;
+    const k = b.dataset.layer; state.layers.has(k) ? state.layers.delete(k) : state.layers.add(k);
+    b.setAttribute("aria-pressed", state.layers.has(k)); state.focus = null; render();
+  });
+  const bind = (sel, key) => $(sel).addEventListener("input", ev => { state[key] = ev.target.value; state.focus = null; render(); });
+  bind("#q", "q"); bind("#f-owner", "owner"); bind("#f-status", "status"); bind("#f-domain", "domain"); bind("#f-prio", "prio");
+  $("#clear").onclick = () => {
+    Object.assign(state, {q:"",owner:"",status:"",domain:"",prio:"",focus:null}); state.layers.clear();
+    ["#q","#f-owner","#f-status","#f-domain","#f-prio"].forEach(s => $(s).value = "");
+    document.querySelectorAll("#layers .chip").forEach(c => c.setAttribute("aria-pressed","false")); render();
+  };
+
+  const norm = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const hay = e => norm([e.id, e.name, e.origin, e.purpose, e.output, e.notes, e.version, (e.formats||[]).join(" "), V.layer[e.layer], e.domains.map(d => V.domains[d]).join(" ")].join(" "));
+  const HAY = Object.fromEntries(E.map(e => [e.id, hay(e)]));
+
+  function card(e) {
+    const st = e.status === "n/v" ? "nv" : e.status;
+    const rel = (e.relations || []).filter(r => BY[r]).map(r => `<button class="rel" type="button" data-go="${r}" title="${esc(BY[r].purpose)}">${esc(BY[r].name)}</button>`).join("");
+    const extra = [e.notes ? `<p>${esc(e.notes)}</p>` : "", e.formats ? `<p><b>Formatos:</b> ${esc(e.formats.join(" · "))}</p>` : "",
+      e.license_api ? `<p><b>Licença (API):</b> ${esc(e.license_api)}</p>` : "", e.pushed_at ? `<p><b>Último push:</b> ${esc(e.pushed_at.slice(0,10))}</p>` : "",
+      `<p><b>Verificação:</b> ${esc(e.verification)}</p>`].join("");
+    return `<article class="card${state.focus === e.id ? " focus" : ""}" id="${e.id}" style="--c:${COLOR[e.layer]}">
+      <div class="id">${e.id} · ${ICON[e.layer]} ${esc(V.layer[e.layer])}</div>
+      <h3><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.name)}</a></h3>
+      <div class="badges"><span class="b${e.priority === "P1" ? " p1" : ""}">${e.priority}</span><span class="b">${esc(V.owner_type[e.owner_type])}</span><span class="b st-${st}">${STATUS_ICON[e.status]} ${esc(V.status[e.status])}</span>${e.domains.map(d => `<span class="b">${esc(V.domains[d])}</span>`).join("")}</div>
+      ${e.version ? `<div class="ver">${esc(e.version)}</div>` : ""}
+      <p>${esc(e.purpose)}</p>
+      <p class="out">→ ${esc(e.output)}</p>
+      <details><summary>detalhes${rel ? " e relações" : ""}</summary>${extra}${rel ? `<div class="rels">${rel}</div>` : ""}</details>
+    </article>`;
+  }
+
+  function render() {
+    let list = E;
+    if (state.focus) {
+      const f = BY[state.focus]; const ids = new Set([f.id, ...(f.relations || [])]);
+      E.forEach(e => (e.relations || []).includes(f.id) && ids.add(e.id));
+      list = E.filter(e => ids.has(e.id));
+    } else {
+      const terms = norm(state.q).split(/\s+/).filter(Boolean);
+      list = E.filter(e => (!state.layers.size || state.layers.has(e.layer)) && (!state.owner || e.owner_type === state.owner)
+        && (!state.status || e.status === state.status) && (!state.domain || e.domains.includes(state.domain))
+        && (!state.prio || e.priority === state.prio) && terms.every(t => HAY[e.id].includes(t)));
+    }
+    list = [...list].sort((a, b) => (a.id === state.focus ? -1 : b.id === state.focus ? 1 : 0) || ORDER.indexOf(a.layer) - ORDER.indexOf(b.layer) || a.priority.localeCompare(b.priority) || a.name.localeCompare(b.name));
+    $("#count").innerHTML = state.focus ? `<b>${esc(BY[state.focus].name)}</b> e ${list.length - 1} recursos relacionados` : `${list.length} de ${E.length} recursos`;
+    $("#grid").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">Nada encontrado. Tente outro termo ou limpe os filtros.</div>`;
+  }
+  $("#grid").addEventListener("click", ev => {
+    const b = ev.target.closest("[data-go]"); if (!b) return;
+    state.focus = b.dataset.go; render(); history.replaceState(null, "", "#e/" + state.focus);
+    document.getElementById(state.focus)?.scrollIntoView({behavior: "smooth", block: "center"});
+  });
+
+  /* mapa */
+  function layerBox(k) {
+    const items = E.filter(e => e.layer === k).sort((a, b) => a.priority.localeCompare(b.priority) || a.name.localeCompare(b.name));
+    return `<button class="layer" type="button" data-layer="${k}" style="--c:${COLOR[k]}"><span class="n">${items.length}</span><b>${ICON[k]} ${esc(V.layer[k])}</b>
+      <ul>${items.slice(0, 4).map(e => `<li>${esc(e.name)}</li>`).join("")}</ul></button>`;
+  }
+  $("#map-main").innerHTML = ["adversario","modelagem","telemetria","deteccao","validacao","resposta","maturidade"].map(layerBox).join("");
+  $("#map-side").innerHTML = ["defesa","engano"].map(layerBox).join("");
+  $("#map-base").innerHTML = ["vulnerabilidade","cti","dados","conformidade","padrao","formacao"].map(layerBox).join("");
+  $("#tab-mapa").addEventListener("click", ev => {
+    const b = ev.target.closest(".layer"); if (!b) return;
+    $("#clear").click(); state.layers.add(b.dataset.layer);
+    document.querySelector(`#layers .chip[data-layer="${b.dataset.layer}"]`).setAttribute("aria-pressed", "true");
+    location.hash = "#explorar"; render();
+  });
+
+  /* trilha: uma ação por vez */
+  const T = DATA.trilha, STEPS = T.semanas.flatMap(s => s.acoes.map(a => ({...a, semana: s})));
+  let done = new Set(store.get("done", []));
+  let cur = store.get("cur", null);
+  const firstOpen = () => (STEPS.find(s => !done.has(s.id)) || STEPS[STEPS.length - 1]).id;
+  if (!STEPS.some(s => s.id === cur)) cur = firstOpen();
+  function save() { store.set("done", [...done]); store.set("cur", cur); }
+  function renderTrilha() {
+    const i = STEPS.findIndex(s => s.id === cur), s = STEPS[i], pct = Math.round(100 * done.size / STEPS.length);
+    const refs = (s.ref || []).filter(r => BY[r]).map(r => `<a href="${esc(BY[r].url)}" target="_blank" rel="noopener">${esc(BY[r].name)}</a>`).join(" · ");
+    const all = done.size === STEPS.length;
+    $("#now").innerHTML = `
+      <div class="week">Semana ${s.semana.n} de ${T.semanas.length} · ${esc(s.semana.tema)} · ação ${esc(s.id)}</div>
+      <h2>${all ? "🏁 Trilha concluída. " : ""}${esc(s.texto)}</h2>
+      <p class="deliv">Entrega da semana: ${esc(s.semana.entrega)}</p>
+      ${s.cmd ? `<div class="cmd"><code id="cmdtxt">${esc(s.cmd)}</code><button class="btn" type="button" id="copy">Copiar</button></div>` : ""}
+      ${refs ? `<p>Use: ${refs}</p>` : ""}
+      <div class="bar" aria-label="Progresso"><i style="width:${pct}%"></i></div><small>${done.size} de ${STEPS.length} ações feitas (${pct}%)</small>
+      <div class="actions">
+        <button class="btn primary" type="button" id="ok">${done.has(s.id) ? "✓ Feita · ir para a próxima" : "Feito ✓ · próxima"}</button>
+        <button class="btn" type="button" id="skip">Pular por agora</button>
+        <button class="btn" type="button" id="back" ${i === 0 ? "disabled" : ""}>← Anterior</button>
+        <button class="btn" type="button" id="reset">Recomeçar</button>
+      </div>`;
+    $("#weeks").innerHTML = T.semanas.map(w => `<div class="wk"><h4>${w.n}. ${esc(w.tema)}</h4><ol>${w.acoes.map(a =>
+      `<li data-step="${a.id}" class="${done.has(a.id) ? "done" : ""} ${a.id === cur ? "cur" : ""}">${esc(a.texto.length > 70 ? a.texto.slice(0, 68) + "…" : a.texto)}</li>`).join("")}</ol></div>`).join("");
+    const go = j => { cur = STEPS[Math.max(0, Math.min(STEPS.length - 1, j))].id; save(); renderTrilha(); };
+    $("#ok").onclick = () => { done.add(s.id); const nx = STEPS.findIndex((x, k) => k > i && !done.has(x.id)); cur = nx >= 0 ? STEPS[nx].id : firstOpen(); save(); renderTrilha(); };
+    $("#skip").onclick = () => go(i + 1);
+    $("#back").onclick = () => go(i - 1);
+    $("#reset").onclick = () => { if (confirm("Apagar o progresso salvo neste navegador?")) { done = new Set(); cur = STEPS[0].id; save(); renderTrilha(); } };
+    const cp = $("#copy"); if (cp) cp.onclick = async () => { try { await navigator.clipboard.writeText(s.cmd); cp.textContent = "Copiado ✓"; } catch { cp.textContent = "Selecione e copie"; } };
+  }
+  $("#weeks").addEventListener("click", ev => { const li = ev.target.closest("[data-step]"); if (li) { cur = li.dataset.step; save(); renderTrilha(); scrollTo({top: 0, behavior: "smooth"}); } });
+
+  /* migração */
+  function renderMig() {
+    const q = norm($("#mq").value);
+    const rows = DATA.substituicoes.filter(r => !q || norm(Object.values(r).join(" ")).includes(q));
+    const link = id => id ? `<a href="https://attack.mitre.org/techniques/${id.replace(".", "/")}/" target="_blank" rel="noopener"><code>${esc(id)}</code></a>` : "—";
+    $("#mig").innerHTML = rows.map(r => `<tr><td>${link(r.id_antigo)}</td><td>${esc(r.nome_antigo)}</td><td>${link(r.id_novo)}</td><td>${esc(r.nome_novo)}</td></tr>`).join("") || `<tr><td colspan="4">Nada encontrado.</td></tr>`;
+  }
+  $("#mq").addEventListener("input", renderMig);
+
+  /* rotas */
+  function route() {
+    const h = location.hash.slice(1) || "explorar";
+    let tab = h.split("/")[0];
+    if (tab === "e") { const id = h.split("/")[1]; if (BY[id]) state.focus = id; tab = "explorar"; }
+    if (!["explorar","mapa","trilha","migracao"].includes(tab)) tab = "explorar";
+    document.querySelectorAll("main > section").forEach(s => s.hidden = s.id !== "tab-" + tab);
+    document.querySelectorAll("nav.tabs a").forEach(a => {
+      if (a.dataset.tab === tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+    if (tab === "explorar") { render(); if (state.focus) setTimeout(() => document.getElementById(state.focus)?.scrollIntoView({block: "center"}), 30); }
+    if (tab === "trilha") renderTrilha();
+    if (tab === "migracao") renderMig();
+  }
+  addEventListener("hashchange", route);
+  route();
+})();
+</script>
+</body>
+</html>

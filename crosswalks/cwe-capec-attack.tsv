@@ -1,0 +1,272 @@
+capec_id	capec	cwe	attack_id	attack_nome	attack_status	substituta
+CAPEC-1	Accessing Functionality Not Properly Constrained by ACLs	CWE-1191,CWE-1193,CWE-1220,CWE-1297,CWE-1311,CWE-1314,CWE-1315,CWE-1318,CWE-1320,CWE-1321,CWE-1327,CWE-276,CWE-285,CWE-434,CWE-693,CWE-732	T1574.010	Services File Permissions Weakness	ativa	
+CAPEC-11	Cause Web Server Misclassification	CWE-430	T1036.006	Space after Filename	ativa	
+CAPEC-112	Brute Force	CWE-326,CWE-330,CWE-521	T1110	Brute Force	ativa	
+CAPEC-114	Authentication Abuse	CWE-1244,CWE-287	T1548	Abuse Elevation Control Mechanism	ativa	
+CAPEC-115	Authentication Bypass	CWE-287	T1548	Abuse Elevation Control Mechanism	ativa	
+CAPEC-122	Privilege Abuse	CWE-1317,CWE-269,CWE-732	T1548	Abuse Elevation Control Mechanism	ativa	
+CAPEC-125	Flooding	CWE-404,CWE-770	T1498.001	Direct Network Flood	ativa	
+CAPEC-125	Flooding	CWE-404,CWE-770	T1499	Endpoint Denial of Service	ativa	
+CAPEC-127	Directory Indexing	CWE-276,CWE-285,CWE-288,CWE-424,CWE-425,CWE-693,CWE-732	T1083	File and Directory Discovery	ativa	
+CAPEC-13	Subverting Environment Variable Values	CWE-15,CWE-20,CWE-200,CWE-285,CWE-302,CWE-353,CWE-73,CWE-74	T1562.003	Impair Command History Logging	revogada	T1690
+CAPEC-13	Subverting Environment Variable Values	CWE-15,CWE-20,CWE-200,CWE-285,CWE-302,CWE-353,CWE-73,CWE-74	T1574.006	Dynamic Linker Hijacking	ativa	
+CAPEC-13	Subverting Environment Variable Values	CWE-15,CWE-20,CWE-200,CWE-285,CWE-302,CWE-353,CWE-73,CWE-74	T1574.007	Path Interception by PATH Environment Variable	ativa	
+CAPEC-130	Excessive Allocation	CWE-1325,CWE-404,CWE-770	T1499.003	Application Exhaustion Flood	ativa	
+CAPEC-131	Resource Leak Exposure	CWE-404	T1499	Endpoint Denial of Service	ativa	
+CAPEC-132	Symlink Attack	CWE-59	T1547.009	Shortcut Modification	ativa	
+CAPEC-141	Cache Poisoning	CWE-345,CWE-346,CWE-348,CWE-349	T1557.002	ARP Cache Poisoning	ativa	
+CAPEC-142	DNS Cache Poisoning	CWE-345,CWE-346,CWE-348,CWE-349,CWE-350	T1584.002	DNS Server	ativa	
+CAPEC-148	Content Spoofing	CWE-345	T1491	Defacement	ativa	
+CAPEC-150	Collect Data from Common Resource Locations	CWE-1239,CWE-1258,CWE-1266,CWE-1272,CWE-1323,CWE-1330,CWE-552	T1003	OS Credential Dumping	ativa	
+CAPEC-150	Collect Data from Common Resource Locations	CWE-1239,CWE-1258,CWE-1266,CWE-1272,CWE-1323,CWE-1330,CWE-552	T1119	Automated Collection	ativa	
+CAPEC-150	Collect Data from Common Resource Locations	CWE-1239,CWE-1258,CWE-1266,CWE-1272,CWE-1323,CWE-1330,CWE-552	T1213	Data from Information Repositories	ativa	
+CAPEC-150	Collect Data from Common Resource Locations	CWE-1239,CWE-1258,CWE-1266,CWE-1272,CWE-1323,CWE-1330,CWE-552	T1530	Data from Cloud Storage	ativa	
+CAPEC-150	Collect Data from Common Resource Locations	CWE-1239,CWE-1258,CWE-1266,CWE-1272,CWE-1323,CWE-1330,CWE-552	T1555	Credentials from Password Stores	ativa	
+CAPEC-150	Collect Data from Common Resource Locations	CWE-1239,CWE-1258,CWE-1266,CWE-1272,CWE-1323,CWE-1330,CWE-552	T1602	Data from Configuration Repository	ativa	
+CAPEC-158	Sniffing Network Traffic	CWE-311	T1040	Network Sniffing	ativa	
+CAPEC-158	Sniffing Network Traffic	CWE-311	T1111	Multi-Factor Authentication Interception	ativa	
+CAPEC-159	Redirect Access to Libraries	CWE-706	T1574.008	Path Interception by Search Order Hijacking	ativa	
+CAPEC-163	Spear Phishing	CWE-451	T1534	Internal Spearphishing	ativa	
+CAPEC-163	Spear Phishing	CWE-451	T1566.001	Spearphishing Attachment	ativa	
+CAPEC-163	Spear Phishing	CWE-451	T1566.002	Spearphishing Link	ativa	
+CAPEC-163	Spear Phishing	CWE-451	T1566.003	Spearphishing via Service	ativa	
+CAPEC-163	Spear Phishing	CWE-451	T1598.001	Spearphishing Service	ativa	
+CAPEC-163	Spear Phishing	CWE-451	T1598.002	Spearphishing Attachment	ativa	
+CAPEC-163	Spear Phishing	CWE-451	T1598.003	Spearphishing Link	ativa	
+CAPEC-165	File Manipulation		T1036.003	Rename Legitimate Utilities	ativa	
+CAPEC-169	Footprinting	CWE-200	T1217	Browser Information Discovery	ativa	
+CAPEC-169	Footprinting	CWE-200	T1592	Gather Victim Host Information	ativa	
+CAPEC-169	Footprinting	CWE-200	T1595	Active Scanning	ativa	
+CAPEC-17	Using Malicious Files	CWE-270,CWE-272,CWE-282,CWE-285,CWE-59,CWE-693,CWE-732	T1574.005	Executable Installer File Permissions Weakness	ativa	
+CAPEC-17	Using Malicious Files	CWE-270,CWE-272,CWE-282,CWE-285,CWE-59,CWE-693,CWE-732	T1574.010	Services File Permissions Weakness	ativa	
+CAPEC-177	Create files with the same name as files protected with a higher classification	CWE-706	T1036	Masquerading	ativa	
+CAPEC-180	Exploiting Incorrectly Configured Access Control Security Levels	CWE-1190,CWE-1191,CWE-1193,CWE-1220,CWE-1268,CWE-1280,CWE-1297,CWE-1311,CWE-1315,CWE-1318,CWE-1320,CWE-1321,CWE-732	T1574.010	Services File Permissions Weakness	ativa	
+CAPEC-186	Malicious Software Update	CWE-494	T1195.002	Compromise Software Supply Chain	ativa	
+CAPEC-187	Malicious Automated Software Update via Redirection	CWE-494	T1072	Software Deployment Tools	ativa	
+CAPEC-19	Embedding Scripts within Scripts	CWE-284	T1027.009	Embedded Payloads	ativa	
+CAPEC-19	Embedding Scripts within Scripts	CWE-284	T1546.004	Unix Shell Configuration Modification	ativa	
+CAPEC-19	Embedding Scripts within Scripts	CWE-284	T1546.016	Installer Packages	ativa	
+CAPEC-191	Read Sensitive Constants Within an Executable	CWE-798	T1552.001	Credentials In Files	ativa	
+CAPEC-196	Session Credential Falsification through Forging	CWE-384,CWE-664	T1134.002	Create Process with Token	ativa	
+CAPEC-196	Session Credential Falsification through Forging	CWE-384,CWE-664	T1134.003	Make and Impersonate Token	ativa	
+CAPEC-196	Session Credential Falsification through Forging	CWE-384,CWE-664	T1606	Forge Web Credentials	ativa	
+CAPEC-2	Inducing Account Lockout	CWE-645	T1531	Account Access Removal	ativa	
+CAPEC-203	Manipulate Registry Information	CWE-15	T1112	Modify Registry	ativa	
+CAPEC-203	Manipulate Registry Information	CWE-15	T1647	Plist File Modification	ativa	
+CAPEC-204	Lifting Sensitive Data Embedded in Cache	CWE-1239,CWE-1258,CWE-311,CWE-524	T1005	Data from Local System	ativa	
+CAPEC-206	Signing Malicious Code	CWE-732	T1553.002	Code Signing	ativa	
+CAPEC-21	Exploitation of Trusted Identifiers	CWE-290,CWE-302,CWE-346,CWE-384,CWE-539,CWE-6,CWE-602,CWE-642,CWE-664	T1134	Access Token Manipulation	ativa	
+CAPEC-21	Exploitation of Trusted Identifiers	CWE-290,CWE-302,CWE-346,CWE-384,CWE-539,CWE-6,CWE-602,CWE-642,CWE-664	T1528	Steal Application Access Token	ativa	
+CAPEC-21	Exploitation of Trusted Identifiers	CWE-290,CWE-302,CWE-346,CWE-384,CWE-539,CWE-6,CWE-602,CWE-642,CWE-664	T1539	Steal Web Session Cookie	ativa	
+CAPEC-227	Sustained Client Engagement	CWE-400	T1499	Endpoint Denial of Service	ativa	
+CAPEC-233	Privilege Escalation	CWE-1264,CWE-1311,CWE-269	T1548	Abuse Elevation Control Mechanism	ativa	
+CAPEC-25	Forced Deadlock	CWE-1322,CWE-412,CWE-567,CWE-662,CWE-667,CWE-833	T1499.004	Application or System Exploitation	ativa	
+CAPEC-251	Local Code Inclusion	CWE-829	T1055	Process Injection	ativa	
+CAPEC-267	Leverage Alternate Encoding	CWE-172,CWE-173,CWE-180,CWE-181,CWE-20,CWE-692,CWE-697,CWE-73,CWE-74	T1027	Obfuscated Files or Information	ativa	
+CAPEC-268	Audit Log Manipulation	CWE-117	T1070	Indicator Removal	ativa	
+CAPEC-268	Audit Log Manipulation	CWE-117	T1562.002	Disable Windows Event Logging	revogada	T1685.001
+CAPEC-268	Audit Log Manipulation	CWE-117	T1562.003	Impair Command History Logging	revogada	T1690
+CAPEC-268	Audit Log Manipulation	CWE-117	T1562.008	Disable or Modify Cloud Logs	revogada	T1685.002
+CAPEC-270	Modification of Registry Run Keys	CWE-15	T1547.001	Registry Run Keys / Startup Folder	ativa	
+CAPEC-270	Modification of Registry Run Keys	CWE-15	T1547.014	Active Setup	ativa	
+CAPEC-292	Host Discovery	CWE-200	T1018	Remote System Discovery	ativa	
+CAPEC-295	Timestamp Request	CWE-200	T1124	System Time Discovery	ativa	
+CAPEC-30	Hijacking a Privileged Thread of Execution	CWE-270	T1055.003	Thread Execution Hijacking	ativa	
+CAPEC-300	Port Scanning	CWE-200	T1046	Network Service Discovery	ativa	
+CAPEC-309	Network Topology Mapping	CWE-200	T1016	System Network Configuration Discovery	ativa	
+CAPEC-309	Network Topology Mapping	CWE-200	T1049	System Network Connections Discovery	ativa	
+CAPEC-309	Network Topology Mapping	CWE-200	T1590	Gather Victim Network Information	ativa	
+CAPEC-31	Accessing/Intercepting/Modifying HTTP Cookies	CWE-113,CWE-20,CWE-302,CWE-311,CWE-315,CWE-384,CWE-472,CWE-539,CWE-565,CWE-602,CWE-642	T1539	Steal Web Session Cookie	ativa	
+CAPEC-312	Active OS Fingerprinting	CWE-200	T1082	System Information Discovery	ativa	
+CAPEC-313	Passive OS Fingerprinting	CWE-200	T1082	System Information Discovery	ativa	
+CAPEC-35	Leverage Executable Code in Non-Executable Files	CWE-270,CWE-272,CWE-282,CWE-59,CWE-94,CWE-95,CWE-96,CWE-97	T1027.006	HTML Smuggling	ativa	
+CAPEC-35	Leverage Executable Code in Non-Executable Files	CWE-270,CWE-272,CWE-282,CWE-59,CWE-94,CWE-95,CWE-96,CWE-97	T1027.009	Embedded Payloads	ativa	
+CAPEC-35	Leverage Executable Code in Non-Executable Files	CWE-270,CWE-272,CWE-282,CWE-59,CWE-94,CWE-95,CWE-96,CWE-97	T1564.009	Resource Forking	ativa	
+CAPEC-37	Retrieve Embedded Sensitive Data	CWE-1239,CWE-1258,CWE-1266,CWE-1272,CWE-1278,CWE-1301,CWE-1330,CWE-226,CWE-311,CWE-312,CWE-314,CWE-315,CWE-318,CWE-525	T1005	Data from Local System	ativa	
+CAPEC-37	Retrieve Embedded Sensitive Data	CWE-1239,CWE-1258,CWE-1266,CWE-1272,CWE-1278,CWE-1301,CWE-1330,CWE-226,CWE-311,CWE-312,CWE-314,CWE-315,CWE-318,CWE-525	T1552.004	Private Keys	ativa	
+CAPEC-38	Leveraging/Manipulating Configuration File Search Paths	CWE-426,CWE-427	T1574.007	Path Interception by PATH Environment Variable	ativa	
+CAPEC-38	Leveraging/Manipulating Configuration File Search Paths	CWE-426,CWE-427	T1574.009	Path Interception by Unquoted Path	ativa	
+CAPEC-383	Harvesting Information via API Event Monitoring	CWE-311,CWE-319,CWE-419,CWE-602	T1056.004	Credential API Hooking	ativa	
+CAPEC-407	Pretexting		T1589	Gather Victim Identity Information	ativa	
+CAPEC-438	Modification During Manufacture		T1195	Supply Chain Compromise	ativa	
+CAPEC-439	Manipulation During Distribution	CWE-1269	T1195	Supply Chain Compromise	ativa	
+CAPEC-440	Hardware Integrity Attack		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-440	Hardware Integrity Attack		T1200	Hardware Additions	ativa	
+CAPEC-442	Infected Software	CWE-506	T1195.001	Compromise Software Dependencies and Development Tools	ativa	
+CAPEC-442	Infected Software	CWE-506	T1195.002	Compromise Software Supply Chain	ativa	
+CAPEC-443	Malicious Logic Inserted Into Product by Authorized Developer		T1195.002	Compromise Software Supply Chain	ativa	
+CAPEC-443	Malicious Logic Inserted Into Product by Authorized Developer		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-445	Malicious Logic Insertion into Product Software via Configuration Management Manipulation		T1195.001	Compromise Software Dependencies and Development Tools	ativa	
+CAPEC-446	Malicious Logic Insertion into Product via Inclusion of Third-Party Component		T1195	Supply Chain Compromise	ativa	
+CAPEC-448	Embed Virus into DLL	CWE-506	T1027.009	Embedded Payloads	ativa	
+CAPEC-457	USB Memory Attacks	CWE-1299	T1091	Replication Through Removable Media	ativa	
+CAPEC-457	USB Memory Attacks	CWE-1299	T1092	Communication Through Removable Media	ativa	
+CAPEC-464	Evercookie	CWE-359	T1606.001	Web Cookies	ativa	
+CAPEC-465	Transparent Proxy Abuse	CWE-441	T1090.001	Internal Proxy	ativa	
+CAPEC-469	HTTP DoS	CWE-770,CWE-772	T1499.002	Service Exhaustion Flood	ativa	
+CAPEC-471	Search Order Hijacking	CWE-427	T1574.001	DLL	ativa	
+CAPEC-471	Search Order Hijacking	CWE-427	T1574.004	Dylib Hijacking	ativa	
+CAPEC-471	Search Order Hijacking	CWE-427	T1574.008	Path Interception by Search Order Hijacking	ativa	
+CAPEC-473	Signature Spoof	CWE-20,CWE-290,CWE-327	T1036.001	Invalid Code Signature	ativa	
+CAPEC-473	Signature Spoof	CWE-20,CWE-290,CWE-327	T1553.002	Code Signing	ativa	
+CAPEC-474	Signature Spoofing by Key Theft	CWE-522	T1552.004	Private Keys	ativa	
+CAPEC-478	Modification of Windows Service Configuration	CWE-284	T1543.003	Windows Service	ativa	
+CAPEC-478	Modification of Windows Service Configuration	CWE-284	T1574.011	Services Registry Permissions Weakness	ativa	
+CAPEC-479	Malicious Root Certificate	CWE-284	T1553.004	Install Root Certificate	ativa	
+CAPEC-480	Escaping Virtualization	CWE-693	T1611	Escape to Host	ativa	
+CAPEC-481	Contradictory Destinations in Traffic Routing Schemes	CWE-923	T1090.004	Domain Fronting	ativa	
+CAPEC-482	TCP Flood	CWE-770	T1498.001	Direct Network Flood	ativa	
+CAPEC-482	TCP Flood	CWE-770	T1499.001	OS Exhaustion Flood	ativa	
+CAPEC-482	TCP Flood	CWE-770	T1499.002	Service Exhaustion Flood	ativa	
+CAPEC-485	Signature Spoofing by Key Recreation	CWE-330	T1552.004	Private Keys	ativa	
+CAPEC-488	HTTP Flood	CWE-770	T1499.002	Service Exhaustion Flood	ativa	
+CAPEC-489	SSL Flood	CWE-770	T1499.002	Service Exhaustion Flood	ativa	
+CAPEC-49	Password Brute Forcing	CWE-257,CWE-262,CWE-263,CWE-307,CWE-308,CWE-309,CWE-521,CWE-654	T1110.001	Password Guessing	ativa	
+CAPEC-490	Amplification	CWE-770	T1498.002	Reflection Amplification	ativa	
+CAPEC-497	File Discovery	CWE-200	T1083	File and Directory Discovery	ativa	
+CAPEC-504	Task Impersonation	CWE-1021	T1036.004	Masquerade Task or Service	ativa	
+CAPEC-509	Kerberoasting	CWE-262,CWE-263,CWE-294,CWE-308,CWE-309,CWE-521,CWE-522	T1558.003	Kerberoasting	ativa	
+CAPEC-511	Infiltration of Software Development Environment		T1195.001	Compromise Software Dependencies and Development Tools	ativa	
+CAPEC-516	Hardware Component Substitution During Baselining		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-520	Counterfeit Hardware Component Inserted During Product Assembly		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-522	Malicious Hardware Component Replacement		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-523	Malicious Software Implanted		T1195.002	Compromise Software Supply Chain	ativa	
+CAPEC-528	XML Flood	CWE-770	T1498.001	Direct Network Flood	ativa	
+CAPEC-528	XML Flood	CWE-770	T1499.002	Service Exhaustion Flood	ativa	
+CAPEC-531	Hardware Component Substitution		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-532	Altered Installed BIOS		T1495	Firmware Corruption	ativa	
+CAPEC-532	Altered Installed BIOS		T1542.001	System Firmware	ativa	
+CAPEC-537	Infiltration of Hardware Development Environment		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-538	Open-Source Library Manipulation	CWE-494,CWE-829	T1195.001	Compromise Software Dependencies and Development Tools	ativa	
+CAPEC-539	ASIC With Malicious Functionality		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-541	Application Fingerprinting	CWE-204,CWE-205,CWE-208	T1592.002	Software	ativa	
+CAPEC-542	Targeted Malware		T1027	Obfuscated Files or Information	ativa	
+CAPEC-542	Targeted Malware		T1587.001	Malware	ativa	
+CAPEC-543	Counterfeit Websites		T1036.005	Match Legitimate Resource Name or Location	ativa	
+CAPEC-545	Pull Data from System Resources	CWE-1239,CWE-1243,CWE-1258,CWE-1266,CWE-1272,CWE-1278,CWE-1323,CWE-1330	T1005	Data from Local System	ativa	
+CAPEC-545	Pull Data from System Resources	CWE-1239,CWE-1243,CWE-1258,CWE-1266,CWE-1272,CWE-1278,CWE-1323,CWE-1330	T1555.001	Keychain	ativa	
+CAPEC-55	Rainbow Table Password Cracking	CWE-261,CWE-262,CWE-263,CWE-308,CWE-309,CWE-521,CWE-654,CWE-916	T1110.002	Password Cracking	ativa	
+CAPEC-550	Install New Service	CWE-284	T1543	Create or Modify System Process	ativa	
+CAPEC-551	Modify Existing Service	CWE-284,CWE-522	T1543	Create or Modify System Process	ativa	
+CAPEC-552	Install Rootkit 	CWE-284	T1014	Rootkit	ativa	
+CAPEC-552	Install Rootkit 	CWE-284	T1542.003	Bootkit	ativa	
+CAPEC-552	Install Rootkit 	CWE-284	T1547.006	Kernel Modules and Extensions	ativa	
+CAPEC-555	Remote Services with Stolen Credentials	CWE-262,CWE-263,CWE-294,CWE-308,CWE-309,CWE-521,CWE-522	T1021	Remote Services	ativa	
+CAPEC-555	Remote Services with Stolen Credentials	CWE-262,CWE-263,CWE-294,CWE-308,CWE-309,CWE-521,CWE-522	T1114.002	Remote Email Collection	ativa	
+CAPEC-555	Remote Services with Stolen Credentials	CWE-262,CWE-263,CWE-294,CWE-308,CWE-309,CWE-521,CWE-522	T1133	External Remote Services	ativa	
+CAPEC-556	Replace File Extension Handlers	CWE-284	T1546.001	Change Default File Association	ativa	
+CAPEC-558	Replace Trusted Executable	CWE-284	T1505.005	Terminal Services DLL	ativa	
+CAPEC-558	Replace Trusted Executable	CWE-284	T1546.008	Accessibility Features	ativa	
+CAPEC-560	Use of Known Domain Credentials	CWE-1273,CWE-262,CWE-263,CWE-307,CWE-308,CWE-309,CWE-522,CWE-654	T1078	Valid Accounts	ativa	
+CAPEC-561	Windows Admin Shares with Stolen Credentials	CWE-262,CWE-263,CWE-294,CWE-308,CWE-309,CWE-521,CWE-522	T1021.002	SMB/Windows Admin Shares	ativa	
+CAPEC-562	Modify Shared File	CWE-284	T1080	Taint Shared Content	ativa	
+CAPEC-564	Run Software at Logon	CWE-284	T1037	Boot or Logon Initialization Scripts	ativa	
+CAPEC-564	Run Software at Logon	CWE-284	T1543.001	Launch Agent	ativa	
+CAPEC-564	Run Software at Logon	CWE-284	T1543.004	Launch Daemon	ativa	
+CAPEC-564	Run Software at Logon	CWE-284	T1547	Boot or Logon Autostart Execution	ativa	
+CAPEC-565	Password Spraying	CWE-262,CWE-263,CWE-307,CWE-308,CWE-309,CWE-521,CWE-654	T1110.003	Password Spraying	ativa	
+CAPEC-568	Capture Credentials via Keylogger		T1056.001	Keylogging	ativa	
+CAPEC-569	Collect Data as Provided by Users		T1056	Input Capture	ativa	
+CAPEC-57	Utilizing REST's Trust in the System Resource to Obtain Sensitive Data	CWE-287,CWE-300,CWE-693	T1040	Network Sniffing	ativa	
+CAPEC-571	Block Logging to Central Repository		T1562.002	Disable Windows Event Logging	revogada	T1685.001
+CAPEC-571	Block Logging to Central Repository		T1562.006	Indicator Blocking	revogada	T1685
+CAPEC-571	Block Logging to Central Repository		T1562.008	Disable or Modify Cloud Logs	revogada	T1685.002
+CAPEC-572	Artificially Inflate File Sizes		T1027.001	Binary Padding	ativa	
+CAPEC-573	Process Footprinting	CWE-200	T1057	Process Discovery	ativa	
+CAPEC-574	Services Footprinting	CWE-200	T1007	System Service Discovery	ativa	
+CAPEC-575	Account Footprinting	CWE-200	T1087	Account Discovery	ativa	
+CAPEC-576	Group Permission Footprinting	CWE-200	T1069	Permission Groups Discovery	ativa	
+CAPEC-576	Group Permission Footprinting	CWE-200	T1615	Group Policy Discovery	ativa	
+CAPEC-577	Owner Footprinting	CWE-200	T1033	System Owner/User Discovery	ativa	
+CAPEC-578	Disable Security Software	CWE-284	T1556.006	Multi-Factor Authentication	ativa	
+CAPEC-578	Disable Security Software	CWE-284	T1562.001	Disable or Modify Tools	revogada	T1685
+CAPEC-578	Disable Security Software	CWE-284	T1562.002	Disable Windows Event Logging	revogada	T1685.001
+CAPEC-578	Disable Security Software	CWE-284	T1562.004	Disable or Modify System Firewall	revogada	T1686
+CAPEC-578	Disable Security Software	CWE-284	T1562.007	Disable or Modify Cloud Firewall	revogada	T1686.001
+CAPEC-578	Disable Security Software	CWE-284	T1562.008	Disable or Modify Cloud Logs	revogada	T1685.002
+CAPEC-578	Disable Security Software	CWE-284	T1562.009	Safe Mode Boot	revogada	T1688
+CAPEC-579	Replace Winlogon Helper DLL	CWE-15	T1547.004	Winlogon Helper DLL	ativa	
+CAPEC-580	System Footprinting	CWE-204,CWE-205,CWE-208	T1082	System Information Discovery	ativa	
+CAPEC-581	Security Software Footprinting		T1518.001	Security Software Discovery	ativa	
+CAPEC-593	Session Hijacking	CWE-287	T1185	Browser Session Hijacking	ativa	
+CAPEC-593	Session Hijacking	CWE-287	T1550.001	Application Access Token	ativa	
+CAPEC-593	Session Hijacking	CWE-287	T1563	Remote Service Session Hijacking	ativa	
+CAPEC-60	Reusing Session IDs (aka Session Replay)	CWE-200,CWE-285,CWE-290,CWE-294,CWE-346,CWE-384,CWE-488,CWE-539,CWE-664,CWE-732	T1134.001	Token Impersonation/Theft	ativa	
+CAPEC-60	Reusing Session IDs (aka Session Replay)	CWE-200,CWE-285,CWE-290,CWE-294,CWE-346,CWE-384,CWE-488,CWE-539,CWE-664,CWE-732	T1550.004	Web Session Cookie	ativa	
+CAPEC-600	Credential Stuffing	CWE-262,CWE-263,CWE-307,CWE-308,CWE-309,CWE-522,CWE-654	T1110.004	Credential Stuffing	ativa	
+CAPEC-609	Cellular Traffic Intercept	CWE-311	T1111	Multi-Factor Authentication Interception	ativa	
+CAPEC-616	Establish Rogue Location	CWE-200	T1036.005	Match Legitimate Resource Name or Location	ativa	
+CAPEC-620	Drop Encryption Level	CWE-757	T1600	Weaken Encryption	ativa	
+CAPEC-633	Token Impersonation	CWE-1270,CWE-287	T1134	Access Token Manipulation	ativa	
+CAPEC-634	Probe Audio and Video Peripherals	CWE-267	T1123	Audio Capture	ativa	
+CAPEC-634	Probe Audio and Video Peripherals	CWE-267	T1125	Video Capture	ativa	
+CAPEC-635	Alternative Execution Due to Deceptive Filenames	CWE-162	T1036.007	Double File Extension	ativa	
+CAPEC-636	Hiding Malicious Data or Code within Files	CWE-506	T1001.002	Steganography	ativa	
+CAPEC-636	Hiding Malicious Data or Code within Files	CWE-506	T1027.003	Steganography	ativa	
+CAPEC-636	Hiding Malicious Data or Code within Files	CWE-506	T1027.004	Compile After Delivery	ativa	
+CAPEC-636	Hiding Malicious Data or Code within Files	CWE-506	T1218.001	Compiled HTML File	ativa	
+CAPEC-636	Hiding Malicious Data or Code within Files	CWE-506	T1221	Template Injection	ativa	
+CAPEC-637	Collect Data from Clipboard	CWE-267	T1115	Clipboard Data	ativa	
+CAPEC-638	Altered Component Firmware		T1542.002	Component Firmware	ativa	
+CAPEC-639	Probe System Files	CWE-552	T1039	Data from Network Shared Drive	ativa	
+CAPEC-639	Probe System Files	CWE-552	T1552.001	Credentials In Files	ativa	
+CAPEC-639	Probe System Files	CWE-552	T1552.003	Shell History	ativa	
+CAPEC-639	Probe System Files	CWE-552	T1552.004	Private Keys	ativa	
+CAPEC-639	Probe System Files	CWE-552	T1552.006	Group Policy Preferences	ativa	
+CAPEC-640	Inclusion of Code in Existing Process	CWE-114,CWE-829	T1505.005	Terminal Services DLL	ativa	
+CAPEC-640	Inclusion of Code in Existing Process	CWE-114,CWE-829	T1574.006	Dynamic Linker Hijacking	ativa	
+CAPEC-640	Inclusion of Code in Existing Process	CWE-114,CWE-829	T1574.013	KernelCallbackTable	ativa	
+CAPEC-640	Inclusion of Code in Existing Process	CWE-114,CWE-829	T1620	Reflective Code Loading	ativa	
+CAPEC-641	DLL Side-Loading	CWE-706	T1574.002	DLL Side-Loading	revogada	T1574.001
+CAPEC-642	Replace Binaries	CWE-732	T1505.005	Terminal Services DLL	ativa	
+CAPEC-642	Replace Binaries	CWE-732	T1554	Compromise Host Software Binary	ativa	
+CAPEC-642	Replace Binaries	CWE-732	T1574.005	Executable Installer File Permissions Weakness	ativa	
+CAPEC-643	Identify Shared Files/Directories on System	CWE-200,CWE-267	T1135	Network Share Discovery	ativa	
+CAPEC-644	Use of Captured Hashes (Pass The Hash)	CWE-294,CWE-308,CWE-522,CWE-836	T1550.002	Pass the Hash	ativa	
+CAPEC-645	Use of Captured Tickets (Pass The Ticket)	CWE-294,CWE-308,CWE-522	T1550.003	Pass the Ticket	ativa	
+CAPEC-646	Peripheral Footprinting	CWE-200	T1120	Peripheral Device Discovery	ativa	
+CAPEC-647	Collect Data from Registries	CWE-285	T1005	Data from Local System	ativa	
+CAPEC-647	Collect Data from Registries	CWE-285	T1012	Query Registry	ativa	
+CAPEC-647	Collect Data from Registries	CWE-285	T1552.002	Credentials in Registry	ativa	
+CAPEC-648	Collect Data from Screen Capture	CWE-267	T1113	Screen Capture	ativa	
+CAPEC-648	Collect Data from Screen Capture	CWE-267	T1513	(não existe nesta versão)	inexistente	
+CAPEC-649	Adding a Space to a File Extension	CWE-46	T1036.006	Space after Filename	ativa	
+CAPEC-65	Sniff Application Code	CWE-311,CWE-318,CWE-319,CWE-693	T1040	Network Sniffing	ativa	
+CAPEC-650	Upload a Web Shell to a Web Server	CWE-287,CWE-553	T1505.003	Web Shell	ativa	
+CAPEC-651	Eavesdropping	CWE-200	T1111	Multi-Factor Authentication Interception	ativa	
+CAPEC-652	Use of Known Kerberos Credentials	CWE-262,CWE-263,CWE-294,CWE-307,CWE-308,CWE-309,CWE-522,CWE-654,CWE-836	T1558	Steal or Forge Kerberos Tickets	ativa	
+CAPEC-654	Credential Prompt Impersonation	CWE-1021	T1056	Input Capture	ativa	
+CAPEC-654	Credential Prompt Impersonation	CWE-1021	T1548.004	Elevated Execution with Prompt	ativa	
+CAPEC-655	Avoid Security Tool Identification by Adding Data		T1027.001	Binary Padding	ativa	
+CAPEC-657	Malicious Automated Software Update via Spoofing	CWE-494	T1072	Software Deployment Tools	ativa	
+CAPEC-660	Root/Jailbreak Detection Evasion via Hooking	CWE-829	T1055	Process Injection	ativa	
+CAPEC-662	Adversary in the Browser (AiTB)	CWE-300,CWE-494	T1185	Browser Session Hijacking	ativa	
+CAPEC-665	Exploitation of Thunderbolt Protection Flaws	CWE-1188,CWE-288,CWE-345,CWE-353,CWE-862	T1211	Exploitation for Stealth	ativa	
+CAPEC-665	Exploitation of Thunderbolt Protection Flaws	CWE-1188,CWE-288,CWE-345,CWE-353,CWE-862	T1542.002	Component Firmware	ativa	
+CAPEC-665	Exploitation of Thunderbolt Protection Flaws	CWE-1188,CWE-288,CWE-345,CWE-353,CWE-862	T1556	Modify Authentication Process	ativa	
+CAPEC-666	BlueSmacking	CWE-404	T1498.001	Direct Network Flood	ativa	
+CAPEC-666	BlueSmacking	CWE-404	T1499.001	OS Exhaustion Flood	ativa	
+CAPEC-668	Key Negotiation of Bluetooth Attack (KNOB)	CWE-285,CWE-425,CWE-693	T1565.002	Transmitted Data Manipulation	ativa	
+CAPEC-669	Alteration of a Software Update		T1195.002	Compromise Software Supply Chain	ativa	
+CAPEC-670	Software Development Tools Maliciously Altered		T1127	Trusted Developer Utilities Proxy Execution	ativa	
+CAPEC-670	Software Development Tools Maliciously Altered		T1195.001	Compromise Software Dependencies and Development Tools	ativa	
+CAPEC-671	Requirements for ASIC Functionality Maliciously Altered		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-672	Malicious Code Implanted During Chip Programming		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-673	Developer Signing Maliciously Altered Software		T1195.002	Compromise Software Supply Chain	ativa	
+CAPEC-674	Design for FPGA Maliciously Altered		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-675	Retrieve Data from Decommissioned Devices	CWE-1266	T1052	Exfiltration Over Physical Medium	ativa	
+CAPEC-677	Server Motherboard Compromise		T1195.003	Compromise Hardware Supply Chain	ativa	
+CAPEC-678	System Build Data Maliciously Altered		T1195.002	Compromise Software Supply Chain	ativa	
+CAPEC-68	Subvert Code-signing Facilities	CWE-1326,CWE-325,CWE-328	T1553.002	Code Signing	ativa	
+CAPEC-691	Spoof Open-Source Software Metadata	CWE-494	T1195.001	Compromise Software Dependencies and Development Tools	ativa	
+CAPEC-691	Spoof Open-Source Software Metadata	CWE-494	T1195.002	Compromise Software Supply Chain	ativa	
+CAPEC-694	System Location Discovery	CWE-497	T1614	System Location Discovery	ativa	
+CAPEC-695	Repo Jacking	CWE-494,CWE-829	T1195.001	Compromise Software Dependencies and Development Tools	ativa	
+CAPEC-697	DHCP Spoofing	CWE-923	T1557.003	DHCP Spoofing	ativa	
+CAPEC-698	Install Malicious Extension	CWE-507,CWE-829	T1176	Software Extensions	ativa	
+CAPEC-698	Install Malicious Extension	CWE-507,CWE-829	T1505.004	IIS Components	ativa	
+CAPEC-70	Try Common or Default Usernames and Passwords	CWE-262,CWE-263,CWE-308,CWE-309,CWE-521,CWE-654,CWE-798	T1078.001	Default Accounts	ativa	
+CAPEC-700	Network Boundary Bridging		T1599	Network Boundary Bridging	ativa	
+CAPEC-94	Adversary in the Middle (AiTM)	CWE-287,CWE-290,CWE-294,CWE-300,CWE-593	T1557	Adversary-in-the-Middle	ativa	
+CAPEC-98	Phishing	CWE-451	T1566	Phishing	ativa	
+CAPEC-98	Phishing	CWE-451	T1598	Phishing for Information	ativa	

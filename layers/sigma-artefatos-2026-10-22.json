@@ -1,0 +1,2065 @@
+{
+  "name": "Sigma",
+  "versions": {
+    "attack": "20",
+    "navigator": "5.3.2",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "Artefatos em /tmp/claude-0/-home-claude/2eea9775-8073-59a6-88da-5ba6988d9d72/scratchpad/ext/sigma/rules que citam cada técnica. Não equivale a cobertura de detecção.",
+  "gradient": {
+    "colors": [
+      "#e8f1ff",
+      "#1f6feb"
+    ],
+    "minValue": 0,
+    "maxValue": 182
+  },
+  "legendItems": [
+    {
+      "label": "0 artefatos",
+      "color": "#ffffff"
+    },
+    {
+      "label": "182 artefatos",
+      "color": "#1f6feb"
+    }
+  ],
+  "techniques": [
+    {
+      "techniqueID": "T1001.003",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1003",
+      "score": 36,
+      "comment": "36 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1003.001",
+      "score": 73,
+      "comment": "73 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1003.002",
+      "score": 30,
+      "comment": "30 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1003.003",
+      "score": 23,
+      "comment": "23 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1003.004",
+      "score": 12,
+      "comment": "12 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1003.005",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1003.006",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1005",
+      "score": 12,
+      "comment": "12 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1006",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1007",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1008",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1010",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1012",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1014",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1016",
+      "score": 10,
+      "comment": "10 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1018",
+      "score": 17,
+      "comment": "17 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1020",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1021",
+      "score": 10,
+      "comment": "10 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1021.001",
+      "score": 17,
+      "comment": "17 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1021.002",
+      "score": 37,
+      "comment": "37 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1021.003",
+      "score": 13,
+      "comment": "13 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1021.004",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1021.005",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1021.006",
+      "score": 10,
+      "comment": "10 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1021.007",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1027",
+      "score": 88,
+      "comment": "88 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1027.001",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1027.002",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1027.003",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1027.004",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1027.005",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1027.009",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1027.010",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1027.011",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1030",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1033",
+      "score": 29,
+      "comment": "29 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1036",
+      "score": 38,
+      "comment": "38 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1036.002",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1036.003",
+      "score": 26,
+      "comment": "26 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1036.004",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1036.005",
+      "score": 17,
+      "comment": "17 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1036.006",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1036.007",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1037.001",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1037.005",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1039",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1040",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1041",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1046",
+      "score": 20,
+      "comment": "20 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1047",
+      "score": 50,
+      "comment": "50 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1048",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1048.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1048.003",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1049",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1053",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1053.002",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1053.003",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1053.005",
+      "score": 32,
+      "comment": "32 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1055",
+      "score": 28,
+      "comment": "28 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1055.001",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1055.003",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1055.009",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1055.011",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1055.012",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1056",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1056.001",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1056.002",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1056.004",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1057",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1059",
+      "score": 74,
+      "comment": "74 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1059.001",
+      "score": 182,
+      "comment": "182 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1059.002",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1059.003",
+      "score": 28,
+      "comment": "28 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1059.004",
+      "score": 16,
+      "comment": "16 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1059.005",
+      "score": 24,
+      "comment": "24 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1059.006",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1059.007",
+      "score": 23,
+      "comment": "23 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1059.009",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1059.012",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1068",
+      "score": 15,
+      "comment": "15 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1069",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1069.001",
+      "score": 15,
+      "comment": "15 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1069.002",
+      "score": 19,
+      "comment": "19 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1069.003",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1070",
+      "score": 20,
+      "comment": "20 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1070.001",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1070.002",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1070.003",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1070.004",
+      "score": 13,
+      "comment": "13 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1070.005",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1070.006",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1071",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1071.001",
+      "score": 31,
+      "comment": "31 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1071.004",
+      "score": 11,
+      "comment": "11 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1072",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1074",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1074.001",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1076",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1078",
+      "score": 51,
+      "comment": "51 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1078.001",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1078.002",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1078.003",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1078.004",
+      "score": 37,
+      "comment": "37 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1082",
+      "score": 31,
+      "comment": "31 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1083",
+      "score": 22,
+      "comment": "22 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1087",
+      "score": 15,
+      "comment": "15 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1087.001",
+      "score": 12,
+      "comment": "12 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1087.002",
+      "score": 20,
+      "comment": "20 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1087.004",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1090",
+      "score": 21,
+      "comment": "21 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1090.001",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1090.002",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1090.003",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1091",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1095",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1098",
+      "score": 32,
+      "comment": "32 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1098.001",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1098.003",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1098.005",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1098.007",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1102",
+      "score": 13,
+      "comment": "13 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1102.001",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1102.002",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1102.003",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1105",
+      "score": 71,
+      "comment": "71 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1106",
+      "score": 11,
+      "comment": "11 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1110",
+      "score": 23,
+      "comment": "23 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1110.001",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1110.002",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1112",
+      "score": 84,
+      "comment": "84 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1113",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1114",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1114.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1114.003",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1115",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1117",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1119",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1120",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1123",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1124",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1125",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1127",
+      "score": 19,
+      "comment": "19 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1127.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1128",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1129",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1132",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1132.001",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1133",
+      "score": 19,
+      "comment": "19 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1134",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1134.001",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1134.002",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1134.003",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1134.004",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1134.005",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1135",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1136",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1136.001",
+      "score": 16,
+      "comment": "16 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1136.002",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1136.003",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1137",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1137.002",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1137.003",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1137.004",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1137.006",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1140",
+      "score": 14,
+      "comment": "14 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1176.001",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1185",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1187",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1189",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1190",
+      "score": 46,
+      "comment": "46 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1195",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1195.001",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1195.002",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1197",
+      "score": 15,
+      "comment": "15 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1199",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1200",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1201",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1202",
+      "score": 40,
+      "comment": "40 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1203",
+      "score": 19,
+      "comment": "19 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1204",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1204.001",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1204.002",
+      "score": 29,
+      "comment": "29 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1204.004",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1207",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1208",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1210",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1211",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1212",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1213",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1213.003",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1216",
+      "score": 13,
+      "comment": "13 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1216.001",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1217",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218",
+      "score": 145,
+      "comment": "145 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218.001",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218.002",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218.003",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218.005",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218.007",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218.008",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218.009",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218.010",
+      "score": 17,
+      "comment": "17 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218.011",
+      "score": 27,
+      "comment": "27 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218.013",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1218.014",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1219",
+      "score": 20,
+      "comment": "20 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1219.002",
+      "score": 43,
+      "comment": "43 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1220",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1221",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1222",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1222.001",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1222.002",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1482",
+      "score": 17,
+      "comment": "17 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1484",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1484.001",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1484.002",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1485",
+      "score": 19,
+      "comment": "19 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1486",
+      "score": 10,
+      "comment": "10 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1489",
+      "score": 19,
+      "comment": "19 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1490",
+      "score": 26,
+      "comment": "26 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1491.001",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1495",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1496",
+      "score": 13,
+      "comment": "13 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1497.001",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1498",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1499",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1499.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1499.004",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1505",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1505.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1505.002",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1505.003",
+      "score": 23,
+      "comment": "23 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1505.004",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1505.005",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1518",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1518.001",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1525",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1526",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1528",
+      "score": 14,
+      "comment": "14 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1529",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1531",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1537",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1539",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1542.001",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1542.003",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1543",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1543.001",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1543.002",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1543.003",
+      "score": 38,
+      "comment": "38 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1543.004",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.001",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.002",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.003",
+      "score": 11,
+      "comment": "11 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.004",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.007",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.008",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.009",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.010",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.011",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.012",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.013",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.014",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1546.015",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547.001",
+      "score": 31,
+      "comment": "31 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547.002",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547.003",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547.004",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547.005",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547.006",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547.008",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547.009",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547.010",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547.014",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1547.015",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1548",
+      "score": 23,
+      "comment": "23 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1548.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1548.002",
+      "score": 57,
+      "comment": "57 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1548.003",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1550",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1550.001",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1550.002",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1550.003",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1552",
+      "score": 12,
+      "comment": "12 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1552.001",
+      "score": 20,
+      "comment": "20 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1552.002",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1552.003",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1552.004",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1552.006",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1552.007",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1553",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1553.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1553.002",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1553.003",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1553.004",
+      "score": 11,
+      "comment": "11 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1553.005",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1554",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1555",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1555.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1555.003",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1555.004",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1555.005",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1556",
+      "score": 12,
+      "comment": "12 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1556.002",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1556.004",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1556.006",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1557",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1557.001",
+      "score": 10,
+      "comment": "10 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1557.003",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1558",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1558.003",
+      "score": 16,
+      "comment": "16 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1558.004",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1559.001",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1559.002",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1560",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1560.001",
+      "score": 15,
+      "comment": "15 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1561.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1561.002",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1562",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1562.001",
+      "score": 31,
+      "comment": "31 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1562.002",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1562.004",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1562.012",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1563.002",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1564",
+      "score": 10,
+      "comment": "10 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1564.001",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1564.002",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1564.003",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1564.004",
+      "score": 22,
+      "comment": "22 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1564.006",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1565",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1565.001",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1565.002",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1566",
+      "score": 11,
+      "comment": "11 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1566.001",
+      "score": 19,
+      "comment": "19 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1566.002",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1567",
+      "score": 11,
+      "comment": "11 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1567.001",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1567.002",
+      "score": 13,
+      "comment": "13 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1568",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1568.002",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1569",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1569.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1569.002",
+      "score": 39,
+      "comment": "39 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1570",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1571",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1572",
+      "score": 23,
+      "comment": "23 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1573",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1574",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1574.001",
+      "score": 80,
+      "comment": "80 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1574.005",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1574.006",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1574.007",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1574.008",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1574.009",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1574.011",
+      "score": 11,
+      "comment": "11 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1574.012",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1578",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1578.003",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1580",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1584",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1586",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1586.003",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1587",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1587.001",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1588",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1588.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1588.002",
+      "score": 9,
+      "comment": "9 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1589",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1589.002",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1590",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1590.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1590.002",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1591.004",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1592.004",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1593.003",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1595",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1595.002",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1599.001",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1606",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1608",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1608.003",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1609",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1611",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1613",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1614.001",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1615",
+      "score": 5,
+      "comment": "5 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1619",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1620",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1621",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1622",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1649",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1653",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1685",
+      "score": 161,
+      "comment": "161 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1685.001",
+      "score": 26,
+      "comment": "26 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1685.002",
+      "score": 3,
+      "comment": "3 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1685.004",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1685.005",
+      "score": 7,
+      "comment": "7 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1685.006",
+      "score": 4,
+      "comment": "4 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1686",
+      "score": 8,
+      "comment": "8 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1686.001",
+      "score": 6,
+      "comment": "6 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1686.002",
+      "score": 2,
+      "comment": "2 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1686.003",
+      "score": 19,
+      "comment": "19 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1689",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    },
+    {
+      "techniqueID": "T1690",
+      "score": 1,
+      "comment": "1 artefato(s) citam esta técnica"
+    }
+  ]
+}

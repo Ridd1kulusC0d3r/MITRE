@@ -1,6 +1,12 @@
 # Guia operacional: do contexto à evidência
 
-[← Início](../README.md) · [Catálogo](catalogo.md) · [Casos](../examples/casos-guiados.md)
+[← Início](../README.md) · [Catálogo](catalogo.md) · [Casos](../examples/casos-guiados.md) · [Crosswalks](crosswalks.md) · [Trilha](trilha.md)
+
+```mermaid
+flowchart LR
+  A["1 · Problema"] --> B["2 · Comportamento"] --> C["3 · Telemetria"] --> D["4 · Analítica"] --> E["5 · Contramedida<br/>e resposta"] --> F["6 · Validação"] --> G["7 · Publicação<br/>e lacunas"]
+  G -.-> A
+```
 
 Este fluxo é uma proposta editorial de composição dos recursos. Não é um novo framework oficial MITRE e não pressupõe integrações prontas.
 
@@ -14,7 +20,7 @@ Registre processo de negócio, ativos, identidades, fronteiras de confiança, ex
 
 ## 2. Modele o comportamento e preserve a proveniência
 
-Extraia procedimentos de relatórios ou evidências locais. Relacione técnica/subtécnica somente quando a descrição sustentar o comportamento. Identifique observação, hipótese e inferência separadamente. TRAM e TIE apoiam análise, mas seus resultados precisam de revisão.
+Extraia procedimentos de relatórios ou evidências locais. Registre a versão do ATT&CK usada (hoje, v20.0) e confira IDs antigos com `scripts/attack_diff.py`: desde a v19, comportamentos de desligar defesas ficam em **TA0112 Defense Impairment**, e T1562 foi revogada. Relacione técnica/subtécnica somente quando a descrição sustentar o comportamento. Identifique observação, hipótese e inferência separadamente. TRAM e TIE apoiam análise, mas seus resultados precisam de revisão.
 
 **Saída:** tabela de evidências com URL, trecho ou localização, data, confiança e justificativa do mapeamento. Use Attack Flow quando ordem, condições e ramificações importarem.
 
@@ -32,7 +38,7 @@ Use Sensor Mappings como referência e DeTT&CT para registrar avaliações. **Vi
 
 ## 4. Escreva a hipótese e a analítica
 
-Descreva o comportamento suspeito, o contexto que o torna suspeito e as explicações benignas. Estude CAR, Detection Strategies/Analytics do ATT&CK e regras Sigma, Splunk ou Elastic conforme o backend.
+Descreva o comportamento suspeito, o contexto que o torna suspeito e as explicações benignas. Comece pelas [Detection Strategies/Analytics do ATT&CK](https://attack.mitre.org/detectionstrategies/) (modelo nativo desde a v18) e depois estude CAR e regras Sigma, Splunk ou Elastic conforme o backend.
 
 **Saída:** regra versionada, dependências de dados, exceções justificadas e procedimento de triagem. Um ID ATT&CK na regra não demonstra que todas as implementações da técnica são detectadas.
 
@@ -52,17 +58,17 @@ Para resposta, registre gatilho, responsável, evidência a preservar, decisão,
 
 ## 6. Valide por procedimento, não apenas por técnica
 
-Escolha teste isolado com Atomic Red Team ou campanha com CALDERA/Adversary Emulation Library. Defina ambiente autorizado, pré-condições, comportamento esperado, limpeza e critérios de interrupção.
+Escolha teste isolado com Atomic Red Team, campanha com Apache Caldera/Adversary Emulation Library ou, em nuvem, Stratus Red Team. `scripts/coverage_layer.py --merge` mostra técnicas que têm regra mas não têm teste. Defina ambiente autorizado, pré-condições, comportamento esperado, limpeza e critérios de interrupção.
 
 **Saída:** registro de execução, eventos brutos, resultado da regra, tempo até alerta, triagem e resultado da resposta. Inclua teste benigno de contraste. Separar falha de coleta, falha da regra, falha de integração e falha operacional.
 
 Em OT, comece com replay e exercício de mesa; qualquer ensaio ativo precisa de laboratório e validação operacional apropriada.
 
-**Fontes:** [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team), [CALDERA](https://caldera.mitre.org/), [Adversary Emulation Library](https://github.com/center-for-threat-informed-defense/adversary_emulation_library).
+**Fontes:** [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team), [Apache Caldera](https://caldera.apache.org/), [Adversary Emulation Library](https://github.com/center-for-threat-informed-defense/adversary_emulation_library).
 
 ## 7. Publique o resultado e trate as lacunas
 
-Use Navigator para comunicar a situação; o score deve ter legenda e evidência rastreável. Registre versão ATT&CK, data do teste, plataformas cobertas e restrições. Use INFORM para conectar lacunas técnicas a evolução do programa.
+Use Navigator para comunicar a situação (layers com `"attack": "20"`); o score deve ter legenda e evidência rastreável. Registre versão ATT&CK, data do teste, plataformas cobertas e restrições. Use INFORM para conectar lacunas técnicas a evolução do programa.
 
 **Saída:** backlog priorizado com dono, prazo, dependência e critério de aceite.
 

@@ -1,0 +1,18 @@
+id_antigo	nome_antigo	status_v20	id_novo	nome_novo
+T1070.001	Clear Windows Event Logs	revogada	T1685.005	Clear Windows Event Logs
+T1070.002	Clear Linux or Mac System Logs	revogada	T1685.006	Clear Linux or Mac System Logs
+T1562	Impair Defenses	revogada	T1685	Disable or Modify Tools
+T1562.001	Disable or Modify Tools	revogada	T1685	Disable or Modify Tools
+T1562.002	Disable Windows Event Logging	revogada	T1685.001	Disable or Modify Windows Event Log
+T1562.003	Impair Command History Logging	revogada	T1690	Prevent Command History Logging
+T1562.004	Disable or Modify System Firewall	revogada	T1686	Disable or Modify System Firewall
+T1562.006	Indicator Blocking	revogada	T1685	Disable or Modify Tools
+T1562.007	Disable or Modify Cloud Firewall	revogada	T1686.001	Cloud Firewall
+T1562.008	Disable or Modify Cloud Logs	revogada	T1685.002	Disable or Modify Cloud Log
+T1562.009	Safe Mode Boot	revogada	T1688	Safe Mode Boot
+T1562.010	Downgrade Attack	revogada	T1689	Downgrade Attack
+T1562.011	Spoof Security Alerting	revogada	T1685.003	Modify or Spoof Tool UI
+T1562.012	Disable or Modify Linux Audit System	revogada	T1685.004	Disable or Modify Linux Audit System Log
+T1562.013	Disable or Modify Network Device Firewall	revogada	T1686.002	Network Device Firewall
+T1656	Impersonation	revogada	T1684.001	Impersonation
+T1672	Email Spoofing	revogada	T1684.002	Email Spoofing

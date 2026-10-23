@@ -1,0 +1,28 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  catalogo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Catálogo válido e arquivos gerados em dia
+        run: python3 scripts/build_catalog.py --check
+      - name: Scripts Python compilam
+        run: python3 -m py_compile scripts/*.py
+      - name: Scripts shell sem erro de sintaxe
+        run: for f in scripts/*.sh; do bash -n "$f"; done
+      - name: JSON e TSV legíveis
+        run: |
+          python3 -c "import json; json.load(open('data/ecosystem.json')); json.load(open('data/trilha.json'))"
+          for f in layers/*.json; do python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f"; done
