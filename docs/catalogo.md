@@ -2,7 +2,7 @@
 
 [← Início](../README.md) · [Guia operacional](guia-operacional.md) · [Histórico e manutenção](historico-e-manutencao.md)
 
-Revisão documental: **22/10/2026**. **72 entradas**, incluindo projetos, programas, padrões, ferramentas e publicações — não são 72 frameworks distintos. P1 = recomendação editorial para começar; P2 = aprofundamento por necessidade. A classificação não é ranking de mercado.
+Revisão documental: **23/10/2026** (atualização incremental; entradas anteriores revistas em 22/10/2026). **75 entradas**, incluindo projetos, programas, padrões, ferramentas e publicações — não são 72 frameworks distintos. P1 = recomendação editorial para começar; P2 = aprofundamento por necessidade. A classificação não é ranking de mercado.
 
 Cada nome aponta para uma fonte primária. Para Vulcan e eMASSer, o portal SAF é a referência de descoberta. Ter site ou repositório acessível não demonstra manutenção ativa, compatibilidade ou eficácia. Consulte o inventário JSON e as ressalvas de manutenção.
 
@@ -67,6 +67,9 @@ Cada nome aponta para uma fonte primária. Para Vulcan e eMASSer, o portal SAF �
 | [mitreattack-python](https://github.com/mitre-attack/mitreattack-python) | MITRE | Consultar e transformar dados ATT&CK com Python. | Consultas e exportações reproduzíveis | P1 |
 | [ATT&CK Data Model](https://github.com/mitre-attack/attack-data-model) | MITRE | Validar e manipular dados ATT&CK com schemas TypeScript/Zod. | Validação estrutural | P1 |
 | [Workbench TAXII Server](https://github.com/mitre-attack/attack-workbench-taxii-server) | MITRE | Servir coleções ATT&CK via TAXII. | Intercâmbio de CTI | P1 |
+| [Workbench REST API](https://github.com/mitre-attack/attack-workbench-rest-api) | MITRE | Servir o back-end REST do Workbench para objetos e coleções ATT&CK. | API para integração e automação do Workbench | P2 |
+| [Workbench Deployment](https://github.com/mitre-attack/attack-workbench-deployment) | MITRE | Implantar a pilha do Workbench (frontend, REST API, TAXII) com scripts prontos. | Ambiente Workbench reproduzível | P2 |
+| [ATT&CK Website](https://github.com/mitre-attack/attack-website) | MITRE | Consultar o código-fonte do site oficial ATT&CK e a origem de suas páginas geradas. | Referência de como o conteúdo é publicado | P2 |
 
 ## CTID · Emulação
 
@@ -200,6 +203,10 @@ Cada nome aponta para uma fonte primária. Para Vulcan e eMASSer, o portal SAF �
 ## Dados ATT&CK e compatibilidade
 
 A [página oficial de dados e ferramentas](https://attack.mitre.org/resources/attack-data-and-tools/) é a referência para STIX, TAXII, Excel e ferramentas. A navegação atual distingue **Detection Strategies, Analytics e Data Components**. Guias antigos centrados em Data Sources podem exigir adaptação. Fixe versão do ATT&CK, domínio, schema da ferramenta e commit dos dados; trate objetos revogados/depreciados explicitamente. Não assuma que um layer, YAML DeTT&CT ou consumidor STIX antigo aceita a base mais recente.
+
+## Versão atual do ATT&CK
+
+**ATT&CK v20** foi publicada em **13/10/2026** ([notas oficiais](https://attack.mitre.org/resources/updates/)). Destaques: técnicas Enterprise ligadas a IA (por exemplo, AI-Enabled Exfiltration e Direct/Indirect Prompt Injection), novas técnicas ICS de execução e comando e controle, Detection Strategies de ICS com contexto de plataforma e ativo, e Detection Strategies de Mobile que consideram os limites de visibilidade de Android e iOS. Totais informados: 971 Software, 182 Groups e 61 Campaigns. Ao migrar, fixe a versão e reveja layers, mapeamentos e consumidores STIX; para modelagem de IA, combine com ATLAS.
 
 ## Portais para expansão contínua
 

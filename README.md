@@ -6,7 +6,7 @@
 
 CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incident Response
 
-**72 recursos mapeados** · **7 repositórios históricos** · **3 casos guiados**
+**75 recursos mapeados** · **7 repositórios históricos** · **3 casos guiados**
 
 Curadoria independente em português por [Deivin / Ridd1kulusC0d3r](https://github.com/Ridd1kulusC0d3r).
 Sem afiliação ou endosso da MITRE.
@@ -81,7 +81,7 @@ flowchart TD
 
 ## Escopo e qualidade
 
-Esta é uma base de referência **documental**, revisada em **22/10/2026**. A pesquisa consultou fontes primárias e metadados GitHub; não executou nem certificou os projetos. As 72 entradas incluem publicações e padrões, além de ferramentas. A seção histórica mantém sete repositórios arquivados fora da seleção principal.
+Esta é uma base de referência **documental**, revisada em **23/10/2026**. A pesquisa consultou fontes primárias e metadados GitHub; não executou nem certificou os projetos. As 75 entradas incluem publicações e padrões, além de ferramentas. A seção histórica mantém sete repositórios arquivados fora da seleção principal.
 
 Não há promessa de exaustividade de toda a MITRE. O foco é seu ecossistema de cibersegurança e projetos externos que ajudam a operacionalizá-lo. “Top” significa utilidade para o fluxo de trabalho descrito, não contagem de estrelas.
 
