@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "reviewed_on": "2026-10-22",
+  "reviewed_on": "2026-10-23",
   "timezone": "America/Sao_Paulo",
   "scope": "Ecossistema de cibersegurança MITRE e recursos externos relacionados; não inventário institucional exaustivo",
   "verification_limits": "Pesquisa documental; ferramentas não executadas. Campos ausentes: não coletados. archived=false não comprova manutenção ativa. pushed_at não equivale a último release. license_api não substitui leitura da licença. Status 'n/v' = não verificado. Tag Git indica marco publicado, não necessariamente release estável.",
@@ -2998,6 +2998,321 @@
       "notes": "Substituiu os Data Sources como objeto de primeira classe na v18.",
       "reviewed_on": "2026-10-22",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+    },
+    {
+      "id": "E118",
+      "name": "Dettectinator",
+      "repo": "siriussecurity/dettectinator",
+      "url": "https://github.com/siriussecurity/dettectinator",
+      "origin": "Sirius Security / comunidade",
+      "owner_type": "comunidade",
+      "layer": "telemetria",
+      "domains": [
+        "enterprise"
+      ],
+      "purpose": "Automatizar criação e atualização dos YAMLs DeTT&CT a partir de fontes SIEM/EDR.",
+      "output": "Inventário de fontes e detecções para layers Navigator",
+      "priority": "P1",
+      "relations": [
+        "E055",
+        "E024",
+        "E087"
+      ],
+      "notes": "Importação de regras não comprova eficácia; confirmar suporte dos plugins e compatibilidade com a versão ATT&CK.",
+      "status": "ativo",
+      "archived": false,
+      "license_api": "GPL-3.0",
+      "pushed_at": "2026-01-22T08:45:57Z",
+      "reviewed_on": "2026-10-23",
+      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+    },
+    {
+      "id": "E119",
+      "name": "OpenAEV (anteriormente OpenBAS)",
+      "repo": "OpenAEV-Platform/openaev",
+      "url": "https://github.com/OpenAEV-Platform/openaev",
+      "origin": "Filigran / comunidade",
+      "owner_type": "fornecedor",
+      "layer": "validacao",
+      "domains": [
+        "enterprise",
+        "cloud"
+      ],
+      "purpose": "Planejar e acompanhar campanhas, simulações e exercícios com contexto de inteligência.",
+      "output": "Campanha de validação e registro de lacunas",
+      "priority": "P1",
+      "relations": [
+        "E059",
+        "E031",
+        "E091"
+      ],
+      "notes": "OpenBAS foi renomeado para OpenAEV. README distingue CE Apache-2.0 e EE com licença própria; verificar funcionalidades por edição.",
+      "status": "ativo",
+      "archived": false,
+      "license_api": "NOASSERTION",
+      "pushed_at": "2026-10-23T10:00:58Z",
+      "reviewed_on": "2026-10-23",
+      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+    },
+    {
+      "id": "E120",
+      "name": "Threatest",
+      "repo": "DataDog/threatest",
+      "url": "https://github.com/DataDog/threatest",
+      "origin": "Datadog",
+      "owner_type": "fornecedor",
+      "layer": "validacao",
+      "domains": [
+        "enterprise",
+        "cloud"
+      ],
+      "purpose": "Testar de ponta a ponta a geração de telemetria e alertas associados a uma execução.",
+      "output": "Teste repetível com correlação entre execução e evidência",
+      "priority": "P1",
+      "relations": [
+        "E090",
+        "E063",
+        "E058"
+      ],
+      "notes": "CLI/framework Go; matchers e detonators dependem da plataforma. A existência de um alerta não prova cobertura de toda a técnica.",
+      "status": "ativo",
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-10-19T07:01:10Z",
+      "reviewed_on": "2026-10-23",
+      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+    },
+    {
+      "id": "E121",
+      "name": "TTPForge",
+      "repo": "facebookincubator/TTPForge",
+      "url": "https://github.com/facebookincubator/TTPForge",
+      "origin": "Meta / comunidade",
+      "owner_type": "fornecedor",
+      "layer": "validacao",
+      "domains": [
+        "enterprise"
+      ],
+      "purpose": "Empacotar TTPs em simulações repetíveis descritas em YAML.",
+      "output": "Procedimentos versionados para exercícios purple team",
+      "priority": "P1",
+      "relations": [
+        "E058",
+        "E031",
+        "E091"
+      ],
+      "notes": "Complementa ferramentas de avaliação; definir pré-condições, limpeza e critérios de aceite por procedimento.",
+      "status": "ativo",
+      "archived": false,
+      "license_api": "MIT",
+      "pushed_at": "2026-09-30T13:53:10Z",
+      "reviewed_on": "2026-10-23",
+      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+    },
+    {
+      "id": "E122",
+      "name": "Splunk Attack Data",
+      "repo": "splunk/attack_data",
+      "url": "https://github.com/splunk/attack_data",
+      "origin": "Splunk",
+      "owner_type": "fornecedor",
+      "layer": "dados",
+      "domains": [
+        "enterprise",
+        "cloud"
+      ],
+      "purpose": "Consumir datasets de ataques e reproduzir eventos para desenvolver e validar analíticas.",
+      "output": "Logs de teste com contexto de coleta",
+      "priority": "P1",
+      "relations": [
+        "E061",
+        "E062",
+        "E064"
+      ],
+      "notes": "É a camada de dados, distinta de Attack Range e Security Content. Revisar sourcetype, timestamp e versão; usar download seletivo via Git LFS.",
+      "status": "ativo",
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-10-22T18:21:51Z",
+      "reviewed_on": "2026-10-23",
+      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+    },
+    {
+      "id": "E123",
+      "name": "Elastic Protections Artifacts",
+      "repo": "elastic/protections-artifacts",
+      "url": "https://github.com/elastic/protections-artifacts",
+      "origin": "Elastic",
+      "owner_type": "fornecedor",
+      "layer": "deteccao",
+      "domains": [
+        "enterprise"
+      ],
+      "purpose": "Estudar lógica de proteção de endpoint, incluindo regras comportamentais e YARA.",
+      "output": "Referências de detecção e prevenção para endpoint",
+      "priority": "P2",
+      "relations": [
+        "E063",
+        "E057"
+      ],
+      "notes": "Distinto de elastic/detection-rules. README declara Elastic License 2.0; não tratar como Apache/MIT.",
+      "status": "ativo",
+      "archived": false,
+      "license_api": "NOASSERTION",
+      "pushed_at": "2026-10-23T07:11:16Z",
+      "reviewed_on": "2026-10-23",
+      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+    },
+    {
+      "id": "E124",
+      "name": "AWS Customer Playbook Framework",
+      "repo": "aws-samples/aws-customer-playbook-framework",
+      "url": "https://github.com/aws-samples/aws-customer-playbook-framework",
+      "origin": "AWS",
+      "owner_type": "fornecedor",
+      "layer": "resposta",
+      "domains": [
+        "cloud"
+      ],
+      "purpose": "Adaptar exemplos de playbooks de resposta a cenários AWS.",
+      "output": "Procedimentos de resposta ajustados às contas e serviços",
+      "priority": "P2",
+      "relations": [
+        "E056",
+        "E068",
+        "E090"
+      ],
+      "notes": "Relação com ATT&CK é composição editorial, não crosswalk automático. README informa traduções automáticas não revisadas; validar contexto e permissões.",
+      "status": "ativo",
+      "archived": false,
+      "license_api": "NOASSERTION",
+      "pushed_at": "2026-10-22T23:13:43Z",
+      "reviewed_on": "2026-10-23",
+      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+    },
+    {
+      "id": "E125",
+      "name": "ATLAS Arsenal (plugin CALDERA)",
+      "repo": "mitre-atlas/arsenal",
+      "url": "https://github.com/mitre-atlas/arsenal",
+      "origin": "MITRE ATLAS",
+      "owner_type": "mitre",
+      "layer": "validacao",
+      "domains": [
+        "ia"
+      ],
+      "purpose": "Estudar emulação de comportamentos ATLAS em sistemas de aprendizado de máquina.",
+      "output": "Referência de cenários e abilities para laboratório",
+      "priority": "P2",
+      "relations": [
+        "E004",
+        "E013"
+      ],
+      "notes": "Não confundir com ATT&CK Arsenal. Último push consultado: 2023; documentação cita dependências antigas. Compatibilidade atual não testada.",
+      "status": "baixa-atividade",
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2023-08-07T18:19:16Z",
+      "reviewed_on": "2026-10-23",
+      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+    },
+    {
+      "id": "E126",
+      "name": "BRAWL public game 001",
+      "repo": "mitre/brawl-public-game-001",
+      "url": "https://github.com/mitre/brawl-public-game-001",
+      "origin": "MITRE",
+      "owner_type": "mitre",
+      "layer": "dados",
+      "domains": [
+        "enterprise"
+      ],
+      "purpose": "Estudar dados de um exercício automatizado de emulação adversária.",
+      "output": "Dataset de referência para pesquisa de detecção",
+      "priority": "P2",
+      "relations": [
+        "E013",
+        "E064"
+      ],
+      "notes": "Dataset histórico: último push consultado em 2020. Não representa versões atuais de sistemas ou distribuição de ataques; não é uma plataforma BRAWL completa.",
+      "status": "baixa-atividade",
+      "archived": false,
+      "license_api": "CC-BY-4.0",
+      "pushed_at": "2020-10-02T09:07:56Z",
+      "reviewed_on": "2026-10-23",
+      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+    },
+    {
+      "id": "E127",
+      "name": "D3FEND Extractors",
+      "url": "https://d3fend.mitre.org/tools/",
+      "origin": "MITRE D3FEND",
+      "owner_type": "mitre",
+      "layer": "cti",
+      "domains": [
+        "geral"
+      ],
+      "purpose": "Explorar extratores de referências ATT&CK, D3FEND, artefatos digitais e CWE em texto.",
+      "output": "Anotações e relações candidatas para revisão",
+      "priority": "P2",
+      "status": "n/v",
+      "relations": [
+        "E002",
+        "E008",
+        "E009",
+        "E077"
+      ],
+      "notes": "Agrupa ferramentas do portal, sem contar cada extrator separadamente. Extração não valida a semântica do mapeamento nem demonstra eficácia de contramedidas.",
+      "reviewed_on": "2026-10-23",
+      "verification": "Catálogo oficial de ferramentas consultado; extratores não executados."
+    },
+    {
+      "id": "E128",
+      "name": "D3TECT — seleção estratégica de fontes",
+      "url": "https://ucrisportal.univie.ac.at/en/publications/strategic-selection-of-data-sources-for-cyber-attack-detection-in/",
+      "origin": "Kern, Skopik, Landauer e Weippl / pesquisa acadêmica",
+      "owner_type": "outro",
+      "layer": "telemetria",
+      "domains": [
+        "enterprise"
+      ],
+      "purpose": "Estudar seleção e priorização de fontes de dados considerando restrições operacionais.",
+      "output": "Método para justificar investimento e lacunas de telemetria",
+      "priority": "P2",
+      "status": "n/v",
+      "version": "SAC 2022",
+      "relations": [
+        "E043",
+        "E055",
+        "E087"
+      ],
+      "notes": "Artigo: Strategic selection of data sources for cyber attack detection in enterprise networks: A survey and approach. DOI 10.1145/3477314.3507022. D3TECT não é DeTT&CT e não é projeto MITRE.",
+      "reviewed_on": "2026-10-23",
+      "verification": "Resumo e registro bibliográfico institucional consultados; texto integral e reprodução experimental não avaliados."
+    },
+    {
+      "id": "E129",
+      "name": "Red Team Redemption",
+      "url": "https://arxiv.org/abs/2408.15645",
+      "origin": "Landauer, Mayer, Skopik, Wurzenberger e Kern",
+      "owner_type": "outro",
+      "layer": "formacao",
+      "domains": [
+        "enterprise"
+      ],
+      "purpose": "Estudar uma comparação estruturada de ferramentas de emulação adversária.",
+      "output": "Critérios para seleção e benchmark de ferramentas",
+      "priority": "P2",
+      "status": "n/v",
+      "version": "2024 / TrustCom",
+      "relations": [
+        "E013",
+        "E058",
+        "E121"
+      ],
+      "notes": "Compara nove ferramentas usando questionário com 80 questões. Ranking reflete a amostra e o período do estudo; não é ranking atualizado do mercado.",
+      "reviewed_on": "2026-10-23",
+      "verification": "Resumo e registro arXiv consultados; não reproduzimos a avaliação."
     }
   ],
   "historical": [
@@ -3713,3 +4028,4 @@
     "note": "Resumo da página oficial; releases anteriores não detalhados na fonte consultada."
   }
 }
+

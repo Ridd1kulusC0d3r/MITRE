@@ -19,10 +19,14 @@ CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incide
 <!-- stats:start -->
 | 📦 Entradas | 🟦 MITRE | 🟩 CTID | 🟨🟧 Comunidade e fornecedores | 🔗 Relações | 🧱 Camadas | ✅ Ativos | 🗄️ Históricos |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **114** | 48 | 27 | 25 | 226 | 15 | 77 | 21 |
+| **126** | 51 | 27 | 32 | 260 | 15 | 84 | 21 |
 <!-- stats:end -->
 
 ---
+
+## 🆕 Expansão da curadoria — 23/10/2026
+
+[**12 novas referências para validação, telemetria e resposta**](docs/novas-referencias-2026-10-23.md): Dettectinator, OpenAEV, Threatest, TTPForge, datasets e pesquisa aplicada. Novas no catálogo; nem todas são lançamentos recentes.
 
 ## ⚡ Comece em 3 ações
 
@@ -182,3 +186,4 @@ Base de referência **documental**, revisada em **22/10/2026**. Versões do ATT&
 Veja [fontes, sinais de manutenção e limitações](docs/historico-e-manutencao.md). Marcas, dados e ferramentas pertencem aos respectivos titulares; cada fonte tem seus próprios termos.
 
 <div align="center"><sub>Curadoria independente por <a href="https://github.com/Ridd1kulusC0d3r">Deivison Lourenço · Ridd1kulusC0d3r</a>. Sem afiliação ou endosso da MITRE.</sub></div>
+

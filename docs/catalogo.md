@@ -4,7 +4,7 @@
 
 [← Início](../README.md) · [Explorador interativo](../index.html) · [Crosswalks](crosswalks.md) · [Novidades 2026](novidades-2026.md) · [Histórico](historico-e-manutencao.md)
 
-Revisão: **2026-10-22** · **114 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
+Revisão: **2026-10-23** · **126 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
 
 **Legenda.** Origem: 🟦 MITRE oficial · 🟩 MITRE CTID · 🟪 Colaboração MITRE · 🟫 Fundação aberta (código MITRE doado) · ⬛ Governo · ⬜ Organismo de padrão · 🟨 Comunidade · 🟧 Fornecedor · ◻️ Outro  
 Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificado
@@ -15,19 +15,19 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 |---|---|:---:|
 | 🎯 [adversario](#adversario) | O que o adversário faz | 15 |
 | 🧭 [modelagem](#modelagem) | Como representar o cenário | 7 |
-| 📡 [telemetria](#telemetria) | O que observar | 3 |
-| 🔎 [deteccao](#deteccao) | Como detectar e avaliar | 15 |
+| 📡 [telemetria](#telemetria) | O que observar | 5 |
+| 🔎 [deteccao](#deteccao) | Como detectar e avaliar | 16 |
 | 🛡️ [defesa](#defesa) | Como reduzir exposição | 6 |
 | 🎭 [engano](#engano) | Como enganar e engajar | 1 |
-| 🧪 [validacao](#validacao) | Como validar | 12 |
-| 🚑 [resposta](#resposta) | Como responder e investigar | 4 |
+| 🧪 [validacao](#validacao) | Como validar | 16 |
+| 🚑 [resposta](#resposta) | Como responder e investigar | 5 |
 | 🩹 [vulnerabilidade](#vulnerabilidade) | Que fraquezas existem | 7 |
-| 🕵️ [cti](#cti) | Como produzir e compartilhar CTI | 10 |
+| 🕵️ [cti](#cti) | Como produzir e compartilhar CTI | 11 |
 | 📈 [maturidade](#maturidade) | Como evoluir o programa | 2 |
-| 🗄️ [dados](#dados) | Como consumir por código | 18 |
+| 🗄️ [dados](#dados) | Como consumir por código | 20 |
 | ⚙️ [conformidade](#conformidade) | Como automatizar conformidade | 5 |
 | 📐 [padrao](#padrao) | Padrões de base | 4 |
-| 🎓 [formacao](#formacao) | Como aprender | 5 |
+| 🎓 [formacao](#formacao) | Como aprender | 6 |
 
 <a id="adversario"></a>
 ## 🎯 O que o adversário faz
@@ -101,13 +101,17 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | | Projeto | Origem | Para que usar | Versão / estado | Domínios | Prio |
 |:-:|---|---|---|---|---|:-:|
 | ✅ | **[DeTT&CT](https://github.com/rabobank-cdc/DeTTECT)** `E055` | 🟨 Rabobank / comunidade | Pontuar qualidade de dados, visibilidade e detecção. | v2.2.0 · 21/01/2026 | Enterprise, Mobile | P1 |
+| ✅ | **[Dettectinator](https://github.com/siriussecurity/dettectinator)** `E118` | 🟨 Sirius Security / comunidade | Automatizar criação e atualização dos YAMLs DeTT&CT a partir de fontes SIEM/EDR. | — | Enterprise | P1 |
 | ⏸️ | **[Sensor Mappings to ATT&CK](https://github.com/center-for-threat-informed-defense/sensor-mappings-to-attack)** `E043` | 🟩 MITRE / CTID | Relacionar sensores e eventos a comportamentos. | — | Enterprise | P1 |
+| ❔ | **[D3TECT — seleção estratégica de fontes](https://ucrisportal.univie.ac.at/en/publications/strategic-selection-of-data-sources-for-cyber-attack-detection-in/)** `E128` | ◻️ Kern, Skopik, Landauer e Weippl / pesquisa acadêmica | Estudar seleção e priorização de fontes de dados considerando restrições operacionais. | SAC 2022 | Enterprise | P2 |
 | ❔ | **[OSSEM](https://github.com/OTRF/OSSEM)** `E087` | 🟨 OTRF | Padronizar e documentar eventos de segurança e seus campos. | — | Enterprise | P2 |
 
 <details><summary>Notas e relações</summary>
 
 - **DeTT&CT** — entrega: YAMLs e layers Navigator. Suporta ATT&CK v18 (modelo Data Components → Analytics → Detection Strategies). Suporte a v19/v20 não declarado. ↔ ATT&CK, Navigator, Sensor Mappings to ATT&CK.
+- **Dettectinator** — entrega: Inventário de fontes e detecções para layers Navigator. Importação de regras não comprova eficácia; confirmar suporte dos plugins e compatibilidade com a versão ATT&CK. ↔ DeTT&CT, Navigator, OSSEM.
 - **Sensor Mappings to ATT&CK** — entrega: Plano de telemetria. ↔ DeTT&CT, OSSEM.
+- **D3TECT — seleção estratégica de fontes** — entrega: Método para justificar investimento e lacunas de telemetria. Artigo: Strategic selection of data sources for cyber attack detection in enterprise networks: A survey and approach. DOI 10.1145/3477314.3507022. D3TECT não é DeTT&CT e não é projeto MITRE. ↔ Sensor Mappings to ATT&CK, DeTT&CT, OSSEM.
 - **OSSEM** — entrega: Dicionário de dados e modelo comum. ↔ CAR, Sensor Mappings to ATT&CK.
 
 </details>
@@ -128,6 +132,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | 🧊 | **[CARET](https://github.com/mitre-attack/caret)** `E109` | 🟦 MITRE | Visualizar relações entre analytics do CAR, técnicas, grupos e dados necessários. | — | Enterprise | P2 |
 | ⏸️ | **[Cloud Analytics](https://github.com/center-for-threat-informed-defense/cloud-analytics)** `E042` | 🟩 MITRE / CTID | Estudar analíticas comportamentais para cloud. | — | Cloud | P2 |
 | ✅ | **[Elastic Detection Rules](https://github.com/elastic/detection-rules)** `E063` | 🟧 Elastic | Estudar regras e workflows de detecção. | — | Enterprise, Cloud | P2 |
+| ✅ | **[Elastic Protections Artifacts](https://github.com/elastic/protections-artifacts)** `E123` | 🟧 Elastic | Estudar lógica de proteção de endpoint, incluindo regras comportamentais e YARA. | — | Enterprise | P2 |
 | ⏸️ | **[Security Datasets](https://github.com/OTRF/Security-Datasets)** `E064` | 🟨 OTRF | Reproduzir eventos de segurança para pesquisa. | — | Enterprise | P2 |
 | ✅ | **[Splunk Security Content](https://github.com/splunk/security_content)** `E062` | 🟧 Splunk | Estudar conteúdo de detecção e investigação. | — | Enterprise, Cloud | P2 |
 | ✅ | **[Threat Hunter Playbook](https://github.com/OTRF/ThreatHunter-Playbook)** `E086` | 🟨 OTRF | Estudar hunting por técnica com notebooks e datasets. | — | Enterprise | P2 |
@@ -146,6 +151,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **CARET** — entrega: Referência histórica de relação analítica–técnica. Sem atualização desde ago/2020. ↔ CAR.
 - **Cloud Analytics** — entrega: Blueprint e hipóteses de detecção. ↔ ATT&CK.
 - **Elastic Detection Rules** — entrega: Analíticas adaptadas para Elastic. Elastic License v2. ↔ ATT&CK.
+- **Elastic Protections Artifacts** — entrega: Referências de detecção e prevenção para endpoint. Distinto de elastic/detection-rules. README declara Elastic License 2.0; não tratar como Apache/MIT. ↔ Elastic Detection Rules, Sigma.
 - **Security Datasets** — entrega: Dados para testes e replay. ↔ Threat Hunter Playbook, Sigma.
 - **Splunk Security Content** — entrega: Analíticas adaptadas para Splunk. ↔ ATT&CK, Splunk Attack Range.
 - **Threat Hunter Playbook** — entrega: Hipótese de hunting reproduzível. ↔ Security Datasets, TTP-Based Hunting, ATT&CK.
@@ -198,7 +204,11 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[Apache Caldera](https://caldera.apache.org/)** `E013` | 🟫 Apache Software Foundation (código originado na MITRE) | Orquestrar emulação adversária em ambientes autorizados. | 5.3.0 (tag) | Enterprise, ICS/OT | P1 |
 | ✅ | **[Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)** `E058` | 🟨 Red Canary / comunidade | Validar comportamentos isolados em laboratório. | — | Enterprise, Cloud | P1 |
 | ✅ | **[Invoke-AtomicRedTeam](https://github.com/redcanaryco/invoke-atomicredteam)** `E100` | 🟧 Red Canary | Executar testes Atomic com PowerShell, incluindo pré-requisitos e limpeza. | v2.3.0 (tag) | Enterprise | P1 |
+| ✅ | **[OpenAEV (anteriormente OpenBAS)](https://github.com/OpenAEV-Platform/openaev)** `E119` | 🟧 Filigran / comunidade | Planejar e acompanhar campanhas, simulações e exercícios com contexto de inteligência. | — | Enterprise, Cloud | P1 |
 | ✅ | **[Stratus Red Team](https://github.com/DataDog/stratus-red-team)** `E090` | 🟧 Datadog | Emular técnicas em AWS, Azure, GCP e Kubernetes. | v2.37.1 (tag) | Cloud | P1 |
+| ✅ | **[Threatest](https://github.com/DataDog/threatest)** `E120` | 🟧 Datadog | Testar de ponta a ponta a geração de telemetria e alertas associados a uma execução. | — | Enterprise, Cloud | P1 |
+| ✅ | **[TTPForge](https://github.com/facebookincubator/TTPForge)** `E121` | 🟧 Meta / comunidade | Empacotar TTPs em simulações repetíveis descritas em YAML. | — | Enterprise | P1 |
+| ⏸️ | **[ATLAS Arsenal (plugin CALDERA)](https://github.com/mitre-atlas/arsenal)** `E125` | 🟦 MITRE ATLAS | Estudar emulação de comportamentos ATLAS em sistemas de aprendizado de máquina. | — | IA | P2 |
 | 🧊 | **[ATT&CK Arsenal](https://github.com/mitre-attack/attack-arsenal)** `E108` | 🟦 MITRE | Recursos de red team e emulação publicados pela equipe ATT&CK. | — | Enterprise | P2 |
 | ✅ | **[ATT&CK Evaluations](https://evals.mitre.org/)** `E014` | 🟦 MITRE | Examinar avaliações públicas e suas metodologias. | Enterprise 2025 (ER7) | Enterprise, Cloud | P2 |
 | ❔ | **[Infection Monkey](https://github.com/guardicore/monkey)** `E093` | 🟧 Akamai (Guardicore) | Simular movimentação lateral e gerar relatório por técnica. | v2.3.0 (tag) | Enterprise | P2 |
@@ -213,7 +223,11 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **Apache Caldera** — entrega: Evidência de exercícios e validação. Doado à Apache Software Foundation: Apache Caldera (Incubating), repo apache/caldera. ↔ ATT&CK, Adversary Emulation Library, Micro Emulation Plans, D3FEND.
 - **Atomic Red Team** — entrega: Resultados de testes por técnica. Um diretório por técnica (atomics/TXXXX). ↔ ATT&CK, Invoke-AtomicRedTeam.
 - **Invoke-AtomicRedTeam** — entrega: Execução registrada de testes atômicos. ↔ Atomic Red Team.
+- **OpenAEV (anteriormente OpenBAS)** — entrega: Campanha de validação e registro de lacunas. OpenBAS foi renomeado para OpenAEV. README distingue CE Apache-2.0 e EE com licença própria; verificar funcionalidades por edição. ↔ OpenCTI, Adversary Emulation Library, VECTR.
 - **Stratus Red Team** — entrega: Execução cloud com detonação e limpeza. ↔ Atomic Red Team, ATT&CK.
+- **Threatest** — entrega: Teste repetível com correlação entre execução e evidência. CLI/framework Go; matchers e detonators dependem da plataforma. A existência de um alerta não prova cobertura de toda a técnica. ↔ Stratus Red Team, Elastic Detection Rules, Atomic Red Team.
+- **TTPForge** — entrega: Procedimentos versionados para exercícios purple team. Complementa ferramentas de avaliação; definir pré-condições, limpeza e critérios de aceite por procedimento. ↔ Atomic Red Team, Adversary Emulation Library, VECTR.
+- **ATLAS Arsenal (plugin CALDERA)** — entrega: Referência de cenários e abilities para laboratório. Não confundir com ATT&CK Arsenal. Último push consultado: 2023; documentação cita dependências antigas. Compatibilidade atual não testada. ↔ ATLAS, Apache Caldera.
 - **ATT&CK Arsenal** — entrega: Referência histórica de emulação. Sem atualização desde abr/2021. Fontes divergem sobre o arquivamento (listagem da org vs. checagem de 23/10/2026); confirme na página do repositório. Prefira Adversary Emulation Library e Apache Caldera. ↔ Adversary Emulation Library, Apache Caldera.
 - **ATT&CK Evaluations** — entrega: Evidência contextual de capacidade; não ranking universal. Edição 2026 usa a métrica TES (DQI + PQI). Não é ranking universal. ↔ ATT&CK, Adversary Emulation Library.
 - **Infection Monkey** — entrega: Relatório de exposição mapeado ao ATT&CK. ↔ ATT&CK.
@@ -231,6 +245,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 |:-:|---|---|---|---|---|:-:|
 | ✅ | **[Hayabusa](https://github.com/Yamato-Security/hayabusa)** `E101` | 🟨 Yamato Security | Triagem forense rápida de Windows Event Logs com regras Sigma. | v4.2.0 (tag) | Enterprise | P1 |
 | ⏸️ | **[RE&CT](https://github.com/atc-project/atc-react)** `E056` | 🟨 ATC Project | Organizar ações e playbooks de resposta a incidentes. | — | Enterprise | P1 |
+| ✅ | **[AWS Customer Playbook Framework](https://github.com/aws-samples/aws-customer-playbook-framework)** `E124` | 🟧 AWS | Adaptar exemplos de playbooks de resposta a cenários AWS. | — | Cloud | P2 |
 | ✅ | **[Chainsaw](https://github.com/WithSecureLabs/chainsaw)** `E102` | 🟧 WithSecure | Busca e caça em artefatos Windows (EVTX, MFT) com Sigma. | v2.17.1 (tag) | Enterprise | P2 |
 | ✅ | **[NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final)** `E068` | ⬜ NIST | Integrar resposta a incidentes à gestão de risco. | Rev. 3 | Geral | P2 |
 
@@ -238,6 +253,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 
 - **Hayabusa** — entrega: Linha do tempo de DFIR com técnicas ATT&CK. ↔ Sigma, Chainsaw.
 - **RE&CT** — entrega: Matriz de ações e playbooks revisados. Seis estágios: Preparation → Lessons Learned. ↔ ATT&CK, DISARM, D3FEND.
+- **AWS Customer Playbook Framework** — entrega: Procedimentos de resposta ajustados às contas e serviços. Relação com ATT&CK é composição editorial, não crosswalk automático. README informa traduções automáticas não revisadas; validar contexto e permissões. ↔ RE&CT, NIST SP 800-61 Rev. 3, Stratus Red Team.
 - **Chainsaw** — entrega: Achados forenses por regra e técnica. ↔ Sigma, Hayabusa.
 - **NIST SP 800-61 Rev. 3** — entrega: Processos de resposta e melhoria contínua. ↔ RE&CT, NIST CSF 2.0.
 
@@ -276,6 +292,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[Contribuir com o ATT&CK](https://attack.mitre.org/resources/engage-with-attack/contribute/)** `E110` | 🟦 MITRE | Enviar novas técnicas, procedimentos, grupos, softwares e correções para a equipe do ATT&CK. | — | Enterprise, Mobile, ICS/OT | P1 |
 | ⏸️ | **[CTI Blueprints](https://github.com/center-for-threat-informed-defense/cti-blueprints)** `E034` | 🟩 MITRE / CTID | Estruturar relatórios de inteligência acionáveis. | — | Enterprise | P1 |
 | ✅ | **[ATT&CK Powered Suit](https://github.com/center-for-threat-informed-defense/attack-powered-suit)** `E038` | 🟩 MITRE / CTID | Consultar ATT&CK por extensão de navegador. | — | Enterprise | P2 |
+| ❔ | **[D3FEND Extractors](https://d3fend.mitre.org/tools/)** `E127` | 🟦 MITRE D3FEND | Explorar extratores de referências ATT&CK, D3FEND, artefatos digitais e CWE em texto. | — | Geral | P2 |
 | ⏸️ | **[Decider](https://github.com/cisagov/decider)** `E082` | ⬛ CISA (com HSSEDI/MITRE) | Guiar o mapeamento de relatos para técnicas ATT&CK por perguntas. | v3.0.0 (tag) | Enterprise | P2 |
 | ❔ | **[ECHO](https://www.mitre.org/news-insights/fact-sheet/enhanced-cti-sharing-partner-organizations)** `E021` | 🟦 MITRE | Conhecer aplicação de extração e contextualização de CTI. | — | Enterprise | P2 |
 | ✅ | **[MISP Galaxy](https://github.com/MISP/misp-galaxy)** `E060` | 🟨 MISP Project | Contextualizar eventos com clusters de inteligência. | — | Enterprise, IA, Desinformação | P2 |
@@ -289,6 +306,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **Contribuir com o ATT&CK** — entrega: Contribuição com evidência que pode render crédito como contribuidor. Contribuições aceitas aparecem no campo Contributors das páginas. ↔ ATT&CK, Attack Flow.
 - **CTI Blueprints** — entrega: Relatório com contexto e decisões. ↔ ATT&CK.
 - **ATT&CK Powered Suit** — entrega: Apoio à análise de textos. ↔ ATT&CK.
+- **D3FEND Extractors** — entrega: Anotações e relações candidatas para revisão. Agrupa ferramentas do portal, sem contar cada extrator separadamente. Extração não valida a semântica do mapeamento nem demonstra eficácia de contramedidas. ↔ D3FEND, CAPEC, CWE, D3FEND CAD.
 - **Decider** — entrega: Mapeamento ATT&CK revisável. ↔ ATT&CK, TRAM.
 - **MISP Galaxy** — entrega: Enriquecimento e classificação. ↔ ATT&CK, ATLAS, DISARM.
 - **OpenCTI** — entrega: Grafo de CTI com proveniência. ↔ ATT&CK, MISP Galaxy.
@@ -325,6 +343,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[ATT&CK Updates e Version History](https://attack.mitre.org/resources/updates/)** `E111` | 🟦 MITRE | Ler as notas de cada release e navegar versões antigas do site. | v20 · 13/10/2026 | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[mitreattack-python](https://github.com/mitre-attack/mitreattack-python)** `E028` | 🟦 MITRE | Consultar e transformar dados ATT&CK com Python. | 6.3.1 · 13/10/2026 (PyPI) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Navigator](https://github.com/mitre-attack/attack-navigator)** `E024` | 🟦 MITRE | Visualizar e anotar matrizes. | v5.3.2 | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[Splunk Attack Data](https://github.com/splunk/attack_data)** `E122` | 🟧 Splunk | Consumir datasets de ataques e reproduzir eventos para desenvolver e validar analíticas. | — | Enterprise, Cloud | P1 |
 | ✅ | **[Workbench](https://github.com/mitre-attack/attack-workbench-frontend)** `E025` | 🟦 MITRE | Gerenciar extensões locais de ATT&CK. | v4.18.0-alpha.1 (tag) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Workbench Deployment](https://github.com/mitre-attack/attack-workbench-deployment)** `E074` | 🟦 MITRE | Subir o Workbench completo (frontend, REST API, banco e TAXII opcional) com Docker Compose ou Kubernetes. | — | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Workbench TAXII Server](https://github.com/mitre-attack/attack-workbench-taxii-server)** `E030` | 🟦 MITRE | Servir coleções ATT&CK via TAXII. | — | Enterprise | P1 |
@@ -333,6 +352,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[ATT&CK TAXII 2.1 (público)](https://attack-taxii.mitre.org/)** `E099` | 🟦 MITRE | Servir o ATT&CK por TAXII 2.1. | — | Enterprise, Mobile, ICS/OT | P2 |
 | ✅ | **[ATT&CK Website (código)](https://github.com/mitre-attack/attack-website)** `E075` | 🟦 MITRE | Consultar o código do site oficial e gerá-lo localmente, inclusive para uso offline ou em rede isolada. | — | Enterprise, Mobile, ICS/OT | P2 |
 | ✅ | **[attackcti](https://github.com/OTRF/ATTACK-Python-Client)** `E088` | 🟨 OTRF | Consultar ATT&CK via TAXII em Python. | 0.6.4 · 19/12/2025 (PyPI) | Enterprise, Mobile, ICS/OT | P2 |
+| ⏸️ | **[BRAWL public game 001](https://github.com/mitre/brawl-public-game-001)** `E126` | 🟦 MITRE | Estudar dados de um exercício automatizado de emulação adversária. | — | Enterprise | P2 |
 | ✅ | **[stix2 (Python)](https://github.com/oasis-open/cti-python-stix2)** `E097` | ⬜ OASIS | Criar, validar e consultar objetos STIX 2.x. | 3.0.2 (PyPI) | Geral | P2 |
 | ⏸️ | **[taxii2-client](https://github.com/oasis-open/cti-taxii-client)** `E098` | ⬜ OASIS | Consumir servidores TAXII 2.x. | 2.3.0 · 2021 (PyPI) | Geral | P2 |
 | ✅ | **[Workbench REST API](https://github.com/mitre-attack/attack-workbench-rest-api)** `E073` | 🟦 MITRE | Backend do ATT&CK Workbench: API REST para criar e versionar extensões do ATT&CK. | v4.26.0-alpha.1 (tag) | Enterprise, Mobile, ICS/OT | P2 |
@@ -346,6 +366,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **ATT&CK Updates e Version History** — entrega: Plano de migração entre versões. Versões antigas: https://attack.mitre.org/resources/versions/. Changelog legível por máquina em /docs/changelogs/. ↔ ATT&CK STIX 2.1, mitreattack-python.
 - **mitreattack-python** — entrega: Consultas e exportações reproduzíveis. MitreAttackData, exportação Excel, diffStix e layers. ↔ ATT&CK STIX 2.1, Navigator.
 - **Navigator** — entrega: Layers JSON para comunicar prioridade e evidência. ↔ ATT&CK, DeTT&CT.
+- **Splunk Attack Data** — entrega: Logs de teste com contexto de coleta. É a camada de dados, distinta de Attack Range e Security Content. Revisar sourcetype, timestamp e versão; usar download seletivo via Git LFS. ↔ Splunk Attack Range, Splunk Security Content, Security Datasets.
 - **Workbench** — entrega: Coleções locais e anotações. ↔ ATT&CK, Workbench TAXII Server.
 - **Workbench Deployment** — entrega: Instância interna do Workbench para técnicas e grupos da casa. Caminho mais curto para manter um ATT&CK local com extensões (ex.: grupos BR/LATAM do MSSP). ↔ Workbench, Workbench REST API, Workbench TAXII Server.
 - **Workbench TAXII Server** — entrega: Intercâmbio de CTI. ↔ Workbench.
@@ -354,6 +375,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **ATT&CK TAXII 2.1 (público)** — entrega: Coleções ATT&CK por API. ↔ ATT&CK STIX 2.1, attackcti, DeTT&CT.
 - **ATT&CK Website (código)** — entrega: Espelho interno do site com a versão fixada. ↔ ATT&CK STIX 2.1, ATT&CK.
 - **attackcti** — entrega: Consultas e exportações programáticas. ↔ ATT&CK TAXII 2.1 (público), mitreattack-python.
+- **BRAWL public game 001** — entrega: Dataset de referência para pesquisa de detecção. Dataset histórico: último push consultado em 2020. Não representa versões atuais de sistemas ou distribuição de ataques; não é uma plataforma BRAWL completa. ↔ Apache Caldera, Security Datasets.
 - **stix2 (Python)** — entrega: Objetos STIX válidos. ↔ STIX, mitreattack-python.
 - **taxii2-client** — entrega: Coleções STIX baixadas. ↔ TAXII, ATT&CK TAXII 2.1 (público).
 - **Workbench REST API** — entrega: Base ATT&CK própria acessível por API. ↔ Workbench, Workbench TAXII Server, Workbench Deployment.
@@ -410,12 +432,14 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ⏸️ | **[CTID Public Resources](https://github.com/center-for-threat-informed-defense/public-resources)** `E039` | 🟩 MITRE / CTID | Localizar materiais públicos do Center. | — | Geral | P2 |
 | ⏸️ | **[CTID Workshop](https://github.com/center-for-threat-informed-defense/workshop)** `E052` | 🟩 MITRE / CTID | Acessar materiais de workshops do Center. | — | Geral | P2 |
 | ✅ | **[eCTF](https://ectf.mitre.org/)** `E022` | 🟦 MITRE | Praticar segurança de sistemas embarcados em competição. | — | Embarcados | P2 |
+| ❔ | **[Red Team Redemption](https://arxiv.org/abs/2408.15645)** `E129` | ◻️ Landauer, Mayer, Skopik, Wurzenberger e Kern | Estudar uma comparação estruturada de ferramentas de emulação adversária. | 2024 / TrustCom | Enterprise | P2 |
 
 <details><summary>Notas e relações</summary>
 
 - **ATT&CK — Learn More e FAQ** — entrega: Base comum de vocabulário para o time. FAQ: https://attack.mitre.org/resources/faq/ ↔ ATT&CK, ATT&CKcon.
 - **ATT&CKcon** — entrega: Casos de uso da comunidade. ↔ ATT&CK.
 - **eCTF** — entrega: Experiência de projeto e avaliação. ↔ EMB3D.
+- **Red Team Redemption** — entrega: Critérios para seleção e benchmark de ferramentas. Compara nove ferramentas usando questionário com 80 questões. Ranking reflete a amostra e o período do estudo; não é ranking atualizado do mercado. ↔ Apache Caldera, Atomic Red Team, TTPForge.
 
 </details>
 
