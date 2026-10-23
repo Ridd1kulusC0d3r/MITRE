@@ -4,7 +4,7 @@
 
 ## Método e limites
 
-Revisão documental em **22/10/2026**, data local de São Paulo. Timestamps da API estão em UTC e podem aparecer como 23/10/2026.
+Revisão documental em **22/10/2026**, com atualização incremental em **23/10/2026**, data local de São Paulo. Timestamps da API estão em UTC e podem aparecer como 23/10/2026.
 
 1. Consultar portais oficiais MITRE/ATT&CK/CTID e fontes dos mantenedores.
 2. Confirmar identidade e finalidade antes de classificar como oficial ou externo.
@@ -27,6 +27,16 @@ A verificação foi documental: **não foram instaladas ferramentas nem testados
 | [attack_to_veris](https://github.com/center-for-threat-informed-defense/attack_to_veris) | Arquivado | Mapeamentos VERIS migraram para Mappings Explorer, conforme descrição do repositório. |
 | [m3tid](https://github.com/center-for-threat-informed-defense/m3tid) | Arquivado | Referência histórica de maturidade; avaliar o projeto atual INFORM. Não assumir equivalência de versões ou scores. |
 | [attack-workbench-collection-manager](https://github.com/center-for-threat-informed-defense/attack-workbench-collection-manager) | Arquivado | Marcado como deprecated; consultar a arquitetura atual do Workbench. |
+
+## Arquivados na organização mitre-attack
+
+Dos 21 repositórios de [mitre-attack](https://github.com/mitre-attack), nove estão como *Public archive* (consulta de 23/10/2026): attack-scripts (use mitreattack-python), evals_caldera, joystick, attack-datasources, attack-datasources-stix-beta, tram (original; o TRAM mantido está no CTID), attack-evals, attack-arsenal e attack-archives. Detalhes no campo `mitre_attack_archived` do JSON. `caret` (2020) não está arquivado, mas está parado desde 2020.
+
+## Atualização de 23/10/2026
+
+- ATT&CK **v20** (13/10/2026) registrada em `attack_release`.
+- Adicionados Workbench REST API, Workbench Deployment e ATT&CK Website (E073–E075) e oito checagens de repositório (datas sem hora, licença não coletada).
+- Atividade recente no org: workbench-frontend/rest-api (22/10), website e navigator (20/10), taxii-server e deployment (16/10), mitreattack-python e attack-stix-data (13/10). `attack-data-model` (25/06/2026), `car` (16/05/2025) e `bzar` (26/06/2024) estão menos ativos.
 
 ## Atenção adicional
 
