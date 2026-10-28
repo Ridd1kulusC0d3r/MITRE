@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "reviewed_on": "2026-10-23",
+  "reviewed_on": "2026-10-28",
   "timezone": "America/Sao_Paulo",
   "scope": "Ecossistema de cibersegurança MITRE e recursos externos relacionados; não inventário institucional exaustivo",
   "verification_limits": "Pesquisa documental; ferramentas não executadas. Campos ausentes: não coletados. archived=false não comprova manutenção ativa. pushed_at não equivale a último release. license_api não substitui leitura da licença. Status 'n/v' = não verificado. Tag Git indica marco publicado, não necessariamente release estável.",
@@ -789,7 +789,8 @@
         "E026"
       ],
       "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "verification": "Fonte primária consultada; execução não testada",
+      "version": "v5.0.0-beta.3 (tag) · npm 4.10.1 (06/05/2026)"
     },
     {
       "id": "E030",
@@ -4028,4 +4029,3 @@
     "note": "Resumo da página oficial; releases anteriores não detalhados na fonte consultada."
   }
 }
-
