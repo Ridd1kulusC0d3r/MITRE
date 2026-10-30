@@ -21,7 +21,7 @@ CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incide
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | **126** | 51 | 27 | 32 | 260 | 15 | 84 | 21 |
 <!-- stats:end -->
-
+ 
 ---
 
 ## 🆕 Expansão da curadoria — 23/10/2026
