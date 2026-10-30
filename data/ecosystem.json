@@ -789,7 +789,8 @@
         "E026"
       ],
       "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "verification": "Fonte primária consultada; execução não testada",
+      "version": "v5.0.0-beta.3 (tag)"
     },
     {
       "id": "E030",
@@ -813,7 +814,8 @@
         "E025"
       ],
       "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "verification": "Fonte primária consultada; execução não testada",
+      "version": "v2.0.1 (tag)"
     },
     {
       "id": "E031",
@@ -2016,7 +2018,8 @@
         "E001"
       ],
       "reviewed_on": "2026-10-22",
-      "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
+      "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026",
+      "version": "website-v4.4.1 (tag)"
     },
     {
       "id": "E076",
@@ -4028,4 +4031,3 @@
     "note": "Resumo da página oficial; releases anteriores não detalhados na fonte consultada."
   }
 }
-
