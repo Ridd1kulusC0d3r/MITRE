@@ -101,3 +101,22 @@ Atualize `reviewed_on` só nos itens efetivamente revisados. Preserve entradas h
 ## Proveniência e licenças
 
 Curadoria independente com resumos e scripts próprios. Os arquivos em `crosswalks/` e `layers/` são **derivados** de dados da MITRE (ATT&CK, CAPEC), do SigmaHQ e do Atomic Red Team, gerados pelos scripts deste repositório; os termos de uso das fontes continuam valendo. Links não transferem direitos. Marcas MITRE, ATT&CK, D3FEND, ATLAS e demais pertencem aos respectivos titulares.
+
+## Inventário da organização mitre-attack — 03/11/2026
+
+Conferido na [lista de repositórios](https://github.com/orgs/mitre-attack/repositories) e em [attack.mitre.org/resources/updates](https://attack.mitre.org/resources/updates/): **21 repositórios, nenhum novo desde a revisão de 22/10/2026**. ATT&CK continua em **v20** (13/10/2026) e `mitreattack-python` em **6.3.1** (PyPI). Datas abaixo vêm da listagem pública (sem hora) e **não** substituem os `pushed_at` do catálogo; rode `check_repos.py` com token para atualizá-los.
+
+| Repositório | Último push (listagem) | No catálogo |
+|---|---|---|
+| attack-navigator | 01/11/2026 | E024 (catálogo: 20/10) |
+| attack-website | 30/10/2026 | E075 |
+| attack-workbench-frontend | 25/10/2026 | E025 |
+| attack-workbench-rest-api | 22/10/2026 | E073 |
+| attack-workbench-taxii-server · -deployment | 16/10/2026 | E030 · E074 |
+| mitreattack-python · attack-stix-data | 13/10/2026 | E028 · E026 |
+| attack-data-model | 25/06/2026 | E029 |
+| car | 16/05/2025 | E011 (site; repositório sem entrada própria) |
+| bzar · attack-arsenal · caret | 2024 · 2021 · 2020 | E012 · E108 · E109 |
+| attack-scripts, evals_caldera, joystick, attack-datasources, attack-datasources-stix-beta, tram, attack-evals, attack-archives | arquivados (2020–2023) | só `attack-scripts` citado acima; os demais sem entrada, por serem históricos |
+
+Novidade de conteúdo na v20: campanhas sobre ataques a utilidades de água dos EUA e uma intrusão assistida por IA contra infraestrutura do governo mexicano; técnicas de IA em Enterprise e de execução/C2 em ICS; retorno da técnica Mobile *Deliver Malicious Application via Other Means*; totais de 971 Software, 182 Groups e 61 Campaigns. Contagens não conferidas contra o bundle STIX nesta rodada.
