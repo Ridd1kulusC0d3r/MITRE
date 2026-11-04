@@ -659,7 +659,7 @@
       "output": "Coleções locais e anotações",
       "priority": "P1",
       "status": "ativo",
-      "version": "v4.18.0-alpha.1 (tag)",
+      "version": "v4.18.0 (pré-release · 03/11/2026)",
       "formats": [
         "STIX 2.1"
       ],
@@ -670,8 +670,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-22T22:13:19Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-04",
+      "verification": "Verificado na fonte (página de releases) em 04/11/2026"
     },
     {
       "id": "E026",
@@ -1949,7 +1949,7 @@
       "output": "Base ATT&CK própria acessível por API",
       "priority": "P2",
       "status": "ativo",
-      "version": "v4.26.0-alpha.1 (tag)",
+      "version": "v4.26.0 (pré-release · 03/11/2026)",
       "formats": [
         "REST",
         "STIX 2.1"
@@ -1959,8 +1959,8 @@
         "E030",
         "E074"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-04",
+      "verification": "Verificado na fonte (página de releases) em 04/11/2026"
     },
     {
       "id": "E074",
@@ -4028,4 +4028,3 @@
     "note": "Resumo da página oficial; releases anteriores não detalhados na fonte consultada."
   }
 }
-

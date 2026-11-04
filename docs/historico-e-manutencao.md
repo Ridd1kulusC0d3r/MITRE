@@ -101,3 +101,7 @@ Atualize `reviewed_on` só nos itens efetivamente revisados. Preserve entradas h
 ## Proveniência e licenças
 
 Curadoria independente com resumos e scripts próprios. Os arquivos em `crosswalks/` e `layers/` são **derivados** de dados da MITRE (ATT&CK, CAPEC), do SigmaHQ e do Atomic Red Team, gerados pelos scripts deste repositório; os termos de uso das fontes continuam valendo. Links não transferem direitos. Marcas MITRE, ATT&CK, D3FEND, ATLAS e demais pertencem aos respectivos titulares.
+
+## Revisão incremental — 04/11/2026
+
+Varredura de `attack.mitre.org` e das organizações `mitre-attack` e `center-for-threat-informed-defense`. Nenhuma ferramenta ou framework novo: ATT&CK v20.0 segue como versão atual e todos os repositórios das duas organizações já estão no catálogo. Atualizados apenas **Workbench v4.18.0** e **Workbench REST API v4.26.0** (pré-releases de 03/11/2026). Navigator (v5.3.2) e mitreattack-python (6.3.1) sem mudança.

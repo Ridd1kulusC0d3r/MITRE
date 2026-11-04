@@ -344,7 +344,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[mitreattack-python](https://github.com/mitre-attack/mitreattack-python)** `E028` | 🟦 MITRE | Consultar e transformar dados ATT&CK com Python. | 6.3.1 · 13/10/2026 (PyPI) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Navigator](https://github.com/mitre-attack/attack-navigator)** `E024` | 🟦 MITRE | Visualizar e anotar matrizes. | v5.3.2 | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Splunk Attack Data](https://github.com/splunk/attack_data)** `E122` | 🟧 Splunk | Consumir datasets de ataques e reproduzir eventos para desenvolver e validar analíticas. | — | Enterprise, Cloud | P1 |
-| ✅ | **[Workbench](https://github.com/mitre-attack/attack-workbench-frontend)** `E025` | 🟦 MITRE | Gerenciar extensões locais de ATT&CK. | v4.18.0-alpha.1 (tag) | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[Workbench](https://github.com/mitre-attack/attack-workbench-frontend)** `E025` | 🟦 MITRE | Gerenciar extensões locais de ATT&CK. | v4.18.0 (pré-release · 03/11/2026) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Workbench Deployment](https://github.com/mitre-attack/attack-workbench-deployment)** `E074` | 🟦 MITRE | Subir o Workbench completo (frontend, REST API, banco e TAXII opcional) com Docker Compose ou Kubernetes. | — | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Workbench TAXII Server](https://github.com/mitre-attack/attack-workbench-taxii-server)** `E030` | 🟦 MITRE | Servir coleções ATT&CK via TAXII. | — | Enterprise | P1 |
 | ✅ | **[ATLAS Navigator](https://github.com/mitre-atlas/atlas-navigator)** `E104` | 🟦 MITRE | Visualizar e anotar a matriz ATLAS. | v4.5.5 (tag) | IA | P2 |
@@ -355,7 +355,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ⏸️ | **[BRAWL public game 001](https://github.com/mitre/brawl-public-game-001)** `E126` | 🟦 MITRE | Estudar dados de um exercício automatizado de emulação adversária. | — | Enterprise | P2 |
 | ✅ | **[stix2 (Python)](https://github.com/oasis-open/cti-python-stix2)** `E097` | ⬜ OASIS | Criar, validar e consultar objetos STIX 2.x. | 3.0.2 (PyPI) | Geral | P2 |
 | ⏸️ | **[taxii2-client](https://github.com/oasis-open/cti-taxii-client)** `E098` | ⬜ OASIS | Consumir servidores TAXII 2.x. | 2.3.0 · 2021 (PyPI) | Geral | P2 |
-| ✅ | **[Workbench REST API](https://github.com/mitre-attack/attack-workbench-rest-api)** `E073` | 🟦 MITRE | Backend do ATT&CK Workbench: API REST para criar e versionar extensões do ATT&CK. | v4.26.0-alpha.1 (tag) | Enterprise, Mobile, ICS/OT | P2 |
+| ✅ | **[Workbench REST API](https://github.com/mitre-attack/attack-workbench-rest-api)** `E073` | 🟦 MITRE | Backend do ATT&CK Workbench: API REST para criar e versionar extensões do ATT&CK. | v4.26.0 (pré-release · 03/11/2026) | Enterprise, Mobile, ICS/OT | P2 |
 
 <details><summary>Notas e relações</summary>
 
