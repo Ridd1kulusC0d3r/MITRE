@@ -119,7 +119,7 @@ Datas dos anúncios oficiais do CTID; só o Attack Flow foi conferido por tag ne
 | mitreattack-python ✔ | 6.3.1 publicado em 13/10/2026, junto com a v20 |
 | Sigma ✔ | release r2026-07-01; pySigma 2.0.1; sigma-cli 3.1.0 |
 | pyattck | arquivado em 17/03/2026 (pesquisa web); último release 7.1.2 em 2023 ✔ (PyPI): migre para mitreattack-python ou attackcti |
-| ATT&CK Navigator ✔ | v5.3.2 · Workbench v4.18.0-alpha.1 |
+| ATT&CK Navigator ✔ | v5.3.2 · Workbench v4.18.0 |
 | CVE | crise de financiamento em abr/2025; contrato com a CISA prorrogado e renegociado |
 | ATT&CK Evaluations | edição 2026 com a métrica TES (DQI + PQI) |
 | ATT&CK Advisory Council | criado em 25/02/2026 |
