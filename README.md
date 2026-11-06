@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" alt="MITRE Ecosystem Atlas — da inteligência à defesa validada" width="100%">
 
-[![ATT&CK](https://img.shields.io/badge/ATT%26CK-v20.0-e5534b?style=flat-square)](https://attack.mitre.org/)
+[![ATT&CK](https://img.shields.io/badge/ATT%26CK-v20.1-e5534b?style=flat-square)](https://attack.mitre.org/)
 [![D3FEND](https://img.shields.io/badge/D3FEND-1.6.0-39c5cf?style=flat-square)](https://d3fend.mitre.org/)
 [![ATLAS](https://img.shields.io/badge/ATLAS-2026.09-a371f7?style=flat-square)](https://atlas.mitre.org/)
 [![Python](https://img.shields.io/badge/Python-stdlib%20only-3776ab?style=flat-square&logo=python&logoColor=white)](scripts/)

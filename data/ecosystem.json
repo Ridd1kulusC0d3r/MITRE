@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "reviewed_on": "2026-10-23",
+  "reviewed_on": "2026-11-06",
   "timezone": "America/Sao_Paulo",
   "scope": "Ecossistema de cibersegurança MITRE e recursos externos relacionados; não inventário institucional exaustivo",
   "verification_limits": "Pesquisa documental; ferramentas não executadas. Campos ausentes: não coletados. archived=false não comprova manutenção ativa. pushed_at não equivale a último release. license_api não substitui leitura da licença. Status 'n/v' = não verificado. Tag Git indica marco publicado, não necessariamente release estável.",
@@ -23,7 +23,7 @@
       "output": "Técnicas e procedimentos com evidência",
       "priority": "P1",
       "status": "ativo",
-      "version": "v20.0 · 13/10/2026",
+      "version": "v20.1 · 05/11/2026 (patch de v20.0 · 13/10/2026)",
       "formats": [
         "STIX 2.1",
         "STIX 2.0",
@@ -690,7 +690,7 @@
       "output": "Snapshots versionados de objetos e relações",
       "priority": "P1",
       "status": "ativo",
-      "version": "v20.0",
+      "version": "v20.1 (tag, 05/11/2026)",
       "formats": [
         "STIX 2.1"
       ],
@@ -3023,7 +3023,7 @@
       "archived": false,
       "license_api": "GPL-3.0",
       "pushed_at": "2026-01-22T08:45:57Z",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
     {
@@ -3051,7 +3051,7 @@
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-23T10:00:58Z",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
     {
@@ -3079,7 +3079,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-19T07:01:10Z",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
     {
@@ -3106,7 +3106,7 @@
       "archived": false,
       "license_api": "MIT",
       "pushed_at": "2026-09-30T13:53:10Z",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
     {
@@ -3134,7 +3134,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-22T18:21:51Z",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
     {
@@ -3160,7 +3160,7 @@
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-23T07:11:16Z",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
     {
@@ -3187,7 +3187,7 @@
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-22T23:13:43Z",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
     {
@@ -3213,7 +3213,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2023-08-07T18:19:16Z",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
     {
@@ -3239,7 +3239,7 @@
       "archived": false,
       "license_api": "CC-BY-4.0",
       "pushed_at": "2020-10-02T09:07:56Z",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
     {
@@ -3263,7 +3263,7 @@
         "E077"
       ],
       "notes": "Agrupa ferramentas do portal, sem contar cada extrator separadamente. Extração não valida a semântica do mapeamento nem demonstra eficácia de contramedidas.",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "Catálogo oficial de ferramentas consultado; extratores não executados."
     },
     {
@@ -3287,7 +3287,7 @@
         "E087"
       ],
       "notes": "Artigo: Strategic selection of data sources for cyber attack detection in enterprise networks: A survey and approach. DOI 10.1145/3477314.3507022. D3TECT não é DeTT&CT e não é projeto MITRE.",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "Resumo e registro bibliográfico institucional consultados; texto integral e reprodução experimental não avaliados."
     },
     {
@@ -3311,7 +3311,7 @@
         "E121"
       ],
       "notes": "Compara nove ferramentas usando questionário com 80 questões. Ranking reflete a amostra e o período do estudo; não é ranking atualizado do mercado.",
-      "reviewed_on": "2026-10-23",
+      "reviewed_on": "2026-11-06",
       "verification": "Resumo e registro arXiv consultados; não reproduzimos a avaliação."
     }
   ],

@@ -101,3 +101,10 @@ Atualize `reviewed_on` só nos itens efetivamente revisados. Preserve entradas h
 ## Proveniência e licenças
 
 Curadoria independente com resumos e scripts próprios. Os arquivos em `crosswalks/` e `layers/` são **derivados** de dados da MITRE (ATT&CK, CAPEC), do SigmaHQ e do Atomic Red Team, gerados pelos scripts deste repositório; os termos de uso das fontes continuam valendo. Links não transferem direitos. Marcas MITRE, ATT&CK, D3FEND, ATLAS e demais pertencem aos respectivos titulares.
+
+## Revisão incremental — 06/11/2026
+
+- **ATT&CK v20.1** publicado em 05/11/2026 (tag `v20.1` em `attack-stix-data`, junto com a retag de v20.0 na mesma data). Conteúdo detalhado não verificado: consulte o changelog em attack.mitre.org/resources/updates/. Contagens e tabelas deste repositório seguem baseadas na v20.0.
+- **Nenhum repositório novo** nas organizações `mitre-attack` e `center-for-threat-informed-defense`: todos os 21 + 15 listados já estão no catálogo.
+- **Atividade recente:** attack-website, mitreattack-python e attack-stix-data (05/11); attack-navigator e workbench-rest-api (04/11); workbench-frontend (03/11); CTID: fight-fraud-framework, technique-inference-engine, attack-sync e mappings-editor (05/11); attack-flow e top-attack-techniques (27/10).
+- Navigator permanece em v5.3.2 (último release listado); versão do mitreattack-python não reverificada (PyPI inacessível).
