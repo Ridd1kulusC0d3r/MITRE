@@ -4,7 +4,7 @@
 
 [← Início](../README.md) · [Explorador interativo](../index.html) · [Crosswalks](crosswalks.md) · [Novidades 2026](novidades-2026.md) · [Histórico](historico-e-manutencao.md)
 
-Revisão: **2026-10-23** · **126 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
+Revisão: **2026-11-06** · **126 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
 
 **Legenda.** Origem: 🟦 MITRE oficial · 🟩 MITRE CTID · 🟪 Colaboração MITRE · 🟫 Fundação aberta (código MITRE doado) · ⬛ Governo · ⬜ Organismo de padrão · 🟨 Comunidade · 🟧 Fornecedor · ◻️ Outro  
 Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificado
@@ -35,7 +35,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | | Projeto | Origem | Para que usar | Versão / estado | Domínios | Prio |
 |:-:|---|---|---|---|---|:-:|
 | ✅ | **[ATLAS](https://atlas.mitre.org/)** `E004` | 🟦 MITRE | Modelar ameaças contra sistemas de IA e agentes: prompt injection, jailbreak, envenenamento de dados e abuso de ferramentas. | v2026.09 · 14/09/2026 | IA | P1 |
-| ✅ | **[ATT&CK](https://attack.mitre.org/)** `E001` | 🟦 MITRE | Descrever comportamentos adversários observados; Enterprise, Mobile e ICS. | v20.0 · 13/10/2026 | Enterprise, Mobile, ICS/OT, IA | P1 |
+| ✅ | **[ATT&CK](https://attack.mitre.org/)** `E001` | 🟦 MITRE | Descrever comportamentos adversários observados; Enterprise, Mobile e ICS. | v20.1 · 05/11/2026 (patch de v20.0 · 13/10/2026) | Enterprise, Mobile, ICS/OT, IA | P1 |
 | ✅ | **[ATT&CK for ICS](https://attack.mitre.org/matrices/ics/)** `E115` | 🟦 MITRE | Comportamentos adversários contra sistemas de controle industrial. | v20.0 | ICS/OT | P1 |
 | ✅ | **[AADAPT](https://aadapt.mitre.org/)** `E076` | 🟦 MITRE | Táticas e técnicas contra blockchain, ativos digitais e pagamentos com cripto. | lançado em 14/07/2025 | Ativos digitais, Fraude | P2 |
 | ✅ | **[ATT&CK Mobile](https://attack.mitre.org/matrices/mobile/)** `E116` | 🟦 MITRE | Comportamentos adversários em Android e iOS. | v20.0 | Mobile | P2 |
@@ -339,7 +339,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[ATLAS Data](https://github.com/mitre-atlas/atlas-data)** `E079` | 🟦 MITRE | Distribuir o ATLAS em YAML versionado (conteúdo AAAA.MM, formato semver). | conteúdo 2026.09 · formato 6.0.0 | IA | P1 |
 | ✅ | **[ATT&CK Data Model](https://github.com/mitre-attack/attack-data-model)** `E029` | 🟦 MITRE | Validar e manipular dados ATT&CK com schemas TypeScript/Zod. | — | Enterprise | P1 |
 | ✅ | **[ATT&CK STIX 2.0](https://github.com/mitre/cti)** `E027` | 🟦 MITRE | Consultar a representação STIX 2.0. | tag ATT&CK-v20.0 | Enterprise, Mobile, ICS/OT | P1 |
-| ✅ | **[ATT&CK STIX 2.1](https://github.com/mitre-attack/attack-stix-data)** `E026` | 🟦 MITRE | Consumir a base ATT&CK em formato estruturado. | v20.0 | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[ATT&CK STIX 2.1](https://github.com/mitre-attack/attack-stix-data)** `E026` | 🟦 MITRE | Consumir a base ATT&CK em formato estruturado. | v20.1 (tag, 05/11/2026) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[ATT&CK Updates e Version History](https://attack.mitre.org/resources/updates/)** `E111` | 🟦 MITRE | Ler as notas de cada release e navegar versões antigas do site. | v20 · 13/10/2026 | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[mitreattack-python](https://github.com/mitre-attack/mitreattack-python)** `E028` | 🟦 MITRE | Consultar e transformar dados ATT&CK com Python. | 6.3.1 · 13/10/2026 (PyPI) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Navigator](https://github.com/mitre-attack/attack-navigator)** `E024` | 🟦 MITRE | Visualizar e anotar matrizes. | v5.3.2 | Enterprise, Mobile, ICS/OT | P1 |
