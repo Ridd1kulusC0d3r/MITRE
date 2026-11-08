@@ -101,3 +101,14 @@ Atualize `reviewed_on` só nos itens efetivamente revisados. Preserve entradas h
 ## Proveniência e licenças
 
 Curadoria independente com resumos e scripts próprios. Os arquivos em `crosswalks/` e `layers/` são **derivados** de dados da MITRE (ATT&CK, CAPEC), do SigmaHQ e do Atomic Red Team, gerados pelos scripts deste repositório; os termos de uso das fontes continuam valendo. Links não transferem direitos. Marcas MITRE, ATT&CK, D3FEND, ATLAS e demais pertencem aos respectivos titulares.
+
+## Atualização incremental — 08/11/2026
+
+Conferência em attack.mitre.org, `attack-stix-data/index.json` e PyPI (a API do GitHub não estava acessível; a listagem de `github.com/orgs/mitre-attack/repositories` não pôde ser lida, então **novos repositórios da organização não foram verificados**).
+
+| Item | Antes | Agora |
+|---|---|---|
+| ATT&CK (Enterprise, Mobile, ICS) | v20.0 · 13/10/2026 | **v20.1 · 05/11/2026** (correções de dados; v20.0 segue como versão maior) |
+| attack-stix-data | v20.0 | v20.1 (bundles de 05/11/2026) |
+| mitreattack-python | 6.3.1 | 6.3.2 e **6.4.0** (PyPI, 05/11/2026) |
+| Contagem v20 (site) | — | Enterprise: 15 táticas, 227 técnicas, 479 subtécnicas, 703 Detection Strategies, 1770 Analytics |

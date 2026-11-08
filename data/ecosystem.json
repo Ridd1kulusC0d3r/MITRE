@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "reviewed_on": "2026-10-23",
+  "reviewed_on": "2026-11-08",
   "timezone": "America/Sao_Paulo",
   "scope": "Ecossistema de cibersegurança MITRE e recursos externos relacionados; não inventário institucional exaustivo",
   "verification_limits": "Pesquisa documental; ferramentas não executadas. Campos ausentes: não coletados. archived=false não comprova manutenção ativa. pushed_at não equivale a último release. license_api não substitui leitura da licença. Status 'n/v' = não verificado. Tag Git indica marco publicado, não necessariamente release estável.",
@@ -23,7 +23,7 @@
       "output": "Técnicas e procedimentos com evidência",
       "priority": "P1",
       "status": "ativo",
-      "version": "v20.0 · 13/10/2026",
+      "version": "v20.1 · 05/11/2026 (v20.0 em 13/10/2026)",
       "formats": [
         "STIX 2.1",
         "STIX 2.0",
@@ -690,7 +690,7 @@
       "output": "Snapshots versionados de objetos e relações",
       "priority": "P1",
       "status": "ativo",
-      "version": "v20.0",
+      "version": "v20.1 · 05/11/2026",
       "formats": [
         "STIX 2.1"
       ],
@@ -751,7 +751,7 @@
       "output": "Consultas e exportações reproduzíveis",
       "priority": "P1",
       "status": "ativo",
-      "version": "6.3.1 · 13/10/2026 (PyPI)",
+      "version": "6.4.0 · 05/11/2026 (PyPI)",
       "formats": [
         "Python"
       ],
@@ -2929,7 +2929,7 @@
       "output": "Cenários OT com técnicas, ativos e mitigações",
       "priority": "P1",
       "status": "ativo",
-      "version": "v20.0",
+      "version": "v20.1 · 05/11/2026",
       "formats": [
         "STIX 2.1"
       ],
@@ -2957,7 +2957,7 @@
       "output": "Cenários mobile e requisitos de telemetria",
       "priority": "P2",
       "status": "ativo",
-      "version": "v20.0",
+      "version": "v20.1 · 05/11/2026",
       "formats": [
         "STIX 2.1"
       ],
@@ -2985,7 +2985,7 @@
       "output": "Requisitos de dados e lógica de detecção por técnica",
       "priority": "P1",
       "status": "ativo",
-      "version": "v20.0",
+      "version": "v20.1 · 05/11/2026",
       "formats": [
         "STIX 2.1 (x-mitre-detection-strategy, x-mitre-analytic)"
       ],
