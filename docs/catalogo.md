@@ -4,7 +4,7 @@
 
 [← Início](../README.md) · [Explorador interativo](../index.html) · [Crosswalks](crosswalks.md) · [Novidades 2026](novidades-2026.md) · [Histórico](historico-e-manutencao.md)
 
-Revisão: **2026-10-23** · **126 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
+Revisão: **2026-11-09** · **130 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
 
 **Legenda.** Origem: 🟦 MITRE oficial · 🟩 MITRE CTID · 🟪 Colaboração MITRE · 🟫 Fundação aberta (código MITRE doado) · ⬛ Governo · ⬜ Organismo de padrão · 🟨 Comunidade · 🟧 Fornecedor · ◻️ Outro  
 Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificado
@@ -19,15 +19,15 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | 🔎 [deteccao](#deteccao) | Como detectar e avaliar | 16 |
 | 🛡️ [defesa](#defesa) | Como reduzir exposição | 6 |
 | 🎭 [engano](#engano) | Como enganar e engajar | 1 |
-| 🧪 [validacao](#validacao) | Como validar | 16 |
+| 🧪 [validacao](#validacao) | Como validar | 18 |
 | 🚑 [resposta](#resposta) | Como responder e investigar | 5 |
-| 🩹 [vulnerabilidade](#vulnerabilidade) | Que fraquezas existem | 7 |
+| 🩹 [vulnerabilidade](#vulnerabilidade) | Que fraquezas existem | 8 |
 | 🕵️ [cti](#cti) | Como produzir e compartilhar CTI | 11 |
 | 📈 [maturidade](#maturidade) | Como evoluir o programa | 2 |
 | 🗄️ [dados](#dados) | Como consumir por código | 20 |
 | ⚙️ [conformidade](#conformidade) | Como automatizar conformidade | 5 |
 | 📐 [padrao](#padrao) | Padrões de base | 4 |
-| 🎓 [formacao](#formacao) | Como aprender | 6 |
+| 🎓 [formacao](#formacao) | Como aprender | 7 |
 
 <a id="adversario"></a>
 ## 🎯 O que o adversário faz
@@ -211,6 +211,8 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ⏸️ | **[ATLAS Arsenal (plugin CALDERA)](https://github.com/mitre-atlas/arsenal)** `E125` | 🟦 MITRE ATLAS | Estudar emulação de comportamentos ATLAS em sistemas de aprendizado de máquina. | — | IA | P2 |
 | 🧊 | **[ATT&CK Arsenal](https://github.com/mitre-attack/attack-arsenal)** `E108` | 🟦 MITRE | Recursos de red team e emulação publicados pela equipe ATT&CK. | — | Enterprise | P2 |
 | ✅ | **[ATT&CK Evaluations](https://evals.mitre.org/)** `E014` | 🟦 MITRE | Examinar avaliações públicas e suas metodologias. | Enterprise 2025 (ER7) | Enterprise, Cloud | P2 |
+| ✅ | **[Caldera for OT](https://github.com/mitre/caldera-ot)** `E131` | 🟦 MITRE | Reunir plugins e capacidades do Caldera para emulação em redes OT (Modbus, DNP3, BACnet). | — | ICS/OT | P2 |
+| ✅ | **[Caldera MCP (plugin LLM)](https://github.com/mitre/mcp)** `E130` | 🟦 MITRE | Gerar abilities e planejar operações de emulação no Caldera com fluxos LLM, opcionalmente com RAG sobre CTI em STIX. | — | Enterprise | P2 |
 | ❔ | **[Infection Monkey](https://github.com/guardicore/monkey)** `E093` | 🟧 Akamai (Guardicore) | Simular movimentação lateral e gerar relatório por técnica. | v2.3.0 (tag) | Enterprise | P2 |
 | ⏸️ | **[Micro Emulation Plans](https://github.com/center-for-threat-informed-defense/adversary_emulation_library/tree/master/micro_emulation_plans)** `E080` | 🟩 MITRE / CTID | Emular comportamentos compostos curtos, sem uma campanha inteira. | — | Enterprise | P2 |
 | ⏸️ | **[PurpleSharp](https://github.com/mvelazc0/PurpleSharp)** `E092` | 🟨 Mauricio Velazco | Simular técnicas em Active Directory e Windows. | v1.3 (tag) | Enterprise | P2 |
@@ -230,6 +232,8 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **ATLAS Arsenal (plugin CALDERA)** — entrega: Referência de cenários e abilities para laboratório. Não confundir com ATT&CK Arsenal. Último push consultado: 2023; documentação cita dependências antigas. Compatibilidade atual não testada. ↔ ATLAS, Apache Caldera.
 - **ATT&CK Arsenal** — entrega: Referência histórica de emulação. Sem atualização desde abr/2021. Fontes divergem sobre o arquivamento (listagem da org vs. checagem de 23/10/2026); confirme na página do repositório. Prefira Adversary Emulation Library e Apache Caldera. ↔ Adversary Emulation Library, Apache Caldera.
 - **ATT&CK Evaluations** — entrega: Evidência contextual de capacidade; não ranking universal. Edição 2026 usa a métrica TES (DQI + PQI). Não é ranking universal. ↔ ATT&CK, Adversary Emulation Library.
+- **Caldera for OT** — entrega: Plugins por protocolo (repos modbus, dnp3, bacnet) para laboratório OT. Repositórios de protocolo são separados: mitre/modbus, mitre/dnp3, mitre/bacnet. Usar só em ambiente isolado e autorizado; risco operacional em OT real. ↔ Apache Caldera, ATLAS Arsenal (plugin CALDERA).
+- **Caldera MCP (plugin LLM)** — entrega: Abilities e planos de operação gerados por LLM, para revisão humana. Criado em out/2025. Não confundir com Model Context Protocol, apesar do nome. Conteúdo gerado por LLM exige revisão antes de executar; compatibilidade não testada. ↔ Apache Caldera, ATT&CK.
 - **Infection Monkey** — entrega: Relatório de exposição mapeado ao ATT&CK. ↔ ATT&CK.
 - **Micro Emulation Plans** — entrega: Execução focada com eventos esperados. ↔ Adversary Emulation Library, Apache Caldera.
 - **PurpleSharp** — entrega: Telemetria gerada para validar detecção. ↔ Atomic Red Team.
@@ -270,6 +274,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[CWE](https://cwe.mitre.org/)** `E009` | 🟦 MITRE | Classificar tipos de fraquezas de software e hardware. | 4.20 · 30/04/2026 | Enterprise, Embarcados | P2 |
 | ⏸️ | **[CWE Calculator](https://github.com/center-for-threat-informed-defense/cwe-calculator)** `E051` | 🟩 MITRE / CTID | Apoiar priorização empírica de fraquezas. | — | Enterprise | P2 |
 | ✅ | **[EPSS](https://www.first.org/epss/)** `E070` | ⬜ FIRST | Estimar probabilidade de exploração para priorização. | — | Geral | P2 |
+| ✅ | **[Hipcheck](https://github.com/mitre/hipcheck)** `E132` | 🟦 MITRE | Avaliar e pontuar repositórios de software quanto a risco de cadeia de suprimentos. | — | Enterprise | P2 |
 | ✅ | **[NVD](https://nvd.nist.gov/)** `E084` | ⬛ NIST | Enriquecer CVEs com CVSS, CPE e CWE. | API 2.0 | Enterprise | P2 |
 
 <details><summary>Notas e relações</summary>
@@ -280,6 +285,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **CWE** — entrega: Taxonomia de causas de vulnerabilidades. ↔ CAPEC, CVE, D3FEND.
 - **CWE Calculator** — entrega: Pontuação contextual de CWEs. ↔ CWE.
 - **EPSS** — entrega: Probabilidade estimada; combinar com exposição e impacto. ↔ CVE, CISA KEV.
+- **Hipcheck** — entrega: Pontuação de risco de dependências a partir de sinais do repositório. Rust, ~135 estrelas na consulta. Pontuação é heurística; não substitui revisão de dependências nem SCA. ↔ ATT&CK.
 - **NVD** — entrega: CVE enriquecido e ligado a produto e fraqueza. ↔ CVE, CWE, CVSS.
 
 </details>
@@ -432,6 +438,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ⏸️ | **[CTID Public Resources](https://github.com/center-for-threat-informed-defense/public-resources)** `E039` | 🟩 MITRE / CTID | Localizar materiais públicos do Center. | — | Geral | P2 |
 | ⏸️ | **[CTID Workshop](https://github.com/center-for-threat-informed-defense/workshop)** `E052` | 🟩 MITRE / CTID | Acessar materiais de workshops do Center. | — | Geral | P2 |
 | ✅ | **[eCTF](https://ectf.mitre.org/)** `E022` | 🟦 MITRE | Praticar segurança de sistemas embarcados em competição. | — | Embarcados | P2 |
+| ✅ | **[Grid Watch](https://github.com/mitre/grid-watch)** `E133` | 🟦 MITRE | Sandbox virtual de rede elétrica DNP3 para estudo e testes. | — | ICS/OT | P2 |
 | ❔ | **[Red Team Redemption](https://arxiv.org/abs/2408.15645)** `E129` | ◻️ Landauer, Mayer, Skopik, Wurzenberger e Kern | Estudar uma comparação estruturada de ferramentas de emulação adversária. | 2024 / TrustCom | Enterprise | P2 |
 
 <details><summary>Notas e relações</summary>
@@ -439,6 +446,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **ATT&CK — Learn More e FAQ** — entrega: Base comum de vocabulário para o time. FAQ: https://attack.mitre.org/resources/faq/ ↔ ATT&CK, ATT&CKcon.
 - **ATT&CKcon** — entrega: Casos de uso da comunidade. ↔ ATT&CK.
 - **eCTF** — entrega: Experiência de projeto e avaliação. ↔ EMB3D.
+- **Grid Watch** — entrega: Ambiente de laboratório OT simulado. Útil como alvo de laboratório para os plugins Caldera for OT; criado em 2026 e com poucos sinais de uso externo. ↔ Caldera for OT.
 - **Red Team Redemption** — entrega: Critérios para seleção e benchmark de ferramentas. Compara nove ferramentas usando questionário com 80 questões. Ranking reflete a amostra e o período do estudo; não é ranking atualizado do mercado. ↔ Apache Caldera, Atomic Red Team, TTPForge.
 
 </details>

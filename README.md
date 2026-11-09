@@ -6,7 +6,7 @@
 [![D3FEND](https://img.shields.io/badge/D3FEND-1.6.0-39c5cf?style=flat-square)](https://d3fend.mitre.org/)
 [![ATLAS](https://img.shields.io/badge/ATLAS-2026.09-a371f7?style=flat-square)](https://atlas.mitre.org/)
 [![Python](https://img.shields.io/badge/Python-stdlib%20only-3776ab?style=flat-square&logo=python&logoColor=white)](scripts/)
-[![Revisão](https://img.shields.io/badge/revis%C3%A3o-22%2F10%2F2026-2ea7a0?style=flat-square)](docs/historico-e-manutencao.md)
+[![Revisão](https://img.shields.io/badge/revis%C3%A3o-09%2F11%2F2026-2ea7a0?style=flat-square)](docs/historico-e-manutencao.md)
 [![Idioma](https://img.shields.io/badge/idioma-pt--BR-009c3b?style=flat-square)](#)
 
 **Mapa curado do ecossistema MITRE, do CTID e dos projetos da comunidade que o colocam em operação.**
@@ -19,10 +19,14 @@ CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incide
 <!-- stats:start -->
 | 📦 Entradas | 🟦 MITRE | 🟩 CTID | 🟨🟧 Comunidade e fornecedores | 🔗 Relações | 🧱 Camadas | ✅ Ativos | 🗄️ Históricos |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **126** | 51 | 27 | 32 | 260 | 15 | 84 | 21 |
+| **130** | 55 | 27 | 32 | 266 | 15 | 88 | 21 |
 <!-- stats:end -->
  
 ---
+
+## 🆕 Atualização — 09/11/2026
+
+[**4 novas ferramentas**](docs/novas-referencias-2026-11-09.md): Caldera MCP (plugin LLM), Caldera for OT, Hipcheck e Grid Watch. Nenhum repositório novo em `mitre-attack` ou no CTID desde 23/10; o site segue em ATT&CK v20 (conteúdo v20.1).
 
 ## 🆕 Expansão da curadoria — 23/10/2026
 
