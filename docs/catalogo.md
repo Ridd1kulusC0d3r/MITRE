@@ -341,10 +341,10 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[ATT&CK STIX 2.0](https://github.com/mitre/cti)** `E027` | 🟦 MITRE | Consultar a representação STIX 2.0. | tag ATT&CK-v20.0 | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[ATT&CK STIX 2.1](https://github.com/mitre-attack/attack-stix-data)** `E026` | 🟦 MITRE | Consumir a base ATT&CK em formato estruturado. | v20.0 | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[ATT&CK Updates e Version History](https://attack.mitre.org/resources/updates/)** `E111` | 🟦 MITRE | Ler as notas de cada release e navegar versões antigas do site. | v20 · 13/10/2026 | Enterprise, Mobile, ICS/OT | P1 |
-| ✅ | **[mitreattack-python](https://github.com/mitre-attack/mitreattack-python)** `E028` | 🟦 MITRE | Consultar e transformar dados ATT&CK com Python. | 6.3.1 · 13/10/2026 (PyPI) | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[mitreattack-python](https://github.com/mitre-attack/mitreattack-python)** `E028` | 🟦 MITRE | Consultar e transformar dados ATT&CK com Python. | 6.4.0 (PyPI) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Navigator](https://github.com/mitre-attack/attack-navigator)** `E024` | 🟦 MITRE | Visualizar e anotar matrizes. | v5.3.2 | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Splunk Attack Data](https://github.com/splunk/attack_data)** `E122` | 🟧 Splunk | Consumir datasets de ataques e reproduzir eventos para desenvolver e validar analíticas. | — | Enterprise, Cloud | P1 |
-| ✅ | **[Workbench](https://github.com/mitre-attack/attack-workbench-frontend)** `E025` | 🟦 MITRE | Gerenciar extensões locais de ATT&CK. | v4.18.0-alpha.1 (tag) | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[Workbench](https://github.com/mitre-attack/attack-workbench-frontend)** `E025` | 🟦 MITRE | Gerenciar extensões locais de ATT&CK. | v4.18.0 (pré-release · 03/11/2026) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Workbench Deployment](https://github.com/mitre-attack/attack-workbench-deployment)** `E074` | 🟦 MITRE | Subir o Workbench completo (frontend, REST API, banco e TAXII opcional) com Docker Compose ou Kubernetes. | — | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Workbench TAXII Server](https://github.com/mitre-attack/attack-workbench-taxii-server)** `E030` | 🟦 MITRE | Servir coleções ATT&CK via TAXII. | — | Enterprise | P1 |
 | ✅ | **[ATLAS Navigator](https://github.com/mitre-atlas/atlas-navigator)** `E104` | 🟦 MITRE | Visualizar e anotar a matriz ATLAS. | v4.5.5 (tag) | IA | P2 |

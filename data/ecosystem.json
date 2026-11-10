@@ -659,7 +659,7 @@
       "output": "Coleções locais e anotações",
       "priority": "P1",
       "status": "ativo",
-      "version": "v4.18.0-alpha.1 (tag)",
+      "version": "v4.18.0 (pré-release · 03/11/2026)",
       "formats": [
         "STIX 2.1"
       ],
@@ -751,7 +751,7 @@
       "output": "Consultas e exportações reproduzíveis",
       "priority": "P1",
       "status": "ativo",
-      "version": "6.3.1 · 13/10/2026 (PyPI)",
+      "version": "6.4.0 (PyPI)",
       "formats": [
         "Python"
       ],
