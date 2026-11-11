@@ -4,7 +4,7 @@
 
 ## Método e limites
 
-Revisão em **22/10/2026**, com atualização incremental em **23/10/2026** (UTC), data local de São Paulo. Timestamps da API estão em UTC e podem aparecer como 23/10/2026.
+Revisão em **22/10/2026**, com atualização incremental em **23/10/2026** (UTC), data local de São Paulo. Timestamps da API estão em UTC e podem aparecer como 23/10/2026. **Atualização de 11/11/2026:** ATT&CK v20.1, ATLAS 2026.10, versões de ferramentas e cinco entradas novas (E130–E134); só os itens tocados tiveram `reviewed_on` alterado.
 
 1. Consultar portais oficiais MITRE, ATT&CK, CTID e fontes dos mantenedores.
 2. Confirmar identidade e finalidade antes de classificar como MITRE, CTID ou externo.
@@ -67,6 +67,10 @@ Sinais e seus limites:
 - **Cloud Analytics:** último push em 25/04/2023; adapte aos esquemas atuais.
 - **attack-arsenal** (2021) e **caret** (2020): parados e mantidos no catálogo como referência. Sobre o arquivamento do attack-arsenal as consultas divergem: a checagem de 23/10/2026 (campo `mitre_attack_archived` do JSON) o lista como *Public archive*, a listagem da organização lida em 22/10/2026 não. Confirme na página do repositório.
 - **Atividade na org mitre-attack (out/2026):** workbench-frontend e rest-api (22/10), website e navigator (20/10), taxii-server e deployment (16/10), mitreattack-python e attack-stix-data (13/10). Menos ativos: attack-data-model (25/06/2026), car (16/05/2025), bzar (26/06/2024).
+- **Organização mitre-attack em 11/11/2026:** 21 repositórios, nenhum novo desde a revisão anterior. Atividade recente: attack-data-model, workbench-rest-api e workbench-frontend (09/11), website, mitreattack-python e attack-stix-data (05/11), navigator (04/11). O attack-arsenal aparece sem a marca *Public archive* na listagem da organização lida nesta data.
+- **ATT&CK v20.1 (05/11/2026):** correção de dados; diff de técnicas vazio contra a v20.0 nos três domínios (medido com `attack_diff.py`).
+- **ATLAS Agent:** dados embutidos da v2026.7, anteriores às renomeações da 2026.10.
+- **atlas-navigator-data:** o README declara o projeto depreciado; STIX e camadas saem do atlas-data.
 - **Engage:** tag v1.0 e pouca atividade; o método segue válido.
 - **Mappings Editor:** beta público.
 - **DeTT&CT:** 2.2.0 suporta o modelo da v18; suporte a v19/v20 não declarado.
@@ -91,13 +95,75 @@ Sinais e seus limites:
 
 | O quê | Como | Quando |
 |---|---|---|
-| Validação do catálogo | workflow `validate` (`build_catalog.py --check`) | a cada push e PR |
-| Sinais de manutenção | workflow `monitor` roda `check_repos.py` e publica o relatório no resumo do job | mensal (dia 1) e manual |
-| Nova versão do ATT&CK | o mesmo workflow compara `index.json` com a versão registrada no catálogo | mensal e manual |
+| Validação da fonte | workflow `validate`: `python3 -m atlas check`, testes e build de fumaça; reprova PR que edite derivados | a cada push e PR |
+| Derivados e site | workflow `publish`: `python3 -m atlas build`, commit dos derivados e GitHub Pages | a cada merge na `main` |
+| Sinais de manutenção e versão do ATT&CK | workflow `monitor` (`scripts/monitor.py`): relatório e issue `monitor` aberta, atualizada ou fechada | semanal (segunda) e manual |
+| Novidades do ecossistema | tarefa agendada com o prompt de [rotina-diaria.md](rotina-diaria.md): um PR por execução, nada quando não há novidade | diária |
 | Conteúdo | revisar redirecionamentos, releases, licenças e novos projetos CTID | a cada release do ATT&CK (abril e outubro) |
 
-Atualize `reviewed_on` só nos itens efetivamente revisados. Preserve entradas históricas com motivo e alternativa.
+`python3 -m atlas set` carimba `reviewed_on` só na entrada alterada; a data global do catálogo é a maior entre as entradas. Preserve entradas históricas com motivo e alternativa.
 
 ## Proveniência e licenças
 
 Curadoria independente com resumos e scripts próprios. Os arquivos em `crosswalks/` e `layers/` são **derivados** de dados da MITRE (ATT&CK, CAPEC), do SigmaHQ e do Atomic Red Team, gerados pelos scripts deste repositório; os termos de uso das fontes continuam valendo. Links não transferem direitos. Marcas MITRE, ATT&CK, D3FEND, ATLAS e demais pertencem aos respectivos titulares.
+
+## Registro de revisões incrementais
+
+Revisões diárias feitas em branches que não chegaram a ser mescladas e foram consolidadas em 11/11/2026. Cada bloco descreve o que se sabia **naquela data**; o estado atual está no catálogo.
+
+### Inventário da organização mitre-attack — 03/11/2026
+
+Conferido na [lista de repositórios](https://github.com/orgs/mitre-attack/repositories) e em [attack.mitre.org/resources/updates](https://attack.mitre.org/resources/updates/): **21 repositórios, nenhum novo desde a revisão de 22/10/2026**. ATT&CK continua em **v20** (13/10/2026) e `mitreattack-python` em **6.3.1** (PyPI). Datas abaixo vêm da listagem pública (sem hora) e **não** substituem os `pushed_at` do catálogo; rode `check_repos.py` com token para atualizá-los.
+
+| Repositório | Último push (listagem) | No catálogo |
+|---|---|---|
+| attack-navigator | 01/11/2026 | E024 (catálogo: 20/10) |
+| attack-website | 30/10/2026 | E075 |
+| attack-workbench-frontend | 25/10/2026 | E025 |
+| attack-workbench-rest-api | 22/10/2026 | E073 |
+| attack-workbench-taxii-server · -deployment | 16/10/2026 | E030 · E074 |
+| mitreattack-python · attack-stix-data | 13/10/2026 | E028 · E026 |
+| attack-data-model | 25/06/2026 | E029 |
+| car | 16/05/2025 | E011 (site; repositório sem entrada própria) |
+| bzar · attack-arsenal · caret | 2024 · 2021 · 2020 | E012 · E108 · E109 |
+| attack-scripts, evals_caldera, joystick, attack-datasources, attack-datasources-stix-beta, tram, attack-evals, attack-archives | arquivados (2020–2023) | só `attack-scripts` citado acima; os demais sem entrada, por serem históricos |
+
+Novidade de conteúdo na v20: campanhas sobre ataques a utilidades de água dos EUA e uma intrusão assistida por IA contra infraestrutura do governo mexicano; técnicas de IA em Enterprise e de execução/C2 em ICS; retorno da técnica Mobile *Deliver Malicious Application via Other Means*; totais de 971 Software, 182 Groups e 61 Campaigns. Contagens não conferidas contra o bundle STIX nesta rodada.
+
+### Revisão incremental — 04/11/2026
+
+Varredura de `attack.mitre.org` e das organizações `mitre-attack` e `center-for-threat-informed-defense`. Nenhuma ferramenta ou framework novo: ATT&CK v20.0 segue como versão atual e todos os repositórios das duas organizações já estão no catálogo. Atualizados apenas **Workbench v4.18.0** e **Workbench REST API v4.26.0** (pré-releases de 03/11/2026). Navigator (v5.3.2) e mitreattack-python (6.3.1) sem mudança.
+
+### Revisão incremental — 06/11/2026
+
+- **ATT&CK v20.1** publicado em 05/11/2026 (tag `v20.1` em `attack-stix-data`, junto com a retag de v20.0 na mesma data). Conteúdo detalhado não verificado: consulte o changelog em attack.mitre.org/resources/updates/. Contagens e tabelas deste repositório seguem baseadas na v20.0.
+- **Nenhum repositório novo** nas organizações `mitre-attack` e `center-for-threat-informed-defense`: todos os 21 + 15 listados já estão no catálogo.
+- **Atividade recente:** attack-website, mitreattack-python e attack-stix-data (05/11); attack-navigator e workbench-rest-api (04/11); workbench-frontend (03/11); CTID: fight-fraud-framework, technique-inference-engine, attack-sync e mappings-editor (05/11); attack-flow e top-attack-techniques (27/10).
+- Navigator permanece em v5.3.2 (último release listado); versão do mitreattack-python não reverificada (PyPI inacessível).
+
+### Atualização incremental — 08/11/2026
+
+Conferência em attack.mitre.org, `attack-stix-data/index.json` e PyPI (a API do GitHub não estava acessível; a listagem de `github.com/orgs/mitre-attack/repositories` não pôde ser lida, então **novos repositórios da organização não foram verificados**).
+
+| Item | Antes | Agora |
+|---|---|---|
+| ATT&CK (Enterprise, Mobile, ICS) | v20.0 · 13/10/2026 | **v20.1 · 05/11/2026** (correções de dados; v20.0 segue como versão maior) |
+| attack-stix-data | v20.0 | v20.1 (bundles de 05/11/2026) |
+| mitreattack-python | 6.3.1 | 6.3.2 e **6.4.0** (PyPI, 05/11/2026) |
+| Contagem v20 (site) | — | Enterprise: 15 táticas, 227 técnicas, 479 subtécnicas, 703 Detection Strategies, 1770 Analytics |
+
+### Atualização — 09/11/2026
+
+Quatro ferramentas da organização `mitre` (Caldera MCP, Caldera for OT, Hipcheck, Grid Watch): [novas referências de 09/11/2026](novas-referencias-2026-11-09.md). Viraram as entradas E130–E133, revistas em 11/11.
+
+### Atualização — 11/11/2026
+
+ATT&CK v20.1, ATLAS 2026.10, versões de ferramentas e cinco entradas novas (E130–E134): [novas referências de 11/11/2026](novas-referencias-2026-11-11.md).
+
+### Refatoração — 11/11/2026
+
+Arquitetura refeita para acabar com as branches órfãs e com o CI vermelho por derivado desatualizado:
+fonte fragmentada em `data/entries/` (um arquivo por entrada), pacote `atlas/` com CLI e testes,
+derivados gerados só na `main` pelo workflow `publish`, identidade visual em `design/tokens.json`
+e contrato para agentes em [CLAUDE.md](../CLAUDE.md). O agregado `data/ecosystem.json` continua no
+mesmo caminho e no schema 2.0, agora gerado. Detalhes nos commits `fase-0` a `fase-5`.

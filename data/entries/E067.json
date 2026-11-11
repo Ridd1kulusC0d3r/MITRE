@@ -1,0 +1,23 @@
+{
+  "id": "E067",
+  "name": "NIST CSF 2.0",
+  "url": "https://www.nist.gov/cyberframework",
+  "origin": "NIST",
+  "owner_type": "padrao",
+  "layer": "padrao",
+  "domains": [
+    "geral"
+  ],
+  "legacy_category": "Padrões e referências complementares",
+  "purpose": "Organizar resultados de gestão de risco, incluindo Respond e Recover.",
+  "output": "Perfil de resultados e responsabilidades",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "2.0",
+  "relations": [
+    "E068",
+    "E037"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

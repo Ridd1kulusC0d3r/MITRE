@@ -1,0 +1,26 @@
+{
+  "id": "E131",
+  "name": "Caldera for OT",
+  "url": "https://github.com/mitre/caldera-ot",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "validacao",
+  "domains": [
+    "ics-ot"
+  ],
+  "purpose": "Estender o Caldera a ambientes OT com plugins de protocolo industrial, alinhados ao ATT&CK for ICS.",
+  "output": "Plugins por protocolo, reunidos como submódulos Git",
+  "priority": "P2",
+  "status": "ativo",
+  "relations": [
+    "E013",
+    "E115"
+  ],
+  "notes": "Clonar com --recursive e habilitar cada plugin na configuração do Caldera. Usar só em laboratório isolado e autorizado: comandos em protocolo industrial têm risco físico. Licença Apache-2.0 (arquivo LICENSE).",
+  "repo": "mitre/caldera-ot",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-09-16",
+  "reviewed_on": "2026-11-11",
+  "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
+}

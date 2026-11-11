@@ -1,0 +1,31 @@
+{
+  "id": "E024",
+  "name": "Navigator",
+  "url": "https://github.com/mitre-attack/attack-navigator",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "legacy_category": "Dados e ferramentas ATT&CK",
+  "purpose": "Visualizar e anotar matrizes.",
+  "output": "Layers JSON para comunicar prioridade e evidência",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v5.3.2",
+  "formats": [
+    "Navigator layer JSON"
+  ],
+  "relations": [
+    "E001",
+    "E055"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-20T18:53:56Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

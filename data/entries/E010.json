@@ -1,0 +1,30 @@
+{
+  "id": "E010",
+  "name": "CVE",
+  "url": "https://www.cve.org/",
+  "origin": "Programa CVE / ecossistema MITRE",
+  "owner_type": "mitre",
+  "layer": "vulnerabilidade",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Bases e modelos",
+  "purpose": "Identificar vulnerabilidades publicamente divulgadas.",
+  "output": "Identificadores e registros de vulnerabilidade",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "registros JSON 5.x",
+  "formats": [
+    "JSON 5.x",
+    "CVE Services API"
+  ],
+  "relations": [
+    "E009",
+    "E084",
+    "E083",
+    "E037"
+  ],
+  "notes": "MITRE atua como Secretariat; financiamento via CISA renegociado após a crise de abril/2025.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+}

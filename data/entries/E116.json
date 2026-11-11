@@ -1,0 +1,26 @@
+{
+  "id": "E116",
+  "name": "ATT&CK Mobile",
+  "url": "https://attack.mitre.org/matrices/mobile/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "adversario",
+  "domains": [
+    "mobile"
+  ],
+  "purpose": "Comportamentos adversários em Android e iOS.",
+  "output": "Cenários mobile e requisitos de telemetria",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "v20.1 · 05/11/2026",
+  "formats": [
+    "STIX 2.1"
+  ],
+  "relations": [
+    "E001",
+    "E003"
+  ],
+  "notes": "v20: 12 táticas, 78 técnicas, 47 subtécnicas, 124 Detection Strategies, 211 Analytics. Relevante para fraude em mobile banking.",
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

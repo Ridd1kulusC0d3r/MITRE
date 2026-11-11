@@ -60,7 +60,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("technique", nargs="?", help="ex.: T1059 ou T1059.001")
     ap.add_argument("--d3fend-version", default="1.6.0")
-    ap.add_argument("--attack-version", default="20.0")
+    ap.add_argument("--attack-version", default="20.1")
     ap.add_argument("--file", help="d3fend-full-mappings.json local")
     ap.add_argument("--show-columns", action="store_true")
     ap.add_argument("--check-revoked", action="store_true")

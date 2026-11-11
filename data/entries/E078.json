@@ -1,0 +1,21 @@
+{
+  "id": "E078",
+  "name": "Secure AI (CTID)",
+  "url": "https://ctid.mitre.org/projects/",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "adversario",
+  "domains": [
+    "ia"
+  ],
+  "purpose": "Expansão do ATLAS com técnicas, filtro de maturidade e emulação para sistemas de IA.",
+  "output": "Cenários de IA priorizados e testáveis",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "06/05/2026",
+  "relations": [
+    "E004"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

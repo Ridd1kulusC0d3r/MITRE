@@ -1,0 +1,25 @@
+{
+  "id": "E104",
+  "name": "ATLAS Navigator",
+  "url": "https://github.com/mitre-atlas/atlas-navigator",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "ia"
+  ],
+  "purpose": "Visualizar e anotar a matriz ATLAS.",
+  "output": "Layers ATLAS",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "v4.5.5 (tag)",
+  "formats": [
+    "Navigator layer JSON"
+  ],
+  "relations": [
+    "E004",
+    "E024"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

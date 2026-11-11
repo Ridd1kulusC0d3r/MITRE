@@ -1,0 +1,35 @@
+{
+  "id": "E002",
+  "name": "D3FEND",
+  "url": "https://d3fend.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "defesa",
+  "domains": [
+    "enterprise",
+    "ics-ot",
+    "espaco"
+  ],
+  "legacy_category": "Bases e modelos",
+  "purpose": "Relacionar contramedidas e artefatos digitais em uma ontologia defensiva.",
+  "output": "Hipóteses de controles a validar",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "ontologia 1.6.0 · 31/08/2026",
+  "formats": [
+    "OWL",
+    "TTL",
+    "JSON-LD",
+    "CSV",
+    "SPARQL"
+  ],
+  "relations": [
+    "E001",
+    "E009",
+    "E077",
+    "E096"
+  ],
+  "notes": "1.5.0 atualizou para ATT&CK v19.0 e mapeou ICS T0800–T0895. Issue #709: mapeamentos ainda citam técnicas revogadas na v19; validar contra a v20.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

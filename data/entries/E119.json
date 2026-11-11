@@ -1,0 +1,28 @@
+{
+  "id": "E119",
+  "name": "OpenAEV (anteriormente OpenBAS)",
+  "url": "https://github.com/OpenAEV-Platform/openaev",
+  "origin": "Filigran / comunidade",
+  "owner_type": "fornecedor",
+  "layer": "validacao",
+  "domains": [
+    "enterprise",
+    "cloud"
+  ],
+  "purpose": "Planejar e acompanhar campanhas, simulações e exercícios com contexto de inteligência.",
+  "output": "Campanha de validação e registro de lacunas",
+  "priority": "P1",
+  "status": "ativo",
+  "relations": [
+    "E059",
+    "E031",
+    "E091"
+  ],
+  "notes": "OpenBAS foi renomeado para OpenAEV. README distingue CE Apache-2.0 e EE com licença própria; verificar funcionalidades por edição.",
+  "repo": "OpenAEV-Platform/openaev",
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-23T10:00:58Z",
+  "reviewed_on": "2026-11-06",
+  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+}

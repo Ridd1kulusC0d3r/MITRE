@@ -1,0 +1,29 @@
+{
+  "id": "E013",
+  "name": "Apache Caldera",
+  "url": "https://caldera.apache.org/",
+  "origin": "Apache Software Foundation (código originado na MITRE)",
+  "owner_type": "governanca-aberta",
+  "layer": "validacao",
+  "domains": [
+    "enterprise",
+    "ics-ot"
+  ],
+  "legacy_category": "Detecção e validação",
+  "purpose": "Orquestrar emulação adversária em ambientes autorizados.",
+  "output": "Evidência de exercícios e validação",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "5.3.0 (tag)",
+  "formats": [
+    "YAML"
+  ],
+  "relations": [
+    "E001",
+    "E002"
+  ],
+  "notes": "Doado à Apache Software Foundation: Apache Caldera (Incubating), repo apache/caldera.",
+  "repo": "apache/caldera",
+  "reviewed_on": "2026-11-01",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "E008",
+  "name": "CAPEC",
+  "url": "https://capec.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "adversario",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Bases e modelos",
+  "purpose": "Consultar padrões de ataque.",
+  "output": "Padrões aplicáveis ao desenho do sistema",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "v3.9",
+  "formats": [
+    "XML",
+    "CSV",
+    "STIX 2.1"
+  ],
+  "relations": [
+    "E009",
+    "E001"
+  ],
+  "notes": "Related_Weakness liga a CWE; Taxonomy_Mapping liga ao ATT&CK.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+}

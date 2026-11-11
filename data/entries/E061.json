@@ -1,0 +1,26 @@
+{
+  "id": "E061",
+  "name": "Splunk Attack Range",
+  "url": "https://github.com/splunk/attack_range",
+  "origin": "Splunk",
+  "owner_type": "fornecedor",
+  "layer": "validacao",
+  "domains": [
+    "enterprise",
+    "cloud"
+  ],
+  "legacy_category": "Comunidade e fornecedores",
+  "purpose": "Montar ambiente instrumentado para exercícios.",
+  "output": "Telemetria de laboratório",
+  "priority": "P2",
+  "status": "ativo",
+  "relations": [
+    "E058",
+    "E062"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-20T19:10:39Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

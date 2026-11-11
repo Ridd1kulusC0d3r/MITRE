@@ -1,0 +1,26 @@
+{
+  "id": "E083",
+  "name": "CISA KEV",
+  "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+  "origin": "CISA",
+  "owner_type": "governo",
+  "layer": "vulnerabilidade",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Saber quais CVEs têm exploração confirmada.",
+  "output": "Fila de correção priorizada",
+  "priority": "P1",
+  "status": "ativo",
+  "formats": [
+    "JSON",
+    "CSV"
+  ],
+  "relations": [
+    "E010",
+    "E037",
+    "E070"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

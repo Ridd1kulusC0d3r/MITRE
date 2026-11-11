@@ -1,0 +1,29 @@
+{
+  "id": "E040",
+  "name": "Technique Inference Engine",
+  "url": "https://github.com/center-for-threat-informed-defense/technique-inference-engine",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "cti",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · CTI",
+  "purpose": "Inferir técnicas associadas a comportamentos observados.",
+  "output": "Hipóteses; não fatos de inteligência",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "JSON"
+  ],
+  "relations": [
+    "E001",
+    "E032",
+    "E036"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-09-04T16:00:56Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "E120",
+  "name": "Threatest",
+  "url": "https://github.com/DataDog/threatest",
+  "origin": "Datadog",
+  "owner_type": "fornecedor",
+  "layer": "validacao",
+  "domains": [
+    "enterprise",
+    "cloud"
+  ],
+  "purpose": "Testar de ponta a ponta a geração de telemetria e alertas associados a uma execução.",
+  "output": "Teste repetível com correlação entre execução e evidência",
+  "priority": "P1",
+  "status": "ativo",
+  "relations": [
+    "E090",
+    "E063",
+    "E058"
+  ],
+  "notes": "CLI/framework Go; matchers e detonators dependem da plataforma. A existência de um alerta não prova cobertura de toda a técnica.",
+  "repo": "DataDog/threatest",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-19T07:01:10Z",
+  "reviewed_on": "2026-11-06",
+  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+}

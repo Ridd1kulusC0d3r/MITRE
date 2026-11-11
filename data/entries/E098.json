@@ -1,0 +1,25 @@
+{
+  "id": "E098",
+  "name": "taxii2-client",
+  "url": "https://github.com/oasis-open/cti-taxii-client",
+  "origin": "OASIS",
+  "owner_type": "padrao",
+  "layer": "dados",
+  "domains": [
+    "geral"
+  ],
+  "purpose": "Consumir servidores TAXII 2.x.",
+  "output": "Coleções STIX baixadas",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "version": "2.3.0 · 2021 (PyPI)",
+  "formats": [
+    "Python"
+  ],
+  "relations": [
+    "E066",
+    "E099"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

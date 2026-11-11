@@ -3,10 +3,10 @@
 quantidade de Detection Strategies. Somente stdlib.
 
 Uso:
-    python3 scripts/attack_dump.py                         # enterprise, versão 20.0, Markdown
-    python3 scripts/attack_dump.py --domain ics --version 20.0
+    python3 scripts/attack_dump.py                         # enterprise, versão 20.1, Markdown
+    python3 scripts/attack_dump.py --domain ics --version 20.1
     python3 scripts/attack_dump.py --format tsv > tecnicas.tsv
-    python3 scripts/attack_dump.py --file enterprise-attack-20.0.json   # bundle local
+    python3 scripts/attack_dump.py --file enterprise-attack-20.1.json   # bundle local
 
 Saída de contagem vai para stderr; a listagem vai para stdout.
 """
@@ -49,7 +49,7 @@ def active(o):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--domain", default="enterprise", choices=["enterprise", "mobile", "ics"])
-    ap.add_argument("--version", default="20.0", help="ex.: 20.0, 19.2 ou latest")
+    ap.add_argument("--version", default="20.1", help="ex.: 20.1, 19.2 ou latest")
     ap.add_argument("--file", help="bundle STIX local (ignora --domain/--version)")
     ap.add_argument("--format", default="md", choices=["md", "tsv"])
     a = ap.parse_args()

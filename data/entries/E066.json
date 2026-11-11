@@ -1,0 +1,23 @@
+{
+  "id": "E066",
+  "name": "TAXII",
+  "url": "https://oasis-open.github.io/cti-documentation/taxii/intro.html",
+  "origin": "OASIS",
+  "owner_type": "padrao",
+  "layer": "padrao",
+  "domains": [
+    "geral"
+  ],
+  "legacy_category": "Padrões e referências complementares",
+  "purpose": "Transportar e compartilhar CTI.",
+  "output": "Coleções consumíveis por API",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "2.1",
+  "relations": [
+    "E065",
+    "E099"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

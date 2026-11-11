@@ -1,0 +1,21 @@
+{
+  "id": "E093",
+  "name": "Infection Monkey",
+  "url": "https://github.com/guardicore/monkey",
+  "origin": "Akamai (Guardicore)",
+  "owner_type": "fornecedor",
+  "layer": "validacao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Simular movimentação lateral e gerar relatório por técnica.",
+  "output": "Relatório de exposição mapeado ao ATT&CK",
+  "priority": "P2",
+  "status": "n/v",
+  "version": "v2.3.0 (tag)",
+  "relations": [
+    "E001"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

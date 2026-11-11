@@ -1,0 +1,29 @@
+{
+  "id": "E111",
+  "name": "ATT&CK Updates e Version History",
+  "url": "https://attack.mitre.org/resources/updates/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Ler as notas de cada release e navegar versões antigas do site.",
+  "output": "Plano de migração entre versões",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v20.1 · 05/11/2026 (v20 em 13/10/2026)",
+  "formats": [
+    "HTML",
+    "changelog JSON"
+  ],
+  "relations": [
+    "E026",
+    "E028"
+  ],
+  "notes": "Versões antigas: https://attack.mitre.org/resources/versions/. Changelog legível por máquina em /docs/changelogs/.",
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

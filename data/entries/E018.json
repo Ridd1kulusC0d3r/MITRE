@@ -1,0 +1,21 @@
+{
+  "id": "E018",
+  "name": "Vulcan",
+  "url": "https://saf.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "conformidade",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Automação e engenharia",
+  "purpose": "Criar e gerenciar orientação e baselines de segurança; acessar Apps → Vulcan.",
+  "output": "Baseline de requisitos",
+  "priority": "P2",
+  "status": "n/v",
+  "relations": [
+    "E015"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

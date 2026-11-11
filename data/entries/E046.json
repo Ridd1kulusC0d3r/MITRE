@@ -1,0 +1,25 @@
+{
+  "id": "E046",
+  "name": "ATT&CK Sync",
+  "url": "https://github.com/center-for-threat-informed-defense/attack-sync",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "dados",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · Dados",
+  "purpose": "Apoiar adoção de mudanças entre versões ATT&CK.",
+  "output": "Processo de atualização de bases",
+  "priority": "P2",
+  "status": "ativo",
+  "relations": [
+    "E001",
+    "E028"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-14T18:55:52Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

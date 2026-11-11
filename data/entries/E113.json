@@ -1,0 +1,23 @@
+{
+  "id": "E113",
+  "name": "ATT&CKcon",
+  "url": "https://attack.mitre.org/resources/attackcon/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "formacao",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Conferência anual do ATT&CK, com palestras gravadas.",
+  "output": "Casos de uso da comunidade",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "7.0 · 27–28/10/2026, McLean (EUA)",
+  "relations": [
+    "E001"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
+}

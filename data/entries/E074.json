@@ -1,0 +1,29 @@
+{
+  "id": "E074",
+  "name": "Workbench Deployment",
+  "url": "https://github.com/mitre-attack/attack-workbench-deployment",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Subir o Workbench completo (frontend, REST API, banco e TAXII opcional) com Docker Compose ou Kubernetes.",
+  "output": "Instância interna do Workbench para técnicas e grupos da casa",
+  "priority": "P1",
+  "status": "ativo",
+  "formats": [
+    "Docker Compose",
+    "Kustomize"
+  ],
+  "relations": [
+    "E025",
+    "E073",
+    "E030"
+  ],
+  "notes": "Caminho mais curto para manter um ATT&CK local com extensões (ex.: grupos BR/LATAM do MSSP).",
+  "reviewed_on": "2026-10-22",
+  "verification": "README do repositório consultado em 22/10/2026"
+}

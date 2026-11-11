@@ -1,0 +1,28 @@
+{
+  "id": "E064",
+  "name": "Security Datasets",
+  "url": "https://github.com/OTRF/Security-Datasets",
+  "origin": "OTRF",
+  "owner_type": "comunidade",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Comunidade e fornecedores",
+  "purpose": "Reproduzir eventos de segurança para pesquisa.",
+  "output": "Dados para testes e replay",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "formats": [
+    "JSON"
+  ],
+  "relations": [
+    "E086",
+    "E057"
+  ],
+  "archived": false,
+  "license_api": "MIT",
+  "pushed_at": "2024-03-20T20:19:19Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

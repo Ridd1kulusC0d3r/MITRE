@@ -1,0 +1,27 @@
+{
+  "id": "E088",
+  "name": "attackcti",
+  "url": "https://github.com/OTRF/ATTACK-Python-Client",
+  "origin": "OTRF",
+  "owner_type": "comunidade",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Consultar ATT&CK via TAXII em Python.",
+  "output": "Consultas e exportações programáticas",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "0.6.4 · 19/12/2025 (PyPI)",
+  "formats": [
+    "Python"
+  ],
+  "relations": [
+    "E099",
+    "E028"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

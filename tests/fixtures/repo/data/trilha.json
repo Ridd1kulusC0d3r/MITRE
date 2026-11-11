@@ -1,0 +1,32 @@
+{
+  "titulo": "Trilha de 8 semanas: do ATT&CK à defesa validada",
+  "principio": "Uma ação por vez. Cada ação termina em algo que dá para mostrar.",
+  "semanas": [
+    {
+      "n": 1,
+      "tema": "Fundamentos do ATT&CK v20",
+      "entrega": "Camada Navigator com grupos que miram o Brasil e a LATAM",
+      "acoes": [
+        {
+          "id": "1.1",
+          "texto": "Leia a página de uma técnica que você já detecta (ex.: T1059.001) e anote procedimento, Detection Strategy e mitigação.",
+          "ref": [
+            "E001"
+          ]
+        },
+        {
+          "id": "1.2",
+          "texto": "Rode scripts/fetch_all.sh e confira o manifesto com SHA-256.",
+          "cmd": "./scripts/fetch_all.sh",
+          "ref": []
+        },
+        {
+          "id": "1.3",
+          "texto": "Gere a lista de técnicas por tática e conte quantas estão em Defense Impairment.",
+          "cmd": "python3 scripts/attack_dump.py --file data/cache/enterprise-attack-20.0.json > tecnicas.md",
+          "ref": []
+        }
+      ]
+    }
+  ]
+}

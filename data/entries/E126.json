@@ -1,0 +1,26 @@
+{
+  "id": "E126",
+  "name": "BRAWL public game 001",
+  "url": "https://github.com/mitre/brawl-public-game-001",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Estudar dados de um exercício automatizado de emulação adversária.",
+  "output": "Dataset de referência para pesquisa de detecção",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "relations": [
+    "E013",
+    "E064"
+  ],
+  "notes": "Dataset histórico: último push consultado em 2020. Não representa versões atuais de sistemas ou distribuição de ataques; não é uma plataforma BRAWL completa.",
+  "repo": "mitre/brawl-public-game-001",
+  "archived": false,
+  "license_api": "CC-BY-4.0",
+  "pushed_at": "2020-10-02T09:07:56Z",
+  "reviewed_on": "2026-11-06",
+  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "E087",
+  "name": "OSSEM",
+  "url": "https://github.com/OTRF/OSSEM",
+  "origin": "OTRF",
+  "owner_type": "comunidade",
+  "layer": "telemetria",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Padronizar e documentar eventos de segurança e seus campos.",
+  "output": "Dicionário de dados e modelo comum",
+  "priority": "P2",
+  "status": "n/v",
+  "formats": [
+    "YAML"
+  ],
+  "relations": [
+    "E011",
+    "E043"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

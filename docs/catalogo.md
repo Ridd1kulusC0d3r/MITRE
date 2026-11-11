@@ -1,10 +1,10 @@
-<!-- ARQUIVO GERADO por scripts/build_catalog.py a partir de data/ecosystem.json. Não edite à mão. -->
+<!-- ARQUIVO GERADO por python3 -m atlas build a partir de data/ecosystem.json. Não edite à mão. -->
 
 # 🗺️ Catálogo do ecossistema
 
 [← Início](../README.md) · [Explorador interativo](../index.html) · [Crosswalks](crosswalks.md) · [Novidades 2026](novidades-2026.md) · [Histórico](historico-e-manutencao.md)
 
-Revisão: **2026-10-23** · **126 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
+Revisão: **2026-11-11** · **131 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
 
 **Legenda.** Origem: 🟦 MITRE oficial · 🟩 MITRE CTID · 🟪 Colaboração MITRE · 🟫 Fundação aberta (código MITRE doado) · ⬛ Governo · ⬜ Organismo de padrão · 🟨 Comunidade · 🟧 Fornecedor · ◻️ Outro  
 Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificado
@@ -19,26 +19,26 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | 🔎 [deteccao](#deteccao) | Como detectar e avaliar | 16 |
 | 🛡️ [defesa](#defesa) | Como reduzir exposição | 6 |
 | 🎭 [engano](#engano) | Como enganar e engajar | 1 |
-| 🧪 [validacao](#validacao) | Como validar | 16 |
+| 🧪 [validacao](#validacao) | Como validar | 18 |
 | 🚑 [resposta](#resposta) | Como responder e investigar | 5 |
-| 🩹 [vulnerabilidade](#vulnerabilidade) | Que fraquezas existem | 7 |
+| 🩹 [vulnerabilidade](#vulnerabilidade) | Que fraquezas existem | 8 |
 | 🕵️ [cti](#cti) | Como produzir e compartilhar CTI | 11 |
 | 📈 [maturidade](#maturidade) | Como evoluir o programa | 2 |
-| 🗄️ [dados](#dados) | Como consumir por código | 20 |
+| 🗄️ [dados](#dados) | Como consumir por código | 21 |
 | ⚙️ [conformidade](#conformidade) | Como automatizar conformidade | 5 |
 | 📐 [padrao](#padrao) | Padrões de base | 4 |
-| 🎓 [formacao](#formacao) | Como aprender | 6 |
+| 🎓 [formacao](#formacao) | Como aprender | 7 |
 
 <a id="adversario"></a>
 ## 🎯 O que o adversário faz
 
 | | Projeto | Origem | Para que usar | Versão / estado | Domínios | Prio |
 |:-:|---|---|---|---|---|:-:|
-| ✅ | **[ATLAS](https://atlas.mitre.org/)** `E004` | 🟦 MITRE | Modelar ameaças contra sistemas de IA e agentes: prompt injection, jailbreak, envenenamento de dados e abuso de ferramentas. | v2026.09 · 14/09/2026 | IA | P1 |
-| ✅ | **[ATT&CK](https://attack.mitre.org/)** `E001` | 🟦 MITRE | Descrever comportamentos adversários observados; Enterprise, Mobile e ICS. | v20.0 · 13/10/2026 | Enterprise, Mobile, ICS/OT, IA | P1 |
-| ✅ | **[ATT&CK for ICS](https://attack.mitre.org/matrices/ics/)** `E115` | 🟦 MITRE | Comportamentos adversários contra sistemas de controle industrial. | v20.0 | ICS/OT | P1 |
+| ✅ | **[ATLAS](https://atlas.mitre.org/)** `E004` | 🟦 MITRE | Modelar ameaças contra sistemas de IA e agentes: prompt injection, jailbreak, envenenamento de dados e abuso de ferramentas. | v2026.10 · 28/10/2026 | IA | P1 |
+| ✅ | **[ATT&CK](https://attack.mitre.org/)** `E001` | 🟦 MITRE | Descrever comportamentos adversários observados; Enterprise, Mobile e ICS. | v20.1 · 05/11/2026 (v20.0 em 13/10/2026) | Enterprise, Mobile, ICS/OT, IA | P1 |
+| ✅ | **[ATT&CK for ICS](https://attack.mitre.org/matrices/ics/)** `E115` | 🟦 MITRE | Comportamentos adversários contra sistemas de controle industrial. | v20.1 · 05/11/2026 | ICS/OT | P1 |
 | ✅ | **[AADAPT](https://aadapt.mitre.org/)** `E076` | 🟦 MITRE | Táticas e técnicas contra blockchain, ativos digitais e pagamentos com cripto. | lançado em 14/07/2025 | Ativos digitais, Fraude | P2 |
-| ✅ | **[ATT&CK Mobile](https://attack.mitre.org/matrices/mobile/)** `E116` | 🟦 MITRE | Comportamentos adversários em Android e iOS. | v20.0 | Mobile | P2 |
+| ✅ | **[ATT&CK Mobile](https://attack.mitre.org/matrices/mobile/)** `E116` | 🟦 MITRE | Comportamentos adversários em Android e iOS. | v20.1 · 05/11/2026 | Mobile | P2 |
 | ✅ | **[CAPEC](https://capec.mitre.org/)** `E008` | 🟦 MITRE | Consultar padrões de ataque. | v3.9 | Enterprise | P2 |
 | ❔ | **[CAVEaT](https://cloudsecurityalliance.org/artifacts/cloud-adversarial-vectors-exploits-and-threats)** `E023` | 🟪 CSA / colaboração MITRE | Estruturar ameaças e orientação de segurança para cloud. | — | Cloud | P2 |
 | ✅ | **[DISARM](https://www.disarm.foundation/)** `E094` | 🟨 DISARM Foundation | Descrever táticas de manipulação e interferência informacional (FIMI). | v1.6.1 (tag) · v1.7 citada em mai/2026 | Desinformação | P2 |
@@ -52,8 +52,8 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 
 <details><summary>Notas e relações</summary>
 
-- **ATLAS** — entrega: Cenários e técnicas de ameaça para IA. 16 táticas, 120 técnicas, 88 subtécnicas, 40 mitigações e 73 estudos de caso (CHANGELOG oficial). Use dist/ATLAS-latest.yaml; dist/ATLAS.yaml foi depreciado. ↔ ATT&CK, Secure AI (CTID), ATLAS Data.
-- **ATT&CK** — entrega: Técnicas e procedimentos com evidência. v19 dividiu Defense Evasion em Stealth (TA0005) e Defense Impairment (TA0112); v20 trouxe técnicas de IA (prompt injection direta e indireta T1699/T1698, AI-Enabled Exfiltration T1700) e anti-automação (T1696). Enterprise v20: 227 técnicas, 479 subtécnicas, 703 Detection Strategies, 1.770 Analytics. Seções do site: Matrices, Tactics, Techniques, Mitigations, Assets (ICS), Detection Strategies, Analytics, Data Components, Groups, Software e Campaigns. ↔ CAPEC, D3FEND, Engage, CAR, Sigma, Atomic Red Team, RE&CT, Mappings Explorer, ATT&CK Detection Strategies e Analytics.
+- **ATLAS** — entrega: Cenários e técnicas de ameaça para IA. 16 táticas, 129 técnicas, 92 subtécnicas, 44 mitigações, 77 estudos de caso, 44 entidades e 37 softwares (CHANGELOG oficial). A 2026.10 renomeou AML.T0010 para Supply Chain Compromise e AML.T0005 para Replicate AI Model Behavior, e moveu subtécnicas de AML.T0024 para AML.T0137: revise mapeamentos por ID. Use dist/ATLAS-latest.yaml; dist/ATLAS.yaml foi depreciado. ↔ ATT&CK, Secure AI (CTID), ATLAS Data.
+- **ATT&CK** — entrega: Técnicas e procedimentos com evidência. v19 dividiu Defense Evasion em Stealth (TA0005) e Defense Impairment (TA0112); v20 trouxe técnicas de IA (prompt injection direta e indireta T1699/T1698, AI-Enabled Exfiltration T1700) e anti-automação (T1696). Enterprise v20.1: 227 técnicas, 479 subtécnicas, 706 Detection Strategies, 1.773 Analytics. A v20.1 (05/11/2026) é correção de dados: nenhuma técnica entrou, saiu ou mudou de nome em Enterprise, Mobile ou ICS. Seções do site: Matrices, Tactics, Techniques, Mitigations, Assets (ICS), Detection Strategies, Analytics, Data Components, Groups, Software e Campaigns. ↔ CAPEC, D3FEND, Engage, CAR, Sigma, Atomic Red Team, RE&CT, Mappings Explorer, ATT&CK Detection Strategies e Analytics.
 - **ATT&CK for ICS** — entrega: Cenários OT com técnicas, ativos e mitigações. v20: 12 táticas, 78 técnicas, 26 subtécnicas, 18 Assets, 106 Detection Strategies, 302 Analytics. Subtécnicas existem desde a v19. ↔ ATT&CK, Defending OT with ATT&CK, D3FEND, ESTM.
 - **AADAPT** — entrega: Cenários de ameaça para ativos digitais. ↔ ATT&CK, Fight Fraud Framework.
 - **ATT&CK Mobile** — entrega: Cenários mobile e requisitos de telemetria. v20: 12 táticas, 78 técnicas, 47 subtécnicas, 124 Detection Strategies, 211 Analytics. Relevante para fraude em mobile banking. ↔ ATT&CK, Engage.
@@ -122,9 +122,9 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | | Projeto | Origem | Para que usar | Versão / estado | Domínios | Prio |
 |:-:|---|---|---|---|---|:-:|
 | ✅ | **[Ambiguous Techniques](https://ctid.mitre.org/projects/ambiguous-techniques/)** `E054` | 🟩 MITRE / CTID | Distinguir uso benigno de técnicas e contexto malicioso. | fev/2026 | Enterprise | P1 |
-| ✅ | **[ATT&CK Detection Strategies e Analytics](https://attack.mitre.org/detectionstrategies/)** `E117` | 🟦 MITRE | Modelo de detecção nativo do ATT&CK desde a v18: técnica → Detection Strategy → Analytic → Data Component. | v20.0 | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[ATT&CK Detection Strategies e Analytics](https://attack.mitre.org/detectionstrategies/)** `E117` | 🟦 MITRE | Modelo de detecção nativo do ATT&CK desde a v18: técnica → Detection Strategy → Analytic → Data Component. | v20.1 · 05/11/2026 | Enterprise, Mobile, ICS/OT | P1 |
 | ⏸️ | **[CAR](https://car.mitre.org/)** `E011` | 🟦 MITRE | Consultar hipóteses e analíticas explicadas com base em ATT&CK. | — | Enterprise | P1 |
-| ✅ | **[pySigma e sigma-cli](https://github.com/SigmaHQ/pySigma)** `E089` | 🟨 SigmaHQ | Converter regras Sigma para o backend do SIEM. | pySigma 2.0.1 · sigma-cli 3.1.0 (PyPI) | Enterprise, Cloud | P1 |
+| ✅ | **[pySigma e sigma-cli](https://github.com/SigmaHQ/pySigma)** `E089` | 🟨 SigmaHQ | Converter regras Sigma para o backend do SIEM. | pySigma 2.1.0 · 09/11/2026 · sigma-cli 4.0.0 · 28/10/2026 (PyPI) | Enterprise, Cloud | P1 |
 | ✅ | **[Sigma](https://github.com/SigmaHQ/sigma)** `E057` | 🟨 SigmaHQ | Representar e compartilhar regras de detecção. | r2026-07-01 | Enterprise, Cloud | P1 |
 | ✅ | **[Summiting the Pyramid](https://github.com/center-for-threat-informed-defense/summiting-the-pyramid)** `E041` | 🟩 MITRE / CTID | Avaliar robustez e qualidade de analíticas. | release 10/09/2026 | Enterprise | P1 |
 | 🧊 | **[Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage)** `E085` | 🟨 ATC Project | Gerar base de conhecimento unindo Sigma, RE&CT e ATT&CK. | — | Enterprise | P2 |
@@ -143,7 +143,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **Ambiguous Techniques** — entrega: Enriquecimento e redução de ambiguidades. ↔ ATT&CK Detection Strategies e Analytics, Summiting the Pyramid.
 - **ATT&CK Detection Strategies e Analytics** — entrega: Requisitos de dados e lógica de detecção por técnica. Substituiu os Data Sources como objeto de primeira classe na v18. ↔ ATT&CK, CAR, DeTT&CT, Summiting the Pyramid.
 - **CAR** — entrega: Pseudocódigo e requisitos de dados. Sem atualização relevante desde mai/2025. As Detection Strategies/Analytics do ATT&CK (E075) ocupam esse papel. ↔ ATT&CK, OSSEM, BZAR.
-- **pySigma e sigma-cli** — entrega: Regras na linguagem do SIEM com pipeline de campos. ↔ Sigma.
+- **pySigma e sigma-cli** — entrega: Regras na linguagem do SIEM com pipeline de campos. sigma-cli mudou de versão principal (3.x → 4.0.0): teste pipelines e backends antes de atualizar em produção. ↔ Sigma.
 - **Sigma** — entrega: Regras adaptadas e testadas no backend. Tags attack.tXXXX nas regras. ↔ ATT&CK, pySigma e sigma-cli, Summiting the Pyramid.
 - **Summiting the Pyramid** — entrega: Avaliação de resistência à evasão. Versão 2026 inclui cobertura de implementação e qualidade de detecção. ↔ CAR, Sigma, ATT&CK Detection Strategies e Analytics.
 - **Atomic Threat Coverage** — entrega: Referência histórica de arquitetura. Sem atualização desde 2022. ↔ Sigma, RE&CT, ATT&CK.
@@ -174,7 +174,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 <details><summary>Notas e relações</summary>
 
 - **D3FEND** — entrega: Hipóteses de controles a validar. 1.5.0 atualizou para ATT&CK v19.0 e mapeou ICS T0800–T0895. Issue #709: mapeamentos ainda citam técnicas revogadas na v19; validar contra a v20. ↔ ATT&CK, CWE, D3FEND CAD, Unified Kill Chain.
-- **Mappings Explorer** — entrega: Crosswalk documentado de capacidades. NIST 800-53, CVE/KEV, AWS/Azure/GCP, M365, VERIS, CSA CCM e CIS Controls (out/2026). ↔ ATT&CK, CVE, NIST CSF 2.0, CISA KEV.
+- **Mappings Explorer** — entrega: Crosswalk documentado de capacidades. NIST 800-53, CVE/KEV, AWS/Azure/GCP, M365, VERIS, CSA CCM e CIS Controls (projeto CIS Controls for Threat Mitigations, 05/10/2026: Safeguards mapeados a técnicas com justificativa, em ctid.mitre.org/mappings/external/cis/). ↔ ATT&CK, CVE, NIST CSF 2.0, CISA KEV.
 - **CREF Navigator** — entrega: Decisões arquiteturais de resiliência. Base conceitual do NIST SP 800-160 v2. ↔ NIST CSF 2.0.
 - **D3FEND CAD** — entrega: Grafo CAD exportável com contramedidas justificadas. Biblioteca e IDE renovados em dez/2025; importa relatórios do Caldera. ↔ D3FEND, Apache Caldera, Attack Flow.
 - **Mappings Editor** — entrega: Mapeamentos com justificativa. ↔ Mappings Explorer.
@@ -205,12 +205,14 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)** `E058` | 🟨 Red Canary / comunidade | Validar comportamentos isolados em laboratório. | — | Enterprise, Cloud | P1 |
 | ✅ | **[Invoke-AtomicRedTeam](https://github.com/redcanaryco/invoke-atomicredteam)** `E100` | 🟧 Red Canary | Executar testes Atomic com PowerShell, incluindo pré-requisitos e limpeza. | v2.3.0 (tag) | Enterprise | P1 |
 | ✅ | **[OpenAEV (anteriormente OpenBAS)](https://github.com/OpenAEV-Platform/openaev)** `E119` | 🟧 Filigran / comunidade | Planejar e acompanhar campanhas, simulações e exercícios com contexto de inteligência. | — | Enterprise, Cloud | P1 |
-| ✅ | **[Stratus Red Team](https://github.com/DataDog/stratus-red-team)** `E090` | 🟧 Datadog | Emular técnicas em AWS, Azure, GCP e Kubernetes. | v2.37.1 (tag) | Cloud | P1 |
+| ✅ | **[Stratus Red Team](https://github.com/DataDog/stratus-red-team)** `E090` | 🟧 Datadog | Emular técnicas em AWS, Azure, GCP e Kubernetes. | v2.38.0 (tag) | Cloud | P1 |
 | ✅ | **[Threatest](https://github.com/DataDog/threatest)** `E120` | 🟧 Datadog | Testar de ponta a ponta a geração de telemetria e alertas associados a uma execução. | — | Enterprise, Cloud | P1 |
 | ✅ | **[TTPForge](https://github.com/facebookincubator/TTPForge)** `E121` | 🟧 Meta / comunidade | Empacotar TTPs em simulações repetíveis descritas em YAML. | — | Enterprise | P1 |
 | ⏸️ | **[ATLAS Arsenal (plugin CALDERA)](https://github.com/mitre-atlas/arsenal)** `E125` | 🟦 MITRE ATLAS | Estudar emulação de comportamentos ATLAS em sistemas de aprendizado de máquina. | — | IA | P2 |
 | 🧊 | **[ATT&CK Arsenal](https://github.com/mitre-attack/attack-arsenal)** `E108` | 🟦 MITRE | Recursos de red team e emulação publicados pela equipe ATT&CK. | — | Enterprise | P2 |
 | ✅ | **[ATT&CK Evaluations](https://evals.mitre.org/)** `E014` | 🟦 MITRE | Examinar avaliações públicas e suas metodologias. | Enterprise 2025 (ER7) | Enterprise, Cloud | P2 |
+| ✅ | **[Caldera for OT](https://github.com/mitre/caldera-ot)** `E131` | 🟦 MITRE | Estender o Caldera a ambientes OT com plugins de protocolo industrial, alinhados ao ATT&CK for ICS. | — | ICS/OT | P2 |
+| ✅ | **[Caldera MCP (plugin)](https://github.com/mitre/mcp)** `E130` | 🟦 MITRE | Operar o Caldera por conversa: criar abilities e adversários, converter relatórios de CTI em STIX 2.1 e planejar e executar emulação com LLM apoiado em ferramentas MCP. | — | Enterprise, IA | P2 |
 | ❔ | **[Infection Monkey](https://github.com/guardicore/monkey)** `E093` | 🟧 Akamai (Guardicore) | Simular movimentação lateral e gerar relatório por técnica. | v2.3.0 (tag) | Enterprise | P2 |
 | ⏸️ | **[Micro Emulation Plans](https://github.com/center-for-threat-informed-defense/adversary_emulation_library/tree/master/micro_emulation_plans)** `E080` | 🟩 MITRE / CTID | Emular comportamentos compostos curtos, sem uma campanha inteira. | — | Enterprise | P2 |
 | ⏸️ | **[PurpleSharp](https://github.com/mvelazc0/PurpleSharp)** `E092` | 🟨 Mauricio Velazco | Simular técnicas em Active Directory e Windows. | v1.3 (tag) | Enterprise | P2 |
@@ -230,6 +232,8 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **ATLAS Arsenal (plugin CALDERA)** — entrega: Referência de cenários e abilities para laboratório. Não confundir com ATT&CK Arsenal. Último push consultado: 2023; documentação cita dependências antigas. Compatibilidade atual não testada. ↔ ATLAS, Apache Caldera.
 - **ATT&CK Arsenal** — entrega: Referência histórica de emulação. Sem atualização desde abr/2021. Fontes divergem sobre o arquivamento (listagem da org vs. checagem de 23/10/2026); confirme na página do repositório. Prefira Adversary Emulation Library e Apache Caldera. ↔ Adversary Emulation Library, Apache Caldera.
 - **ATT&CK Evaluations** — entrega: Evidência contextual de capacidade; não ranking universal. Edição 2026 usa a métrica TES (DQI + PQI). Não é ranking universal. ↔ ATT&CK, Adversary Emulation Library.
+- **Caldera for OT** — entrega: Plugins por protocolo, reunidos como submódulos Git. Clonar com --recursive e habilitar cada plugin na configuração do Caldera. Usar só em laboratório isolado e autorizado: comandos em protocolo industrial têm risco físico. Licença Apache-2.0 (arquivo LICENSE). ↔ Apache Caldera, ATT&CK for ICS.
+- **Caldera MCP (plugin)** — entrega: Abilities, perfis de adversário e bundles STIX gerados por LLM, com transcrição para revisão. O README descreve três fluxos: Author, Upload CTI e Plan and Execute. Conteúdo gerado por LLM e execução automatizada exigem revisão humana e ambiente autorizado. Licença Apache-2.0 (arquivo LICENSE). ↔ Apache Caldera, ATT&CK, STIX.
 - **Infection Monkey** — entrega: Relatório de exposição mapeado ao ATT&CK. ↔ ATT&CK.
 - **Micro Emulation Plans** — entrega: Execução focada com eventos esperados. ↔ Adversary Emulation Library, Apache Caldera.
 - **PurpleSharp** — entrega: Telemetria gerada para validar detecção. ↔ Atomic Red Team.
@@ -243,7 +247,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 
 | | Projeto | Origem | Para que usar | Versão / estado | Domínios | Prio |
 |:-:|---|---|---|---|---|:-:|
-| ✅ | **[Hayabusa](https://github.com/Yamato-Security/hayabusa)** `E101` | 🟨 Yamato Security | Triagem forense rápida de Windows Event Logs com regras Sigma. | v4.2.0 (tag) | Enterprise | P1 |
+| ✅ | **[Hayabusa](https://github.com/Yamato-Security/hayabusa)** `E101` | 🟨 Yamato Security | Triagem forense rápida de Windows Event Logs com regras Sigma. | v4.4.0 (tag) | Enterprise | P1 |
 | ⏸️ | **[RE&CT](https://github.com/atc-project/atc-react)** `E056` | 🟨 ATC Project | Organizar ações e playbooks de resposta a incidentes. | — | Enterprise | P1 |
 | ✅ | **[AWS Customer Playbook Framework](https://github.com/aws-samples/aws-customer-playbook-framework)** `E124` | 🟧 AWS | Adaptar exemplos de playbooks de resposta a cenários AWS. | — | Cloud | P2 |
 | ✅ | **[Chainsaw](https://github.com/WithSecureLabs/chainsaw)** `E102` | 🟧 WithSecure | Busca e caça em artefatos Windows (EVTX, MFT) com Sigma. | v2.17.1 (tag) | Enterprise | P2 |
@@ -270,6 +274,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[CWE](https://cwe.mitre.org/)** `E009` | 🟦 MITRE | Classificar tipos de fraquezas de software e hardware. | 4.20 · 30/04/2026 | Enterprise, Embarcados | P2 |
 | ⏸️ | **[CWE Calculator](https://github.com/center-for-threat-informed-defense/cwe-calculator)** `E051` | 🟩 MITRE / CTID | Apoiar priorização empírica de fraquezas. | — | Enterprise | P2 |
 | ✅ | **[EPSS](https://www.first.org/epss/)** `E070` | ⬜ FIRST | Estimar probabilidade de exploração para priorização. | — | Geral | P2 |
+| ✅ | **[Hipcheck](https://github.com/mitre/hipcheck)** `E132` | 🟦 MITRE | Triar dependências e repositórios de código aberto quanto a risco de cadeia de suprimentos. | — | Enterprise | P2 |
 | ✅ | **[NVD](https://nvd.nist.gov/)** `E084` | ⬛ NIST | Enriquecer CVEs com CVSS, CPE e CWE. | API 2.0 | Enterprise | P2 |
 
 <details><summary>Notas e relações</summary>
@@ -280,6 +285,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **CWE** — entrega: Taxonomia de causas de vulnerabilidades. ↔ CAPEC, CVE, D3FEND.
 - **CWE Calculator** — entrega: Pontuação contextual de CWEs. ↔ CWE.
 - **EPSS** — entrega: Probabilidade estimada; combinar com exposição e impacto. ↔ CVE, CISA KEV.
+- **Hipcheck** — entrega: Lista reduzida de dependências que merecem revisão manual. CLI em Rust. O resultado é triagem heurística; não substitui SCA nem revisão de código. Licença Apache-2.0. ↔ CWE.
 - **NVD** — entrega: CVE enriquecido e ligado a produto e fraqueza. ↔ CVE, CWE, CVSS.
 
 </details>
@@ -336,33 +342,34 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 
 | | Projeto | Origem | Para que usar | Versão / estado | Domínios | Prio |
 |:-:|---|---|---|---|---|:-:|
-| ✅ | **[ATLAS Data](https://github.com/mitre-atlas/atlas-data)** `E079` | 🟦 MITRE | Distribuir o ATLAS em YAML versionado (conteúdo AAAA.MM, formato semver). | conteúdo 2026.09 · formato 6.0.0 | IA | P1 |
-| ✅ | **[ATT&CK Data Model](https://github.com/mitre-attack/attack-data-model)** `E029` | 🟦 MITRE | Validar e manipular dados ATT&CK com schemas TypeScript/Zod. | — | Enterprise | P1 |
-| ✅ | **[ATT&CK STIX 2.0](https://github.com/mitre/cti)** `E027` | 🟦 MITRE | Consultar a representação STIX 2.0. | tag ATT&CK-v20.0 | Enterprise, Mobile, ICS/OT | P1 |
-| ✅ | **[ATT&CK STIX 2.1](https://github.com/mitre-attack/attack-stix-data)** `E026` | 🟦 MITRE | Consumir a base ATT&CK em formato estruturado. | v20.0 | Enterprise, Mobile, ICS/OT | P1 |
-| ✅ | **[ATT&CK Updates e Version History](https://attack.mitre.org/resources/updates/)** `E111` | 🟦 MITRE | Ler as notas de cada release e navegar versões antigas do site. | v20 · 13/10/2026 | Enterprise, Mobile, ICS/OT | P1 |
-| ✅ | **[mitreattack-python](https://github.com/mitre-attack/mitreattack-python)** `E028` | 🟦 MITRE | Consultar e transformar dados ATT&CK com Python. | 6.3.1 · 13/10/2026 (PyPI) | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[ATLAS Data](https://github.com/mitre-atlas/atlas-data)** `E079` | 🟦 MITRE | Distribuir o ATLAS em YAML versionado (conteúdo AAAA.MM, formato semver). | conteúdo 2026.10 · 28/10/2026 | IA | P1 |
+| ✅ | **[ATT&CK Data Model](https://github.com/mitre-attack/attack-data-model)** `E029` | 🟦 MITRE | Validar e manipular dados ATT&CK com schemas TypeScript/Zod. | v5.0.0-beta.3 (tag) | Enterprise | P1 |
+| ✅ | **[ATT&CK STIX 2.0](https://github.com/mitre/cti)** `E027` | 🟦 MITRE | Consultar a representação STIX 2.0. | tag ATT&CK-v20.1 | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[ATT&CK STIX 2.1](https://github.com/mitre-attack/attack-stix-data)** `E026` | 🟦 MITRE | Consumir a base ATT&CK em formato estruturado. | v20.1 · 05/11/2026 | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[ATT&CK Updates e Version History](https://attack.mitre.org/resources/updates/)** `E111` | 🟦 MITRE | Ler as notas de cada release e navegar versões antigas do site. | v20.1 · 05/11/2026 (v20 em 13/10/2026) | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[mitreattack-python](https://github.com/mitre-attack/mitreattack-python)** `E028` | 🟦 MITRE | Consultar e transformar dados ATT&CK com Python. | 6.4.0 · 05/11/2026 (PyPI) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Navigator](https://github.com/mitre-attack/attack-navigator)** `E024` | 🟦 MITRE | Visualizar e anotar matrizes. | v5.3.2 | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Splunk Attack Data](https://github.com/splunk/attack_data)** `E122` | 🟧 Splunk | Consumir datasets de ataques e reproduzir eventos para desenvolver e validar analíticas. | — | Enterprise, Cloud | P1 |
-| ✅ | **[Workbench](https://github.com/mitre-attack/attack-workbench-frontend)** `E025` | 🟦 MITRE | Gerenciar extensões locais de ATT&CK. | v4.18.0-alpha.1 (tag) | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[Workbench](https://github.com/mitre-attack/attack-workbench-frontend)** `E025` | 🟦 MITRE | Gerenciar extensões locais de ATT&CK. | v4.18.0 (tag) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Workbench Deployment](https://github.com/mitre-attack/attack-workbench-deployment)** `E074` | 🟦 MITRE | Subir o Workbench completo (frontend, REST API, banco e TAXII opcional) com Docker Compose ou Kubernetes. | — | Enterprise, Mobile, ICS/OT | P1 |
-| ✅ | **[Workbench TAXII Server](https://github.com/mitre-attack/attack-workbench-taxii-server)** `E030` | 🟦 MITRE | Servir coleções ATT&CK via TAXII. | — | Enterprise | P1 |
+| ✅ | **[Workbench TAXII Server](https://github.com/mitre-attack/attack-workbench-taxii-server)** `E030` | 🟦 MITRE | Servir coleções ATT&CK via TAXII. | v2.0.1 (tag) | Enterprise | P1 |
+| ✅ | **[ATLAS Agent](https://github.com/mitre-atlas/atlas-knowledge-base-agent)** `E134` | 🟦 MITRE | Consultar a base ATLAS em linguagem natural, com busca semântica, consulta estruturada e grafo de relações; expõe servidor MCP e API. | 1.1.0 · dados ATLAS v2026.7 | IA | P2 |
 | ✅ | **[ATLAS Navigator](https://github.com/mitre-atlas/atlas-navigator)** `E104` | 🟦 MITRE | Visualizar e anotar a matriz ATLAS. | v4.5.5 (tag) | IA | P2 |
 | ✅ | **[ATT&CK Sync](https://github.com/center-for-threat-informed-defense/attack-sync)** `E046` | 🟩 MITRE / CTID | Apoiar adoção de mudanças entre versões ATT&CK. | — | Enterprise | P2 |
 | ✅ | **[ATT&CK TAXII 2.1 (público)](https://attack-taxii.mitre.org/)** `E099` | 🟦 MITRE | Servir o ATT&CK por TAXII 2.1. | — | Enterprise, Mobile, ICS/OT | P2 |
-| ✅ | **[ATT&CK Website (código)](https://github.com/mitre-attack/attack-website)** `E075` | 🟦 MITRE | Consultar o código do site oficial e gerá-lo localmente, inclusive para uso offline ou em rede isolada. | — | Enterprise, Mobile, ICS/OT | P2 |
+| ✅ | **[ATT&CK Website (código)](https://github.com/mitre-attack/attack-website)** `E075` | 🟦 MITRE | Consultar o código do site oficial e gerá-lo localmente, inclusive para uso offline ou em rede isolada. | website-v4.4.1 (tag) | Enterprise, Mobile, ICS/OT | P2 |
 | ✅ | **[attackcti](https://github.com/OTRF/ATTACK-Python-Client)** `E088` | 🟨 OTRF | Consultar ATT&CK via TAXII em Python. | 0.6.4 · 19/12/2025 (PyPI) | Enterprise, Mobile, ICS/OT | P2 |
 | ⏸️ | **[BRAWL public game 001](https://github.com/mitre/brawl-public-game-001)** `E126` | 🟦 MITRE | Estudar dados de um exercício automatizado de emulação adversária. | — | Enterprise | P2 |
 | ✅ | **[stix2 (Python)](https://github.com/oasis-open/cti-python-stix2)** `E097` | ⬜ OASIS | Criar, validar e consultar objetos STIX 2.x. | 3.0.2 (PyPI) | Geral | P2 |
 | ⏸️ | **[taxii2-client](https://github.com/oasis-open/cti-taxii-client)** `E098` | ⬜ OASIS | Consumir servidores TAXII 2.x. | 2.3.0 · 2021 (PyPI) | Geral | P2 |
-| ✅ | **[Workbench REST API](https://github.com/mitre-attack/attack-workbench-rest-api)** `E073` | 🟦 MITRE | Backend do ATT&CK Workbench: API REST para criar e versionar extensões do ATT&CK. | v4.26.0-alpha.1 (tag) | Enterprise, Mobile, ICS/OT | P2 |
+| ✅ | **[Workbench REST API](https://github.com/mitre-attack/attack-workbench-rest-api)** `E073` | 🟦 MITRE | Backend do ATT&CK Workbench: API REST para criar e versionar extensões do ATT&CK. | v4.26.0 (tag) · v4.27.0-alpha.1 em desenvolvimento | Enterprise, Mobile, ICS/OT | P2 |
 
 <details><summary>Notas e relações</summary>
 
-- **ATLAS Data** — entrega: ATLAS-latest.yaml e manifesto de versões. dist/ATLAS.yaml está depreciado; use dist/ATLAS-latest.yaml. ↔ ATLAS.
+- **ATLAS Data** — entrega: ATLAS-latest.yaml e manifesto de versões. dist/ATLAS.yaml está depreciado; use dist/ATLAS-latest.yaml ou o arquivo versionado em dist/v6/. O repositório atlas-navigator-data foi depreciado: STIX e camadas do Navigator passaram a sair daqui. ↔ ATLAS.
 - **ATT&CK Data Model** — entrega: Validação estrutural. ↔ ATT&CK STIX 2.1.
 - **ATT&CK STIX 2.0** — entrega: Integração compatível com consumidores STIX 2.0. Também distribui o CAPEC em STIX. ↔ ATT&CK, CAPEC.
-- **ATT&CK STIX 2.1** — entrega: Snapshots versionados de objetos e relações. Um bundle por versão (enterprise-attack-20.0.json) e um 'latest'; index.json lista coleções. ↔ ATT&CK, mitreattack-python.
+- **ATT&CK STIX 2.1** — entrega: Snapshots versionados de objetos e relações. Um bundle por versão (enterprise-attack-20.1.json) e um 'latest'; index.json lista coleções. ↔ ATT&CK, mitreattack-python.
 - **ATT&CK Updates e Version History** — entrega: Plano de migração entre versões. Versões antigas: https://attack.mitre.org/resources/versions/. Changelog legível por máquina em /docs/changelogs/. ↔ ATT&CK STIX 2.1, mitreattack-python.
 - **mitreattack-python** — entrega: Consultas e exportações reproduzíveis. MitreAttackData, exportação Excel, diffStix e layers. ↔ ATT&CK STIX 2.1, Navigator.
 - **Navigator** — entrega: Layers JSON para comunicar prioridade e evidência. ↔ ATT&CK, DeTT&CT.
@@ -370,6 +377,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **Workbench** — entrega: Coleções locais e anotações. ↔ ATT&CK, Workbench TAXII Server.
 - **Workbench Deployment** — entrega: Instância interna do Workbench para técnicas e grupos da casa. Caminho mais curto para manter um ATT&CK local com extensões (ex.: grupos BR/LATAM do MSSP). ↔ Workbench, Workbench REST API, Workbench TAXII Server.
 - **Workbench TAXII Server** — entrega: Intercâmbio de CTI. ↔ Workbench.
+- **ATLAS Agent** — entrega: Respostas com IDs ATLAS e links de grafo, para conferir na base. Construído sobre Langflow; requer uv e um provedor de LLM com uso de ferramentas. Os dados embutidos são da v2026.7, três versões atrás da 2026.10: IDs renomeados ou movidos depois disso não aparecem. Conferir toda resposta na base oficial. ↔ ATLAS, ATLAS Data.
 - **ATLAS Navigator** — entrega: Layers ATLAS. ↔ ATLAS, Navigator.
 - **ATT&CK Sync** — entrega: Processo de atualização de bases. ↔ ATT&CK, mitreattack-python.
 - **ATT&CK TAXII 2.1 (público)** — entrega: Coleções ATT&CK por API. ↔ ATT&CK STIX 2.1, attackcti, DeTT&CT.
@@ -432,6 +440,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ⏸️ | **[CTID Public Resources](https://github.com/center-for-threat-informed-defense/public-resources)** `E039` | 🟩 MITRE / CTID | Localizar materiais públicos do Center. | — | Geral | P2 |
 | ⏸️ | **[CTID Workshop](https://github.com/center-for-threat-informed-defense/workshop)** `E052` | 🟩 MITRE / CTID | Acessar materiais de workshops do Center. | — | Geral | P2 |
 | ✅ | **[eCTF](https://ectf.mitre.org/)** `E022` | 🟦 MITRE | Praticar segurança de sistemas embarcados em competição. | — | Embarcados | P2 |
+| ✅ | **[Grid Watch](https://github.com/mitre/grid-watch)** `E133` | 🟦 Universidade do Havaí em Manoa, com a equipe Caldera for OT (MITRE) | Simular uma outstation de rede elétrica com DNP3 e painel HMI para treino e teste. | v2.1.1 (tag) | ICS/OT | P2 |
 | ❔ | **[Red Team Redemption](https://arxiv.org/abs/2408.15645)** `E129` | ◻️ Landauer, Mayer, Skopik, Wurzenberger e Kern | Estudar uma comparação estruturada de ferramentas de emulação adversária. | 2024 / TrustCom | Enterprise | P2 |
 
 <details><summary>Notas e relações</summary>
@@ -439,6 +448,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **ATT&CK — Learn More e FAQ** — entrega: Base comum de vocabulário para o time. FAQ: https://attack.mitre.org/resources/faq/ ↔ ATT&CK, ATT&CKcon.
 - **ATT&CKcon** — entrega: Casos de uso da comunidade. ↔ ATT&CK.
 - **eCTF** — entrega: Experiência de projeto e avaliação. ↔ EMB3D.
+- **Grid Watch** — entrega: Alvo de laboratório para os plugins do Caldera for OT. Simulação simplificada, criada por estudantes em colaboração com a MITRE; não representa uma subestação real. Licença Apache-2.0 (arquivo LICENSE). ↔ Caldera for OT.
 - **Red Team Redemption** — entrega: Critérios para seleção e benchmark de ferramentas. Compara nove ferramentas usando questionário com 80 questões. Ranking reflete a amostra e o período do estudo; não é ranking atualizado do mercado. ↔ Apache Caldera, Atomic Red Team, TTPForge.
 
 </details>

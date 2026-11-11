@@ -1,0 +1,25 @@
+{
+  "id": "E102",
+  "name": "Chainsaw",
+  "url": "https://github.com/WithSecureLabs/chainsaw",
+  "origin": "WithSecure",
+  "owner_type": "fornecedor",
+  "layer": "resposta",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Busca e caça em artefatos Windows (EVTX, MFT) com Sigma.",
+  "output": "Achados forenses por regra e técnica",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "v2.17.1 (tag)",
+  "formats": [
+    "Rust"
+  ],
+  "relations": [
+    "E057",
+    "E101"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

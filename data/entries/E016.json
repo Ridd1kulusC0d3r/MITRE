@@ -1,0 +1,27 @@
+{
+  "id": "E016",
+  "name": "Heimdall",
+  "url": "https://github.com/mitre/heimdall2",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "conformidade",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Automação e engenharia",
+  "purpose": "Visualizar e comparar resultados de avaliações.",
+  "output": "Visão consolidada de conformidade",
+  "priority": "P2",
+  "status": "n/v",
+  "formats": [
+    "HDF JSON"
+  ],
+  "relations": [
+    "E015"
+  ],
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-23T00:40:55Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "E096",
+  "name": "Unified Kill Chain",
+  "url": "https://www.unifiedkillchain.com/",
+  "origin": "Paul Pols",
+  "owner_type": "comunidade",
+  "layer": "modelagem",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Combinar Kill Chain e ATT&CK em fases de ataque ponta a ponta.",
+  "output": "Narrativa de ataque por fase",
+  "priority": "P2",
+  "status": "n/v",
+  "formats": [
+    "PDF"
+  ],
+  "relations": [
+    "E001"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

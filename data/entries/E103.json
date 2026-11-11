@@ -1,0 +1,24 @@
+{
+  "id": "E103",
+  "name": "LOLBAS",
+  "url": "https://lolbas-project.github.io/",
+  "origin": "LOLBAS Project",
+  "owner_type": "comunidade",
+  "layer": "adversario",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Catálogo de binários nativos do Windows abusados por adversários, com técnicas ATT&CK.",
+  "output": "Lista de binários para hipóteses de detecção",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "YAML"
+  ],
+  "relations": [
+    "E001",
+    "E057"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

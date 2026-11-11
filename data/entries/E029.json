@@ -1,0 +1,26 @@
+{
+  "id": "E029",
+  "name": "ATT&CK Data Model",
+  "url": "https://github.com/mitre-attack/attack-data-model",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Dados e ferramentas ATT&CK",
+  "purpose": "Validar e manipular dados ATT&CK com schemas TypeScript/Zod.",
+  "output": "Validação estrutural",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v5.0.0-beta.3 (tag)",
+  "formats": [
+    "TypeScript",
+    "Zod"
+  ],
+  "relations": [
+    "E026"
+  ],
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

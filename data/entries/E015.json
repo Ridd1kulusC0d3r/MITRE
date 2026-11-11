@@ -1,0 +1,25 @@
+{
+  "id": "E015",
+  "name": "SAF",
+  "url": "https://saf.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "conformidade",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Automação e engenharia",
+  "purpose": "Automatizar avaliação e normalização de resultados de segurança.",
+  "output": "Resultados comparáveis de controles",
+  "priority": "P2",
+  "status": "n/v",
+  "formats": [
+    "HDF JSON"
+  ],
+  "relations": [
+    "E016",
+    "E017"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

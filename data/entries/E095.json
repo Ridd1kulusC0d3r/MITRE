@@ -1,0 +1,22 @@
+{
+  "id": "E095",
+  "name": "SPARTA",
+  "url": "https://sparta.aerospace.org/",
+  "origin": "Aerospace Corporation",
+  "owner_type": "outro",
+  "layer": "adversario",
+  "domains": [
+    "espaco"
+  ],
+  "purpose": "TTPs contra espaçonaves e segmentos espaciais.",
+  "output": "Cenários de ameaça espacial",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "v4.0 (via D3FEND 1.6.0)",
+  "relations": [
+    "E002"
+  ],
+  "notes": "Não é MITRE; o D3FEND for Space mapeia o SPARTA.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

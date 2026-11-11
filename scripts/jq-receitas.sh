@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # jq-receitas.sh — consultas rápidas no bundle STIX do ATT&CK com jq.
 # Uso: ./scripts/jq-receitas.sh <receita> [arquivo]
-#   arquivo padrão: data/cache/enterprise-attack-20.0.json (rode fetch_all.sh antes)
+#   arquivo padrão: data/cache/enterprise-attack-20.1.json (rode fetch_all.sh antes)
 #
 # Receitas:
 #   contagem        objetos ativos por tipo
@@ -13,7 +13,7 @@
 #   revogadas       técnicas revogadas e suas substitutas
 set -euo pipefail
 R="${1:-}"; shift || true
-F="${F:-data/cache/enterprise-attack-20.0.json}"
+F="${F:-data/cache/enterprise-attack-20.1.json}"
 [[ "${1:-}" == *.json ]] && { F="$1"; shift; }
 [[ -f "$F" ]] || { echo "Arquivo $F não encontrado. Rode ./scripts/fetch_all.sh" >&2; exit 1; }
 

@@ -1,0 +1,22 @@
+{
+  "id": "E005",
+  "name": "EMB3D",
+  "url": "https://emb3d.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "modelagem",
+  "domains": [
+    "embarcado"
+  ],
+  "legacy_category": "Bases e modelos",
+  "purpose": "Relacionar propriedades de dispositivos embarcados a ameaças e mitigações.",
+  "output": "Modelo de ameaças de dispositivo",
+  "priority": "P1",
+  "status": "n/v",
+  "relations": [
+    "E006",
+    "E009"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

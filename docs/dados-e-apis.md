@@ -2,20 +2,20 @@
 
 [← Início](../README.md) · [Crosswalks](crosswalks.md) · [Novidades](novidades-2026.md)
 
-Tudo aqui funciona com **Python só com stdlib** (`urllib`, `json`, `csv`) e **shell** (`curl`, `jq`). URLs conferidas em 22/10/2026.
+Tudo aqui funciona com **Python só com stdlib** (`urllib`, `json`, `csv`) e **shell** (`curl`, `jq`). URLs conferidas em 22/10/2026; as de ATT&CK 20.1 e ATLAS 2026.10 em 11/11/2026.
 
 ## Fontes oficiais
 
 | Fonte | URL | Formato | Conferido |
 |---|---|---|:-:|
-| ATT&CK, versão fixa | `https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-20.0.json` (também `mobile-attack`, `ics-attack`) | STIX 2.1 | ✔ |
+| ATT&CK, versão fixa | `https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-20.1.json` (também `mobile-attack`, `ics-attack`) | STIX 2.1 | ✔ |
 | ATT&CK, índice de coleções | `https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/index.json` | JSON | ✔ |
-| ATT&CK STIX 2.0 por tag | `https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v20.0/enterprise-attack/enterprise-attack.json` | STIX 2.0 | — |
+| ATT&CK STIX 2.0 por tag | `https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v20.1/enterprise-attack/enterprise-attack.json` | STIX 2.0 | — |
 | ATT&CK TAXII 2.1 | `https://attack-taxii.mitre.org/` | TAXII 2.1 | — |
 | Changelog legível por máquina | `https://attack.mitre.org/docs/changelogs/v19.2-v20.0/changelog.json` | JSON | — |
 | CAPEC em STIX | `https://raw.githubusercontent.com/mitre/cti/master/capec/2.1/stix-capec.json` (CAPEC 3.9) | STIX 2.1 | ✔ |
 | CAPEC / CWE em XML | `https://capec.mitre.org/data/xml/capec_latest.xml` · `https://cwe.mitre.org/data/xml/cwec_latest.xml.zip` | XML | — |
-| ATLAS | `https://raw.githubusercontent.com/mitre-atlas/atlas-data/main/dist/v6/ATLAS-2026.09.yaml` | YAML | ✔ |
+| ATLAS | `https://raw.githubusercontent.com/mitre-atlas/atlas-data/main/dist/v6/ATLAS-2026.10.yaml` | YAML | ✔ |
 | D3FEND mapeamentos | `https://d3fend.mitre.org/ontologies/d3fend/1.6.0/d3fend-full-mappings.json` | JSON (SPARQL) | — |
 | D3FEND ontologia | `https://d3fend.mitre.org/ontologies/d3fend.owl` (também `.ttl`, `.json`) | OWL/TTL/JSON-LD | — |
 | CVE | `https://github.com/CVEProject/cvelistV5` | JSON 5.x | ✔ |
@@ -35,7 +35,8 @@ Tudo aqui funciona com **Python só com stdlib** (`urllib`, `json`, `csv`) e **s
 | `coverage_layer.py` | camada Navigator a partir de regras ou testes | `python3 scripts/coverage_layer.py sigma/rules -o s.json` |
 | `jq-receitas.sh` | consultas prontas com jq | `./scripts/jq-receitas.sh impairment` |
 | `check_repos.py` | atualiza sinais de manutenção via API do GitHub | `GITHUB_TOKEN=… python3 scripts/check_repos.py` |
-| `build_catalog.py` | valida o JSON e regenera catálogo, CSV e explorador | `python3 scripts/build_catalog.py` |
+| `monitor.py` | versão do ATT&CK + `check_repos.py`; abre a issue `monitor` | `GITHUB_TOKEN=… REPO=dono/repo python3 scripts/monitor.py --issue` |
+| `python3 -m atlas` | valida a fonte, cria e altera entradas, regenera derivados | `python3 -m atlas check` · `set E025 version=…` · `build` |
 
 ## Receitas mínimas
 
@@ -44,7 +45,7 @@ Tudo aqui funciona com **Python só com stdlib** (`urllib`, `json`, `csv`) e **s
 ```python
 import json, urllib.request
 URL = ("https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/"
-       "enterprise-attack/enterprise-attack-20.0.json")
+       "enterprise-attack/enterprise-attack-20.1.json")
 objs = json.load(urllib.request.urlopen(URL, timeout=180))["objects"]
 ativo = lambda o: not o.get("revoked") and not o.get("x_mitre_deprecated")
 eid = lambda o: next(r["external_id"] for r in o["external_references"] if r["source_name"] == "mitre-attack")
@@ -68,7 +69,7 @@ for r in objs:
 ### Shell: contagem e táticas
 
 ```bash
-F=data/cache/enterprise-attack-20.0.json
+F=data/cache/enterprise-attack-20.1.json
 jq '[.objects[]|select((.revoked|not) and (.x_mitre_deprecated|not))]|group_by(.type)|map({t:.[0].type,n:length})' "$F"
 ./scripts/jq-receitas.sh taticas
 ./scripts/jq-receitas.sh grupo Malteiro

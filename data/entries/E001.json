@@ -1,0 +1,39 @@
+{
+  "id": "E001",
+  "name": "ATT&CK",
+  "url": "https://attack.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "adversario",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot",
+    "ia"
+  ],
+  "legacy_category": "Bases e modelos",
+  "purpose": "Descrever comportamentos adversários observados; Enterprise, Mobile e ICS.",
+  "output": "Técnicas e procedimentos com evidência",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v20.1 · 05/11/2026 (v20.0 em 13/10/2026)",
+  "formats": [
+    "STIX 2.1",
+    "STIX 2.0",
+    "TAXII 2.1"
+  ],
+  "relations": [
+    "E008",
+    "E002",
+    "E003",
+    "E011",
+    "E057",
+    "E058",
+    "E056",
+    "E037",
+    "E117"
+  ],
+  "notes": "v19 dividiu Defense Evasion em Stealth (TA0005) e Defense Impairment (TA0112); v20 trouxe técnicas de IA (prompt injection direta e indireta T1699/T1698, AI-Enabled Exfiltration T1700) e anti-automação (T1696). Enterprise v20.1: 227 técnicas, 479 subtécnicas, 706 Detection Strategies, 1.773 Analytics. A v20.1 (05/11/2026) é correção de dados: nenhuma técnica entrou, saiu ou mudou de nome em Enterprise, Mobile ou ICS. Seções do site: Matrices, Tactics, Techniques, Mitigations, Assets (ICS), Detection Strategies, Analytics, Data Components, Groups, Software e Campaigns.",
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

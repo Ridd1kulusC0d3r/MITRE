@@ -1,0 +1,21 @@
+{
+  "id": "E114",
+  "name": "ATT&CK Legal & Branding",
+  "url": "https://attack.mitre.org/resources/legal-and-branding/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "padrao",
+  "domains": [
+    "geral"
+  ],
+  "purpose": "Termos de uso dos dados e regras de marca do ATT&CK.",
+  "output": "Checagem antes de redistribuir dados ou usar a marca",
+  "priority": "P2",
+  "status": "ativo",
+  "relations": [
+    "E001",
+    "E026"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
+}

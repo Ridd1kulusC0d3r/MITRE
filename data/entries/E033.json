@@ -1,0 +1,28 @@
+{
+  "id": "E033",
+  "name": "TRAM",
+  "url": "https://github.com/center-for-threat-informed-defense/tram",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "cti",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · CTI",
+  "purpose": "Apoiar mapeamento de relatórios de CTI para ATT&CK.",
+  "output": "Sugestões de técnicas para revisão humana",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "formats": [
+    "JSON"
+  ],
+  "relations": [
+    "E001",
+    "E082"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2025-05-06T13:52:16Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

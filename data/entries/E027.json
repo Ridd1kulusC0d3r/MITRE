@@ -1,0 +1,29 @@
+{
+  "id": "E027",
+  "name": "ATT&CK STIX 2.0",
+  "url": "https://github.com/mitre/cti",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "legacy_category": "Dados e ferramentas ATT&CK",
+  "purpose": "Consultar a representação STIX 2.0.",
+  "output": "Integração compatível com consumidores STIX 2.0",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "tag ATT&CK-v20.1",
+  "formats": [
+    "STIX 2.0"
+  ],
+  "relations": [
+    "E001",
+    "E008"
+  ],
+  "notes": "Também distribui o CAPEC em STIX.",
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

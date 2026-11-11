@@ -1,0 +1,23 @@
+{
+  "id": "E076",
+  "name": "AADAPT",
+  "url": "https://aadapt.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "adversario",
+  "domains": [
+    "cripto",
+    "fraude"
+  ],
+  "purpose": "Táticas e técnicas contra blockchain, ativos digitais e pagamentos com cripto.",
+  "output": "Cenários de ameaça para ativos digitais",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "lançado em 14/07/2025",
+  "relations": [
+    "E001",
+    "E045"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

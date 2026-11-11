@@ -1,0 +1,24 @@
+{
+  "id": "E109",
+  "name": "CARET",
+  "url": "https://github.com/mitre-attack/caret",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Visualizar relações entre analytics do CAR, técnicas, grupos e dados necessários.",
+  "output": "Referência histórica de relação analítica–técnica",
+  "priority": "P2",
+  "status": "parado",
+  "formats": [
+    "JavaScript"
+  ],
+  "relations": [
+    "E011"
+  ],
+  "notes": "Sem atualização desde ago/2020.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
+}

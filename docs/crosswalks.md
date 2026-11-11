@@ -16,7 +16,7 @@ flowchart LR
   end
   subgraph ADV["🎯 Adversário"]
     ATTACK["ATT&CK v20<br/>Enterprise · Mobile · ICS"]
-    ATLAS["ATLAS 2026.09"]
+    ATLAS["ATLAS 2026.10"]
     ESP["EMB3D/ESTM · FiGHT · F3 · AADAPT"]
   end
   subgraph DEF["🛡️ Defesa e engano"]

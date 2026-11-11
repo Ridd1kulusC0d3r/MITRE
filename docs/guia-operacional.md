@@ -20,7 +20,7 @@ Registre processo de negócio, ativos, identidades, fronteiras de confiança, ex
 
 ## 2. Modele o comportamento e preserve a proveniência
 
-Extraia procedimentos de relatórios ou evidências locais. Registre a versão do ATT&CK usada (hoje, v20.0) e confira IDs antigos com `scripts/attack_diff.py`: desde a v19, comportamentos de desligar defesas ficam em **TA0112 Defense Impairment**, e T1562 foi revogada. Relacione técnica/subtécnica somente quando a descrição sustentar o comportamento. Identifique observação, hipótese e inferência separadamente. TRAM e TIE apoiam análise, mas seus resultados precisam de revisão.
+Extraia procedimentos de relatórios ou evidências locais. Registre a versão do ATT&CK usada (hoje, v20.1) e confira IDs antigos com `scripts/attack_diff.py`: desde a v19, comportamentos de desligar defesas ficam em **TA0112 Defense Impairment**, e T1562 foi revogada. Relacione técnica/subtécnica somente quando a descrição sustentar o comportamento. Identifique observação, hipótese e inferência separadamente. TRAM e TIE apoiam análise, mas seus resultados precisam de revisão.
 
 **Saída:** tabela de evidências com URL, trecho ou localização, data, confiança e justificativa do mapeamento. Use Attack Flow quando ordem, condições e ramificações importarem.
 

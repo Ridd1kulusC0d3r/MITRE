@@ -1,0 +1,26 @@
+{
+  "id": "E006",
+  "name": "ESTM",
+  "url": "https://estm.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "adversario",
+  "domains": [
+    "embarcado"
+  ],
+  "legacy_category": "Bases e modelos",
+  "purpose": "Explorar táticas e técnicas de ataques a sistemas embarcados.",
+  "output": "Cenários para avaliação de sistemas embarcados",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "ESTM 3.0 · jan/2026",
+  "formats": [
+    "STIX 2.1"
+  ],
+  "relations": [
+    "E005"
+  ],
+  "notes": "Parceria com a Força Aérea dos EUA (CROWS).",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+}

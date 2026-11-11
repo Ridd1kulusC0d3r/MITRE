@@ -1,0 +1,24 @@
+{
+  "id": "E072",
+  "name": "11 Strategies of a World-Class Cybersecurity Operations Center",
+  "url": "https://www.mitre.org/news-insights/publication/11-strategies-world-class-cybersecurity-operations-center",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "maturidade",
+  "domains": [
+    "geral"
+  ],
+  "legacy_category": "CTI e formação",
+  "purpose": "Estudar desenho e evolução de um SOC.",
+  "output": "Plano operacional e de maturidade",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "PDF"
+  ],
+  "relations": [
+    "E053"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

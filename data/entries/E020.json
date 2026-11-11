@@ -1,0 +1,22 @@
+{
+  "id": "E020",
+  "name": "CREF Navigator",
+  "url": "https://crefnavigator.mitre.org/",
+  "origin": "MITRE / referência NIST",
+  "owner_type": "mitre",
+  "layer": "defesa",
+  "domains": [
+    "geral"
+  ],
+  "legacy_category": "Automação e engenharia",
+  "purpose": "Explorar relações de engenharia de resiliência cibernética.",
+  "output": "Decisões arquiteturais de resiliência",
+  "priority": "P2",
+  "status": "n/v",
+  "relations": [
+    "E067"
+  ],
+  "notes": "Base conceitual do NIST SP 800-160 v2.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

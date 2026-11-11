@@ -1,0 +1,21 @@
+{
+  "id": "E019",
+  "name": "eMASSer",
+  "url": "https://saf.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "conformidade",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Automação e engenharia",
+  "purpose": "Integrar workflows de avaliação ao eMASS; acessar Apps → eMASSer.",
+  "output": "Integração de resultados de avaliação",
+  "priority": "P2",
+  "status": "n/v",
+  "relations": [
+    "E015"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

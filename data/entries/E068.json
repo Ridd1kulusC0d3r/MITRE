@@ -1,0 +1,23 @@
+{
+  "id": "E068",
+  "name": "NIST SP 800-61 Rev. 3",
+  "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+  "origin": "NIST",
+  "owner_type": "padrao",
+  "layer": "resposta",
+  "domains": [
+    "geral"
+  ],
+  "legacy_category": "Padrões e referências complementares",
+  "purpose": "Integrar resposta a incidentes à gestão de risco.",
+  "output": "Processos de resposta e melhoria contínua",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "Rev. 3",
+  "relations": [
+    "E056",
+    "E067"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

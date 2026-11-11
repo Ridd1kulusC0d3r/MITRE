@@ -1,0 +1,61 @@
+name: publish
+
+# Depois do merge na main: regenera os derivados versionados (catálogo, CSV,
+# JSON agregado, bundle JS, SVGs, números do README), faz commit se algo mudou
+# e publica o explorador no GitHub Pages.
+#
+# Pages: ative em Settings → Pages → Source: GitHub Actions e crie a variável
+# de repositório ATLAS_PAGES=true (Settings → Secrets and variables → Actions → Variables).
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  derivados:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Validar fonte
+        run: python3 -m atlas check -q
+      - name: Regenerar derivados
+        run: python3 -m atlas build
+      - name: Commit dos derivados
+        run: |
+          if git diff --quiet; then echo "Derivados já em dia."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore(build): regenera derivados [skip ci]"
+          git push
+      - name: Montar site
+        run: python3 -m atlas site _site
+      - uses: actions/configure-pages@v6
+        if: vars.ATLAS_PAGES == 'true'
+      - uses: actions/upload-pages-artifact@v5
+        if: vars.ATLAS_PAGES == 'true'
+        with:
+          path: _site
+
+  pages:
+    needs: derivados
+    if: vars.ATLAS_PAGES == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v5

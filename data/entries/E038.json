@@ -1,0 +1,27 @@
+{
+  "id": "E038",
+  "name": "ATT&CK Powered Suit",
+  "url": "https://github.com/center-for-threat-informed-defense/attack-powered-suit",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "cti",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · CTI",
+  "purpose": "Consultar ATT&CK por extensão de navegador.",
+  "output": "Apoio à análise de textos",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "Extensão de navegador"
+  ],
+  "relations": [
+    "E001"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-04-29T18:04:29Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

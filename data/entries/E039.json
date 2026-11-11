@@ -1,0 +1,21 @@
+{
+  "id": "E039",
+  "name": "CTID Public Resources",
+  "url": "https://github.com/center-for-threat-informed-defense/public-resources",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "formacao",
+  "domains": [
+    "geral"
+  ],
+  "legacy_category": "CTID · Formação",
+  "purpose": "Localizar materiais públicos do Center.",
+  "output": "Referências adicionais",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "archived": false,
+  "license_api": null,
+  "pushed_at": "2024-05-22T15:51:29Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

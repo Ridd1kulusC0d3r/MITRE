@@ -1,0 +1,18 @@
+{
+  "id": "E021",
+  "name": "ECHO",
+  "url": "https://www.mitre.org/news-insights/fact-sheet/enhanced-cti-sharing-partner-organizations",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "cti",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTI e formação",
+  "purpose": "Conhecer aplicação de extração e contextualização de CTI.",
+  "output": "Referência institucional; verificar acesso",
+  "priority": "P2",
+  "status": "n/v",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

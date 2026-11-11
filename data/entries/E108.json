@@ -1,0 +1,25 @@
+{
+  "id": "E108",
+  "name": "ATT&CK Arsenal",
+  "url": "https://github.com/mitre-attack/attack-arsenal",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "validacao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Recursos de red team e emulação publicados pela equipe ATT&CK.",
+  "output": "Referência histórica de emulação",
+  "priority": "P2",
+  "status": "parado",
+  "formats": [
+    "PowerShell"
+  ],
+  "relations": [
+    "E031",
+    "E013"
+  ],
+  "notes": "Sem atualização desde abr/2021. Fontes divergem sobre o arquivamento (listagem da org vs. checagem de 23/10/2026); confirme na página do repositório. Prefira Adversary Emulation Library e Apache Caldera.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
+}

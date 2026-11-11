@@ -1,0 +1,33 @@
+{
+  "id": "E055",
+  "name": "DeTT&CT",
+  "url": "https://github.com/rabobank-cdc/DeTTECT",
+  "origin": "Rabobank / comunidade",
+  "owner_type": "comunidade",
+  "layer": "telemetria",
+  "domains": [
+    "enterprise",
+    "mobile"
+  ],
+  "legacy_category": "Comunidade e fornecedores",
+  "purpose": "Pontuar qualidade de dados, visibilidade e detecção.",
+  "output": "YAMLs e layers Navigator",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v2.2.0 · 21/01/2026",
+  "formats": [
+    "YAML",
+    "Navigator layer"
+  ],
+  "relations": [
+    "E001",
+    "E024",
+    "E043"
+  ],
+  "notes": "Suporta ATT&CK v18 (modelo Data Components → Analytics → Detection Strategies). Suporte a v19/v20 não declarado.",
+  "archived": false,
+  "license_api": "GPL-3.0",
+  "pushed_at": "2026-10-19T09:19:41Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

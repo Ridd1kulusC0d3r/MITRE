@@ -1,0 +1,26 @@
+{
+  "id": "E053",
+  "name": "INFORM",
+  "url": "https://github.com/center-for-threat-informed-defense/inform",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "maturidade",
+  "domains": [
+    "geral"
+  ],
+  "legacy_category": "CTID · Maturidade",
+  "purpose": "Avaliar adoção de defesa orientada por ameaças.",
+  "output": "Diagnóstico e plano de evolução",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "08/01/2026",
+  "relations": [
+    "E072"
+  ],
+  "notes": "Substitui o M3TID (arquivado).",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-01-08T15:42:28Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+}

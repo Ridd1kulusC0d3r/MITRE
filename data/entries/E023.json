@@ -1,0 +1,21 @@
+{
+  "id": "E023",
+  "name": "CAVEaT",
+  "url": "https://cloudsecurityalliance.org/artifacts/cloud-adversarial-vectors-exploits-and-threats",
+  "origin": "CSA / colaboração MITRE",
+  "owner_type": "colaboracao",
+  "layer": "adversario",
+  "domains": [
+    "cloud"
+  ],
+  "legacy_category": "Cloud",
+  "purpose": "Estruturar ameaças e orientação de segurança para cloud.",
+  "output": "Cenários cloud e requisitos defensivos",
+  "priority": "P2",
+  "status": "n/v",
+  "relations": [
+    "E001"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

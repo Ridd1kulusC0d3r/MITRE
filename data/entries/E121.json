@@ -1,0 +1,27 @@
+{
+  "id": "E121",
+  "name": "TTPForge",
+  "url": "https://github.com/facebookincubator/TTPForge",
+  "origin": "Meta / comunidade",
+  "owner_type": "fornecedor",
+  "layer": "validacao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Empacotar TTPs em simulações repetíveis descritas em YAML.",
+  "output": "Procedimentos versionados para exercícios purple team",
+  "priority": "P1",
+  "status": "ativo",
+  "relations": [
+    "E058",
+    "E031",
+    "E091"
+  ],
+  "notes": "Complementa ferramentas de avaliação; definir pré-condições, limpeza e critérios de aceite por procedimento.",
+  "repo": "facebookincubator/TTPForge",
+  "archived": false,
+  "license_api": "MIT",
+  "pushed_at": "2026-09-30T13:53:10Z",
+  "reviewed_on": "2026-11-06",
+  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "E081",
+  "name": "Threat-Informed Defense for Cloud Security",
+  "url": "https://www.mitre.org/news-insights/news-release/mitre-center-threat-informed-defense-and-industry-map-cloud-security",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "defesa",
+  "domains": [
+    "cloud"
+  ],
+  "purpose": "Relacionar controles de nuvem a comportamentos adversários.",
+  "output": "Controles cloud priorizados por técnica",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "27/01/2026",
+  "relations": [
+    "E037",
+    "E050"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

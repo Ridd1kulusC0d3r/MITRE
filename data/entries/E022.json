@@ -1,0 +1,21 @@
+{
+  "id": "E022",
+  "name": "eCTF",
+  "url": "https://ectf.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "formacao",
+  "domains": [
+    "embarcado"
+  ],
+  "legacy_category": "CTI e formação",
+  "purpose": "Praticar segurança de sistemas embarcados em competição.",
+  "output": "Experiência de projeto e avaliação",
+  "priority": "P2",
+  "status": "ativo",
+  "relations": [
+    "E005"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

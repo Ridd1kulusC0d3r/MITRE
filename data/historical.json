@@ -1,0 +1,166 @@
+[
+  {
+    "name": "attack-control-framework-mappings",
+    "repo": "center-for-threat-informed-defense/attack-control-framework-mappings",
+    "url": "https://github.com/center-for-threat-informed-defense/attack-control-framework-mappings",
+    "description": "🚨ATTENTION🚨 The NIST 800-53 mappings have migrated to the Center’s Mappings Explorer project. See README below. This repository is kept here as an archive.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-04-03T15:23:19Z",
+    "note": "Mapeamentos NIST migraram para Mappings Explorer, conforme descrição do repositório."
+  },
+  {
+    "name": "security-stack-mappings",
+    "repo": "center-for-threat-informed-defense/security-stack-mappings",
+    "url": "https://github.com/center-for-threat-informed-defense/security-stack-mappings",
+    "description": "🚨ATTENTION🚨 The Security Stack Mappings have migrated to the Center’s Mappings Explorer project. See README below. This repository is kept here as an archive.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-04-03T16:45:24Z",
+    "note": "Mapeamentos de stacks migraram para Mappings Explorer, conforme descrição do repositório."
+  },
+  {
+    "name": "attack_to_cve",
+    "repo": "center-for-threat-informed-defense/attack_to_cve",
+    "url": "https://github.com/center-for-threat-informed-defense/attack_to_cve",
+    "description": "🚨ATTENTION🚨 The CVE mappings have migrated to the Center’s Mappings Explorer project. See README below. This repository is kept here as an archive.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-04-03T15:25:12Z",
+    "note": "Mapeamentos CVE migraram para Mappings Explorer, conforme descrição do repositório."
+  },
+  {
+    "name": "caldera_pathfinder",
+    "repo": "center-for-threat-informed-defense/caldera_pathfinder",
+    "url": "https://github.com/center-for-threat-informed-defense/caldera_pathfinder",
+    "description": "Pathfinder is a plugin for mapping network vulnerabilities, scanned by CALDERA or imported by a supported network scanner, and translating those scans into adversaries for network traversal.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-04-03T12:25:52Z",
+    "note": "Plugin histórico de caminhos de rede; não recomendar instalação como componente atual sem revisão."
+  },
+  {
+    "name": "attack_to_veris",
+    "repo": "center-for-threat-informed-defense/attack_to_veris",
+    "url": "https://github.com/center-for-threat-informed-defense/attack_to_veris",
+    "description": "🚨ATTENTION🚨 The VERIS mappings have migrated to the Center’s Mappings Explorer project. See README below. This repository is kept here as an archive.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-04-03T16:01:47Z",
+    "note": "Mapeamentos VERIS migraram para Mappings Explorer, conforme descrição do repositório."
+  },
+  {
+    "name": "m3tid",
+    "repo": "center-for-threat-informed-defense/m3tid",
+    "url": "https://github.com/center-for-threat-informed-defense/m3tid",
+    "description": "The Measure, Maximize, and Mature Threat-Informed Defense (M3TID) project defines what Threat-Informed Defense (TID) is and the key activities associated with its practice.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-06-25T20:51:56Z",
+    "note": "Referência histórica de maturidade; avaliar o projeto atual INFORM. Não assumir equivalência de versões ou scores."
+  },
+  {
+    "name": "attack-workbench-collection-manager",
+    "repo": "center-for-threat-informed-defense/attack-workbench-collection-manager",
+    "url": "https://github.com/center-for-threat-informed-defense/attack-workbench-collection-manager",
+    "description": "[DEPRECATED] An application allowing users to explore, create, annotate, and share extensions of the MITRE ATT&CK® knowledge base. This repository contains the REST API and services for managing collections, collection indexes, and collection subscriptions.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2023-08-16T16:00:52Z",
+    "note": "Marcado como deprecated; consultar a arquitetura atual do Workbench."
+  },
+  {
+    "name": "MITRE Shield",
+    "url": "https://shield.mitre.org/",
+    "archived": true,
+    "note": "Aposentado em 18/10/2021; substituído pelo Engage (E003). shield.mitre.org redireciona."
+  },
+  {
+    "name": "PRE-ATT&CK",
+    "url": "https://attack.mitre.org/resources/updates/",
+    "archived": true,
+    "note": "Absorvido no Enterprise como Reconnaissance (TA0043) e Resource Development (TA0042) na v8 (out/2020)."
+  },
+  {
+    "name": "pyattck",
+    "repo": "swimlane/pyattck",
+    "url": "https://github.com/swimlane/pyattck",
+    "archived": true,
+    "note": "Arquivado em 17/03/2026; último release 7.1.2 (2023). Migrar para mitreattack-python ou attackcti."
+  },
+  {
+    "name": "ATT&CK Data Sources (objeto)",
+    "url": "https://attack.mitre.org/resources/updates/",
+    "archived": true,
+    "note": "Removidos na v18 (out/2025); substituídos por Data Components ligados a Analytics e Detection Strategies."
+  },
+  {
+    "name": "T1562 Impair Defenses",
+    "url": "https://attack.mitre.org/techniques/T1562/",
+    "archived": true,
+    "note": "Revogada na v19 (28/04/2026) com a criação da tática Defense Impairment (TA0112)."
+  },
+  {
+    "name": "dist/ATLAS.yaml",
+    "repo": "mitre-atlas/atlas-data",
+    "url": "https://github.com/mitre-atlas/atlas-data",
+    "archived": true,
+    "note": "Arquivo depreciado; usar dist/ATLAS-latest.yaml (formato 6.0.0)."
+  },
+  {
+    "name": "mitre-attack/attack-scripts",
+    "repo": "mitre-attack/attack-scripts",
+    "url": "https://github.com/mitre-attack/attack-scripts",
+    "archived": true,
+    "note": "Scripts e biblioteca planejada; substituídos pelo mitreattack-python. Arquivado (dez/2023)."
+  },
+  {
+    "name": "mitre-attack/evals_caldera",
+    "repo": "mitre-attack/evals_caldera",
+    "url": "https://github.com/mitre-attack/evals_caldera",
+    "archived": true,
+    "note": "Plugin CALDERA da rodada 1 das ATT&CK Evaluations. Arquivado (set/2023)."
+  },
+  {
+    "name": "mitre-attack/joystick",
+    "repo": "mitre-attack/joystick",
+    "url": "https://github.com/mitre-attack/joystick",
+    "archived": true,
+    "note": "Visualização de resultados das Evaluations. Arquivado (set/2023); use evals.mitre.org."
+  },
+  {
+    "name": "mitre-attack/attack-datasources",
+    "repo": "mitre-attack/attack-datasources",
+    "url": "https://github.com/mitre-attack/attack-datasources",
+    "archived": true,
+    "note": "Pesquisa sobre Data Sources. Arquivado (set/2023); o modelo mudou na v18."
+  },
+  {
+    "name": "mitre-attack/attack-datasources-stix-beta",
+    "repo": "mitre-attack/attack-datasources-stix-beta",
+    "url": "https://github.com/mitre-attack/attack-datasources-stix-beta",
+    "archived": true,
+    "note": "STIX beta da representação antiga de Data Sources. Arquivado (set/2023)."
+  },
+  {
+    "name": "mitre-attack/tram",
+    "repo": "mitre-attack/tram",
+    "url": "https://github.com/mitre-attack/tram",
+    "archived": true,
+    "note": "Versão antiga do TRAM. Arquivado (out/2021); a atual está no CTID (E033)."
+  },
+  {
+    "name": "mitre-attack/attack-evals",
+    "repo": "mitre-attack/attack-evals",
+    "url": "https://github.com/mitre-attack/attack-evals",
+    "archived": true,
+    "note": "Site antigo das Evaluations. Arquivado (abr/2021); use evals.mitre.org."
+  },
+  {
+    "name": "mitre-attack/attack-archives",
+    "repo": "mitre-attack/attack-archives",
+    "url": "https://github.com/mitre-attack/attack-archives",
+    "archived": true,
+    "note": "Releases antigos do site. Arquivado (jul/2020); use Version History (E111)."
+  }
+]

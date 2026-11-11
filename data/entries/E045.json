@@ -1,0 +1,27 @@
+{
+  "id": "E045",
+  "name": "Fight Fraud Framework",
+  "url": "https://github.com/center-for-threat-informed-defense/fight-fraud-framework",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "adversario",
+  "domains": [
+    "fraude"
+  ],
+  "legacy_category": "CTID · Fraude",
+  "purpose": "Estruturar análise comportamental de fraude financeira.",
+  "output": "Cenários e hipóteses de fraude",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "lançado em 09/04/2026",
+  "relations": [
+    "E001",
+    "E076"
+  ],
+  "notes": "Útil para clientes financeiros (Pix, mobile banking).",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-22T15:46:27Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+}

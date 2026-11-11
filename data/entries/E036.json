@@ -1,0 +1,28 @@
+{
+  "id": "E036",
+  "name": "Top ATT&CK Techniques",
+  "url": "https://github.com/center-for-threat-informed-defense/top-attack-techniques",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "modelagem",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · Priorização",
+  "purpose": "Priorizar técnicas usando o método e contexto do projeto.",
+  "output": "Lista inicial de técnicas; adaptar ao ambiente",
+  "priority": "P1",
+  "status": "ativo",
+  "formats": [
+    "JSON"
+  ],
+  "relations": [
+    "E001",
+    "E040"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-20T14:43:00Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

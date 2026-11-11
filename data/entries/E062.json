@@ -1,0 +1,29 @@
+{
+  "id": "E062",
+  "name": "Splunk Security Content",
+  "url": "https://github.com/splunk/security_content",
+  "origin": "Splunk",
+  "owner_type": "fornecedor",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise",
+    "cloud"
+  ],
+  "legacy_category": "Comunidade e fornecedores",
+  "purpose": "Estudar conteúdo de detecção e investigação.",
+  "output": "Analíticas adaptadas para Splunk",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "YAML"
+  ],
+  "relations": [
+    "E001",
+    "E061"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-22T22:13:10Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}
