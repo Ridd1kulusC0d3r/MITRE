@@ -1,0 +1,406 @@
+[
+  {
+    "repo": "mitre-attack/attack-navigator",
+    "url": "https://github.com/mitre-attack/attack-navigator",
+    "description": "Web app that provides basic navigation and annotation of ATT&CK matrices",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-20T18:53:56Z"
+  },
+  {
+    "repo": "mitre-attack/attack-workbench-frontend",
+    "url": "https://github.com/mitre-attack/attack-workbench-frontend",
+    "description": "An application allowing users to explore, create, annotate, and share extensions of the MITRE ATT&CK® knowledge base. This repository contains an Angular-based web application providing the user interface for the ATT&CK Workbench application.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-22T22:13:19Z"
+  },
+  {
+    "repo": "mitre-attack/attack-stix-data",
+    "url": "https://github.com/mitre-attack/attack-stix-data",
+    "description": "STIX data representing MITRE ATT&CK",
+    "archived": false,
+    "license": "NOASSERTION",
+    "pushed_at": "2026-10-13T19:11:18Z"
+  },
+  {
+    "repo": "mitre-attack/mitreattack-python",
+    "url": "https://github.com/mitre-attack/mitreattack-python",
+    "description": "A python module for working with ATT&CK",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-13T21:29:30Z"
+  },
+  {
+    "repo": "rabobank-cdc/DeTTECT",
+    "url": "https://github.com/rabobank-cdc/DeTTECT",
+    "description": "Detect Tactics, Techniques & Combat Threats",
+    "archived": false,
+    "license": "GPL-3.0",
+    "pushed_at": "2026-10-19T09:19:41Z"
+  },
+  {
+    "repo": "atc-project/atc-react",
+    "url": "https://github.com/atc-project/atc-react",
+    "description": "A knowledge base of actionable Incident Response techniques",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2022-05-31T15:18:24Z"
+  },
+  {
+    "repo": "SigmaHQ/sigma",
+    "url": "https://github.com/SigmaHQ/sigma",
+    "description": "Main Sigma Rule Repository",
+    "archived": false,
+    "license": "NOASSERTION",
+    "pushed_at": "2026-10-21T03:04:45Z"
+  },
+  {
+    "repo": "redcanaryco/atomic-red-team",
+    "url": "https://github.com/redcanaryco/atomic-red-team",
+    "description": "Small and highly portable detection tests based on MITRE's ATT&CK.",
+    "archived": false,
+    "license": "MIT",
+    "pushed_at": "2026-10-21T00:15:54Z"
+  },
+  {
+    "repo": "OpenCTI-Platform/opencti",
+    "url": "https://github.com/OpenCTI-Platform/opencti",
+    "description": "Open Cyber Threat Intelligence Platform",
+    "archived": false,
+    "license": "NOASSERTION",
+    "pushed_at": "2026-10-23T00:04:40Z"
+  },
+  {
+    "repo": "MISP/misp-galaxy",
+    "url": "https://github.com/MISP/misp-galaxy",
+    "description": "Clusters and elements to attach to MISP events or attributes (like threat actors)",
+    "archived": false,
+    "license": "NOASSERTION",
+    "pushed_at": "2026-10-16T11:59:04Z"
+  },
+  {
+    "repo": "splunk/attack_range",
+    "url": "https://github.com/splunk/attack_range",
+    "description": "A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk ",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-20T19:10:39Z"
+  },
+  {
+    "repo": "elastic/detection-rules",
+    "url": "https://github.com/elastic/detection-rules",
+    "description": null,
+    "archived": false,
+    "license": "NOASSERTION",
+    "pushed_at": "2026-10-23T00:19:38Z"
+  },
+  {
+    "repo": "splunk/security_content",
+    "url": "https://github.com/splunk/security_content",
+    "description": "Splunk Security Content",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-22T22:13:10Z"
+  },
+  {
+    "repo": "OTRF/Security-Datasets",
+    "url": "https://github.com/OTRF/Security-Datasets",
+    "description": "Re-play Security Events",
+    "archived": false,
+    "license": "MIT",
+    "pushed_at": "2024-03-20T20:19:19Z"
+  },
+  {
+    "repo": "mitre/heimdall2",
+    "url": "https://github.com/mitre/heimdall2",
+    "description": "Heimdall Enterprise Server 2 lets you view, store, and compare automated security control scan results.",
+    "archived": false,
+    "license": "NOASSERTION",
+    "pushed_at": "2026-10-23T00:40:55Z"
+  },
+  {
+    "repo": "mitre/saf",
+    "url": "https://github.com/mitre/saf",
+    "description": "The MITRE Security Automation Framework (SAF) Command Line Interface (CLI) brings together applications, techniques, libraries, and tools developed by MITRE and the security community to streamline security automation for systems and DevOps pipelines",
+    "archived": false,
+    "license": "NOASSERTION",
+    "pushed_at": "2026-10-23T00:42:24Z"
+  },
+  {
+    "repo": "mitre/engage",
+    "url": "https://github.com/mitre/engage",
+    "description": "MITRE Engage™ is a framework for conducting Denial, Deception, and Adversary Engagements.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-04-01T19:57:51Z"
+  },
+  {
+    "name": "adversary_emulation_library",
+    "repo": "center-for-threat-informed-defense/adversary_emulation_library",
+    "url": "https://github.com/center-for-threat-informed-defense/adversary_emulation_library",
+    "description": "An open library of adversary emulation plans designed to empower organizations to test their defenses based on real-world TTPs. ",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-05-28T19:37:18Z"
+  },
+  {
+    "name": "attack-flow",
+    "repo": "center-for-threat-informed-defense/attack-flow",
+    "url": "https://github.com/center-for-threat-informed-defense/attack-flow",
+    "description": "Attack Flow helps executives, SOC managers, and defenders easily understand how attackers compose ATT&CK techniques into attacks by developing a representation of attack flows, modeling attack flows for a small corpus of incidents, and creating visualization tools to display attack flows.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-14T19:37:37Z"
+  },
+  {
+    "name": "tram",
+    "repo": "center-for-threat-informed-defense/tram",
+    "url": "https://github.com/center-for-threat-informed-defense/tram",
+    "description": "TRAM is an open-source platform designed to advance research into automating the mapping of cyber threat intelligence reports to MITRE ATT&CK®.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-05-06T13:52:16Z"
+  },
+  {
+    "name": "attack-control-framework-mappings",
+    "repo": "center-for-threat-informed-defense/attack-control-framework-mappings",
+    "url": "https://github.com/center-for-threat-informed-defense/attack-control-framework-mappings",
+    "description": "🚨ATTENTION🚨 The NIST 800-53 mappings have migrated to the Center’s Mappings Explorer project. See README below. This repository is kept here as an archive.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-04-03T15:23:19Z"
+  },
+  {
+    "name": "security-stack-mappings",
+    "repo": "center-for-threat-informed-defense/security-stack-mappings",
+    "url": "https://github.com/center-for-threat-informed-defense/security-stack-mappings",
+    "description": "🚨ATTENTION🚨 The Security Stack Mappings have migrated to the Center’s Mappings Explorer project. See README below. This repository is kept here as an archive.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-04-03T16:45:24Z"
+  },
+  {
+    "name": "cti-blueprints",
+    "repo": "center-for-threat-informed-defense/cti-blueprints",
+    "url": "https://github.com/center-for-threat-informed-defense/cti-blueprints",
+    "description": "CTI Blueprints is a free suite of templates and tools that helps Cyber Threat Intelligence analysts create high-quality, actionable reports more consistently and efficiently.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-03-20T15:58:24Z"
+  },
+  {
+    "name": "attack_to_cve",
+    "repo": "center-for-threat-informed-defense/attack_to_cve",
+    "url": "https://github.com/center-for-threat-informed-defense/attack_to_cve",
+    "description": "🚨ATTENTION🚨 The CVE mappings have migrated to the Center’s Mappings Explorer project. See README below. This repository is kept here as an archive.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-04-03T15:25:12Z"
+  },
+  {
+    "name": "insider-threat-ttp-kb",
+    "repo": "center-for-threat-informed-defense/insider-threat-ttp-kb",
+    "url": "https://github.com/center-for-threat-informed-defense/insider-threat-ttp-kb",
+    "description": "The principal objective of this project is to develop a knowledge base of the tactics, techniques, and procedures (TTPs) used by insiders in the IT environment. It will establish an Insider Threat TTP Knowledge Base, built upon data collected on insider threat incidents and lessons learned and experience from the ATT&CK knowledge base.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-07-06T19:56:47Z"
+  },
+  {
+    "name": "caldera_pathfinder",
+    "repo": "center-for-threat-informed-defense/caldera_pathfinder",
+    "url": "https://github.com/center-for-threat-informed-defense/caldera_pathfinder",
+    "description": "Pathfinder is a plugin for mapping network vulnerabilities, scanned by CALDERA or imported by a supported network scanner, and translating those scans into adversaries for network traversal.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-04-03T12:25:52Z"
+  },
+  {
+    "name": "top-attack-techniques",
+    "repo": "center-for-threat-informed-defense/top-attack-techniques",
+    "url": "https://github.com/center-for-threat-informed-defense/top-attack-techniques",
+    "description": "Top ATT&CK Techniques helps defenders approach the breadth and complexity of MITRE ATT&CK® with a prioritized top 10 list of techniques to focus on first.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-20T14:43:00Z"
+  },
+  {
+    "name": "mappings-explorer",
+    "repo": "center-for-threat-informed-defense/mappings-explorer",
+    "url": "https://github.com/center-for-threat-informed-defense/mappings-explorer",
+    "description": "Mappings Explorer enables cyber defenders to understand how security controls and capabilities map onto the adversary behaviors catalogued in the MITRE ATT&CK® knowledge base. These mappings form a bridge between the threat-informed approach to cybersecurity and the traditional security controls perspective.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-05T02:10:24Z"
+  },
+  {
+    "name": "attack-powered-suit",
+    "repo": "center-for-threat-informed-defense/attack-powered-suit",
+    "url": "https://github.com/center-for-threat-informed-defense/attack-powered-suit",
+    "description": "ATT&CK Powered Suit is a browser extension that puts the complete MITRE ATT&CK® knowledge base at your fingertips with text search, context menus, and ATT&CK Navigator integration.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-04-29T18:04:29Z"
+  },
+  {
+    "name": "public-resources",
+    "repo": "center-for-threat-informed-defense/public-resources",
+    "url": "https://github.com/center-for-threat-informed-defense/public-resources",
+    "description": "Collection of resources related to the Center for Threat-Informed Defense",
+    "archived": false,
+    "pushed_at": "2024-05-22T15:51:29Z"
+  },
+  {
+    "name": "technique-inference-engine",
+    "repo": "center-for-threat-informed-defense/technique-inference-engine",
+    "url": "https://github.com/center-for-threat-informed-defense/technique-inference-engine",
+    "description": "TIE is a machine learning model for inferring associated MITRE ATT&CK techniques from previously observed techniques.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-04T16:00:56Z"
+  },
+  {
+    "name": "attack_to_veris",
+    "repo": "center-for-threat-informed-defense/attack_to_veris",
+    "url": "https://github.com/center-for-threat-informed-defense/attack_to_veris",
+    "description": "🚨ATTENTION🚨 The VERIS mappings have migrated to the Center’s Mappings Explorer project. See README below. This repository is kept here as an archive.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-04-03T16:01:47Z"
+  },
+  {
+    "name": "summiting-the-pyramid",
+    "repo": "center-for-threat-informed-defense/summiting-the-pyramid",
+    "url": "https://github.com/center-for-threat-informed-defense/summiting-the-pyramid",
+    "description": "Summiting the Pyramid is a research project focused on engineering cyber analytics to make adversary evasion more difficult. The research includes a scoring model, methodology, and worked examples.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-29T16:14:11Z"
+  },
+  {
+    "name": "cloud-analytics",
+    "repo": "center-for-threat-informed-defense/cloud-analytics",
+    "url": "https://github.com/center-for-threat-informed-defense/cloud-analytics",
+    "description": "Cloud Analytics helps defenders detect attacks to their cloud infrastructure by developing behavioral analytics for cloud platforms as well as a blueprint for how others can create and use cloud analytics effectively.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2023-04-25T15:07:36Z"
+  },
+  {
+    "name": "sensor-mappings-to-attack",
+    "repo": "center-for-threat-informed-defense/sensor-mappings-to-attack",
+    "url": "https://github.com/center-for-threat-informed-defense/sensor-mappings-to-attack",
+    "description": "Sensor Mappings to ATT&CK is a collection of resources to assist cyber defenders with understanding which sensors and events can help detect real-world adversary behaviors in their environments.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-06-21T09:40:49Z"
+  },
+  {
+    "name": "sightings_ecosystem",
+    "repo": "center-for-threat-informed-defense/sightings_ecosystem",
+    "url": "https://github.com/center-for-threat-informed-defense/sightings_ecosystem",
+    "description": "Sightings Ecosystem gives cyber defenders visibility into what adversaries actually do in the wild. With your help, we are tracking MITRE ATT&CK® techniques observed to give defenders real data on technique prevalence.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-05-28T19:15:26Z"
+  },
+  {
+    "name": "fight-fraud-framework",
+    "repo": "center-for-threat-informed-defense/fight-fraud-framework",
+    "url": "https://github.com/center-for-threat-informed-defense/fight-fraud-framework",
+    "description": null,
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-22T15:46:27Z"
+  },
+  {
+    "name": "attack-sync",
+    "repo": "center-for-threat-informed-defense/attack-sync",
+    "url": "https://github.com/center-for-threat-informed-defense/attack-sync",
+    "description": "ATT&CK Sync is a Center for Threat-Informed Defense project that aims to improve the ability for organizations to consume MITRE ATT&CK® version updates into their internal systems and processes. ",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-14T18:55:52Z"
+  },
+  {
+    "name": "m3tid",
+    "repo": "center-for-threat-informed-defense/m3tid",
+    "url": "https://github.com/center-for-threat-informed-defense/m3tid",
+    "description": "The Measure, Maximize, and Mature Threat-Informed Defense (M3TID) project defines what Threat-Informed Defense (TID) is and the key activities associated with its practice.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-06-25T20:51:56Z"
+  },
+  {
+    "name": "threat-modeling-with-attack",
+    "repo": "center-for-threat-informed-defense/threat-modeling-with-attack",
+    "url": "https://github.com/center-for-threat-informed-defense/threat-modeling-with-attack",
+    "description": "Threat Modeling with ATT&CK defines how to integreate MITRE ATT&CK® into your organization’s existing threat modeling methodology.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-05-28T19:44:29Z"
+  },
+  {
+    "name": "defending-ot-with-attack",
+    "repo": "center-for-threat-informed-defense/defending-ot-with-attack",
+    "url": "https://github.com/center-for-threat-informed-defense/defending-ot-with-attack",
+    "description": "Defending OT with ATT&CK provides a customized threat collection tailored to the attack surface and threat model of operational technology environments.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-05-28T19:21:23Z"
+  },
+  {
+    "name": "mappings-editor",
+    "repo": "center-for-threat-informed-defense/mappings-editor",
+    "url": "https://github.com/center-for-threat-informed-defense/mappings-editor",
+    "description": "Mappings Editor is an interactive, web-based tool created by the Center for Threat-Informed Defense for creating mappings of security capabilities to MITRE ATT&CK®. This tool is available as a public beta.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-22T14:07:00Z"
+  },
+  {
+    "name": "defending-iaas-with-attack",
+    "repo": "center-for-threat-informed-defense/defending-iaas-with-attack",
+    "url": "https://github.com/center-for-threat-informed-defense/defending-iaas-with-attack",
+    "description": "Defending IaaS with ATT&CK is a project to create a collection of ATT&CK techniques relevant to a Linux IaaS environment, as well as a methodology for creating technique collections.",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2025-05-28T19:26:01Z"
+  },
+  {
+    "name": "cwe-calculator",
+    "repo": "center-for-threat-informed-defense/cwe-calculator",
+    "url": "https://github.com/center-for-threat-informed-defense/cwe-calculator",
+    "description": "The CWE Calculator enables software development teams to score and prioritize discovered weaknesses empirically based on data in the National Vulnerability Database (NVD).",
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-07-16T17:47:29Z"
+  },
+  {
+    "name": "attack-workbench-collection-manager",
+    "repo": "center-for-threat-informed-defense/attack-workbench-collection-manager",
+    "url": "https://github.com/center-for-threat-informed-defense/attack-workbench-collection-manager",
+    "description": "[DEPRECATED] An application allowing users to explore, create, annotate, and share extensions of the MITRE ATT&CK® knowledge base. This repository contains the REST API and services for managing collections, collection indexes, and collection subscriptions.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2023-08-16T16:00:52Z"
+  },
+  {
+    "name": "workshop",
+    "repo": "center-for-threat-informed-defense/workshop",
+    "url": "https://github.com/center-for-threat-informed-defense/workshop",
+    "description": null,
+    "archived": false,
+    "pushed_at": "2025-01-26T03:36:36Z"
+  },
+  {
+    "name": "inform",
+    "repo": "center-for-threat-informed-defense/inform",
+    "url": "https://github.com/center-for-threat-informed-defense/inform",
+    "description": null,
+    "archived": false,
+    "license": "Apache-2.0",
+    "pushed_at": "2026-01-08T15:42:28Z"
+  }
+]

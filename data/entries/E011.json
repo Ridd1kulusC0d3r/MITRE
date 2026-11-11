@@ -1,0 +1,27 @@
+{
+  "id": "E011",
+  "name": "CAR",
+  "url": "https://car.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Detecção e validação",
+  "purpose": "Consultar hipóteses e analíticas explicadas com base em ATT&CK.",
+  "output": "Pseudocódigo e requisitos de dados",
+  "priority": "P1",
+  "status": "baixa-atividade",
+  "formats": [
+    "YAML"
+  ],
+  "relations": [
+    "E001",
+    "E087",
+    "E012"
+  ],
+  "notes": "Sem atualização relevante desde mai/2025. As Detection Strategies/Analytics do ATT&CK (E075) ocupam esse papel.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+}

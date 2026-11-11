@@ -1,0 +1,26 @@
+{
+  "id": "E084",
+  "name": "NVD",
+  "url": "https://nvd.nist.gov/",
+  "origin": "NIST",
+  "owner_type": "governo",
+  "layer": "vulnerabilidade",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Enriquecer CVEs com CVSS, CPE e CWE.",
+  "output": "CVE enriquecido e ligado a produto e fraqueza",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "API 2.0",
+  "formats": [
+    "JSON"
+  ],
+  "relations": [
+    "E010",
+    "E009",
+    "E069"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

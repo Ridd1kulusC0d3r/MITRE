@@ -1,0 +1,25 @@
+{
+  "id": "E007",
+  "name": "FiGHT",
+  "url": "https://fight.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "adversario",
+  "domains": [
+    "5g"
+  ],
+  "legacy_category": "Bases e modelos",
+  "purpose": "Modelar ameaças ao ecossistema 5G.",
+  "output": "Modelo de ameaças de telecomunicações",
+  "priority": "P2",
+  "status": "n/v",
+  "formats": [
+    "STIX"
+  ],
+  "relations": [
+    "E001"
+  ],
+  "notes": "Não confundir com o Fight Fraud Framework (E045).",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

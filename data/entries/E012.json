@@ -1,0 +1,24 @@
+{
+  "id": "E012",
+  "name": "BZAR",
+  "url": "https://github.com/mitre-attack/bzar",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Detecção e validação",
+  "purpose": "Analisar SMB/RPC com scripts Zeek orientados a comportamentos ATT&CK.",
+  "output": "Referência de detecção de rede",
+  "priority": "P2",
+  "status": "n/v",
+  "formats": [
+    "Zeek scripts"
+  ],
+  "relations": [
+    "E011"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

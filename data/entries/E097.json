@@ -1,0 +1,25 @@
+{
+  "id": "E097",
+  "name": "stix2 (Python)",
+  "url": "https://github.com/oasis-open/cti-python-stix2",
+  "origin": "OASIS",
+  "owner_type": "padrao",
+  "layer": "dados",
+  "domains": [
+    "geral"
+  ],
+  "purpose": "Criar, validar e consultar objetos STIX 2.x.",
+  "output": "Objetos STIX válidos",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "3.0.2 (PyPI)",
+  "formats": [
+    "Python"
+  ],
+  "relations": [
+    "E065",
+    "E028"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

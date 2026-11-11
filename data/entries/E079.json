@@ -1,0 +1,28 @@
+{
+  "id": "E079",
+  "name": "ATLAS Data",
+  "url": "https://github.com/mitre-atlas/atlas-data",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "ia"
+  ],
+  "purpose": "Distribuir o ATLAS em YAML versionado (conteúdo AAAA.MM, formato semver).",
+  "output": "ATLAS-latest.yaml e manifesto de versões",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "conteúdo 2026.10 · 28/10/2026",
+  "formats": [
+    "YAML",
+    "STIX",
+    "Navigator layer",
+    "Excel"
+  ],
+  "relations": [
+    "E004"
+  ],
+  "notes": "dist/ATLAS.yaml está depreciado; use dist/ATLAS-latest.yaml ou o arquivo versionado em dist/v6/. O repositório atlas-navigator-data foi depreciado: STIX e camadas do Navigator passaram a sair daqui.",
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

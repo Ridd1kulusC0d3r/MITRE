@@ -1,0 +1,30 @@
+{
+  "id": "E004",
+  "name": "ATLAS",
+  "url": "https://atlas.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "adversario",
+  "domains": [
+    "ia"
+  ],
+  "legacy_category": "Bases e modelos",
+  "purpose": "Modelar ameaças contra sistemas de IA e agentes: prompt injection, jailbreak, envenenamento de dados e abuso de ferramentas.",
+  "output": "Cenários e técnicas de ameaça para IA",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v2026.10 · 28/10/2026",
+  "formats": [
+    "YAML",
+    "STIX",
+    "Navigator layer"
+  ],
+  "relations": [
+    "E001",
+    "E078",
+    "E079"
+  ],
+  "notes": "16 táticas, 129 técnicas, 92 subtécnicas, 44 mitigações, 77 estudos de caso, 44 entidades e 37 softwares (CHANGELOG oficial). A 2026.10 renomeou AML.T0010 para Supply Chain Compromise e AML.T0005 para Replicate AI Model Behavior, e moveu subtécnicas de AML.T0024 para AML.T0137: revise mapeamentos por ID. Use dist/ATLAS-latest.yaml; dist/ATLAS.yaml foi depreciado.",
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

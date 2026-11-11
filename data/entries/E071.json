@@ -1,0 +1,25 @@
+{
+  "id": "E071",
+  "name": "TTP-Based Hunting",
+  "url": "https://www.mitre.org/news-insights/publication/ttp-based-hunting",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTI e formação",
+  "purpose": "Organizar hunting orientado a comportamentos.",
+  "output": "Hipóteses e espaço de análise",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "PDF"
+  ],
+  "relations": [
+    "E001",
+    "E086"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

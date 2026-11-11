@@ -1,0 +1,27 @@
+{
+  "id": "E101",
+  "name": "Hayabusa",
+  "url": "https://github.com/Yamato-Security/hayabusa",
+  "origin": "Yamato Security",
+  "owner_type": "comunidade",
+  "layer": "resposta",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Triagem forense rápida de Windows Event Logs com regras Sigma.",
+  "output": "Linha do tempo de DFIR com técnicas ATT&CK",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v4.4.0 (tag)",
+  "formats": [
+    "Rust",
+    "CSV",
+    "JSONL"
+  ],
+  "relations": [
+    "E057",
+    "E102"
+  ],
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "E014",
+  "name": "ATT&CK Evaluations",
+  "url": "https://evals.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "validacao",
+  "domains": [
+    "enterprise",
+    "cloud"
+  ],
+  "legacy_category": "Detecção e validação",
+  "purpose": "Examinar avaliações públicas e suas metodologias.",
+  "output": "Evidência contextual de capacidade; não ranking universal",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "Enterprise 2025 (ER7)",
+  "formats": [
+    "JSON"
+  ],
+  "relations": [
+    "E001",
+    "E031"
+  ],
+  "notes": "Edição 2026 usa a métrica TES (DQI + PQI). Não é ranking universal.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+}

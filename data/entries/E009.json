@@ -1,0 +1,29 @@
+{
+  "id": "E009",
+  "name": "CWE",
+  "url": "https://cwe.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "vulnerabilidade",
+  "domains": [
+    "enterprise",
+    "embarcado"
+  ],
+  "legacy_category": "Bases e modelos",
+  "purpose": "Classificar tipos de fraquezas de software e hardware.",
+  "output": "Taxonomia de causas de vulnerabilidades",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "4.20 · 30/04/2026",
+  "formats": [
+    "XML",
+    "CSV"
+  ],
+  "relations": [
+    "E008",
+    "E010",
+    "E002"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+}

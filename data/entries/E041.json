@@ -1,0 +1,32 @@
+{
+  "id": "E041",
+  "name": "Summiting the Pyramid",
+  "url": "https://github.com/center-for-threat-informed-defense/summiting-the-pyramid",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · Detecção",
+  "purpose": "Avaliar robustez e qualidade de analíticas.",
+  "output": "Avaliação de resistência à evasão",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "release 10/09/2026",
+  "formats": [
+    "Markdown",
+    "YAML"
+  ],
+  "relations": [
+    "E011",
+    "E057",
+    "E117"
+  ],
+  "notes": "Versão 2026 inclui cobertura de implementação e qualidade de detecção.",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-09-29T16:14:11Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+}

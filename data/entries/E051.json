@@ -1,0 +1,24 @@
+{
+  "id": "E051",
+  "name": "CWE Calculator",
+  "url": "https://github.com/center-for-threat-informed-defense/cwe-calculator",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "vulnerabilidade",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · Vulnerabilidades",
+  "purpose": "Apoiar priorização empírica de fraquezas.",
+  "output": "Pontuação contextual de CWEs",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "relations": [
+    "E009"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2024-07-16T17:47:29Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

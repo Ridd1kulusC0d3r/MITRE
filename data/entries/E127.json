@@ -1,0 +1,24 @@
+{
+  "id": "E127",
+  "name": "D3FEND Extractors",
+  "url": "https://d3fend.mitre.org/tools/",
+  "origin": "MITRE D3FEND",
+  "owner_type": "mitre",
+  "layer": "cti",
+  "domains": [
+    "geral"
+  ],
+  "purpose": "Explorar extratores de referências ATT&CK, D3FEND, artefatos digitais e CWE em texto.",
+  "output": "Anotações e relações candidatas para revisão",
+  "priority": "P2",
+  "status": "n/v",
+  "relations": [
+    "E002",
+    "E008",
+    "E009",
+    "E077"
+  ],
+  "notes": "Agrupa ferramentas do portal, sem contar cada extrator separadamente. Extração não valida a semântica do mapeamento nem demonstra eficácia de contramedidas.",
+  "reviewed_on": "2026-11-06",
+  "verification": "Catálogo oficial de ferramentas consultado; extratores não executados."
+}

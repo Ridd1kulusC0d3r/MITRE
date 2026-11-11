@@ -1,0 +1,28 @@
+{
+  "id": "E115",
+  "name": "ATT&CK for ICS",
+  "url": "https://attack.mitre.org/matrices/ics/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "adversario",
+  "domains": [
+    "ics-ot"
+  ],
+  "purpose": "Comportamentos adversários contra sistemas de controle industrial.",
+  "output": "Cenários OT com técnicas, ativos e mitigações",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v20.1 · 05/11/2026",
+  "formats": [
+    "STIX 2.1"
+  ],
+  "relations": [
+    "E001",
+    "E048",
+    "E002",
+    "E006"
+  ],
+  "notes": "v20: 12 táticas, 78 técnicas, 26 subtécnicas, 18 Assets, 106 Detection Strategies, 302 Analytics. Subtécnicas existem desde a v19.",
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

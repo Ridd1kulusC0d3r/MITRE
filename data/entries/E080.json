@@ -1,0 +1,28 @@
+{
+  "id": "E080",
+  "name": "Micro Emulation Plans",
+  "url": "https://github.com/center-for-threat-informed-defense/adversary_emulation_library/tree/master/micro_emulation_plans",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "validacao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Emular comportamentos compostos curtos, sem uma campanha inteira.",
+  "output": "Execução focada com eventos esperados",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "formats": [
+    "Markdown",
+    "código"
+  ],
+  "relations": [
+    "E031",
+    "E013"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2025-05-28T19:37:18Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "E044",
+  "name": "Sightings Ecosystem",
+  "url": "https://github.com/center-for-threat-informed-defense/sightings_ecosystem",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "cti",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · CTI",
+  "purpose": "Estudar observações e prevalência de técnicas.",
+  "output": "Contexto empírico de priorização",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "formats": [
+    "JSON"
+  ],
+  "relations": [
+    "E001"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2025-05-28T19:15:26Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

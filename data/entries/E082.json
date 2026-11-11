@@ -1,0 +1,26 @@
+{
+  "id": "E082",
+  "name": "Decider",
+  "url": "https://github.com/cisagov/decider",
+  "origin": "CISA (com HSSEDI/MITRE)",
+  "owner_type": "governo",
+  "layer": "cti",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Guiar o mapeamento de relatos para técnicas ATT&CK por perguntas.",
+  "output": "Mapeamento ATT&CK revisável",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "version": "v3.0.0 (tag)",
+  "formats": [
+    "Web",
+    "Docker"
+  ],
+  "relations": [
+    "E001",
+    "E033"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

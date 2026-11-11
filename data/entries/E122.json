@@ -1,0 +1,28 @@
+{
+  "id": "E122",
+  "name": "Splunk Attack Data",
+  "url": "https://github.com/splunk/attack_data",
+  "origin": "Splunk",
+  "owner_type": "fornecedor",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "cloud"
+  ],
+  "purpose": "Consumir datasets de ataques e reproduzir eventos para desenvolver e validar analíticas.",
+  "output": "Logs de teste com contexto de coleta",
+  "priority": "P1",
+  "status": "ativo",
+  "relations": [
+    "E061",
+    "E062",
+    "E064"
+  ],
+  "notes": "É a camada de dados, distinta de Attack Range e Security Content. Revisar sourcetype, timestamp e versão; usar download seletivo via Git LFS.",
+  "repo": "splunk/attack_data",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-22T18:21:51Z",
+  "reviewed_on": "2026-11-06",
+  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+}

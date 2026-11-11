@@ -1,0 +1,26 @@
+{
+  "id": "E123",
+  "name": "Elastic Protections Artifacts",
+  "url": "https://github.com/elastic/protections-artifacts",
+  "origin": "Elastic",
+  "owner_type": "fornecedor",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Estudar lógica de proteção de endpoint, incluindo regras comportamentais e YARA.",
+  "output": "Referências de detecção e prevenção para endpoint",
+  "priority": "P2",
+  "status": "ativo",
+  "relations": [
+    "E063",
+    "E057"
+  ],
+  "notes": "Distinto de elastic/detection-rules. README declara Elastic License 2.0; não tratar como Apache/MIT.",
+  "repo": "elastic/protections-artifacts",
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-23T07:11:16Z",
+  "reviewed_on": "2026-11-06",
+  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+}

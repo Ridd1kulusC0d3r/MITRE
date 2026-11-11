@@ -1,0 +1,27 @@
+{
+  "id": "E099",
+  "name": "ATT&CK TAXII 2.1 (público)",
+  "url": "https://attack-taxii.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Servir o ATT&CK por TAXII 2.1.",
+  "output": "Coleções ATT&CK por API",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "TAXII 2.1"
+  ],
+  "relations": [
+    "E026",
+    "E088",
+    "E055"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

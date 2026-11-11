@@ -376,9 +376,9 @@
         "E002"
       ],
       "notes": "Doado à Apache Software Foundation: Apache Caldera (Incubating), repo apache/caldera.",
+      "repo": "apache/caldera",
       "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026",
-      "repo": "apache/caldera"
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
     },
     {
       "id": "E014",
@@ -781,6 +781,7 @@
       "output": "Validação estrutural",
       "priority": "P1",
       "status": "ativo",
+      "version": "v5.0.0-beta.3 (tag)",
       "formats": [
         "TypeScript",
         "Zod"
@@ -789,8 +790,7 @@
         "E026"
       ],
       "reviewed_on": "2026-11-11",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026",
-      "version": "v5.0.0-beta.3 (tag)"
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E030",
@@ -807,6 +807,7 @@
       "output": "Intercâmbio de CTI",
       "priority": "P1",
       "status": "ativo",
+      "version": "v2.0.1 (tag)",
       "formats": [
         "TAXII 2.1"
       ],
@@ -814,8 +815,7 @@
         "E025"
       ],
       "reviewed_on": "2026-11-11",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026",
-      "version": "v2.0.1 (tag)"
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E031",
@@ -2009,6 +2009,7 @@
       "output": "Espelho interno do site com a versão fixada",
       "priority": "P2",
       "status": "ativo",
+      "version": "website-v4.4.1 (tag)",
       "formats": [
         "HTML",
         "Python"
@@ -2018,8 +2019,7 @@
         "E001"
       ],
       "reviewed_on": "2026-11-11",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026",
-      "version": "website-v4.4.1 (tag)"
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E076",
@@ -2376,9 +2376,9 @@
       "relations": [
         "E057"
       ],
+      "notes": "sigma-cli mudou de versão principal (3.x → 4.0.0): teste pipelines e backends antes de atualizar em produção.",
       "reviewed_on": "2026-11-11",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026",
-      "notes": "sigma-cli mudou de versão principal (3.x → 4.0.0): teste pipelines e backends antes de atualizar em produção."
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E090",
@@ -3006,7 +3006,6 @@
     {
       "id": "E118",
       "name": "Dettectinator",
-      "repo": "siriussecurity/dettectinator",
       "url": "https://github.com/siriussecurity/dettectinator",
       "origin": "Sirius Security / comunidade",
       "owner_type": "comunidade",
@@ -3017,13 +3016,14 @@
       "purpose": "Automatizar criação e atualização dos YAMLs DeTT&CT a partir de fontes SIEM/EDR.",
       "output": "Inventário de fontes e detecções para layers Navigator",
       "priority": "P1",
+      "status": "ativo",
       "relations": [
         "E055",
         "E024",
         "E087"
       ],
       "notes": "Importação de regras não comprova eficácia; confirmar suporte dos plugins e compatibilidade com a versão ATT&CK.",
-      "status": "ativo",
+      "repo": "siriussecurity/dettectinator",
       "archived": false,
       "license_api": "GPL-3.0",
       "pushed_at": "2026-01-22T08:45:57Z",
@@ -3033,7 +3033,6 @@
     {
       "id": "E119",
       "name": "OpenAEV (anteriormente OpenBAS)",
-      "repo": "OpenAEV-Platform/openaev",
       "url": "https://github.com/OpenAEV-Platform/openaev",
       "origin": "Filigran / comunidade",
       "owner_type": "fornecedor",
@@ -3045,13 +3044,14 @@
       "purpose": "Planejar e acompanhar campanhas, simulações e exercícios com contexto de inteligência.",
       "output": "Campanha de validação e registro de lacunas",
       "priority": "P1",
+      "status": "ativo",
       "relations": [
         "E059",
         "E031",
         "E091"
       ],
       "notes": "OpenBAS foi renomeado para OpenAEV. README distingue CE Apache-2.0 e EE com licença própria; verificar funcionalidades por edição.",
-      "status": "ativo",
+      "repo": "OpenAEV-Platform/openaev",
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-23T10:00:58Z",
@@ -3061,7 +3061,6 @@
     {
       "id": "E120",
       "name": "Threatest",
-      "repo": "DataDog/threatest",
       "url": "https://github.com/DataDog/threatest",
       "origin": "Datadog",
       "owner_type": "fornecedor",
@@ -3073,13 +3072,14 @@
       "purpose": "Testar de ponta a ponta a geração de telemetria e alertas associados a uma execução.",
       "output": "Teste repetível com correlação entre execução e evidência",
       "priority": "P1",
+      "status": "ativo",
       "relations": [
         "E090",
         "E063",
         "E058"
       ],
       "notes": "CLI/framework Go; matchers e detonators dependem da plataforma. A existência de um alerta não prova cobertura de toda a técnica.",
-      "status": "ativo",
+      "repo": "DataDog/threatest",
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-19T07:01:10Z",
@@ -3089,7 +3089,6 @@
     {
       "id": "E121",
       "name": "TTPForge",
-      "repo": "facebookincubator/TTPForge",
       "url": "https://github.com/facebookincubator/TTPForge",
       "origin": "Meta / comunidade",
       "owner_type": "fornecedor",
@@ -3100,13 +3099,14 @@
       "purpose": "Empacotar TTPs em simulações repetíveis descritas em YAML.",
       "output": "Procedimentos versionados para exercícios purple team",
       "priority": "P1",
+      "status": "ativo",
       "relations": [
         "E058",
         "E031",
         "E091"
       ],
       "notes": "Complementa ferramentas de avaliação; definir pré-condições, limpeza e critérios de aceite por procedimento.",
-      "status": "ativo",
+      "repo": "facebookincubator/TTPForge",
       "archived": false,
       "license_api": "MIT",
       "pushed_at": "2026-09-30T13:53:10Z",
@@ -3116,7 +3116,6 @@
     {
       "id": "E122",
       "name": "Splunk Attack Data",
-      "repo": "splunk/attack_data",
       "url": "https://github.com/splunk/attack_data",
       "origin": "Splunk",
       "owner_type": "fornecedor",
@@ -3128,13 +3127,14 @@
       "purpose": "Consumir datasets de ataques e reproduzir eventos para desenvolver e validar analíticas.",
       "output": "Logs de teste com contexto de coleta",
       "priority": "P1",
+      "status": "ativo",
       "relations": [
         "E061",
         "E062",
         "E064"
       ],
       "notes": "É a camada de dados, distinta de Attack Range e Security Content. Revisar sourcetype, timestamp e versão; usar download seletivo via Git LFS.",
-      "status": "ativo",
+      "repo": "splunk/attack_data",
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-22T18:21:51Z",
@@ -3144,7 +3144,6 @@
     {
       "id": "E123",
       "name": "Elastic Protections Artifacts",
-      "repo": "elastic/protections-artifacts",
       "url": "https://github.com/elastic/protections-artifacts",
       "origin": "Elastic",
       "owner_type": "fornecedor",
@@ -3155,12 +3154,13 @@
       "purpose": "Estudar lógica de proteção de endpoint, incluindo regras comportamentais e YARA.",
       "output": "Referências de detecção e prevenção para endpoint",
       "priority": "P2",
+      "status": "ativo",
       "relations": [
         "E063",
         "E057"
       ],
       "notes": "Distinto de elastic/detection-rules. README declara Elastic License 2.0; não tratar como Apache/MIT.",
-      "status": "ativo",
+      "repo": "elastic/protections-artifacts",
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-23T07:11:16Z",
@@ -3170,7 +3170,6 @@
     {
       "id": "E124",
       "name": "AWS Customer Playbook Framework",
-      "repo": "aws-samples/aws-customer-playbook-framework",
       "url": "https://github.com/aws-samples/aws-customer-playbook-framework",
       "origin": "AWS",
       "owner_type": "fornecedor",
@@ -3181,13 +3180,14 @@
       "purpose": "Adaptar exemplos de playbooks de resposta a cenários AWS.",
       "output": "Procedimentos de resposta ajustados às contas e serviços",
       "priority": "P2",
+      "status": "ativo",
       "relations": [
         "E056",
         "E068",
         "E090"
       ],
       "notes": "Relação com ATT&CK é composição editorial, não crosswalk automático. README informa traduções automáticas não revisadas; validar contexto e permissões.",
-      "status": "ativo",
+      "repo": "aws-samples/aws-customer-playbook-framework",
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-22T23:13:43Z",
@@ -3197,7 +3197,6 @@
     {
       "id": "E125",
       "name": "ATLAS Arsenal (plugin CALDERA)",
-      "repo": "mitre-atlas/arsenal",
       "url": "https://github.com/mitre-atlas/arsenal",
       "origin": "MITRE ATLAS",
       "owner_type": "mitre",
@@ -3208,12 +3207,13 @@
       "purpose": "Estudar emulação de comportamentos ATLAS em sistemas de aprendizado de máquina.",
       "output": "Referência de cenários e abilities para laboratório",
       "priority": "P2",
+      "status": "baixa-atividade",
       "relations": [
         "E004",
         "E013"
       ],
       "notes": "Não confundir com ATT&CK Arsenal. Último push consultado: 2023; documentação cita dependências antigas. Compatibilidade atual não testada.",
-      "status": "baixa-atividade",
+      "repo": "mitre-atlas/arsenal",
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2023-08-07T18:19:16Z",
@@ -3223,7 +3223,6 @@
     {
       "id": "E126",
       "name": "BRAWL public game 001",
-      "repo": "mitre/brawl-public-game-001",
       "url": "https://github.com/mitre/brawl-public-game-001",
       "origin": "MITRE",
       "owner_type": "mitre",
@@ -3234,12 +3233,13 @@
       "purpose": "Estudar dados de um exercício automatizado de emulação adversária.",
       "output": "Dataset de referência para pesquisa de detecção",
       "priority": "P2",
+      "status": "baixa-atividade",
       "relations": [
         "E013",
         "E064"
       ],
       "notes": "Dataset histórico: último push consultado em 2020. Não representa versões atuais de sistemas ou distribuição de ataques; não é uma plataforma BRAWL completa.",
-      "status": "baixa-atividade",
+      "repo": "mitre/brawl-public-game-001",
       "archived": false,
       "license_api": "CC-BY-4.0",
       "pushed_at": "2020-10-02T09:07:56Z",
@@ -3321,7 +3321,6 @@
     {
       "id": "E130",
       "name": "Caldera MCP (plugin)",
-      "repo": "mitre/mcp",
       "url": "https://github.com/mitre/mcp",
       "origin": "MITRE",
       "owner_type": "mitre",
@@ -3343,16 +3342,16 @@
         "E065"
       ],
       "notes": "O README descreve três fluxos: Author, Upload CTI e Plan and Execute. Conteúdo gerado por LLM e execução automatizada exigem revisão humana e ambiente autorizado. Licença Apache-2.0 (arquivo LICENSE).",
-      "reviewed_on": "2026-11-11",
-      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado.",
+      "repo": "mitre/mcp",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-09-03"
+      "pushed_at": "2026-09-03",
+      "reviewed_on": "2026-11-11",
+      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
     },
     {
       "id": "E131",
       "name": "Caldera for OT",
-      "repo": "mitre/caldera-ot",
       "url": "https://github.com/mitre/caldera-ot",
       "origin": "MITRE",
       "owner_type": "mitre",
@@ -3369,16 +3368,16 @@
         "E115"
       ],
       "notes": "Clonar com --recursive e habilitar cada plugin na configuração do Caldera. Usar só em laboratório isolado e autorizado: comandos em protocolo industrial têm risco físico. Licença Apache-2.0 (arquivo LICENSE).",
-      "reviewed_on": "2026-11-11",
-      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado.",
+      "repo": "mitre/caldera-ot",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-09-16"
+      "pushed_at": "2026-09-16",
+      "reviewed_on": "2026-11-11",
+      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
     },
     {
       "id": "E132",
       "name": "Hipcheck",
-      "repo": "mitre/hipcheck",
       "url": "https://github.com/mitre/hipcheck",
       "origin": "MITRE",
       "owner_type": "mitre",
@@ -3394,16 +3393,16 @@
         "E009"
       ],
       "notes": "CLI em Rust. O resultado é triagem heurística; não substitui SCA nem revisão de código. Licença Apache-2.0.",
-      "reviewed_on": "2026-11-11",
-      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado.",
+      "repo": "mitre/hipcheck",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-11-03"
+      "pushed_at": "2026-11-03",
+      "reviewed_on": "2026-11-11",
+      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
     },
     {
       "id": "E133",
       "name": "Grid Watch",
-      "repo": "mitre/grid-watch",
       "url": "https://github.com/mitre/grid-watch",
       "origin": "Universidade do Havaí em Manoa, com a equipe Caldera for OT (MITRE)",
       "owner_type": "mitre",
@@ -3420,16 +3419,16 @@
         "E131"
       ],
       "notes": "Simulação simplificada, criada por estudantes em colaboração com a MITRE; não representa uma subestação real. Licença Apache-2.0 (arquivo LICENSE).",
-      "reviewed_on": "2026-11-11",
-      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado.",
+      "repo": "mitre/grid-watch",
       "archived": false,
       "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-09"
+      "pushed_at": "2026-10-09",
+      "reviewed_on": "2026-11-11",
+      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
     },
     {
       "id": "E134",
       "name": "ATLAS Agent",
-      "repo": "mitre-atlas/atlas-knowledge-base-agent",
       "url": "https://github.com/mitre-atlas/atlas-knowledge-base-agent",
       "origin": "MITRE",
       "owner_type": "mitre",
@@ -3447,6 +3446,7 @@
         "E079"
       ],
       "notes": "Construído sobre Langflow; requer uv e um provedor de LLM com uso de ferramentas. Os dados embutidos são da v2026.7, três versões atrás da 2026.10: IDs renomeados ou movidos depois disso não aparecem. Conferir toda resposta na base oficial.",
+      "repo": "mitre-atlas/atlas-knowledge-base-agent",
       "reviewed_on": "2026-11-11",
       "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
     }

@@ -1,0 +1,21 @@
+{
+  "id": "E069",
+  "name": "CVSS",
+  "url": "https://www.first.org/standards/",
+  "origin": "FIRST",
+  "owner_type": "padrao",
+  "layer": "vulnerabilidade",
+  "domains": [
+    "geral"
+  ],
+  "legacy_category": "Padrões e referências complementares",
+  "purpose": "Caracterizar severidade técnica de vulnerabilidades.",
+  "output": "Vetor e pontuação de severidade",
+  "priority": "P2",
+  "status": "ativo",
+  "relations": [
+    "E010"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

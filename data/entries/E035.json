@@ -1,0 +1,24 @@
+{
+  "id": "E035",
+  "name": "Insider Threat TTP KB",
+  "url": "https://github.com/center-for-threat-informed-defense/insider-threat-ttp-kb",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "adversario",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · CTI",
+  "purpose": "Consultar comportamentos de ameaças internas.",
+  "output": "Hipóteses de investigação contextualizadas",
+  "priority": "P2",
+  "status": "ativo",
+  "relations": [
+    "E001"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-07-06T19:56:47Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "E085",
+  "name": "Atomic Threat Coverage",
+  "url": "https://github.com/atc-project/atomic-threat-coverage",
+  "origin": "ATC Project",
+  "owner_type": "comunidade",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Gerar base de conhecimento unindo Sigma, RE&CT e ATT&CK.",
+  "output": "Referência histórica de arquitetura",
+  "priority": "P2",
+  "status": "parado",
+  "formats": [
+    "YAML"
+  ],
+  "relations": [
+    "E057",
+    "E056",
+    "E001"
+  ],
+  "notes": "Sem atualização desde 2022.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

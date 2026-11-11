@@ -1,0 +1,24 @@
+{
+  "id": "E129",
+  "name": "Red Team Redemption",
+  "url": "https://arxiv.org/abs/2408.15645",
+  "origin": "Landauer, Mayer, Skopik, Wurzenberger e Kern",
+  "owner_type": "outro",
+  "layer": "formacao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Estudar uma comparação estruturada de ferramentas de emulação adversária.",
+  "output": "Critérios para seleção e benchmark de ferramentas",
+  "priority": "P2",
+  "status": "n/v",
+  "version": "2024 / TrustCom",
+  "relations": [
+    "E013",
+    "E058",
+    "E121"
+  ],
+  "notes": "Compara nove ferramentas usando questionário com 80 questões. Ranking reflete a amostra e o período do estudo; não é ranking atualizado do mercado.",
+  "reviewed_on": "2026-11-06",
+  "verification": "Resumo e registro arXiv consultados; não reproduzimos a avaliação."
+}

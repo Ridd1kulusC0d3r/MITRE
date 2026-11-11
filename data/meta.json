@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.0",
+  "timezone": "America/Sao_Paulo",
+  "scope": "Ecossistema de cibersegurança MITRE e recursos externos relacionados; não inventário institucional exaustivo",
+  "verification_limits": "Pesquisa documental; ferramentas não executadas. Campos ausentes: não coletados. archived=false não comprova manutenção ativa. pushed_at não equivale a último release. license_api não substitui leitura da licença. Status 'n/v' = não verificado. Tag Git indica marco publicado, não necessariamente release estável.",
+  "mitre_attack_archived": [
+    {
+      "repo": "mitre-attack/attack-scripts",
+      "url": "https://github.com/mitre-attack/attack-scripts",
+      "description": "Scripts and a (future) library to improve interactions with ATT&CK content",
+      "archived": true,
+      "pushed_at": "2023-12-11",
+      "note": "Use mitreattack-python."
+    },
+    {
+      "repo": "mitre-attack/evals_caldera",
+      "url": "https://github.com/mitre-attack/evals_caldera",
+      "description": "CALDERA plugin for ATT&CK Evaluations Round 1",
+      "archived": true,
+      "pushed_at": "2023-09-14",
+      "note": "Histórico das Evaluations Round 1."
+    },
+    {
+      "repo": "mitre-attack/joystick",
+      "url": "https://github.com/mitre-attack/joystick",
+      "description": "Tool that turns ATT&CK Evaluations data into concise views",
+      "archived": true,
+      "pushed_at": "2023-09-13",
+      "note": "Histórico; ver evals.mitre.org."
+    },
+    {
+      "repo": "mitre-attack/attack-datasources",
+      "url": "https://github.com/mitre-attack/attack-datasources",
+      "description": "Analysis and research of the data sources listed in ATT&CK",
+      "archived": true,
+      "pushed_at": "2023-09-13",
+      "note": "Substituído pelo modelo de Data Components/Detection Strategies."
+    },
+    {
+      "repo": "mitre-attack/attack-datasources-stix-beta",
+      "url": "https://github.com/mitre-attack/attack-datasources-stix-beta",
+      "description": "Mock STIX data for the new data source representation",
+      "archived": true,
+      "pushed_at": "2023-09-13",
+      "note": "Beta histórico."
+    },
+    {
+      "repo": "mitre-attack/tram",
+      "url": "https://github.com/mitre-attack/tram",
+      "description": "Threat Report ATT&CK Mapping (TRAM), original",
+      "archived": true,
+      "pushed_at": "2021-10-06",
+      "note": "Versão original; o TRAM em manutenção está no CTID (E033)."
+    },
+    {
+      "repo": "mitre-attack/attack-evals",
+      "url": "https://github.com/mitre-attack/attack-evals",
+      "description": "ATT&CK Evaluations website (deprecated)",
+      "archived": true,
+      "pushed_at": "2021-04-30",
+      "note": "Depreciado; ver evals.mitre.org."
+    },
+    {
+      "repo": "mitre-attack/attack-arsenal",
+      "url": "https://github.com/mitre-attack/attack-arsenal",
+      "description": "Red team and adversary emulation resources released by MITRE",
+      "archived": true,
+      "pushed_at": "2021-04-20",
+      "note": "Ver Adversary Emulation Library e CALDERA."
+    },
+    {
+      "repo": "mitre-attack/attack-archives",
+      "url": "https://github.com/mitre-attack/attack-archives",
+      "description": "Previous ATT&CK releases",
+      "archived": true,
+      "pushed_at": "2020-07-21",
+      "note": "Arquivo de versões anteriores."
+    }
+  ],
+  "attack_release": {
+    "version": "v20",
+    "released_on": "2026-10-13",
+    "source": "https://attack.mitre.org/resources/updates/",
+    "highlights": [
+      "Técnicas Enterprise focadas em IA (ex.: AI-Enabled Exfiltration, Direct/Indirect Prompt Injection)",
+      "Novas técnicas ICS de execução e C2",
+      "Detection Strategies de ICS com contexto de plataforma/ativo; Mobile considera limites de visibilidade Android/iOS",
+      "Campanhas novas; totais: 971 Software, 182 Groups, 61 Campaigns"
+    ],
+    "note": "Resumo da página oficial; releases anteriores não detalhados na fonte consultada."
+  }
+}

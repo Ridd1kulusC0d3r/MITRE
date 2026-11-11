@@ -1,0 +1,25 @@
+{
+  "id": "E091",
+  "name": "VECTR",
+  "url": "https://github.com/SecurityRiskAdvisors/VECTR",
+  "origin": "Security Risk Advisors",
+  "owner_type": "fornecedor",
+  "layer": "validacao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Registrar campanhas purple team e resultados por técnica.",
+  "output": "Histórico de testes e evolução da defesa",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "ce-9.14.1 (tag)",
+  "formats": [
+    "Web"
+  ],
+  "relations": [
+    "E058",
+    "E013"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

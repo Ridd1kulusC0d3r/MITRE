@@ -1,0 +1,32 @@
+{
+  "id": "E057",
+  "name": "Sigma",
+  "url": "https://github.com/SigmaHQ/sigma",
+  "origin": "SigmaHQ",
+  "owner_type": "comunidade",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise",
+    "cloud"
+  ],
+  "legacy_category": "Comunidade e fornecedores",
+  "purpose": "Representar e compartilhar regras de detecção.",
+  "output": "Regras adaptadas e testadas no backend",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "r2026-07-01",
+  "formats": [
+    "YAML"
+  ],
+  "relations": [
+    "E001",
+    "E089",
+    "E041"
+  ],
+  "notes": "Tags attack.tXXXX nas regras.",
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-21T03:04:45Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

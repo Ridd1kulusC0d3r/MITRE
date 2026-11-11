@@ -1,0 +1,36 @@
+{
+  "id": "E037",
+  "name": "Mappings Explorer",
+  "url": "https://github.com/center-for-threat-informed-defense/mappings-explorer",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "defesa",
+  "domains": [
+    "enterprise",
+    "cloud"
+  ],
+  "legacy_category": "CTID · Mapeamentos",
+  "purpose": "Explorar relações entre controles e comportamentos ATT&CK.",
+  "output": "Crosswalk documentado de capacidades",
+  "priority": "P1",
+  "status": "ativo",
+  "formats": [
+    "JSON",
+    "CSV",
+    "XLSX",
+    "STIX",
+    "Navigator layer"
+  ],
+  "relations": [
+    "E001",
+    "E010",
+    "E067",
+    "E083"
+  ],
+  "notes": "NIST 800-53, CVE/KEV, AWS/Azure/GCP, M365, VERIS, CSA CCM e CIS Controls (projeto CIS Controls for Threat Mitigations, 05/10/2026: Safeguards mapeados a técnicas com justificativa, em ctid.mitre.org/mappings/external/cis/).",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-05T02:10:24Z",
+  "reviewed_on": "2026-11-11",
+  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+}

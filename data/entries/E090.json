@@ -1,0 +1,25 @@
+{
+  "id": "E090",
+  "name": "Stratus Red Team",
+  "url": "https://github.com/DataDog/stratus-red-team",
+  "origin": "Datadog",
+  "owner_type": "fornecedor",
+  "layer": "validacao",
+  "domains": [
+    "cloud"
+  ],
+  "purpose": "Emular técnicas em AWS, Azure, GCP e Kubernetes.",
+  "output": "Execução cloud com detonação e limpeza",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v2.38.0 (tag)",
+  "formats": [
+    "Go"
+  ],
+  "relations": [
+    "E058",
+    "E001"
+  ],
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

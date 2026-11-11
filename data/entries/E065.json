@@ -1,0 +1,23 @@
+{
+  "id": "E065",
+  "name": "STIX",
+  "url": "https://oasis-open.github.io/cti-documentation/",
+  "origin": "OASIS",
+  "owner_type": "padrao",
+  "layer": "padrao",
+  "domains": [
+    "geral"
+  ],
+  "legacy_category": "Padrões e referências complementares",
+  "purpose": "Representar inteligência estruturada.",
+  "output": "Objetos e relações de CTI",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "2.1",
+  "relations": [
+    "E026",
+    "E066"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

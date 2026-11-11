@@ -1,0 +1,31 @@
+{
+  "id": "E060",
+  "name": "MISP Galaxy",
+  "url": "https://github.com/MISP/misp-galaxy",
+  "origin": "MISP Project",
+  "owner_type": "comunidade",
+  "layer": "cti",
+  "domains": [
+    "enterprise",
+    "ia",
+    "desinformacao"
+  ],
+  "legacy_category": "Comunidade e fornecedores",
+  "purpose": "Contextualizar eventos com clusters de inteligência.",
+  "output": "Enriquecimento e classificação",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "JSON"
+  ],
+  "relations": [
+    "E001",
+    "E004",
+    "E094"
+  ],
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-16T11:59:04Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "E094",
+  "name": "DISARM",
+  "url": "https://www.disarm.foundation/",
+  "origin": "DISARM Foundation",
+  "owner_type": "comunidade",
+  "layer": "adversario",
+  "domains": [
+    "desinformacao"
+  ],
+  "purpose": "Descrever táticas de manipulação e interferência informacional (FIMI).",
+  "output": "Cenários e contramedidas de desinformação",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "v1.6.1 (tag) · v1.7 citada em mai/2026",
+  "formats": [
+    "STIX",
+    "CSV"
+  ],
+  "relations": [
+    "E056",
+    "E060"
+  ],
+  "notes": "Inspirado no ATT&CK; não é MITRE. Sucessor do AMITT.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

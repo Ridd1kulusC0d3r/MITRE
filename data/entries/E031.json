@@ -1,0 +1,30 @@
+{
+  "id": "E031",
+  "name": "Adversary Emulation Library",
+  "url": "https://github.com/center-for-threat-informed-defense/adversary_emulation_library",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "validacao",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · Emulação",
+  "purpose": "Planejar emulações baseadas em TTPs documentadas.",
+  "output": "Plano de exercício e evidências",
+  "priority": "P1",
+  "status": "baixa-atividade",
+  "formats": [
+    "Markdown",
+    "YAML"
+  ],
+  "relations": [
+    "E013",
+    "E080",
+    "E014"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2025-05-28T19:37:18Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "E034",
+  "name": "CTI Blueprints",
+  "url": "https://github.com/center-for-threat-informed-defense/cti-blueprints",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "cti",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · CTI",
+  "purpose": "Estruturar relatórios de inteligência acionáveis.",
+  "output": "Relatório com contexto e decisões",
+  "priority": "P1",
+  "status": "baixa-atividade",
+  "relations": [
+    "E001"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2025-03-20T15:58:24Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

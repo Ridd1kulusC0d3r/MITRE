@@ -1,0 +1,26 @@
+{
+  "id": "E070",
+  "name": "EPSS",
+  "url": "https://www.first.org/epss/",
+  "origin": "FIRST",
+  "owner_type": "padrao",
+  "layer": "vulnerabilidade",
+  "domains": [
+    "geral"
+  ],
+  "legacy_category": "Padrões e referências complementares",
+  "purpose": "Estimar probabilidade de exploração para priorização.",
+  "output": "Probabilidade estimada; combinar com exposição e impacto",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "CSV",
+    "API"
+  ],
+  "relations": [
+    "E010",
+    "E083"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

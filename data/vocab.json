@@ -1,0 +1,54 @@
+{
+  "owner_type": {
+    "mitre": "MITRE oficial",
+    "ctid": "MITRE CTID",
+    "colaboracao": "Colaboração MITRE",
+    "governanca-aberta": "Fundação aberta (código MITRE doado)",
+    "governo": "Governo",
+    "padrao": "Organismo de padrão",
+    "comunidade": "Comunidade",
+    "fornecedor": "Fornecedor",
+    "outro": "Outro"
+  },
+  "layer": {
+    "adversario": "O que o adversário faz",
+    "modelagem": "Como representar o cenário",
+    "telemetria": "O que observar",
+    "deteccao": "Como detectar e avaliar",
+    "defesa": "Como reduzir exposição",
+    "engano": "Como enganar e engajar",
+    "validacao": "Como validar",
+    "resposta": "Como responder e investigar",
+    "maturidade": "Como evoluir o programa",
+    "vulnerabilidade": "Que fraquezas existem",
+    "cti": "Como produzir e compartilhar CTI",
+    "dados": "Como consumir por código",
+    "conformidade": "Como automatizar conformidade",
+    "formacao": "Como aprender",
+    "padrao": "Padrões de base"
+  },
+  "domains": {
+    "enterprise": "Enterprise",
+    "mobile": "Mobile",
+    "ics-ot": "ICS/OT",
+    "embarcado": "Embarcados",
+    "5g": "5G",
+    "ia": "IA",
+    "cloud": "Cloud",
+    "fraude": "Fraude",
+    "cripto": "Ativos digitais",
+    "espaco": "Espaço",
+    "desinformacao": "Desinformação",
+    "geral": "Geral"
+  },
+  "status": {
+    "ativo": "Ativo",
+    "baixa-atividade": "Baixa atividade",
+    "parado": "Parado",
+    "n/v": "Não verificado"
+  },
+  "priority": {
+    "P1": "Começar aqui",
+    "P2": "Aprofundar por necessidade"
+  }
+}

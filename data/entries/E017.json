@@ -1,0 +1,27 @@
+{
+  "id": "E017",
+  "name": "SAF CLI",
+  "url": "https://github.com/mitre/saf",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "conformidade",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Automação e engenharia",
+  "purpose": "Normalizar saídas de ferramentas e apoiar pipelines de segurança.",
+  "output": "Dados normalizados e validações",
+  "priority": "P2",
+  "status": "n/v",
+  "formats": [
+    "HDF JSON"
+  ],
+  "relations": [
+    "E015"
+  ],
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-23T00:42:24Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

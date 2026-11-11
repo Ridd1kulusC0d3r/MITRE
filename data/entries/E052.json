@@ -1,0 +1,21 @@
+{
+  "id": "E052",
+  "name": "CTID Workshop",
+  "url": "https://github.com/center-for-threat-informed-defense/workshop",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "formacao",
+  "domains": [
+    "geral"
+  ],
+  "legacy_category": "CTID · Formação",
+  "purpose": "Acessar materiais de workshops do Center.",
+  "output": "Exercícios e material de estudo",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "archived": false,
+  "license_api": null,
+  "pushed_at": "2025-01-26T03:36:36Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

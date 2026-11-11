@@ -1,0 +1,24 @@
+{
+  "id": "E092",
+  "name": "PurpleSharp",
+  "url": "https://github.com/mvelazc0/PurpleSharp",
+  "origin": "Mauricio Velazco",
+  "owner_type": "comunidade",
+  "layer": "validacao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Simular técnicas em Active Directory e Windows.",
+  "output": "Telemetria gerada para validar detecção",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "version": "v1.3 (tag)",
+  "formats": [
+    "C#"
+  ],
+  "relations": [
+    "E058"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "E059",
+  "name": "OpenCTI",
+  "url": "https://github.com/OpenCTI-Platform/opencti",
+  "origin": "Filigran / comunidade",
+  "owner_type": "comunidade",
+  "layer": "cti",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Comunidade e fornecedores",
+  "purpose": "Organizar entidades e relações de inteligência.",
+  "output": "Grafo de CTI com proveniência",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "STIX 2.1"
+  ],
+  "relations": [
+    "E001",
+    "E060"
+  ],
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-23T00:04:40Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

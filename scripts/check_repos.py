@@ -2,8 +2,8 @@
 """check_repos.py — atualiza sinais de manutenção (archived, licença, pushed_at,
 último release) das entradas hospedadas no GitHub. Somente stdlib.
 
-Lê data/ecosystem.json, consulta a API do GitHub e imprime um relatório em
-Markdown com o que mudou. Com --write grava os novos valores no JSON.
+Lê a fonte (data/entries/), consulta a API do GitHub e imprime um relatório em
+Markdown com o que mudou. Com --write grava os novos valores em data/entries/E###.json.
 
 Uso:
     GITHUB_TOKEN=... python3 scripts/check_repos.py            # relatório
@@ -24,7 +24,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data" / "ecosystem.json"
+sys.path.insert(0, str(ROOT))
+from atlas import model  # noqa: E402
+from atlas.paths import Paths  # noqa: E402
+
 API = os.environ.get("GITHUB_API", "https://api.github.com")
 GH = re.compile(r"https://github\.com/([^/]+)/([^/#?]+)")
 
@@ -57,7 +60,8 @@ def main():
     ap.add_argument("--stale-days", type=int, default=540)
     a = ap.parse_args()
 
-    d = json.loads(DATA.read_text(encoding="utf-8"))
+    paths = Paths()
+    d = model.load(paths)
     now = datetime.now(timezone.utc)
     changes, stale, missing = [], [], []
     for e in d["entries"]:
@@ -81,6 +85,7 @@ def main():
             changes.append((e["id"], e["name"], diff))
             if a.write:
                 e.update(new)
+                model.save_entry(paths, e)  # dado de máquina: não altera reviewed_on
         if new["pushed_at"]:
             age = (now - datetime.fromisoformat(new["pushed_at"].replace("Z", "+00:00"))).days
             if age > a.stale_days and e["status"] == "ativo":
@@ -99,8 +104,7 @@ def main():
     for i, n, r in missing:
         print(f"- **{n}** `{i}`: {r}")
     if a.write and changes:
-        DATA.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print("\nJSON atualizado. Rode scripts/build_catalog.py para regenerar o catálogo.", file=sys.stderr)
+        print("\nEntradas atualizadas em data/entries/. Rode: python3 -m atlas check", file=sys.stderr)
 
 
 if __name__ == "__main__":

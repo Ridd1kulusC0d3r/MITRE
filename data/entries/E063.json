@@ -1,0 +1,29 @@
+{
+  "id": "E063",
+  "name": "Elastic Detection Rules",
+  "url": "https://github.com/elastic/detection-rules",
+  "origin": "Elastic",
+  "owner_type": "fornecedor",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise",
+    "cloud"
+  ],
+  "legacy_category": "Comunidade e fornecedores",
+  "purpose": "Estudar regras e workflows de detecção.",
+  "output": "Analíticas adaptadas para Elastic",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "TOML"
+  ],
+  "relations": [
+    "E001"
+  ],
+  "notes": "Elastic License v2.",
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-23T00:19:38Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

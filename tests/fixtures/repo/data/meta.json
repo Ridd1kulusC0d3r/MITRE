@@ -1,0 +1,28 @@
+{
+  "schema_version": "2.0",
+  "timezone": "America/Sao_Paulo",
+  "scope": "Ecossistema de cibersegurança MITRE e recursos externos relacionados; não inventário institucional exaustivo",
+  "verification_limits": "Pesquisa documental; ferramentas não executadas. Campos ausentes: não coletados. archived=false não comprova manutenção ativa. pushed_at não equivale a último release. license_api não substitui leitura da licença. Status 'n/v' = não verificado. Tag Git indica marco publicado, não necessariamente release estável.",
+  "mitre_attack_archived": [
+    {
+      "repo": "mitre-attack/attack-scripts",
+      "url": "https://github.com/mitre-attack/attack-scripts",
+      "description": "Scripts and a (future) library to improve interactions with ATT&CK content",
+      "archived": true,
+      "pushed_at": "2023-12-11",
+      "note": "Use mitreattack-python."
+    }
+  ],
+  "attack_release": {
+    "version": "v20",
+    "released_on": "2026-10-13",
+    "source": "https://attack.mitre.org/resources/updates/",
+    "highlights": [
+      "Técnicas Enterprise focadas em IA (ex.: AI-Enabled Exfiltration, Direct/Indirect Prompt Injection)",
+      "Novas técnicas ICS de execução e C2",
+      "Detection Strategies de ICS com contexto de plataforma/ativo; Mobile considera limites de visibilidade Android/iOS",
+      "Campanhas novas; totais: 971 Software, 182 Groups, 61 Campaigns"
+    ],
+    "note": "Resumo da página oficial; releases anteriores não detalhados na fonte consultada."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "E134",
+  "name": "ATLAS Agent",
+  "url": "https://github.com/mitre-atlas/atlas-knowledge-base-agent",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "ia"
+  ],
+  "purpose": "Consultar a base ATLAS em linguagem natural, com busca semântica, consulta estruturada e grafo de relações; expõe servidor MCP e API.",
+  "output": "Respostas com IDs ATLAS e links de grafo, para conferir na base",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "1.1.0 · dados ATLAS v2026.7",
+  "relations": [
+    "E004",
+    "E079"
+  ],
+  "notes": "Construído sobre Langflow; requer uv e um provedor de LLM com uso de ferramentas. Os dados embutidos são da v2026.7, três versões atrás da 2026.10: IDs renomeados ou movidos depois disso não aparecem. Conferir toda resposta na base oficial.",
+  "repo": "mitre-atlas/atlas-knowledge-base-agent",
+  "reviewed_on": "2026-11-11",
+  "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
+}

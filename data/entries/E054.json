@@ -1,0 +1,23 @@
+{
+  "id": "E054",
+  "name": "Ambiguous Techniques",
+  "url": "https://ctid.mitre.org/projects/ambiguous-techniques/",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "CTID · Detecção",
+  "purpose": "Distinguir uso benigno de técnicas e contexto malicioso.",
+  "output": "Enriquecimento e redução de ambiguidades",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "fev/2026",
+  "relations": [
+    "E117",
+    "E041"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+}

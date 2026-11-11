@@ -1,0 +1,25 @@
+{
+  "id": "E048",
+  "name": "Defending OT with ATT&CK",
+  "url": "https://github.com/center-for-threat-informed-defense/defending-ot-with-attack",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "modelagem",
+  "domains": [
+    "ics-ot"
+  ],
+  "legacy_category": "CTID · OT",
+  "purpose": "Adaptar coleções de ameaças a ambientes OT.",
+  "output": "Coleção contextual para OT",
+  "priority": "P1",
+  "status": "baixa-atividade",
+  "relations": [
+    "E115",
+    "E002"
+  ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2025-05-28T19:21:23Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

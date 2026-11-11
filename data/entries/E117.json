@@ -1,0 +1,30 @@
+{
+  "id": "E117",
+  "name": "ATT&CK Detection Strategies e Analytics",
+  "url": "https://attack.mitre.org/detectionstrategies/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Modelo de detecção nativo do ATT&CK desde a v18: técnica → Detection Strategy → Analytic → Data Component.",
+  "output": "Requisitos de dados e lógica de detecção por técnica",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v20.1 · 05/11/2026",
+  "formats": [
+    "STIX 2.1 (x-mitre-detection-strategy, x-mitre-analytic)"
+  ],
+  "relations": [
+    "E001",
+    "E011",
+    "E055",
+    "E041"
+  ],
+  "notes": "Substituiu os Data Sources como objeto de primeira classe na v18.",
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

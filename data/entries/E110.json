@@ -1,0 +1,24 @@
+{
+  "id": "E110",
+  "name": "Contribuir com o ATT&CK",
+  "url": "https://attack.mitre.org/resources/engage-with-attack/contribute/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "cti",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Enviar novas técnicas, procedimentos, grupos, softwares e correções para a equipe do ATT&CK.",
+  "output": "Contribuição com evidência que pode render crédito como contribuidor",
+  "priority": "P1",
+  "status": "ativo",
+  "relations": [
+    "E001",
+    "E032"
+  ],
+  "notes": "Contribuições aceitas aparecem no campo Contributors das páginas.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
+}

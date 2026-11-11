@@ -1,0 +1,29 @@
+{
+  "id": "E073",
+  "name": "Workbench REST API",
+  "url": "https://github.com/mitre-attack/attack-workbench-rest-api",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Backend do ATT&CK Workbench: API REST para criar e versionar extensões do ATT&CK.",
+  "output": "Base ATT&CK própria acessível por API",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "v4.26.0 (tag) · v4.27.0-alpha.1 em desenvolvimento",
+  "formats": [
+    "REST",
+    "STIX 2.1"
+  ],
+  "relations": [
+    "E025",
+    "E030",
+    "E074"
+  ],
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

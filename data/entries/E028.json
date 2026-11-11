@@ -1,0 +1,32 @@
+{
+  "id": "E028",
+  "name": "mitreattack-python",
+  "url": "https://github.com/mitre-attack/mitreattack-python",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "legacy_category": "Dados e ferramentas ATT&CK",
+  "purpose": "Consultar e transformar dados ATT&CK com Python.",
+  "output": "Consultas e exportações reproduzíveis",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "6.4.0 · 05/11/2026 (PyPI)",
+  "formats": [
+    "Python"
+  ],
+  "relations": [
+    "E026",
+    "E024"
+  ],
+  "notes": "MitreAttackData, exportação Excel, diffStix e layers.",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-13T21:29:30Z",
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

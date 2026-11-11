@@ -1,0 +1,25 @@
+{
+  "id": "E030",
+  "name": "Workbench TAXII Server",
+  "url": "https://github.com/mitre-attack/attack-workbench-taxii-server",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Dados e ferramentas ATT&CK",
+  "purpose": "Servir coleções ATT&CK via TAXII.",
+  "output": "Intercâmbio de CTI",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v2.0.1 (tag)",
+  "formats": [
+    "TAXII 2.1"
+  ],
+  "relations": [
+    "E025"
+  ],
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

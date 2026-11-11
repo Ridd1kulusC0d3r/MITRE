@@ -1,0 +1,27 @@
+{
+  "id": "E124",
+  "name": "AWS Customer Playbook Framework",
+  "url": "https://github.com/aws-samples/aws-customer-playbook-framework",
+  "origin": "AWS",
+  "owner_type": "fornecedor",
+  "layer": "resposta",
+  "domains": [
+    "cloud"
+  ],
+  "purpose": "Adaptar exemplos de playbooks de resposta a cenários AWS.",
+  "output": "Procedimentos de resposta ajustados às contas e serviços",
+  "priority": "P2",
+  "status": "ativo",
+  "relations": [
+    "E056",
+    "E068",
+    "E090"
+  ],
+  "notes": "Relação com ATT&CK é composição editorial, não crosswalk automático. README informa traduções automáticas não revisadas; validar contexto e permissões.",
+  "repo": "aws-samples/aws-customer-playbook-framework",
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-22T23:13:43Z",
+  "reviewed_on": "2026-11-06",
+  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+}

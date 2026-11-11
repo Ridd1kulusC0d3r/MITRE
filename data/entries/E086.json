@@ -1,0 +1,26 @@
+{
+  "id": "E086",
+  "name": "Threat Hunter Playbook",
+  "url": "https://github.com/OTRF/ThreatHunter-Playbook",
+  "origin": "OTRF",
+  "owner_type": "comunidade",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Estudar hunting por técnica com notebooks e datasets.",
+  "output": "Hipótese de hunting reproduzível",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "Notebook",
+    "Markdown"
+  ],
+  "relations": [
+    "E064",
+    "E071",
+    "E001"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "E133",
+  "name": "Grid Watch",
+  "url": "https://github.com/mitre/grid-watch",
+  "origin": "Universidade do Havaí em Manoa, com a equipe Caldera for OT (MITRE)",
+  "owner_type": "mitre",
+  "layer": "formacao",
+  "domains": [
+    "ics-ot"
+  ],
+  "purpose": "Simular uma outstation de rede elétrica com DNP3 e painel HMI para treino e teste.",
+  "output": "Alvo de laboratório para os plugins do Caldera for OT",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "v2.1.1 (tag)",
+  "relations": [
+    "E131"
+  ],
+  "notes": "Simulação simplificada, criada por estudantes em colaboração com a MITRE; não representa uma subestação real. Licença Apache-2.0 (arquivo LICENSE).",
+  "repo": "mitre/grid-watch",
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-09",
+  "reviewed_on": "2026-11-11",
+  "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
+}

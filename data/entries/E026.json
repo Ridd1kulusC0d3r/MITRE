@@ -1,0 +1,32 @@
+{
+  "id": "E026",
+  "name": "ATT&CK STIX 2.1",
+  "url": "https://github.com/mitre-attack/attack-stix-data",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "legacy_category": "Dados e ferramentas ATT&CK",
+  "purpose": "Consumir a base ATT&CK em formato estruturado.",
+  "output": "Snapshots versionados de objetos e relações",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v20.1 · 05/11/2026",
+  "formats": [
+    "STIX 2.1"
+  ],
+  "relations": [
+    "E001",
+    "E028"
+  ],
+  "notes": "Um bundle por versão (enterprise-attack-20.1.json) e um 'latest'; index.json lista coleções.",
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-13T19:11:18Z",
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

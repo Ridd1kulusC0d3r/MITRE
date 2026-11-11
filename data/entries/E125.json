@@ -1,0 +1,26 @@
+{
+  "id": "E125",
+  "name": "ATLAS Arsenal (plugin CALDERA)",
+  "url": "https://github.com/mitre-atlas/arsenal",
+  "origin": "MITRE ATLAS",
+  "owner_type": "mitre",
+  "layer": "validacao",
+  "domains": [
+    "ia"
+  ],
+  "purpose": "Estudar emulação de comportamentos ATLAS em sistemas de aprendizado de máquina.",
+  "output": "Referência de cenários e abilities para laboratório",
+  "priority": "P2",
+  "status": "baixa-atividade",
+  "relations": [
+    "E004",
+    "E013"
+  ],
+  "notes": "Não confundir com ATT&CK Arsenal. Último push consultado: 2023; documentação cita dependências antigas. Compatibilidade atual não testada.",
+  "repo": "mitre-atlas/arsenal",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2023-08-07T18:19:16Z",
+  "reviewed_on": "2026-11-06",
+  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "E003",
+  "name": "Engage",
+  "url": "https://engage.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "engano",
+  "domains": [
+    "enterprise",
+    "ics-ot",
+    "mobile"
+  ],
+  "legacy_category": "Bases e modelos",
+  "purpose": "Planejar deception, denial e engajamento de adversários.",
+  "output": "Plano de engajamento com objetivos e limites",
+  "priority": "P1",
+  "status": "baixa-atividade",
+  "version": "v1.0",
+  "formats": [
+    "JSON"
+  ],
+  "relations": [
+    "E001"
+  ],
+  "notes": "Sucessor do Shield (aposentado em 2021). Método estável; repositório com pouca atividade.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

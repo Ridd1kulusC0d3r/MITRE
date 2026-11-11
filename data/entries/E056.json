@@ -1,0 +1,30 @@
+{
+  "id": "E056",
+  "name": "RE&CT",
+  "url": "https://github.com/atc-project/atc-react",
+  "origin": "ATC Project",
+  "owner_type": "comunidade",
+  "layer": "resposta",
+  "domains": [
+    "enterprise"
+  ],
+  "legacy_category": "Comunidade e fornecedores",
+  "purpose": "Organizar ações e playbooks de resposta a incidentes.",
+  "output": "Matriz de ações e playbooks revisados",
+  "priority": "P1",
+  "status": "baixa-atividade",
+  "formats": [
+    "YAML"
+  ],
+  "relations": [
+    "E001",
+    "E094",
+    "E002"
+  ],
+  "notes": "Seis estágios: Preparation → Lessons Learned.",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2022-05-31T15:18:24Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

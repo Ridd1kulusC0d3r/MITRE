@@ -1,0 +1,4 @@
+id_antigo	nome_antigo	status_v20	id_novo	nome_novo
+T1070.001	Clear Windows Event Logs	revogada	T1685.005	Clear Windows Event Logs
+T1070.002	Clear Linux or Mac System Logs	revogada	T1685.006	Clear Linux or Mac System Logs
+T1562	Impair Defenses	revogada	T1685	Disable or Modify Tools

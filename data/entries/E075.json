@@ -1,0 +1,28 @@
+{
+  "id": "E075",
+  "name": "ATT&CK Website (código)",
+  "url": "https://github.com/mitre-attack/attack-website",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Consultar o código do site oficial e gerá-lo localmente, inclusive para uso offline ou em rede isolada.",
+  "output": "Espelho interno do site com a versão fixada",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "website-v4.4.1 (tag)",
+  "formats": [
+    "HTML",
+    "Python"
+  ],
+  "relations": [
+    "E026",
+    "E001"
+  ],
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

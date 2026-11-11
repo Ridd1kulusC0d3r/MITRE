@@ -1,0 +1,22 @@
+[
+  {
+    "name": "attack-control-framework-mappings",
+    "repo": "center-for-threat-informed-defense/attack-control-framework-mappings",
+    "url": "https://github.com/center-for-threat-informed-defense/attack-control-framework-mappings",
+    "description": "🚨ATTENTION🚨 The NIST 800-53 mappings have migrated to the Center’s Mappings Explorer project. See README below. This repository is kept here as an archive.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-04-03T15:23:19Z",
+    "note": "Mapeamentos NIST migraram para Mappings Explorer, conforme descrição do repositório."
+  },
+  {
+    "name": "security-stack-mappings",
+    "repo": "center-for-threat-informed-defense/security-stack-mappings",
+    "url": "https://github.com/center-for-threat-informed-defense/security-stack-mappings",
+    "description": "🚨ATTENTION🚨 The Security Stack Mappings have migrated to the Center’s Mappings Explorer project. See README below. This repository is kept here as an archive.",
+    "archived": true,
+    "license": "Apache-2.0",
+    "pushed_at": "2024-04-03T16:45:24Z",
+    "note": "Mapeamentos de stacks migraram para Mappings Explorer, conforme descrição do repositório."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "id": "E128",
+  "name": "D3TECT — seleção estratégica de fontes",
+  "url": "https://ucrisportal.univie.ac.at/en/publications/strategic-selection-of-data-sources-for-cyber-attack-detection-in/",
+  "origin": "Kern, Skopik, Landauer e Weippl / pesquisa acadêmica",
+  "owner_type": "outro",
+  "layer": "telemetria",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Estudar seleção e priorização de fontes de dados considerando restrições operacionais.",
+  "output": "Método para justificar investimento e lacunas de telemetria",
+  "priority": "P2",
+  "status": "n/v",
+  "version": "SAC 2022",
+  "relations": [
+    "E043",
+    "E055",
+    "E087"
+  ],
+  "notes": "Artigo: Strategic selection of data sources for cyber attack detection in enterprise networks: A survey and approach. DOI 10.1145/3477314.3507022. D3TECT não é DeTT&CT e não é projeto MITRE.",
+  "reviewed_on": "2026-11-06",
+  "verification": "Resumo e registro bibliográfico institucional consultados; texto integral e reprodução experimental não avaliados."
+}

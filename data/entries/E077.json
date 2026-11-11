@@ -1,0 +1,30 @@
+{
+  "id": "E077",
+  "name": "D3FEND CAD",
+  "url": "https://d3fend.mitre.org/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "defesa",
+  "domains": [
+    "enterprise",
+    "ics-ot",
+    "espaco"
+  ],
+  "purpose": "Diagramar cenários ataque–artefato–defesa a partir da ontologia D3FEND.",
+  "output": "Grafo CAD exportável com contramedidas justificadas",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "JSON",
+    "TTL",
+    "PNG"
+  ],
+  "relations": [
+    "E002",
+    "E013",
+    "E032"
+  ],
+  "notes": "Biblioteca e IDE renovados em dez/2025; importa relatórios do Caldera.",
+  "reviewed_on": "2026-10-22",
+  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+}

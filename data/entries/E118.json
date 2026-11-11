@@ -1,0 +1,27 @@
+{
+  "id": "E118",
+  "name": "Dettectinator",
+  "url": "https://github.com/siriussecurity/dettectinator",
+  "origin": "Sirius Security / comunidade",
+  "owner_type": "comunidade",
+  "layer": "telemetria",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Automatizar criação e atualização dos YAMLs DeTT&CT a partir de fontes SIEM/EDR.",
+  "output": "Inventário de fontes e detecções para layers Navigator",
+  "priority": "P1",
+  "status": "ativo",
+  "relations": [
+    "E055",
+    "E024",
+    "E087"
+  ],
+  "notes": "Importação de regras não comprova eficácia; confirmar suporte dos plugins e compatibilidade com a versão ATT&CK.",
+  "repo": "siriussecurity/dettectinator",
+  "archived": false,
+  "license_api": "GPL-3.0",
+  "pushed_at": "2026-01-22T08:45:57Z",
+  "reviewed_on": "2026-11-06",
+  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+}

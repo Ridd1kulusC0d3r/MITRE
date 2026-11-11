@@ -1,0 +1,30 @@
+{
+  "id": "E058",
+  "name": "Atomic Red Team",
+  "url": "https://github.com/redcanaryco/atomic-red-team",
+  "origin": "Red Canary / comunidade",
+  "owner_type": "comunidade",
+  "layer": "validacao",
+  "domains": [
+    "enterprise",
+    "cloud"
+  ],
+  "legacy_category": "Comunidade e fornecedores",
+  "purpose": "Validar comportamentos isolados em laboratório.",
+  "output": "Resultados de testes por técnica",
+  "priority": "P1",
+  "status": "ativo",
+  "formats": [
+    "YAML"
+  ],
+  "relations": [
+    "E001",
+    "E100"
+  ],
+  "notes": "Um diretório por técnica (atomics/TXXXX).",
+  "archived": false,
+  "license_api": "MIT",
+  "pushed_at": "2026-10-21T00:15:54Z",
+  "reviewed_on": "2026-10-22",
+  "verification": "Fonte primária consultada; execução não testada"
+}

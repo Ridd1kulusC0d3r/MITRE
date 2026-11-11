@@ -1,0 +1,26 @@
+{
+  "id": "E089",
+  "name": "pySigma e sigma-cli",
+  "url": "https://github.com/SigmaHQ/pySigma",
+  "origin": "SigmaHQ",
+  "owner_type": "comunidade",
+  "layer": "deteccao",
+  "domains": [
+    "enterprise",
+    "cloud"
+  ],
+  "purpose": "Converter regras Sigma para o backend do SIEM.",
+  "output": "Regras na linguagem do SIEM com pipeline de campos",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "pySigma 2.1.0 · 09/11/2026 · sigma-cli 4.0.0 · 28/10/2026 (PyPI)",
+  "formats": [
+    "Python"
+  ],
+  "relations": [
+    "E057"
+  ],
+  "notes": "sigma-cli mudou de versão principal (3.x → 4.0.0): teste pipelines e backends antes de atualizar em produção.",
+  "reviewed_on": "2026-11-11",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+}

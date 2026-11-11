@@ -1,0 +1,24 @@
+{
+  "id": "E100",
+  "name": "Invoke-AtomicRedTeam",
+  "url": "https://github.com/redcanaryco/invoke-atomicredteam",
+  "origin": "Red Canary",
+  "owner_type": "fornecedor",
+  "layer": "validacao",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Executar testes Atomic com PowerShell, incluindo pré-requisitos e limpeza.",
+  "output": "Execução registrada de testes atômicos",
+  "priority": "P1",
+  "status": "ativo",
+  "version": "v2.3.0 (tag)",
+  "formats": [
+    "PowerShell"
+  ],
+  "relations": [
+    "E058"
+  ],
+  "reviewed_on": "2026-10-22",
+  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+}

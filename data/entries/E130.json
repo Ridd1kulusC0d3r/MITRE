@@ -1,0 +1,31 @@
+{
+  "id": "E130",
+  "name": "Caldera MCP (plugin)",
+  "url": "https://github.com/mitre/mcp",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "validacao",
+  "domains": [
+    "enterprise",
+    "ia"
+  ],
+  "purpose": "Operar o Caldera por conversa: criar abilities e adversários, converter relatórios de CTI em STIX 2.1 e planejar e executar emulação com LLM apoiado em ferramentas MCP.",
+  "output": "Abilities, perfis de adversário e bundles STIX gerados por LLM, com transcrição para revisão",
+  "priority": "P2",
+  "status": "ativo",
+  "formats": [
+    "STIX 2.1"
+  ],
+  "relations": [
+    "E013",
+    "E001",
+    "E065"
+  ],
+  "notes": "O README descreve três fluxos: Author, Upload CTI e Plan and Execute. Conteúdo gerado por LLM e execução automatizada exigem revisão humana e ambiente autorizado. Licença Apache-2.0 (arquivo LICENSE).",
+  "repo": "mitre/mcp",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-09-03",
+  "reviewed_on": "2026-11-11",
+  "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
+}

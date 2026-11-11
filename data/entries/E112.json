@@ -1,0 +1,24 @@
+{
+  "id": "E112",
+  "name": "ATT&CK — Learn More e FAQ",
+  "url": "https://attack.mitre.org/resources/learn-more-about-attack/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "formacao",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Material oficial de introdução, treinamento e perguntas frequentes.",
+  "output": "Base comum de vocabulário para o time",
+  "priority": "P1",
+  "status": "ativo",
+  "relations": [
+    "E001",
+    "E113"
+  ],
+  "notes": "FAQ: https://attack.mitre.org/resources/faq/",
+  "reviewed_on": "2026-10-22",
+  "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
+}
