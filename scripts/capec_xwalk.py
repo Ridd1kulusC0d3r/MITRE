@@ -9,7 +9,7 @@ o script marca esses casos e indica a substituta quando o ATT&CK declara uma.
 Uso:
     python3 scripts/capec_xwalk.py > crosswalks/cwe-capec-attack.tsv
     python3 scripts/capec_xwalk.py --cwe CWE-79          # filtra por fraqueza
-    python3 scripts/capec_xwalk.py --attack-version 20.0 --stale-only
+    python3 scripts/capec_xwalk.py --attack-version 20.1 --stale-only
 """
 import argparse
 import json
@@ -49,7 +49,7 @@ def attack_index(version):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--cwe", help="ex.: CWE-79")
-    ap.add_argument("--attack-version", default="20.0")
+    ap.add_argument("--attack-version", default="20.1")
     ap.add_argument("--stale-only", action="store_true", help="só mapeamentos para técnicas fora de uso")
     a = ap.parse_args()
 

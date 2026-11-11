@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "reviewed_on": "2026-10-23",
+  "reviewed_on": "2026-11-11",
   "timezone": "America/Sao_Paulo",
   "scope": "Ecossistema de cibersegurança MITRE e recursos externos relacionados; não inventário institucional exaustivo",
   "verification_limits": "Pesquisa documental; ferramentas não executadas. Campos ausentes: não coletados. archived=false não comprova manutenção ativa. pushed_at não equivale a último release. license_api não substitui leitura da licença. Status 'n/v' = não verificado. Tag Git indica marco publicado, não necessariamente release estável.",
@@ -23,7 +23,7 @@
       "output": "Técnicas e procedimentos com evidência",
       "priority": "P1",
       "status": "ativo",
-      "version": "v20.0 · 13/10/2026",
+      "version": "v20.1 · 05/11/2026 (v20.0 em 13/10/2026)",
       "formats": [
         "STIX 2.1",
         "STIX 2.0",
@@ -40,9 +40,9 @@
         "E037",
         "E117"
       ],
-      "notes": "v19 dividiu Defense Evasion em Stealth (TA0005) e Defense Impairment (TA0112); v20 trouxe técnicas de IA (prompt injection direta e indireta T1699/T1698, AI-Enabled Exfiltration T1700) e anti-automação (T1696). Enterprise v20: 227 técnicas, 479 subtécnicas, 703 Detection Strategies, 1.770 Analytics. Seções do site: Matrices, Tactics, Techniques, Mitigations, Assets (ICS), Detection Strategies, Analytics, Data Components, Groups, Software e Campaigns.",
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "notes": "v19 dividiu Defense Evasion em Stealth (TA0005) e Defense Impairment (TA0112); v20 trouxe técnicas de IA (prompt injection direta e indireta T1699/T1698, AI-Enabled Exfiltration T1700) e anti-automação (T1696). Enterprise v20.1: 227 técnicas, 479 subtécnicas, 706 Detection Strategies, 1.773 Analytics. A v20.1 (05/11/2026) é correção de dados: nenhuma técnica entrou, saiu ou mudou de nome em Enterprise, Mobile ou ICS. Seções do site: Matrices, Tactics, Techniques, Mitigations, Assets (ICS), Detection Strategies, Analytics, Data Components, Groups, Software e Campaigns.",
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E002",
@@ -122,7 +122,7 @@
       "output": "Cenários e técnicas de ameaça para IA",
       "priority": "P1",
       "status": "ativo",
-      "version": "v2026.09 · 14/09/2026",
+      "version": "v2026.10 · 28/10/2026",
       "formats": [
         "YAML",
         "STIX",
@@ -133,9 +133,9 @@
         "E078",
         "E079"
       ],
-      "notes": "16 táticas, 120 técnicas, 88 subtécnicas, 40 mitigações e 73 estudos de caso (CHANGELOG oficial). Use dist/ATLAS-latest.yaml; dist/ATLAS.yaml foi depreciado.",
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "notes": "16 táticas, 129 técnicas, 92 subtécnicas, 44 mitigações, 77 estudos de caso, 44 entidades e 37 softwares (CHANGELOG oficial). A 2026.10 renomeou AML.T0010 para Supply Chain Compromise e AML.T0005 para Replicate AI Model Behavior, e moveu subtécnicas de AML.T0024 para AML.T0137: revise mapeamentos por ID. Use dist/ATLAS-latest.yaml; dist/ATLAS.yaml foi depreciado.",
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E005",
@@ -659,7 +659,7 @@
       "output": "Coleções locais e anotações",
       "priority": "P1",
       "status": "ativo",
-      "version": "v4.18.0-alpha.1 (tag)",
+      "version": "v4.18.0 (tag)",
       "formats": [
         "STIX 2.1"
       ],
@@ -670,8 +670,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-22T22:13:19Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E026",
@@ -690,7 +690,7 @@
       "output": "Snapshots versionados de objetos e relações",
       "priority": "P1",
       "status": "ativo",
-      "version": "v20.0",
+      "version": "v20.1 · 05/11/2026",
       "formats": [
         "STIX 2.1"
       ],
@@ -698,12 +698,12 @@
         "E001",
         "E028"
       ],
-      "notes": "Um bundle por versão (enterprise-attack-20.0.json) e um 'latest'; index.json lista coleções.",
+      "notes": "Um bundle por versão (enterprise-attack-20.1.json) e um 'latest'; index.json lista coleções.",
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-13T19:11:18Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E027",
@@ -722,7 +722,7 @@
       "output": "Integração compatível com consumidores STIX 2.0",
       "priority": "P1",
       "status": "ativo",
-      "version": "tag ATT&CK-v20.0",
+      "version": "tag ATT&CK-v20.1",
       "formats": [
         "STIX 2.0"
       ],
@@ -731,8 +731,8 @@
         "E008"
       ],
       "notes": "Também distribui o CAPEC em STIX.",
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E028",
@@ -751,7 +751,7 @@
       "output": "Consultas e exportações reproduzíveis",
       "priority": "P1",
       "status": "ativo",
-      "version": "6.3.1 · 13/10/2026 (PyPI)",
+      "version": "6.4.0 · 05/11/2026 (PyPI)",
       "formats": [
         "Python"
       ],
@@ -763,8 +763,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-13T21:29:30Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E029",
@@ -788,8 +788,9 @@
       "relations": [
         "E026"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026",
+      "version": "v5.0.0-beta.3 (tag)"
     },
     {
       "id": "E030",
@@ -812,8 +813,9 @@
       "relations": [
         "E025"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026",
+      "version": "v2.0.1 (tag)"
     },
     {
       "id": "E031",
@@ -1011,11 +1013,11 @@
         "E067",
         "E083"
       ],
-      "notes": "NIST 800-53, CVE/KEV, AWS/Azure/GCP, M365, VERIS, CSA CCM e CIS Controls (out/2026).",
+      "notes": "NIST 800-53, CVE/KEV, AWS/Azure/GCP, M365, VERIS, CSA CCM e CIS Controls (projeto CIS Controls for Threat Mitigations, 05/10/2026: Safeguards mapeados a técnicas com justificativa, em ctid.mitre.org/mappings/external/cis/).",
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-05T02:10:24Z",
-      "reviewed_on": "2026-10-22",
+      "reviewed_on": "2026-11-11",
       "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
     },
     {
@@ -1949,7 +1951,7 @@
       "output": "Base ATT&CK própria acessível por API",
       "priority": "P2",
       "status": "ativo",
-      "version": "v4.26.0-alpha.1 (tag)",
+      "version": "v4.26.0 (tag) · v4.27.0-alpha.1 em desenvolvimento",
       "formats": [
         "REST",
         "STIX 2.1"
@@ -1959,8 +1961,8 @@
         "E030",
         "E074"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E074",
@@ -2015,8 +2017,9 @@
         "E026",
         "E001"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026",
+      "version": "website-v4.4.1 (tag)"
     },
     {
       "id": "E076",
@@ -2106,7 +2109,7 @@
       "output": "ATLAS-latest.yaml e manifesto de versões",
       "priority": "P1",
       "status": "ativo",
-      "version": "conteúdo 2026.09 · formato 6.0.0",
+      "version": "conteúdo 2026.10 · 28/10/2026",
       "formats": [
         "YAML",
         "STIX",
@@ -2116,9 +2119,9 @@
       "relations": [
         "E004"
       ],
-      "notes": "dist/ATLAS.yaml está depreciado; use dist/ATLAS-latest.yaml.",
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "notes": "dist/ATLAS.yaml está depreciado; use dist/ATLAS-latest.yaml ou o arquivo versionado em dist/v6/. O repositório atlas-navigator-data foi depreciado: STIX e camadas do Navigator passaram a sair daqui.",
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E080",
@@ -2366,15 +2369,16 @@
       "output": "Regras na linguagem do SIEM com pipeline de campos",
       "priority": "P1",
       "status": "ativo",
-      "version": "pySigma 2.0.1 · sigma-cli 3.1.0 (PyPI)",
+      "version": "pySigma 2.1.0 · 09/11/2026 · sigma-cli 4.0.0 · 28/10/2026 (PyPI)",
       "formats": [
         "Python"
       ],
       "relations": [
         "E057"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026",
+      "notes": "sigma-cli mudou de versão principal (3.x → 4.0.0): teste pipelines e backends antes de atualizar em produção."
     },
     {
       "id": "E090",
@@ -2390,7 +2394,7 @@
       "output": "Execução cloud com detonação e limpeza",
       "priority": "P1",
       "status": "ativo",
-      "version": "v2.37.1 (tag)",
+      "version": "v2.38.0 (tag)",
       "formats": [
         "Go"
       ],
@@ -2398,8 +2402,8 @@
         "E058",
         "E001"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E091",
@@ -2658,7 +2662,7 @@
       "output": "Linha do tempo de DFIR com técnicas ATT&CK",
       "priority": "P1",
       "status": "ativo",
-      "version": "v4.2.0 (tag)",
+      "version": "v4.4.0 (tag)",
       "formats": [
         "Rust",
         "CSV",
@@ -2668,8 +2672,8 @@
         "E057",
         "E102"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E102",
@@ -2834,7 +2838,7 @@
       "output": "Plano de migração entre versões",
       "priority": "P1",
       "status": "ativo",
-      "version": "v20 · 13/10/2026",
+      "version": "v20.1 · 05/11/2026 (v20 em 13/10/2026)",
       "formats": [
         "HTML",
         "changelog JSON"
@@ -2844,8 +2848,8 @@
         "E028"
       ],
       "notes": "Versões antigas: https://attack.mitre.org/resources/versions/. Changelog legível por máquina em /docs/changelogs/.",
-      "reviewed_on": "2026-10-22",
-      "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E112",
@@ -2929,7 +2933,7 @@
       "output": "Cenários OT com técnicas, ativos e mitigações",
       "priority": "P1",
       "status": "ativo",
-      "version": "v20.0",
+      "version": "v20.1 · 05/11/2026",
       "formats": [
         "STIX 2.1"
       ],
@@ -2940,8 +2944,8 @@
         "E006"
       ],
       "notes": "v20: 12 táticas, 78 técnicas, 26 subtécnicas, 18 Assets, 106 Detection Strategies, 302 Analytics. Subtécnicas existem desde a v19.",
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E116",
@@ -2957,7 +2961,7 @@
       "output": "Cenários mobile e requisitos de telemetria",
       "priority": "P2",
       "status": "ativo",
-      "version": "v20.0",
+      "version": "v20.1 · 05/11/2026",
       "formats": [
         "STIX 2.1"
       ],
@@ -2966,8 +2970,8 @@
         "E003"
       ],
       "notes": "v20: 12 táticas, 78 técnicas, 47 subtécnicas, 124 Detection Strategies, 211 Analytics. Relevante para fraude em mobile banking.",
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E117",
@@ -2985,7 +2989,7 @@
       "output": "Requisitos de dados e lógica de detecção por técnica",
       "priority": "P1",
       "status": "ativo",
-      "version": "v20.0",
+      "version": "v20.1 · 05/11/2026",
       "formats": [
         "STIX 2.1 (x-mitre-detection-strategy, x-mitre-analytic)"
       ],
@@ -2996,8 +3000,8 @@
         "E041"
       ],
       "notes": "Substituiu os Data Sources como objeto de primeira classe na v18.",
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-11",
+      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
     {
       "id": "E118",
@@ -3313,6 +3317,126 @@
       "notes": "Compara nove ferramentas usando questionário com 80 questões. Ranking reflete a amostra e o período do estudo; não é ranking atualizado do mercado.",
       "reviewed_on": "2026-10-23",
       "verification": "Resumo e registro arXiv consultados; não reproduzimos a avaliação."
+    },
+    {
+      "id": "E130",
+      "name": "Caldera MCP (plugin)",
+      "repo": "mitre/mcp",
+      "url": "https://github.com/mitre/mcp",
+      "origin": "MITRE",
+      "owner_type": "mitre",
+      "layer": "validacao",
+      "domains": [
+        "enterprise",
+        "ia"
+      ],
+      "purpose": "Operar o Caldera por conversa: criar abilities e adversários, converter relatórios de CTI em STIX 2.1 e planejar e executar emulação com LLM apoiado em ferramentas MCP.",
+      "output": "Abilities, perfis de adversário e bundles STIX gerados por LLM, com transcrição para revisão",
+      "priority": "P2",
+      "status": "ativo",
+      "formats": [
+        "STIX 2.1"
+      ],
+      "relations": [
+        "E013",
+        "E001",
+        "E065"
+      ],
+      "notes": "O README descreve três fluxos: Author, Upload CTI e Plan and Execute. Conteúdo gerado por LLM e execução automatizada exigem revisão humana e ambiente autorizado. Licença Apache-2.0 (arquivo LICENSE).",
+      "reviewed_on": "2026-11-11",
+      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
+    },
+    {
+      "id": "E131",
+      "name": "Caldera for OT",
+      "repo": "mitre/caldera-ot",
+      "url": "https://github.com/mitre/caldera-ot",
+      "origin": "MITRE",
+      "owner_type": "mitre",
+      "layer": "validacao",
+      "domains": [
+        "ics-ot"
+      ],
+      "purpose": "Estender o Caldera a ambientes OT com plugins de protocolo industrial, alinhados ao ATT&CK for ICS.",
+      "output": "Plugins por protocolo, reunidos como submódulos Git",
+      "priority": "P2",
+      "status": "ativo",
+      "relations": [
+        "E013",
+        "E115"
+      ],
+      "notes": "Clonar com --recursive e habilitar cada plugin na configuração do Caldera. Usar só em laboratório isolado e autorizado: comandos em protocolo industrial têm risco físico. Licença Apache-2.0 (arquivo LICENSE).",
+      "reviewed_on": "2026-11-11",
+      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
+    },
+    {
+      "id": "E132",
+      "name": "Hipcheck",
+      "repo": "mitre/hipcheck",
+      "url": "https://github.com/mitre/hipcheck",
+      "origin": "MITRE",
+      "owner_type": "mitre",
+      "layer": "vulnerabilidade",
+      "domains": [
+        "enterprise"
+      ],
+      "purpose": "Triar dependências e repositórios de código aberto quanto a risco de cadeia de suprimentos.",
+      "output": "Lista reduzida de dependências que merecem revisão manual",
+      "priority": "P2",
+      "status": "ativo",
+      "relations": [
+        "E009"
+      ],
+      "notes": "CLI em Rust. O resultado é triagem heurística; não substitui SCA nem revisão de código. Licença Apache-2.0.",
+      "reviewed_on": "2026-11-11",
+      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
+    },
+    {
+      "id": "E133",
+      "name": "Grid Watch",
+      "repo": "mitre/grid-watch",
+      "url": "https://github.com/mitre/grid-watch",
+      "origin": "Universidade do Havaí em Manoa, com a equipe Caldera for OT (MITRE)",
+      "owner_type": "mitre",
+      "layer": "formacao",
+      "domains": [
+        "ics-ot"
+      ],
+      "purpose": "Simular uma outstation de rede elétrica com DNP3 e painel HMI para treino e teste.",
+      "output": "Alvo de laboratório para os plugins do Caldera for OT",
+      "priority": "P2",
+      "status": "ativo",
+      "version": "v2.1.1 (tag)",
+      "relations": [
+        "E131"
+      ],
+      "notes": "Simulação simplificada, criada por estudantes em colaboração com a MITRE; não representa uma subestação real. Licença Apache-2.0 (arquivo LICENSE).",
+      "reviewed_on": "2026-11-11",
+      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
+    },
+    {
+      "id": "E134",
+      "name": "ATLAS Agent",
+      "repo": "mitre-atlas/atlas-knowledge-base-agent",
+      "url": "https://github.com/mitre-atlas/atlas-knowledge-base-agent",
+      "origin": "MITRE",
+      "owner_type": "mitre",
+      "layer": "dados",
+      "domains": [
+        "ia"
+      ],
+      "purpose": "Consultar a base ATLAS em linguagem natural, com busca semântica, consulta estruturada e grafo de relações; expõe servidor MCP e API.",
+      "output": "Respostas com IDs ATLAS e links de grafo, para conferir na base",
+      "priority": "P2",
+      "status": "ativo",
+      "version": "1.1.0 · dados ATLAS v2026.7",
+      "relations": [
+        "E004",
+        "E079"
+      ],
+      "notes": "Construído sobre Langflow; requer uv e um provedor de LLM com uso de ferramentas. Os dados embutidos são da v2026.7, três versões atrás da 2026.10: IDs renomeados ou movidos depois disso não aparecem. Conferir toda resposta na base oficial.",
+      "reviewed_on": "2026-11-11",
+      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
     }
   ],
   "historical": [
@@ -4028,4 +4152,3 @@
     "note": "Resumo da página oficial; releases anteriores não detalhados na fonte consultada."
   }
 }
-

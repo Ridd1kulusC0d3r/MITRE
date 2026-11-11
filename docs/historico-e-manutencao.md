@@ -4,7 +4,7 @@
 
 ## Método e limites
 
-Revisão em **22/10/2026**, com atualização incremental em **23/10/2026** (UTC), data local de São Paulo. Timestamps da API estão em UTC e podem aparecer como 23/10/2026.
+Revisão em **22/10/2026**, com atualização incremental em **23/10/2026** (UTC), data local de São Paulo. Timestamps da API estão em UTC e podem aparecer como 23/10/2026. **Atualização de 11/11/2026:** ATT&CK v20.1, ATLAS 2026.10, versões de ferramentas e cinco entradas novas (E130–E134); só os itens tocados tiveram `reviewed_on` alterado.
 
 1. Consultar portais oficiais MITRE, ATT&CK, CTID e fontes dos mantenedores.
 2. Confirmar identidade e finalidade antes de classificar como MITRE, CTID ou externo.
@@ -67,6 +67,10 @@ Sinais e seus limites:
 - **Cloud Analytics:** último push em 25/04/2023; adapte aos esquemas atuais.
 - **attack-arsenal** (2021) e **caret** (2020): parados e mantidos no catálogo como referência. Sobre o arquivamento do attack-arsenal as consultas divergem: a checagem de 23/10/2026 (campo `mitre_attack_archived` do JSON) o lista como *Public archive*, a listagem da organização lida em 22/10/2026 não. Confirme na página do repositório.
 - **Atividade na org mitre-attack (out/2026):** workbench-frontend e rest-api (22/10), website e navigator (20/10), taxii-server e deployment (16/10), mitreattack-python e attack-stix-data (13/10). Menos ativos: attack-data-model (25/06/2026), car (16/05/2025), bzar (26/06/2024).
+- **Organização mitre-attack em 11/11/2026:** 21 repositórios, nenhum novo desde a revisão anterior. Atividade recente: attack-data-model, workbench-rest-api e workbench-frontend (09/11), website, mitreattack-python e attack-stix-data (05/11), navigator (04/11). O attack-arsenal aparece sem a marca *Public archive* na listagem da organização lida nesta data.
+- **ATT&CK v20.1 (05/11/2026):** correção de dados; diff de técnicas vazio contra a v20.0 nos três domínios (medido com `attack_diff.py`).
+- **ATLAS Agent:** dados embutidos da v2026.7, anteriores às renomeações da 2026.10.
+- **atlas-navigator-data:** o README declara o projeto depreciado; STIX e camadas saem do atlas-data.
 - **Engage:** tag v1.0 e pouca atividade; o método segue válido.
 - **Mappings Editor:** beta público.
 - **DeTT&CT:** 2.2.0 suporta o modelo da v18; suporte a v19/v20 não declarado.

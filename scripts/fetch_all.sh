@@ -2,17 +2,17 @@
 # fetch_all.sh — baixa versões FIXAS dos dados MITRE para data/cache/ e grava
 # um manifesto com SHA-256 (cadeia de custódia simples). Requer curl e sha256sum.
 #
-#   ./scripts/fetch_all.sh                 # ATT&CK 20.0 + CAPEC + ATLAS 2026.09
+#   ./scripts/fetch_all.sh                 # ATT&CK 20.1 + CAPEC + ATLAS 2026.10
 #   ATTACK_VERSION=19.2 ATLAS_VERSION=2026.06 ./scripts/fetch_all.sh
 #   D3FEND=1 ./scripts/fetch_all.sh        # inclui mapeamentos D3FEND (arquivo grande)
 #
 # data/cache/ está no .gitignore: os bundles não vão para o repositório.
 set -euo pipefail
 
-ATTACK_VERSION="${ATTACK_VERSION:-20.0}"
+ATTACK_VERSION="${ATTACK_VERSION:-20.1}"
 D3FEND_VERSION="${D3FEND_VERSION:-1.6.0}"
 # dist/ATLAS-latest.yaml é um symlink no Git (o raw devolve só o caminho); use o arquivo versionado
-ATLAS_VERSION="${ATLAS_VERSION:-2026.09}"
+ATLAS_VERSION="${ATLAS_VERSION:-2026.10}"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 OUT="$ROOT/data/cache"
 mkdir -p "$OUT"
