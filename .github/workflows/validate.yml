@@ -37,12 +37,16 @@ jobs:
         env:
           BASE: ${{ github.event.pull_request.base.sha }}
         run: |
+          # PR só de fonte: passa (o publish gera os derivados depois do merge).
+          # PR que toca derivados: eles precisam ser exatamente o que o build produz;
+          # isso reprova edição à mão e aceita PRs que mudam o próprio build.
           changed=$(git diff --name-only "$BASE"...HEAD)
-          bad=$(python3 -m atlas generated | grep -Fxf - <(echo "$changed") || true)
-          if [ -n "$bad" ]; then
-            echo "::error::Este PR altera arquivos gerados:"; echo "$bad"
-            echo "Edite só a fonte (data/entries/, data/*.json, design/) e desfaça a mudança nesses arquivos:"
-            echo "  git checkout origin/${{ github.base_ref }} -- $(echo $bad)"
-            echo "O workflow publish regenera os derivados depois do merge."
+          touched=$(python3 -m atlas generated | grep -Fxf - <(echo "$changed") || true)
+          [ -z "$touched" ] && { echo "PR não toca em derivados."; exit 0; }
+          if ! python3 -m atlas build --check; then
+            echo "::error::Este PR altera arquivos gerados que não batem com o build:"; echo "$touched"
+            echo "Edite só a fonte (data/entries/, data/*.json, design/). Para desfazer:"
+            echo "  git checkout origin/${{ github.base_ref }} -- $(echo $touched)"
+            echo "Ou regenere tudo com: python3 -m atlas build"
             exit 1
           fi

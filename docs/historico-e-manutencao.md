@@ -95,12 +95,13 @@ Sinais e seus limites:
 
 | O quê | Como | Quando |
 |---|---|---|
-| Validação do catálogo | workflow `validate` (`build_catalog.py --check`) | a cada push e PR |
-| Sinais de manutenção | workflow `monitor` roda `check_repos.py` e publica o relatório no resumo do job | mensal (dia 1) e manual |
-| Nova versão do ATT&CK | o mesmo workflow compara `index.json` com a versão registrada no catálogo | mensal e manual |
+| Validação da fonte | workflow `validate`: `python3 -m atlas check`, testes e build de fumaça; reprova PR que edite derivados | a cada push e PR |
+| Derivados e site | workflow `publish`: `python3 -m atlas build`, commit dos derivados e GitHub Pages | a cada merge na `main` |
+| Sinais de manutenção e versão do ATT&CK | workflow `monitor` (`scripts/monitor.py`): relatório e issue `monitor` aberta, atualizada ou fechada | semanal (segunda) e manual |
+| Novidades do ecossistema | tarefa agendada com o prompt de [rotina-diaria.md](rotina-diaria.md): um PR por execução, nada quando não há novidade | diária |
 | Conteúdo | revisar redirecionamentos, releases, licenças e novos projetos CTID | a cada release do ATT&CK (abril e outubro) |
 
-Atualize `reviewed_on` só nos itens efetivamente revisados. Preserve entradas históricas com motivo e alternativa.
+`python3 -m atlas set` carimba `reviewed_on` só na entrada alterada; a data global do catálogo é a maior entre as entradas. Preserve entradas históricas com motivo e alternativa.
 
 ## Proveniência e licenças
 
@@ -158,3 +159,11 @@ Quatro ferramentas da organização `mitre` (Caldera MCP, Caldera for OT, Hipche
 ### Atualização — 11/11/2026
 
 ATT&CK v20.1, ATLAS 2026.10, versões de ferramentas e cinco entradas novas (E130–E134): [novas referências de 11/11/2026](novas-referencias-2026-11-11.md).
+
+### Refatoração — 11/11/2026
+
+Arquitetura refeita para acabar com as branches órfãs e com o CI vermelho por derivado desatualizado:
+fonte fragmentada em `data/entries/` (um arquivo por entrada), pacote `atlas/` com CLI e testes,
+derivados gerados só na `main` pelo workflow `publish`, identidade visual em `design/tokens.json`
+e contrato para agentes em [CLAUDE.md](../CLAUDE.md). O agregado `data/ecosystem.json` continua no
+mesmo caminho e no schema 2.0, agora gerado. Detalhes nos commits `fase-0` a `fase-5`.

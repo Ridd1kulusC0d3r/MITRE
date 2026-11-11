@@ -35,7 +35,8 @@ Tudo aqui funciona com **Python só com stdlib** (`urllib`, `json`, `csv`) e **s
 | `coverage_layer.py` | camada Navigator a partir de regras ou testes | `python3 scripts/coverage_layer.py sigma/rules -o s.json` |
 | `jq-receitas.sh` | consultas prontas com jq | `./scripts/jq-receitas.sh impairment` |
 | `check_repos.py` | atualiza sinais de manutenção via API do GitHub | `GITHUB_TOKEN=… python3 scripts/check_repos.py` |
-| `build_catalog.py` | valida o JSON e regenera catálogo, CSV e explorador | `python3 scripts/build_catalog.py` |
+| `monitor.py` | versão do ATT&CK + `check_repos.py`; abre a issue `monitor` | `GITHUB_TOKEN=… REPO=dono/repo python3 scripts/monitor.py --issue` |
+| `python3 -m atlas` | valida a fonte, cria e altera entradas, regenera derivados | `python3 -m atlas check` · `set E025 version=…` · `build` |
 
 ## Receitas mínimas
 
