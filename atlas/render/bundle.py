@@ -14,8 +14,10 @@ def read_tsv(path):
         return list(csv.DictReader(f, delimiter="\t"))
 
 
-def render_js(d, t, substituicoes_path):
+def render_js(d, t, substituicoes_path, ui=None):
     payload = {"catalog": d, "trilha": t, "substituicoes": read_tsv(substituicoes_path)}
-    return ("// ARQUIVO GERADO por scripts/build_catalog.py. Não edite à mão.\n"
+    if ui is not None:
+        payload["ui"] = ui
+    return ("// ARQUIVO GERADO por python3 -m atlas build. Não edite à mão.\n"
             "// Carregado por index.html via <script>, o que funciona também abrindo o arquivo localmente.\n"
             "window.ECOSYSTEM = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n")

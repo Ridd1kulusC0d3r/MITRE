@@ -212,7 +212,7 @@ class TestRepository(unittest.TestCase):
     def test_no_color_literal_outside_tokens(self):
         """Cor só em design/tokens.json; renderizadores e site leem de lá."""
         hexcolor = re.compile(r"#[0-9a-fA-F]{6}\b")
-        allowed = {"theme.py"}
+        allowed = {"theme.py", "color.py"}
         offenders = []
         for f in list((REPO / "atlas").rglob("*.py")) + list((REPO / "site").rglob("*.*")):
             if f.name in allowed or f.name.startswith("tokens"):

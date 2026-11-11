@@ -6,7 +6,7 @@ def render(t, d):
     by_id = {e["id"]: e for e in d["entries"]}
     out = io.StringIO()
     w = out.write
-    w("<!-- ARQUIVO GERADO por scripts/build_catalog.py a partir de data/trilha.json. Não edite à mão. -->\n\n")
+    w("<!-- ARQUIVO GERADO por python3 -m atlas build a partir de data/trilha.json. Não edite à mão. -->\n\n")
     w(f"# 🧗 {t['titulo']}\n\n")
     w("[← Início](../README.md) · [Versão interativa (uma ação por vez)](../index.html#trilha) · [Catálogo](catalogo.md)\n\n")
     w(f"> {t['principio']} Marque a caixa, faça a próxima. No explorador, o progresso fica salvo no seu navegador.\n\n")

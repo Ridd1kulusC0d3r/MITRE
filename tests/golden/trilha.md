@@ -1,4 +1,4 @@
-<!-- ARQUIVO GERADO por scripts/build_catalog.py a partir de data/trilha.json. Não edite à mão. -->
+<!-- ARQUIVO GERADO por python3 -m atlas build a partir de data/trilha.json. Não edite à mão. -->
 
 # 🧗 Trilha de 8 semanas: do ATT&CK à defesa validada
 

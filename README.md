@@ -1,13 +1,18 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="MITRE Ecosystem Atlas — da inteligência à defesa validada" width="100%">
+<!-- hero:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="MITRE Ecosystem Atlas — da inteligência à defesa validada: 131 recursos em 15 camadas" width="100%">
+</picture>
 
-[![ATT&CK](https://img.shields.io/badge/ATT%26CK-v20.1-e5534b?style=flat-square)](https://attack.mitre.org/)
-[![D3FEND](https://img.shields.io/badge/D3FEND-1.6.0-39c5cf?style=flat-square)](https://d3fend.mitre.org/)
-[![ATLAS](https://img.shields.io/badge/ATLAS-2026.10-a371f7?style=flat-square)](https://atlas.mitre.org/)
-[![Python](https://img.shields.io/badge/Python-stdlib%20only-3776ab?style=flat-square&logo=python&logoColor=white)](scripts/)
-[![Revisão](https://img.shields.io/badge/revis%C3%A3o-11%2F11%2F2026-2ea7a0?style=flat-square)](docs/historico-e-manutencao.md)
-[![Idioma](https://img.shields.io/badge/idioma-pt--BR-009c3b?style=flat-square)](#)
+[![ATT&CK](https://img.shields.io/badge/ATT%26CK-v20.1-f2545b?style=flat-square)](https://attack.mitre.org/)
+[![D3FEND](https://img.shields.io/badge/D3FEND-1.6.0-3cc8d6?style=flat-square)](https://d3fend.mitre.org/)
+[![ATLAS](https://img.shields.io/badge/ATLAS-v2026.10-a86df5?style=flat-square)](https://atlas.mitre.org/)
+[![Python](https://img.shields.io/badge/Python-stdlib%20only-3776ab?style=flat-square&logo=python&logoColor=white)](atlas/)
+[![revisão](https://img.shields.io/badge/revis%C3%A3o-11%2F11%2F2026-1f9e8f?style=flat-square)](docs/historico-e-manutencao.md)
+[![idioma](https://img.shields.io/badge/idioma-pt--BR-009c3b?style=flat-square)](#)
+<!-- hero:end -->
 
 **Mapa curado do ecossistema MITRE, do CTID e dos projetos da comunidade que o colocam em operação.**
 CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incident Response
@@ -40,13 +45,18 @@ CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incide
 | 2 | Leia o [**resumo da v20**](docs/novidades-2026.md): Defense Evasion virou duas táticas e 17 técnicas saíram | 5 min |
 | 3 | Rode o diff contra as suas regras: `python3 scripts/attack_diff.py 18.1 20.0 --rules <pasta>` | 3 min |
 
-> O explorador funciona abrindo `index.html` direto do clone, sem servidor. Com o GitHub Pages ativado, fica em `https://ridd1kulusc0d3r.github.io/mitre/`.
+> O explorador funciona abrindo `index.html` direto do clone, sem servidor. Com o GitHub Pages ativado, fica em `https://ridd1kulusc0d3r.github.io/MITRE/`. Os filtros ficam na URL: `index.html#explorar?camada=deteccao&q=sigma` pode ser compartilhado.
 
 ---
 
 ## 🧱 Uma pergunta para cada camada
 
-<img src="assets/mapa-camadas.svg" alt="Mapa de camadas: adversário, modelagem, telemetria, detecção, validação, resposta e maturidade, com defesa e engano como apoio e uma fundação de vulnerabilidade, CTI, dados, conformidade, padrões e formação" width="100%">
+<!-- map:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/mapa-camadas-dark.svg">
+  <img src="assets/mapa-camadas-light.svg" alt="Mapa de camadas: adversário, modelagem, telemetria, detecção, validação, resposta e maturidade, com defesa e engano como apoio e uma fundação de vulnerabilidade, CTI, dados, conformidade, padrões e formação" width="100%">
+</picture>
+<!-- map:end -->
 
 | Camada | Pergunta | Comece por |
 |---|---|---|
@@ -111,10 +121,11 @@ Leia as [cinco cadeias de crosswalk](docs/crosswalks.md) e use os arquivos pront
 | [`capec_xwalk.py`](scripts/capec_xwalk.py) · [`d3fend_xwalk.py`](scripts/d3fend_xwalk.py) | crosswalks com alerta de técnica revogada |
 | [`jq-receitas.sh`](scripts/jq-receitas.sh) | consultas prontas: táticas, grupos, revogadas, IA |
 | [`check_repos.py`](scripts/check_repos.py) | atualiza sinais de manutenção pela API do GitHub |
-| [`build_catalog.py`](scripts/build_catalog.py) | valida o JSON e regenera catálogo, CSV, SVGs e explorador |
+| [`monitor.py`](scripts/monitor.py) | versão do ATT&CK e sinais de manutenção; abre a issue `monitor` |
+| [`python3 -m atlas`](atlas/) | valida a fonte, cria e altera entradas (`new`, `set`) e regenera catálogo, CSV, SVGs e explorador |
 
 ```bash
-git clone https://github.com/Ridd1kulusC0d3r/mitre && cd mitre
+git clone https://github.com/Ridd1kulusC0d3r/MITRE && cd MITRE
 ./scripts/fetch_all.sh
 python3 scripts/attack_diff.py 18.1 20.0 --rules ~/minhas-regras
 ./scripts/jq-receitas.sh impairment
@@ -158,17 +169,22 @@ Mais receitas e endpoints: [docs/dados-e-apis.md](docs/dados-e-apis.md).
 ```text
 .
 ├── index.html                 explorador interativo (abre offline)
-├── assets/                    banner, mapa de camadas, dados do explorador (gerados)
+├── site/                      CSS e JS do explorador (escritos à mão, sem cor literal)
+├── design/tokens.json         FONTE da identidade visual: cores, camadas, ícones, tipografia
 ├── data/
-│   ├── ecosystem.json         FONTE ÚNICA do catálogo (schema 2.0)
-│   ├── ecosystem.csv          gerado
-│   └── trilha.json            trilha de 8 semanas
-├── docs/                      catálogo (gerado), novidades, crosswalks, dados, guia, trilha, histórico
+│   ├── entries/E###.json      FONTE do catálogo: um arquivo por entrada
+│   ├── vocab.json · meta.json · historical.json · trilha.json   FONTE
+│   ├── repository_checks.json escrito por check_repos.py
+│   └── ecosystem.json · .csv  gerados (agregado schema 2.0, para quem consome)
+├── assets/                    gerados: banner e mapa (claro/escuro), marca, favicon, tokens.css, dados do explorador
+├── atlas/                     pacote Python stdlib: validação, CLI e renderizadores
+├── tests/                     unittest com fixture congelada
+├── docs/                      catálogo e trilha (gerados), novidades, crosswalks, dados, guia, histórico
 ├── crosswalks/                TSVs gerados por script (v18→v20, CWE→CAPEC→ATT&CK)
 ├── layers/                    camadas Navigator de exemplo (Sigma, Atomic, Sigma × Atomic)
 ├── examples/ · templates/     casos guiados e template de caso
-├── scripts/                   Python stdlib + shell
-└── .github/workflows/         validação a cada push e monitor mensal
+├── scripts/                   análise (Python stdlib + shell) e monitor
+└── .github/workflows/         validate (PR), publish (main → derivados + Pages), monitor (semanal)
 ```
 </details>
 
@@ -186,7 +202,7 @@ Mais receitas e endpoints: [docs/dados-e-apis.md](docs/dados-e-apis.md).
 
 ## 🔍 Escopo e qualidade
 
-Base de referência **documental**, revisada em **22/10/2026**. Versões do ATT&CK, D3FEND, ATLAS e das principais ferramentas foram conferidas na fonte (bundle STIX, changelog, tag Git ou PyPI); o restante vem de pesquisa web e está marcado como tal no JSON. As ferramentas de terceiros não foram executadas nem certificadas. "Top" significa utilidade para o fluxo descrito, não contagem de estrelas.
+Base de referência **documental**, revisada em <!-- reviewed:start -->**11/11/2026**<!-- reviewed:end -->. Versões do ATT&CK, D3FEND, ATLAS e das principais ferramentas foram conferidas na fonte (bundle STIX, changelog, tag Git ou PyPI); o restante vem de pesquisa web e está marcado como tal no JSON. As ferramentas de terceiros não foram executadas nem certificadas. "Top" significa utilidade para o fluxo descrito, não contagem de estrelas.
 
 Veja [fontes, sinais de manutenção e limitações](docs/historico-e-manutencao.md). Marcas, dados e ferramentas pertencem aos respectivos titulares; cada fonte tem seus próprios termos.
 

@@ -6,5 +6,6 @@ docs/catalogo.md      linguist-generated=true
 docs/trilha.md        linguist-generated=true
 assets/ecosystem.js   linguist-generated=true
 assets/*.svg          linguist-generated=true
+assets/tokens.css     linguist-generated=true
 tests/golden/*        linguist-generated=true
 * text=auto eol=lf

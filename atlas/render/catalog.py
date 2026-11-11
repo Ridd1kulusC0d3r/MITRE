@@ -13,7 +13,7 @@ def render(d, th):
         groups[e["layer"]].append(e)
     out = io.StringIO()
     w = out.write
-    w("<!-- ARQUIVO GERADO por scripts/build_catalog.py a partir de data/ecosystem.json. Não edite à mão. -->\n\n")
+    w("<!-- ARQUIVO GERADO por python3 -m atlas build a partir de data/ecosystem.json. Não edite à mão. -->\n\n")
     w("# 🗺️ Catálogo do ecossistema\n\n")
     w("[← Início](../README.md) · [Explorador interativo](../index.html) · [Crosswalks](crosswalks.md) · "
       "[Novidades 2026](novidades-2026.md) · [Histórico](historico-e-manutencao.md)\n\n")

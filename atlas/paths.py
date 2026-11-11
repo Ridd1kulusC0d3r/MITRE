@@ -22,8 +22,6 @@ class Paths:
         self.catalog = self.root / "docs" / "catalogo.md"
         self.trilha_md = self.root / "docs" / "trilha.md"
         self.bundle_js = self.root / "assets" / "ecosystem.js"
-        self.banner = self.root / "assets" / "banner.svg"
-        self.layer_map = self.root / "assets" / "mapa-camadas.svg"
         self.readme = self.root / "README.md"
 
     def rel(self, p):
