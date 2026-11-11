@@ -7,6 +7,8 @@
   set E### campo=valor  altera campos e carimba reviewed_on; 'campo=' remove o campo
   show E###             imprime a entrada
   split [ARQUIVO]       migra um agregado schema 2.0 (padrão: data/ecosystem.json) para a fonte
+  generated             lista os arquivos que só o build escreve (usado pelo CI)
+  site DIR              monta em DIR o site estático publicado no GitHub Pages
 
 Listas (domains, formats, relations) usam ';' como separador. archived aceita true/false.
 """
@@ -152,6 +154,43 @@ def cmd_split(p, a):
     return 0
 
 
+def cmd_generated(p, a):
+    for f in render.generated(p):
+        print(p.rel(f))
+    return 0
+
+
+SITE_FILES = ["index.html", "assets", "data/ecosystem.json", "data/ecosystem.csv",
+              "crosswalks", "layers", "site"]
+
+
+def cmd_site(p, a):
+    """Site estático: build em memória + arquivos públicos; não toca no repositório."""
+    import shutil
+    errs, warns = _validate_all(p)
+    if _report(errs, warns, quiet=True):
+        return 1
+    out = Path(a.dir).resolve()
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+    for rel in SITE_FILES:
+        src = p.root / rel
+        if src.is_dir():
+            shutil.copytree(src, out / rel, ignore=shutil.ignore_patterns("*.py", "__pycache__"))
+        elif src.exists():
+            (out / rel).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, out / rel)
+    for f, content in render.build(p).items():
+        if f.suffix in (".json", ".csv", ".js", ".svg", ".png"):
+            dest = out / f.relative_to(p.root)
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_text(content, encoding="utf-8")
+    (out / ".nojekyll").write_text("", encoding="utf-8")
+    print(f"✅ site montado em {out}")
+    return 0
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="python3 -m atlas", description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -171,10 +210,14 @@ def main(argv=None):
     s.add_argument("id")
     s = sub.add_parser("split", help="migra agregado para fonte fragmentada")
     s.add_argument("file", nargs="?")
+    sub.add_parser("generated", help="lista derivados")
+    s = sub.add_parser("site", help="monta o site estático")
+    s.add_argument("dir")
     a = ap.parse_args(argv)
     p = Paths(a.root) if a.root else Paths()
     return {"check": cmd_check, "build": cmd_build, "new": cmd_new, "set": cmd_set,
-            "show": cmd_show, "split": cmd_split}[a.cmd](p, a)
+            "show": cmd_show, "split": cmd_split, "generated": cmd_generated,
+            "site": cmd_site}[a.cmd](p, a)
 
 
 if __name__ == "__main__":

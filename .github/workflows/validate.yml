@@ -1,5 +1,7 @@
 name: validate
 
+# Valida a FONTE (data/entries, vocab, trilha, design/tokens.json), roda os testes
+# e faz um build de fumaça. Não exige derivados em dia: quem os grava é o publish.
 on:
   push:
   pull_request:
@@ -9,20 +11,38 @@ permissions:
   contents: read
 
 jobs:
-  catalogo:
+  validar:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - name: Catálogo válido e arquivos gerados em dia
-        run: python3 scripts/build_catalog.py --check
-      - name: Scripts Python compilam
-        run: python3 -m py_compile scripts/*.py
-      - name: Scripts shell sem erro de sintaxe
-        run: for f in scripts/*.sh; do bash -n "$f"; done
-      - name: JSON e TSV legíveis
+      - name: Fonte válida
+        run: python3 -m atlas check
+      - name: Testes
+        run: python3 -m unittest -v
+      - name: Build de fumaça (em dist/, descartado)
+        run: python3 -m atlas build --out dist && python3 -m atlas site _site
+      - name: Scripts compilam e shell sem erro de sintaxe
         run: |
-          python3 -c "import json; json.load(open('data/ecosystem.json')); json.load(open('data/trilha.json'))"
-          for f in layers/*.json; do python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f"; done
+          python3 -m py_compile scripts/*.py
+          for f in scripts/*.sh; do bash -n "$f"; done
+      - name: Camadas do Navigator legíveis
+        run: for f in layers/*.json; do python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f"; done
+      - name: PR não edita derivados à mão
+        if: github.event_name == 'pull_request'
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          changed=$(git diff --name-only "$BASE"...HEAD)
+          bad=$(python3 -m atlas generated | grep -Fxf - <(echo "$changed") || true)
+          if [ -n "$bad" ]; then
+            echo "::error::Este PR altera arquivos gerados:"; echo "$bad"
+            echo "Edite só a fonte (data/entries/, data/*.json, design/) e desfaça a mudança nesses arquivos:"
+            echo "  git checkout origin/${{ github.base_ref }} -- $(echo $bad)"
+            echo "O workflow publish regenera os derivados depois do merge."
+            exit 1
+          fi
