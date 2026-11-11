@@ -2,7 +2,7 @@
 
 [← Início](../README.md) · [Catálogo](catalogo.md) · [Crosswalks](crosswalks.md) · [Dados e APIs](dados-e-apis.md)
 
-Revisão de **22/10/2026**. Itens marcados com ✔ foram conferidos diretamente nos dados ou repositórios oficiais nesta data (bundle STIX, CHANGELOG, tag Git ou PyPI). Os demais vêm de pesquisa web e anúncios oficiais.
+Revisão de **22/10/2026**, com atualização em **11/11/2026** (ATT&CK v20.1, ATLAS 2026.10 e versões de ferramentas). Itens marcados com ✔ foram conferidos diretamente nos dados ou repositórios oficiais nesta data (bundle STIX, CHANGELOG, tag Git ou PyPI). Os demais vêm de pesquisa web e anúncios oficiais.
 
 > **Resumo para um SOC/MSSP:** se suas regras foram mapeadas antes da v19, elas estão desatualizadas na parte de evasão e tampering. Rode `python3 scripts/attack_diff.py 18.1 20.0 --rules <suas-regras>` antes de qualquer outra coisa.
 
@@ -17,6 +17,7 @@ timeline
     v19 (28/04/2026) : Defense Evasion dividida em Stealth e Defense Impairment : T1562 revogada : subtécnicas no ICS
     v19.2 (06/08/2026) : primeiro release Agile (Groups e Software)
     v20 (13/10/2026) : técnicas de IA e anti-automação : 182 grupos, 971 softwares
+    v20.1 (05/11/2026) : correção de dados, sem mudança de técnicas
 ```
 
 ### ✔ Números da v20.0 (contados no bundle STIX oficial)
@@ -28,6 +29,18 @@ timeline
 | ICS | 12 | 78 | 26 | 106 | 302 | 36 | 14 | 10 |
 
 Contagem de objetos ativos (sem `revoked` nem `x_mitre_deprecated`) em `attack-stix-data`, arquivos `*-attack-20.0.json`. Os totais de grupos e softwares divulgados pela MITRE somam os três domínios, por isso diferem desta tabela.
+
+### ✔ v20.1 (05/11/2026): correção de dados
+
+Comparação dos bundles 20.0 e 20.1 com `scripts/attack_diff.py 20.0 20.1`, em 11/11/2026: **nenhuma técnica ou tática entrou, saiu ou mudou de nome** em Enterprise, Mobile ou ICS. Regras mapeadas para a v20.0 continuam válidas. O que mudou na contagem de objetos ativos:
+
+| Domínio | Detection Strategies | Analytics | Software |
+|---|:-:|:-:|:-:|
+| Enterprise | 703 → 706 | 1.770 → 1.773 | 842 (igual) |
+| Mobile | 124 → 125 | 211 → 213 | 128 → 129 |
+| ICS | 106 → 104 | 302 → 300 | 25 (igual) |
+
+Técnicas, subtécnicas, grupos, campanhas e mitigações ficaram iguais nos três domínios. A MITRE não publicou notas separadas para a v20.1; a página de versões a lista como a versão atual.
 
 ### ✔ Defense Evasion virou duas táticas
 
@@ -93,6 +106,7 @@ Também foram **renomeadas**: T1211 (Exploitation for Defense Evasion → *for S
 
 ## 3. ATLAS ✔
 
+- **v2026.10 (28/10/2026):** 16 táticas, 129 técnicas, 92 subtécnicas, 44 mitigações, 77 estudos de caso, 44 entidades e 37 softwares. Técnicas novas como AML.T0143 LLM Prompt Propagation, AML.T0145 Poison AI Agent Learning Environment e AML.T0136 Exfiltration via AI User Interface. **IDs que mudam mapeamentos:** AML.T0010 passou a se chamar Supply Chain Compromise, AML.T0005 virou Replicate AI Model Behavior, e inferência de pertencimento e inversão de modelo saíram de AML.T0024 para AML.T0137.
 - **v2026.09 (14/09/2026):** 16 táticas, 120 técnicas, 88 subtécnicas, 40 mitigações, 73 estudos de caso. Novas técnicas de agentes (ex.: AML.T0130 AI Agent Response Biasing, AML.T0133 Discover AI Agent Runtime Capabilities) e a mitigação AML.M0039 AI Honeypots.
 - **Formato:** desde 2026.05, versão de conteúdo (AAAA.MM) separada da versão de formato (6.0.0). `dist/ATLAS.yaml` foi depreciado; `dist/ATLAS-latest.yaml` é um symlink, então baixe `dist/v6/ATLAS-<versão>.yaml`.
 
@@ -109,17 +123,17 @@ Datas dos anúncios oficiais do CTID; só o Attack Flow foi conferido por tag ne
 | 06/05 | Secure AI | Expansão do ATLAS com emulação |
 | 30/07 · 14/10 ✔ | Attack Flow v4.0 · v4.1.0 | v4.1 com integração D3FEND |
 | 10/09 | Summiting the Pyramid | Cobertura de implementação e qualidade de detecção |
-| out | CIS Controls no Mappings Explorer | Controles CIS ↔ técnicas |
+| 05/10 | CIS Controls for Threat Mitigations | Safeguards do CIS ↔ técnicas, com justificativa, no Mappings Explorer |
 
 ## 5. Governança e ferramentas
 
 | Item | Mudança |
 |---|---|
 | Caldera ✔ | Doado à Apache Software Foundation: **Apache Caldera (Incubating)**, repo `apache/caldera`, tag 5.3.0 |
-| mitreattack-python ✔ | 6.3.1 publicado em 13/10/2026, junto com a v20 |
-| Sigma ✔ | release r2026-07-01; pySigma 2.0.1; sigma-cli 3.1.0 |
+| mitreattack-python ✔ | 6.4.0 publicado em 05/11/2026, junto com a v20.1 (6.3.1 saiu com a v20) |
+| Sigma ✔ | release r2026-07-01; pySigma 2.1.0 (09/11/2026); sigma-cli 4.0.0 (28/10/2026, nova versão principal) |
 | pyattck | arquivado em 17/03/2026 (pesquisa web); último release 7.1.2 em 2023 ✔ (PyPI): migre para mitreattack-python ou attackcti |
-| ATT&CK Navigator ✔ | v5.3.2 · Workbench v4.18.0-alpha.1 |
+| ATT&CK Navigator ✔ | v5.3.2 · Workbench v4.18.0 · REST API v4.26.0 |
 | CVE | crise de financiamento em abr/2025; contrato com a CISA prorrogado e renegociado |
 | ATT&CK Evaluations | edição 2026 com a métrica TES (DQI + PQI) |
 | ATT&CK Advisory Council | criado em 25/02/2026 |

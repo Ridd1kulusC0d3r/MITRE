@@ -2,11 +2,11 @@
 
 <img src="assets/banner.svg" alt="MITRE Ecosystem Atlas — da inteligência à defesa validada" width="100%">
 
-[![ATT&CK](https://img.shields.io/badge/ATT%26CK-v20.0-e5534b?style=flat-square)](https://attack.mitre.org/)
+[![ATT&CK](https://img.shields.io/badge/ATT%26CK-v20.1-e5534b?style=flat-square)](https://attack.mitre.org/)
 [![D3FEND](https://img.shields.io/badge/D3FEND-1.6.0-39c5cf?style=flat-square)](https://d3fend.mitre.org/)
-[![ATLAS](https://img.shields.io/badge/ATLAS-2026.09-a371f7?style=flat-square)](https://atlas.mitre.org/)
+[![ATLAS](https://img.shields.io/badge/ATLAS-2026.10-a371f7?style=flat-square)](https://atlas.mitre.org/)
 [![Python](https://img.shields.io/badge/Python-stdlib%20only-3776ab?style=flat-square&logo=python&logoColor=white)](scripts/)
-[![Revisão](https://img.shields.io/badge/revis%C3%A3o-22%2F10%2F2026-2ea7a0?style=flat-square)](docs/historico-e-manutencao.md)
+[![Revisão](https://img.shields.io/badge/revis%C3%A3o-11%2F11%2F2026-2ea7a0?style=flat-square)](docs/historico-e-manutencao.md)
 [![Idioma](https://img.shields.io/badge/idioma-pt--BR-009c3b?style=flat-square)](#)
 
 **Mapa curado do ecossistema MITRE, do CTID e dos projetos da comunidade que o colocam em operação.**
@@ -19,10 +19,14 @@ CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incide
 <!-- stats:start -->
 | 📦 Entradas | 🟦 MITRE | 🟩 CTID | 🟨🟧 Comunidade e fornecedores | 🔗 Relações | 🧱 Camadas | ✅ Ativos | 🗄️ Históricos |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **126** | 51 | 27 | 32 | 260 | 15 | 84 | 21 |
+| **131** | 56 | 27 | 32 | 269 | 15 | 89 | 21 |
 <!-- stats:end -->
  
 ---
+
+## 🆕 Atualização — 11/11/2026
+
+[**ATT&CK v20.1, ATLAS 2026.10 e 5 ferramentas novas no catálogo**](docs/novas-referencias-2026-11-11.md): Caldera MCP, Caldera for OT, Grid Watch, Hipcheck e ATLAS Agent. A v20.1 não muda nenhuma técnica; a ATLAS 2026.10 renomeia e move IDs.
 
 ## 🆕 Expansão da curadoria — 23/10/2026
 
@@ -71,6 +75,7 @@ CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incide
 | 🟠 | **v20:** prompt injection (T1698/T1699), exfiltração com IA (T1700), anti-CAPTCHA (T1696) | abrir backlog: são lacunas por definição |
 | 🟡 | **v18:** Data Sources substituídos por Detection Strategies → Analytics → Data Components | atualizar parsers e o DeTT&CT |
 | 🟢 | **Caldera** virou **Apache Caldera (Incubating)** | acompanhar `apache/caldera` |
+| 🟣 | **ATLAS 2026.10:** AML.T0010 e AML.T0005 renomeadas; subtécnicas de AML.T0024 movidas para AML.T0137 | revisar mapeamentos de IA por ID |
 | 🔵 | D3FEND 1.6.0 e CAPEC 3.9 ainda citam técnicas revogadas | cruzar com `d3fend_xwalk.py` / `capec_xwalk.py --stale-only` |
 
 Detalhes e números conferidos no bundle oficial: [docs/novidades-2026.md](docs/novidades-2026.md).
