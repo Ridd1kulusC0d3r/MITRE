@@ -60,7 +60,7 @@ CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incide
 
 | Camada | Pergunta | Comece por |
 |---|---|---|
-| 🎯 [Adversário](docs/catalogo.md#adversario) | O que o adversário faz? | ATT&CK v20 · ATLAS (IA) · ATT&CK ICS · F3 (fraude) · EMB3D/ESTM |
+| 🎯 [Adversário](docs/catalogo.md#adversario) | O que o adversário faz? | ATT&CK v20 · ATLAS (IA) · ATT&CK ICS · [FiGHT](https://fight.mitre.org/) (5G) · F3 (fraude) · EMB3D/ESTM |
 | 🧭 [Modelagem](docs/catalogo.md#modelagem) | Como representar o cenário? | Attack Flow v4.1 · Threat Modeling with ATT&CK · Top ATT&CK Techniques |
 | 📡 [Telemetria](docs/catalogo.md#telemetria) | O que precisamos observar? | Sensor Mappings · DeTT&CT · OSSEM |
 | 🔎 [Detecção](docs/catalogo.md#deteccao) | Como detectar e avaliar a qualidade? | Detection Strategies · Sigma + pySigma · Summiting the Pyramid |
@@ -145,6 +145,7 @@ Mais receitas e endpoints: [docs/dados-e-apis.md](docs/dados-e-apis.md).
 | Threat modeling | ativos e fluxos → Threat Modeling with ATT&CK → D3FEND → Mappings Explorer | cenário e controles justificáveis |
 | Resposta e forense | cenário → RE&CT → NIST 800-61r3 → Hayabusa/Chainsaw → exercício | playbook com responsáveis |
 | OT e embarcados | ATT&CK ICS → Defending OT → EMB3D/ESTM → D3FEND (ICS) | cenário com restrições operacionais |
+| 5G e telecom | [FiGHT](https://fight.mitre.org/) → ATT&CK Enterprise/Mobile → D3FEND → validação em laboratório | cenário 5G com cada técnica marcada como teórica, PoC ou observada |
 | IA | ATLAS → Secure AI → T1698/T1699 → validação | caso de abuso e evidência de mitigação |
 | Fraude (BR) | F3 → ATT&CK Mobile → T1684/T1696 → antifraude | [caso 5](examples/casos-guiados.md#caso-5--fraude-via-pix-e-mobile-banking) |
 | Contribuir com o ATT&CK | procedimento observado → evidência → Attack Flow → [formulário de contribuição](https://attack.mitre.org/resources/engage-with-attack/contribute/) | crédito como contribuidor na técnica |
@@ -194,7 +195,7 @@ Mais receitas e endpoints: [docs/dados-e-apis.md](docs/dados-e-apis.md).
 
 - **D3FEND** é da MITRE; **DeTT&CT** é do Rabobank; **RE&CT** é do ATC Project.
 - **Respond** é uma função do NIST CSF. Não existe um "MITRE RESPOND" oficial.
-- **FiGHT** trata de 5G; **Fight Fraud Framework (F3)** trata de fraude financeira.
+- **[FiGHT](https://fight.mitre.org/)** trata de 5G; **Fight Fraud Framework (F3)** trata de fraude financeira.
 - **SPARTA** é da Aerospace Corporation e **DISARM** da DISARM Foundation, não da MITRE.
 - **Caldera** hoje é governado pela Apache Software Foundation.
 - **STIX/TAXII** são padrões OASIS; **CVSS/EPSS**, FIRST.

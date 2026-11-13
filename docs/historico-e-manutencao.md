@@ -167,3 +167,10 @@ fonte fragmentada em `data/entries/` (um arquivo por entrada), pacote `atlas/` c
 derivados gerados só na `main` pelo workflow `publish`, identidade visual em `design/tokens.json`
 e contrato para agentes em [CLAUDE.md](../CLAUDE.md). O agregado `data/ecosystem.json` continua no
 mesmo caminho e no schema 2.0, agora gerado. Detalhes nos commits `fase-0` a `fase-5`.
+
+### Atualização — 13/11/2026
+
+[FiGHT](https://fight.mitre.org/) (E007) saiu de "não verificado": conferido em 13/11/2026 no site publicado e no
+histórico Git de `mitre/FiGHT`. Versão **3.1.0**, de 14/11/2025, com 15 táticas, 86 técnicas e 97 subtécnicas.
+Fica como `baixa-atividade` porque não há release de conteúdo desde então; o commit de 10/11/2026 só republica o site.
+O README passou a apontar para o FiGHT na camada Adversário e ganhou a trilha "5G e telecom".
