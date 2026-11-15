@@ -167,3 +167,11 @@ fonte fragmentada em `data/entries/` (um arquivo por entrada), pacote `atlas/` c
 derivados gerados só na `main` pelo workflow `publish`, identidade visual em `design/tokens.json`
 e contrato para agentes em [CLAUDE.md](../CLAUDE.md). O agregado `data/ecosystem.json` continua no
 mesmo caminho e no schema 2.0, agora gerado. Detalhes nos commits `fase-0` a `fase-5`.
+
+### Atualização — 15/11/2026
+
+Conferido em [attack.mitre.org](https://attack.mitre.org/) e na [organização mitre-attack](https://github.com/orgs/mitre-attack/repositories): nenhum repositório novo e ATT&CK continua em **v20.1**. Três tags de ferramentas entraram no catálogo:
+
+- Workbench REST API (E073): **v4.26.1** (11/11/2026).
+- Workbench frontend (E025): estável segue **v4.18.0**; saíram as betas **v4.18.1-beta.1** (12/11) e **v4.19.0-beta.1** (13/11).
+- ATT&CK Data Model (E029): **v4.12.0** (11/11/2026) na linha estável 4.x, ao lado da beta v5.0.0-beta.3.

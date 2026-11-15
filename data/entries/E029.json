@@ -13,7 +13,7 @@
   "output": "Validação estrutural",
   "priority": "P1",
   "status": "ativo",
-  "version": "v5.0.0-beta.3 (tag)",
+  "version": "v4.12.0 (tag, estável) · v5.0.0-beta.3 (tag)",
   "formats": [
     "TypeScript",
     "Zod"
@@ -21,6 +21,6 @@
   "relations": [
     "E026"
   ],
-  "reviewed_on": "2026-11-11",
-  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+  "reviewed_on": "2026-11-15",
+  "verification": "Tags Git conferidas em 15/11/2026: v4.12.0 (11/11/2026) na linha estável; v5.0.0-beta.3 segue como beta mais recente"
 }
