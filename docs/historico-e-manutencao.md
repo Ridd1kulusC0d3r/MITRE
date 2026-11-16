@@ -111,6 +111,15 @@ Curadoria independente com resumos e scripts próprios. Os arquivos em `crosswal
 
 Revisões diárias feitas em branches que não chegaram a ser mescladas e foram consolidadas em 11/11/2026. Cada bloco descreve o que se sabia **naquela data**; o estado atual está no catálogo.
 
+### Inventário mitre-attack e attack.mitre.org — 16/11/2026
+
+Conferido via busca de repositórios da organização `mitre-attack` (20 repositórios listados, **nenhum novo**), tags Git, npm e PyPI. ATT&CK segue em **v20.1** (05/11/2026); `mitreattack-python` em **6.4.0**.
+
+- **Workbench REST API (E073):** nova tag estável **v4.26.1** (11/11/2026).
+- **ATT&CK Data Model (E029):** **v4.12.0** publicada em 11/11/2026 (npm, dist-tag `next`; `latest` ainda 4.10.1). A linha 5.0.0 está parada em beta desde 09/12/2025, então o catálogo deixou de exibi-la como versão principal.
+- **Workbench (E025):** estável continua v4.18.0; saíram os pré-lançamentos v4.18.1-beta.1 (12/11) e v4.19.0-beta.1 (13/11).
+- **Nova entrada E135 — ATT&CK Advisory Council:** página nova em *Resources* do attack.mitre.org; conselho consultivo independente anunciado em 25/02/2026, sem autoridade de governança sobre o ATT&CK.
+
 ### Inventário da organização mitre-attack — 03/11/2026
 
 Conferido na [lista de repositórios](https://github.com/orgs/mitre-attack/repositories) e em [attack.mitre.org/resources/updates](https://attack.mitre.org/resources/updates/): **21 repositórios, nenhum novo desde a revisão de 22/10/2026**. ATT&CK continua em **v20** (13/10/2026) e `mitreattack-python` em **6.3.1** (PyPI). Datas abaixo vêm da listagem pública (sem hora) e **não** substituem os `pushed_at` do catálogo; rode `check_repos.py` com token para atualizá-los.

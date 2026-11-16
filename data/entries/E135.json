@@ -1,0 +1,22 @@
+{
+  "id": "E135",
+  "name": "ATT&CK Advisory Council",
+  "url": "https://attack.mitre.org/resources/attack-advisory-council/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "formacao",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Conselho consultivo independente, anunciado em 25/02/2026, que orienta a MITRE sobre estratégia, roteiro de conteúdo, metodologia e sustentabilidade do ATT&CK; não tem autoridade de governança.",
+  "output": "Contexto de governança e roteiro do ATT&CK",
+  "priority": "P2",
+  "status": "ativo",
+  "relations": [
+    "E001"
+  ],
+  "reviewed_on": "2026-11-16",
+  "verification": "Página attack.mitre.org/resources/attack-advisory-council/ lida em 16/11/2026 (anúncio de 25/02/2026)"
+}
