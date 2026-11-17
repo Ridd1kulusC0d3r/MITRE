@@ -4,7 +4,7 @@
 
 [← Início](../README.md) · [Explorador interativo](../index.html) · [Crosswalks](crosswalks.md) · [Novidades 2026](novidades-2026.md) · [Histórico](historico-e-manutencao.md)
 
-Revisão: **2026-11-13** · **131 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
+Revisão: **2026-11-17** · **132 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
 
 **Legenda.** Origem: 🟦 MITRE oficial · 🟩 MITRE CTID · 🟪 Colaboração MITRE · 🟫 Fundação aberta (código MITRE doado) · ⬛ Governo · ⬜ Organismo de padrão · 🟨 Comunidade · 🟧 Fornecedor · ◻️ Outro  
 Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificado
@@ -27,7 +27,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | 🗄️ [dados](#dados) | Como consumir por código | 21 |
 | ⚙️ [conformidade](#conformidade) | Como automatizar conformidade | 5 |
 | 📐 [padrao](#padrao) | Padrões de base | 4 |
-| 🎓 [formacao](#formacao) | Como aprender | 7 |
+| 🎓 [formacao](#formacao) | Como aprender | 8 |
 
 <a id="adversario"></a>
 ## 🎯 O que o adversário faz
@@ -43,7 +43,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ❔ | **[CAVEaT](https://cloudsecurityalliance.org/artifacts/cloud-adversarial-vectors-exploits-and-threats)** `E023` | 🟪 CSA / colaboração MITRE | Estruturar ameaças e orientação de segurança para cloud. | — | Cloud | P2 |
 | ✅ | **[DISARM](https://www.disarm.foundation/)** `E094` | 🟨 DISARM Foundation | Descrever táticas de manipulação e interferência informacional (FIMI). | v1.6.1 (tag) · v1.7 citada em mai/2026 | Desinformação | P2 |
 | ✅ | **[ESTM](https://estm.mitre.org/)** `E006` | 🟦 MITRE | Explorar táticas e técnicas de ataques a sistemas embarcados. | ESTM 3.0 · jan/2026 | Embarcados | P2 |
-| ❔ | **[FiGHT](https://fight.mitre.org/)** `E007` | 🟦 MITRE | Modelar ameaças ao ecossistema 5G. | — | 5G | P2 |
+| ⏸️ | **[FiGHT](https://fight.mitre.org/)** `E007` | 🟦 MITRE | Modelar ameaças ao ecossistema 5G (5G Hierarchy of Threats), no formato do ATT&CK. | v3.1.0 · 14/11/2025 | 5G | P2 |
 | ✅ | **[Fight Fraud Framework](https://github.com/center-for-threat-informed-defense/fight-fraud-framework)** `E045` | 🟩 MITRE / CTID | Estruturar análise comportamental de fraude financeira. | lançado em 09/04/2026 | Fraude | P2 |
 | ✅ | **[Insider Threat TTP KB](https://github.com/center-for-threat-informed-defense/insider-threat-ttp-kb)** `E035` | 🟩 MITRE / CTID | Consultar comportamentos de ameaças internas. | — | Enterprise | P2 |
 | ✅ | **[LOLBAS](https://lolbas-project.github.io/)** `E103` | 🟨 LOLBAS Project | Catálogo de binários nativos do Windows abusados por adversários, com técnicas ATT&CK. | — | Enterprise | P2 |
@@ -61,7 +61,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 - **CAVEaT** — entrega: Cenários cloud e requisitos defensivos. ↔ ATT&CK.
 - **DISARM** — entrega: Cenários e contramedidas de desinformação. Inspirado no ATT&CK; não é MITRE. Sucessor do AMITT. ↔ RE&CT, MISP Galaxy.
 - **ESTM** — entrega: Cenários para avaliação de sistemas embarcados. Parceria com a Força Aérea dos EUA (CROWS). ↔ EMB3D.
-- **FiGHT** — entrega: Modelo de ameaças de telecomunicações. Não confundir com o Fight Fraud Framework (E045). ↔ ATT&CK.
+- **FiGHT** — entrega: Modelo de ameaças de telecomunicações com técnicas rotuladas como teórica, PoC ou observada. Não confundir com o Fight Fraud Framework (E045). Site v3.1.0: 15 táticas (as 14 do ATT&CK Enterprise anteriores à v19, mais TA5001 Fraud), 86 técnicas e 97 subtécnicas (IDs FGT), 92 mitigações, 169 fontes de dados, 10 grupos, 16 softwares e 2 campanhas. 111 das 183 técnicas são teóricas e 49 observadas: trate como hipótese de modelagem, não como evidência de ocorrência. Dados em fight.yaml no repositório mitre/FiGHT (Apache-2.0); o último commit de conteúdo é a release de 14/11/2025. ↔ ATT&CK.
 - **Fight Fraud Framework** — entrega: Cenários e hipóteses de fraude. Útil para clientes financeiros (Pix, mobile banking). ↔ ATT&CK, AADAPT.
 - **Insider Threat TTP KB** — entrega: Hipóteses de investigação contextualizadas. ↔ ATT&CK.
 - **LOLBAS** — entrega: Lista de binários para hipóteses de detecção. ↔ ATT&CK, Sigma.
@@ -343,14 +343,14 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | | Projeto | Origem | Para que usar | Versão / estado | Domínios | Prio |
 |:-:|---|---|---|---|---|:-:|
 | ✅ | **[ATLAS Data](https://github.com/mitre-atlas/atlas-data)** `E079` | 🟦 MITRE | Distribuir o ATLAS em YAML versionado (conteúdo AAAA.MM, formato semver). | conteúdo 2026.10 · 28/10/2026 | IA | P1 |
-| ✅ | **[ATT&CK Data Model](https://github.com/mitre-attack/attack-data-model)** `E029` | 🟦 MITRE | Validar e manipular dados ATT&CK com schemas TypeScript/Zod. | v5.0.0-beta.3 (tag) | Enterprise | P1 |
+| ✅ | **[ATT&CK Data Model](https://github.com/mitre-attack/attack-data-model)** `E029` | 🟦 MITRE | Validar e manipular dados ATT&CK com schemas TypeScript/Zod. | v4.12.0 (tag · npm dist-tag next; latest ainda 4.10.1) · v5.0.0-beta.3 (beta) | Enterprise | P1 |
 | ✅ | **[ATT&CK STIX 2.0](https://github.com/mitre/cti)** `E027` | 🟦 MITRE | Consultar a representação STIX 2.0. | tag ATT&CK-v20.1 | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[ATT&CK STIX 2.1](https://github.com/mitre-attack/attack-stix-data)** `E026` | 🟦 MITRE | Consumir a base ATT&CK em formato estruturado. | v20.1 · 05/11/2026 | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[ATT&CK Updates e Version History](https://attack.mitre.org/resources/updates/)** `E111` | 🟦 MITRE | Ler as notas de cada release e navegar versões antigas do site. | v20.1 · 05/11/2026 (v20 em 13/10/2026) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[mitreattack-python](https://github.com/mitre-attack/mitreattack-python)** `E028` | 🟦 MITRE | Consultar e transformar dados ATT&CK com Python. | 6.4.0 · 05/11/2026 (PyPI) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Navigator](https://github.com/mitre-attack/attack-navigator)** `E024` | 🟦 MITRE | Visualizar e anotar matrizes. | v5.3.2 | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Splunk Attack Data](https://github.com/splunk/attack_data)** `E122` | 🟧 Splunk | Consumir datasets de ataques e reproduzir eventos para desenvolver e validar analíticas. | — | Enterprise, Cloud | P1 |
-| ✅ | **[Workbench](https://github.com/mitre-attack/attack-workbench-frontend)** `E025` | 🟦 MITRE | Gerenciar extensões locais de ATT&CK. | v4.18.0 (tag) · v4.18.1-beta.1 em desenvolvimento | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[Workbench](https://github.com/mitre-attack/attack-workbench-frontend)** `E025` | 🟦 MITRE | Gerenciar extensões locais de ATT&CK. | v4.19.0 (tag) | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Workbench Deployment](https://github.com/mitre-attack/attack-workbench-deployment)** `E074` | 🟦 MITRE | Subir o Workbench completo (frontend, REST API, banco e TAXII opcional) com Docker Compose ou Kubernetes. | — | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Workbench TAXII Server](https://github.com/mitre-attack/attack-workbench-taxii-server)** `E030` | 🟦 MITRE | Servir coleções ATT&CK via TAXII. | v2.0.1 (tag) | Enterprise | P1 |
 | ✅ | **[ATLAS Agent](https://github.com/mitre-atlas/atlas-knowledge-base-agent)** `E134` | 🟦 MITRE | Consultar a base ATLAS em linguagem natural, com busca semântica, consulta estruturada e grafo de relações; expõe servidor MCP e API. | 1.1.0 · dados ATLAS v2026.7 | IA | P2 |
@@ -436,6 +436,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | | Projeto | Origem | Para que usar | Versão / estado | Domínios | Prio |
 |:-:|---|---|---|---|---|:-:|
 | ✅ | **[ATT&CK — Learn More e FAQ](https://attack.mitre.org/resources/learn-more-about-attack/)** `E112` | 🟦 MITRE | Material oficial de introdução, treinamento e perguntas frequentes. | — | Enterprise, Mobile, ICS/OT | P1 |
+| ✅ | **[ATT&CK Advisory Council](https://attack.mitre.org/resources/attack-advisory-council/)** `E135` | 🟦 MITRE | Conselho consultivo independente (governo, indústria e academia) que orienta a MITRE sobre estratégia, roadmap, metodologia, qualidade e sustentabilidade do ATT&CK; não tem autoridade de governança. | — | Enterprise, Mobile, ICS/OT | P2 |
 | ✅ | **[ATT&CKcon](https://attack.mitre.org/resources/attackcon/)** `E113` | 🟦 MITRE | Conferência anual do ATT&CK, com palestras gravadas. | 7.0 · 27–28/10/2026, McLean (EUA) | Enterprise, Mobile, ICS/OT | P2 |
 | ⏸️ | **[CTID Public Resources](https://github.com/center-for-threat-informed-defense/public-resources)** `E039` | 🟩 MITRE / CTID | Localizar materiais públicos do Center. | — | Geral | P2 |
 | ⏸️ | **[CTID Workshop](https://github.com/center-for-threat-informed-defense/workshop)** `E052` | 🟩 MITRE / CTID | Acessar materiais de workshops do Center. | — | Geral | P2 |
@@ -446,6 +447,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 <details><summary>Notas e relações</summary>
 
 - **ATT&CK — Learn More e FAQ** — entrega: Base comum de vocabulário para o time. FAQ: https://attack.mitre.org/resources/faq/ ↔ ATT&CK, ATT&CKcon.
+- **ATT&CK Advisory Council** — entrega: Contexto de governança e direção de longo prazo do ATT&CK. ↔ ATT&CK, ATT&CK Updates e Version History.
 - **ATT&CKcon** — entrega: Casos de uso da comunidade. ↔ ATT&CK.
 - **eCTF** — entrega: Experiência de projeto e avaliação. ↔ EMB3D.
 - **Grid Watch** — entrega: Alvo de laboratório para os plugins do Caldera for OT. Simulação simplificada, criada por estudantes em colaboração com a MITRE; não representa uma subestação real. Licença Apache-2.0 (arquivo LICENSE). ↔ Caldera for OT.

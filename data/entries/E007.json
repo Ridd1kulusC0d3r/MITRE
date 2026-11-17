@@ -9,17 +9,18 @@
     "5g"
   ],
   "legacy_category": "Bases e modelos",
-  "purpose": "Modelar ameaças ao ecossistema 5G.",
-  "output": "Modelo de ameaças de telecomunicações",
+  "purpose": "Modelar ameaças ao ecossistema 5G (5G Hierarchy of Threats), no formato do ATT&CK.",
+  "output": "Modelo de ameaças de telecomunicações com técnicas rotuladas como teórica, PoC ou observada",
   "priority": "P2",
-  "status": "n/v",
+  "status": "baixa-atividade",
+  "version": "v3.1.0 · 14/11/2025",
   "formats": [
-    "STIX"
+    "YAML"
   ],
   "relations": [
     "E001"
   ],
-  "notes": "Não confundir com o Fight Fraud Framework (E045).",
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "notes": "Não confundir com o Fight Fraud Framework (E045). Site v3.1.0: 15 táticas (as 14 do ATT&CK Enterprise anteriores à v19, mais TA5001 Fraud), 86 técnicas e 97 subtécnicas (IDs FGT), 92 mitigações, 169 fontes de dados, 10 grupos, 16 softwares e 2 campanhas. 111 das 183 técnicas são teóricas e 49 observadas: trate como hipótese de modelagem, não como evidência de ocorrência. Dados em fight.yaml no repositório mitre/FiGHT (Apache-2.0); o último commit de conteúdo é a release de 14/11/2025.",
+  "reviewed_on": "2026-11-13",
+  "verification": "Verificado na fonte em 13/11/2026: estado publicado em fight.mitre.org (site_version 3.1.0 e contagens) e histórico Git de mitre/FiGHT"
 }
