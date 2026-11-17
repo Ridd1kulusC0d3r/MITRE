@@ -15,7 +15,7 @@
   "output": "Coleções locais e anotações",
   "priority": "P1",
   "status": "ativo",
-  "version": "v4.18.0 (tag)",
+  "version": "v4.18.0 (tag) · v4.18.1-beta.1 em desenvolvimento",
   "formats": [
     "STIX 2.1"
   ],
@@ -26,6 +26,6 @@
   "archived": false,
   "license_api": "Apache-2.0",
   "pushed_at": "2026-10-22T22:13:19Z",
-  "reviewed_on": "2026-11-11",
-  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+  "reviewed_on": "2026-11-13",
+  "verification": "Tags Git e página de releases conferidas em 13/11/2026: v4.18.1-beta.1 de 12/11/2026 (pré-release; correções na entrada padrão do painel e no caminho data-graphs); v4.18.0 de 03/11/2026"
 }
