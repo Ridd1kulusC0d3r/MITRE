@@ -4,7 +4,7 @@
 
 [← Início](../README.md) · [Explorador interativo](../index.html) · [Crosswalks](crosswalks.md) · [Novidades 2026](novidades-2026.md) · [Histórico](historico-e-manutencao.md)
 
-Revisão: **2026-11-11** · **131 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
+Revisão: **2026-11-12** · **131 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
 
 **Legenda.** Origem: 🟦 MITRE oficial · 🟩 MITRE CTID · 🟪 Colaboração MITRE · 🟫 Fundação aberta (código MITRE doado) · ⬛ Governo · ⬜ Organismo de padrão · 🟨 Comunidade · 🟧 Fornecedor · ◻️ Outro  
 Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificado
@@ -362,7 +362,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ⏸️ | **[BRAWL public game 001](https://github.com/mitre/brawl-public-game-001)** `E126` | 🟦 MITRE | Estudar dados de um exercício automatizado de emulação adversária. | — | Enterprise | P2 |
 | ✅ | **[stix2 (Python)](https://github.com/oasis-open/cti-python-stix2)** `E097` | ⬜ OASIS | Criar, validar e consultar objetos STIX 2.x. | 3.0.2 (PyPI) | Geral | P2 |
 | ⏸️ | **[taxii2-client](https://github.com/oasis-open/cti-taxii-client)** `E098` | ⬜ OASIS | Consumir servidores TAXII 2.x. | 2.3.0 · 2021 (PyPI) | Geral | P2 |
-| ✅ | **[Workbench REST API](https://github.com/mitre-attack/attack-workbench-rest-api)** `E073` | 🟦 MITRE | Backend do ATT&CK Workbench: API REST para criar e versionar extensões do ATT&CK. | v4.26.0 (tag) · v4.27.0-alpha.1 em desenvolvimento | Enterprise, Mobile, ICS/OT | P2 |
+| ✅ | **[Workbench REST API](https://github.com/mitre-attack/attack-workbench-rest-api)** `E073` | 🟦 MITRE | Backend do ATT&CK Workbench: API REST para criar e versionar extensões do ATT&CK. | v4.26.1 (tag) · v4.27.0-alpha.1 em desenvolvimento | Enterprise, Mobile, ICS/OT | P2 |
 
 <details><summary>Notas e relações</summary>
 
