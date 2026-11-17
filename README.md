@@ -3,14 +3,14 @@
 <!-- hero:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="MITRE Ecosystem Atlas — da inteligência à defesa validada: 131 recursos em 15 camadas" width="100%">
+  <img src="assets/banner-light.svg" alt="MITRE Ecosystem Atlas — da inteligência à defesa validada: 132 recursos em 15 camadas" width="100%">
 </picture>
 
 [![ATT&CK](https://img.shields.io/badge/ATT%26CK-v20.1-f2545b?style=flat-square)](https://attack.mitre.org/)
 [![D3FEND](https://img.shields.io/badge/D3FEND-1.6.0-3cc8d6?style=flat-square)](https://d3fend.mitre.org/)
 [![ATLAS](https://img.shields.io/badge/ATLAS-v2026.10-a86df5?style=flat-square)](https://atlas.mitre.org/)
 [![Python](https://img.shields.io/badge/Python-stdlib%20only-3776ab?style=flat-square&logo=python&logoColor=white)](atlas/)
-[![revisão](https://img.shields.io/badge/revis%C3%A3o-13%2F11%2F2026-1f9e8f?style=flat-square)](docs/historico-e-manutencao.md)
+[![revisão](https://img.shields.io/badge/revis%C3%A3o-17%2F11%2F2026-1f9e8f?style=flat-square)](docs/historico-e-manutencao.md)
 [![idioma](https://img.shields.io/badge/idioma-pt--BR-009c3b?style=flat-square)](#)
 <!-- hero:end -->
 
@@ -24,7 +24,7 @@ CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incide
 <!-- stats:start -->
 | 📦 Entradas | 🟦 MITRE | 🟩 CTID | 🟨🟧 Comunidade e fornecedores | 🔗 Relações | 🧱 Camadas | ✅ Ativos | 🗄️ Históricos |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **131** | 56 | 27 | 32 | 269 | 15 | 89 | 21 |
+| **132** | 57 | 27 | 32 | 271 | 15 | 90 | 21 |
 <!-- stats:end -->
  
 ---
@@ -203,7 +203,7 @@ Mais receitas e endpoints: [docs/dados-e-apis.md](docs/dados-e-apis.md).
 
 ## 🔍 Escopo e qualidade
 
-Base de referência **documental**, revisada em <!-- reviewed:start -->**13/11/2026**<!-- reviewed:end -->. Versões do ATT&CK, D3FEND, ATLAS e das principais ferramentas foram conferidas na fonte (bundle STIX, changelog, tag Git ou PyPI); o restante vem de pesquisa web e está marcado como tal no JSON. As ferramentas de terceiros não foram executadas nem certificadas. "Top" significa utilidade para o fluxo descrito, não contagem de estrelas.
+Base de referência **documental**, revisada em <!-- reviewed:start -->**17/11/2026**<!-- reviewed:end -->. Versões do ATT&CK, D3FEND, ATLAS e das principais ferramentas foram conferidas na fonte (bundle STIX, changelog, tag Git ou PyPI); o restante vem de pesquisa web e está marcado como tal no JSON. As ferramentas de terceiros não foram executadas nem certificadas. "Top" significa utilidade para o fluxo descrito, não contagem de estrelas.
 
 Veja [fontes, sinais de manutenção e limitações](docs/historico-e-manutencao.md). Marcas, dados e ferramentas pertencem aos respectivos titulares; cada fonte tem seus próprios termos.
 
