@@ -178,3 +178,18 @@ Varredura de `attack.mitre.org` e das organizações `mitre-attack` (21 reposit�
 histórico Git de `mitre/FiGHT`. Versão **3.1.0**, de 14/11/2025, com 15 táticas, 86 técnicas e 97 subtécnicas.
 Fica como `baixa-atividade` porque não há release de conteúdo desde então; o commit de 10/11/2026 só republica o site.
 O README passou a apontar para o FiGHT na camada Adversário e ganhou a trilha "5G e telecom".
+
+### Revisões incrementais — 14 a 17/11/2026 (consolidadas)
+
+Quatro revisões diárias (14, 15, 16 e 17/11) foram abertas em PRs separados sobre as mesmas entradas e unificadas em 17/11/2026. Os valores abaixo foram reconferidos nessa data (`git ls-remote` e registro npm) e valem no lugar dos de cada revisão.
+
+Nenhum repositório novo na organização `mitre-attack`; ATT&CK segue em **v20.1** (05/11/2026) e `mitreattack-python` em **6.4.0**. Sem mudança em Navigator `v5.3.2`, TAXII Server `v2.0.1` e site `website-v4.4.1`.
+
+| Item | Antes | Agora |
+|---|---|---|
+| Workbench (frontend, E025) | v4.18.0 · v4.18.1-beta.1 em desenvolvimento | **v4.19.0** (tag de 16/11/2026); as betas v4.18.1-beta.1 e v4.19.0-beta.1 ficaram para trás |
+| Workbench REST API (E073) | v4.26.1 | sem mudança; v4.27.0-alpha.1 segue como pré-versão |
+| ATT&CK Data Model (E029) | v5.0.0-beta.3 | **v4.12.0** (11/11/2026) no npm com dist-tag `next`; `latest` ainda é 4.10.1 e a linha 5.x segue em `5.0.0-beta.3` (09/12/2025) |
+| ATT&CK Advisory Council (E135) | — | **nova entrada**: conselho consultivo anunciado em 25/02/2026, sem autoridade de governança; página no menu Resources do attack.mitre.org |
+
+Divergências entre as revisões e como ficaram: a de 15/11 tratava a 4.12.0 do Data Model como estável, mas o npm a publica como `next`; a E135 foi proposta nas camadas `maturidade` e `formacao` e ficou em `formacao`, com os mesmos domínios das outras páginas institucionais do ATT&CK (E111 a E113).

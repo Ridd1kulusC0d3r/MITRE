@@ -13,7 +13,7 @@
   "output": "Validação estrutural",
   "priority": "P1",
   "status": "ativo",
-  "version": "v5.0.0-beta.3 (tag)",
+  "version": "v4.12.0 (tag · npm dist-tag next; latest ainda 4.10.1) · v5.0.0-beta.3 (beta)",
   "formats": [
     "TypeScript",
     "Zod"
@@ -21,6 +21,6 @@
   "relations": [
     "E026"
   ],
-  "reviewed_on": "2026-11-11",
-  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+  "reviewed_on": "2026-11-17",
+  "verification": "Tags Git e registro npm @mitre-attack/attack-data-model conferidos em 17/11/2026: 4.12.0 publicada em 11/11/2026 com dist-tag next; latest aponta para 4.10.1; 5.0.0-beta.3 (09/12/2025) na dist-tag beta"
 }
