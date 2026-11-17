@@ -14,7 +14,7 @@
   "output": "Base ATT&CK própria acessível por API",
   "priority": "P2",
   "status": "ativo",
-  "version": "v4.26.0 (tag) · v4.27.0-alpha.1 em desenvolvimento",
+  "version": "v4.26.1 (tag) · v4.27.0-alpha.1 em desenvolvimento",
   "formats": [
     "REST",
     "STIX 2.1"
@@ -24,6 +24,6 @@
     "E030",
     "E074"
   ],
-  "reviewed_on": "2026-11-11",
-  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+  "reviewed_on": "2026-11-12",
+  "verification": "Tags Git conferidas em 12/11/2026: v4.26.1 de 11/11/2026 (atualização de dependência attack-data-model 4.12.0); v4.27.0-alpha.1 de 09/11/2026"
 }
