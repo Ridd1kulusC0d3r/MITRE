@@ -167,3 +167,15 @@ fonte fragmentada em `data/entries/` (um arquivo por entrada), pacote `atlas/` c
 derivados gerados só na `main` pelo workflow `publish`, identidade visual em `design/tokens.json`
 e contrato para agentes em [CLAUDE.md](../CLAUDE.md). O agregado `data/ecosystem.json` continua no
 mesmo caminho e no schema 2.0, agora gerado. Detalhes nos commits `fase-0` a `fase-5`.
+
+### Revisão incremental — 17/11/2026
+
+Conferência em attack.mitre.org, `attack-stix-data/index.json`, PyPI, busca de repositórios da organização `mitre-attack` e tags Git (`git ls-remote`).
+
+- **Nenhum repositório novo** na organização `mitre-attack`: os 20 repositórios públicos retornados pela busca já estão no catálogo ou no histórico (arquivados).
+- ATT&CK segue em **v20.1** (05/11/2026); mitreattack-python segue em 6.4.0.
+
+| Item | Antes | Agora |
+|---|---|---|
+| Workbench (frontend, E025) | v4.18.0 | **v4.19.0** (tag de 16/11/2026) |
+| Workbench REST API (E073) | v4.26.0 | **v4.26.1** (tag de 11/11/2026; atualiza attack-data-model 4.12.0) |
