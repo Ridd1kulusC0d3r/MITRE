@@ -167,3 +167,7 @@ fonte fragmentada em `data/entries/` (um arquivo por entrada), pacote `atlas/` c
 derivados gerados só na `main` pelo workflow `publish`, identidade visual em `design/tokens.json`
 e contrato para agentes em [CLAUDE.md](../CLAUDE.md). O agregado `data/ecosystem.json` continua no
 mesmo caminho e no schema 2.0, agora gerado. Detalhes nos commits `fase-0` a `fase-5`.
+
+### Revisão incremental — 12/11/2026
+
+Varredura de `attack.mitre.org` e das organizações `mitre-attack` (21 repositórios) e `center-for-threat-informed-defense`. Nenhuma ferramenta ou framework novo; ATT&CK segue em v20.1 (tag de 05/11/2026). Única mudança: **Workbench REST API v4.26.1** (tag de 11/11/2026, atualização da dependência attack-data-model 4.12.0). Sem tag nova em Workbench frontend (v4.18.0), Navigator (v5.3.2), ATT&CK Data Model (v5.0.0-beta.3), TAXII Server (v2.0.1), attack-website (website-v4.4.1) e mitreattack-python (6.4.0 no PyPI). A segunda página da listagem do CTID (1 de 31 repositórios) não foi lida.
