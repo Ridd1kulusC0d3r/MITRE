@@ -193,3 +193,9 @@ Nenhum repositório novo na organização `mitre-attack`; ATT&CK segue em **v20.
 | ATT&CK Advisory Council (E135) | — | **nova entrada**: conselho consultivo anunciado em 25/02/2026, sem autoridade de governança; página no menu Resources do attack.mitre.org |
 
 Divergências entre as revisões e como ficaram: a de 15/11 tratava a 4.12.0 do Data Model como estável, mas o npm a publica como `next`; a E135 foi proposta nas camadas `maturidade` e `formacao` e ficou em `formacao`, com os mesmos domínios das outras páginas institucionais do ATT&CK (E111 a E113).
+
+### Revisão incremental — 18/11/2026
+
+Varredura de `attack.mitre.org` (menu Resources e página ATT&CK Data & Tools) e da organização `mitre-attack` (20 repositórios na busca, 9 deles arquivados). Nenhuma ferramenta, framework ou repositório novo; ATT&CK segue em **v20.1** (05/11/2026). Sem tag nova em Navigator `v5.3.2`, Workbench `v4.19.0`, REST API `v4.26.1`, TAXII Server `v2.0.1` e `attack-stix-data` `v20.1`. `mitreattack-python` segue em **6.4.0** no PyPI. No npm, o ATT&CK Data Model segue com `latest` 4.10.1 e `next` 4.12.0.
+
+Correção: o **ATT&CK Website (E075)** está na versão **v5.2.1**, de 05/11/2026, segundo o `CHANGELOG.md` e o rodapé do site. A versão `website-v4.4.1` que constava no catálogo é só a última tag Git: as versões 5.x (v5.0.0 a v5.2.1, de 06/08 a 05/11/2026) nunca foram marcadas com tag.
