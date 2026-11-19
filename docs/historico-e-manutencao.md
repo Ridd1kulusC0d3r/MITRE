@@ -193,3 +193,11 @@ Nenhum repositório novo na organização `mitre-attack`; ATT&CK segue em **v20.
 | ATT&CK Advisory Council (E135) | — | **nova entrada**: conselho consultivo anunciado em 25/02/2026, sem autoridade de governança; página no menu Resources do attack.mitre.org |
 
 Divergências entre as revisões e como ficaram: a de 15/11 tratava a 4.12.0 do Data Model como estável, mas o npm a publica como `next`; a E135 foi proposta nas camadas `maturidade` e `formacao` e ficou em `formacao`, com os mesmos domínios das outras páginas institucionais do ATT&CK (E111 a E113).
+
+### Revisão incremental — 19/11/2026
+
+Conferidos [attack.mitre.org](https://attack.mitre.org/) (Updates, Resources e Data & Tools) e os 20 repositórios públicos da organização `mitre-attack` (busca da API e `git ls-remote`). **Nenhuma ferramenta ou framework novo**; ATT&CK segue em **v20.1** (05/11/2026). Sem mudança em Navigator `v5.3.2`, Workbench `v4.19.0`, REST API `v4.26.1`, Data Model `v4.12.0`, TAXII Server `v2.0.1`, site `website-v4.4.1` e STIX `v20.1`.
+
+| Item | Antes | Agora |
+|---|---|---|
+| mitreattack-python (E028) | 6.4.0 · 05/11/2026 | **6.4.1** · 18/11/2026 (PyPI e tag Git): correção que exclui a dependência quebrada `drawsvg` 2.5.0 (#254) |
