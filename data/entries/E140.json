@@ -1,0 +1,23 @@
+{
+  "id": "E140",
+  "name": "Hardware-Enabled Defense (Security Stack Mappings)",
+  "url": "https://ctid.mitre.org/projects/security-stack-mappings-hardware-enabled-defense/",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "defesa",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Ligar recursos de segurança de hardware de sistemas corporativos a comportamentos adversários do ATT&CK, pela metodologia de security stack mappings.",
+  "output": "Recursos de hardware justificados por técnica adversária",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "publicado em 01/2025",
+  "relations": [
+    "E001",
+    "E037"
+  ],
+  "notes": "Faz parte do programa Mappings Explorer (E037): os dados são navegados e baixados por lá.",
+  "reviewed_on": "2026-11-21",
+  "verification": "Página do projeto em ctid.mitre.org/projects lida em 21/11/2026 (publicação de jan/2025)"
+}

@@ -12,7 +12,8 @@
   "purpose": "Visualizar e comparar resultados de avaliações.",
   "output": "Visão consolidada de conformidade",
   "priority": "P2",
-  "status": "n/v",
+  "status": "ativo",
+  "version": "v2.15.0 (tag)",
   "formats": [
     "HDF JSON"
   ],
@@ -22,6 +23,6 @@
   "archived": false,
   "license_api": "NOASSERTION",
   "pushed_at": "2026-10-23T00:40:55Z",
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
 }

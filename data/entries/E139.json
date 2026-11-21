@@ -1,0 +1,25 @@
+{
+  "id": "E139",
+  "name": "TID for the Financial Sector",
+  "url": "https://ctid.mitre.org/projects/tid-financial-sector/",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "defesa",
+  "domains": [
+    "enterprise",
+    "fraude"
+  ],
+  "purpose": "Ligar mitigações de ameaças do ATT&CK aos recursos de programa de segurança do setor financeiro, em especial o Cyber Risk Institute (CRI) Profile.",
+  "output": "Controles do CRI Profile justificados por técnica adversária",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "publicado em 06/2025",
+  "relations": [
+    "E001",
+    "E037",
+    "E045"
+  ],
+  "notes": "Faz parte do programa Mappings Explorer (E037): os dados são navegados e baixados por lá. Útil para instituições financeiras; combine com o Fight Fraud Framework (E045).",
+  "reviewed_on": "2026-11-21",
+  "verification": "Página do projeto em ctid.mitre.org/projects lida em 21/11/2026 (publicação de jun/2025)"
+}

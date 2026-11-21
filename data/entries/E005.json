@@ -12,11 +12,12 @@
   "purpose": "Relacionar propriedades de dispositivos embarcados a ameaças e mitigações.",
   "output": "Modelo de ameaças de dispositivo",
   "priority": "P1",
-  "status": "n/v",
+  "status": "ativo",
+  "version": "v2.0.2 · 01/06/2026",
   "relations": [
     "E006",
     "E009"
   ],
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "reviewed_on": "2026-11-21",
+  "verification": "Seção \"What's New\" de emb3d.mitre.org lida em 21/11/2026: v2.0.2 de 01/06/2026 (URLs compartilháveis no Properties Mapper); v2.0 de 22/04/2025"
 }

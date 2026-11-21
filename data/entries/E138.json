@@ -1,0 +1,25 @@
+{
+  "id": "E138",
+  "name": "Prioritize Known Exploited Vulnerabilities",
+  "url": "https://ctid.mitre.org/projects/prioritize-known-exploited-vulnerabilties/",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "vulnerabilidade",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Caracterizar o impacto de vulnerabilidades exploradas (KEV) com os comportamentos adversários do ATT&CK, ligando CVE a técnicas.",
+  "output": "Priorização de CVEs pelo que o adversário consegue fazer com elas",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "publicado em 02/2025",
+  "relations": [
+    "E001",
+    "E010",
+    "E037",
+    "E083"
+  ],
+  "notes": "Faz parte do programa Mappings Explorer (E037): os dados são navegados e baixados por lá.",
+  "reviewed_on": "2026-11-21",
+  "verification": "Página do projeto em ctid.mitre.org/projects lida em 21/11/2026 (publicação de fev/2025)"
+}

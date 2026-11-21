@@ -12,7 +12,7 @@
   "output": "Achados forenses por regra e técnica",
   "priority": "P2",
   "status": "ativo",
-  "version": "v2.17.1 (tag)",
+  "version": "v2.18.0 (tag)",
   "formats": [
     "Rust"
   ],
@@ -20,6 +20,6 @@
     "E057",
     "E101"
   ],
-  "reviewed_on": "2026-10-22",
-  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 15/11/2026"
 }

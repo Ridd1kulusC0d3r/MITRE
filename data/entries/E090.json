@@ -12,7 +12,7 @@
   "output": "Execução cloud com detonação e limpeza",
   "priority": "P1",
   "status": "ativo",
-  "version": "v2.38.0 (tag)",
+  "version": "v2.38.1 (tag)",
   "formats": [
     "Go"
   ],
@@ -20,6 +20,6 @@
     "E058",
     "E001"
   ],
-  "reviewed_on": "2026-11-11",
-  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 17/11/2026"
 }

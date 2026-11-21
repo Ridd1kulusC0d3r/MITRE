@@ -14,6 +14,7 @@
   "output": "Crosswalk documentado de capacidades",
   "priority": "P1",
   "status": "ativo",
+  "version": "mappings_explorer-v1.1.0 (tag)",
   "formats": [
     "JSON",
     "CSV",
@@ -25,12 +26,16 @@
     "E001",
     "E010",
     "E067",
-    "E083"
+    "E083",
+    "E137",
+    "E138",
+    "E139",
+    "E140"
   ],
   "notes": "NIST 800-53, CVE/KEV, AWS/Azure/GCP, M365, VERIS, CSA CCM e CIS Controls (projeto CIS Controls for Threat Mitigations, 05/10/2026: Safeguards mapeados a técnicas com justificativa, em ctid.mitre.org/mappings/external/cis/).",
   "archived": false,
   "license_api": "Apache-2.0",
   "pushed_at": "2026-10-05T02:10:24Z",
-  "reviewed_on": "2026-11-11",
-  "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 18/11/2026"
 }

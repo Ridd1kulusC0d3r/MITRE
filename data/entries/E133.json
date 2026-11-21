@@ -12,7 +12,7 @@
   "output": "Alvo de laboratório para os plugins do Caldera for OT",
   "priority": "P2",
   "status": "ativo",
-  "version": "v2.1.1 (tag)",
+  "version": "v4.0.0 (tag)",
   "relations": [
     "E131"
   ],
@@ -21,6 +21,6 @@
   "archived": false,
   "license_api": "NOASSERTION",
   "pushed_at": "2026-10-09",
-  "reviewed_on": "2026-11-11",
-  "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 13/11/2026"
 }

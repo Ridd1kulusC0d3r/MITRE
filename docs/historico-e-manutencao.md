@@ -193,3 +193,7 @@ Nenhum repositório novo na organização `mitre-attack`; ATT&CK segue em **v20.
 | ATT&CK Advisory Council (E135) | — | **nova entrada**: conselho consultivo anunciado em 25/02/2026, sem autoridade de governança; página no menu Resources do attack.mitre.org |
 
 Divergências entre as revisões e como ficaram: a de 15/11 tratava a 4.12.0 do Data Model como estável, mas o npm a publica como `next`; a E135 foi proposta nas camadas `maturidade` e `formacao` e ficou em `formacao`, com os mesmos domínios das outras páginas institucionais do ATT&CK (E111 a E113).
+
+### Atualização — 21/11/2026
+
+Cinco entradas novas (E136–E140), 10 entradas tiradas de "não verificado" e versões conferidas por tag Git em 21/11/2026: [novas referências de 21/11/2026](novas-referencias-2026-11-21.md). O bloco substitui as revisões diárias de 18, 19, 20 e 21/11, que estavam em PRs separados (ATT&CK Website v5.2.1, mitreattack-python 6.4.1, ATT&CK em Excel, Workbench REST API v4.27.0-alpha.2 e Workbench v4.20.0-alpha.1). Nenhum repositório novo na organização `mitre-attack`; ATT&CK segue em **v20.1**.

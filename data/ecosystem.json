@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "reviewed_on": "2026-11-17",
+  "reviewed_on": "2026-11-21",
   "timezone": "America/Sao_Paulo",
   "scope": "Ecossistema de cibersegurança MITRE e recursos externos relacionados; não inventário institucional exaustivo",
   "verification_limits": "Pesquisa documental; ferramentas não executadas. Campos ausentes: não coletados. archived=false não comprova manutenção ativa. pushed_at não equivale a último release. license_api não substitui leitura da licença. Status 'n/v' = não verificado. Tag Git indica marco publicado, não necessariamente release estável.",
@@ -151,13 +151,14 @@
       "purpose": "Relacionar propriedades de dispositivos embarcados a ameaças e mitigações.",
       "output": "Modelo de ameaças de dispositivo",
       "priority": "P1",
-      "status": "n/v",
+      "status": "ativo",
+      "version": "v2.0.2 · 01/06/2026",
       "relations": [
         "E006",
         "E009"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Seção \"What's New\" de emb3d.mitre.org lida em 21/11/2026: v2.0.2 de 01/06/2026 (URLs compartilháveis no Properties Mapper); v2.0 de 22/04/2025"
     },
     {
       "id": "E006",
@@ -340,15 +341,15 @@
       "purpose": "Analisar SMB/RPC com scripts Zeek orientados a comportamentos ATT&CK.",
       "output": "Referência de detecção de rede",
       "priority": "P2",
-      "status": "n/v",
+      "status": "baixa-atividade",
       "formats": [
         "Zeek scripts"
       ],
       "relations": [
         "E011"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Repositório conferido via git em 21/11/2026: sem tags; último commit da branch padrão em 26/06/2024"
     },
     {
       "id": "E013",
@@ -423,7 +424,7 @@
       "purpose": "Automatizar avaliação e normalização de resultados de segurança.",
       "output": "Resultados comparáveis de controles",
       "priority": "P2",
-      "status": "n/v",
+      "status": "ativo",
       "formats": [
         "HDF JSON"
       ],
@@ -431,8 +432,8 @@
         "E016",
         "E017"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "saf.mitre.org respondeu em 21/11/2026; os repositórios do SAF (heimdall2, saf, vulcan) têm commits de novembro de 2026"
     },
     {
       "id": "E016",
@@ -448,7 +449,8 @@
       "purpose": "Visualizar e comparar resultados de avaliações.",
       "output": "Visão consolidada de conformidade",
       "priority": "P2",
-      "status": "n/v",
+      "status": "ativo",
+      "version": "v2.15.0 (tag)",
       "formats": [
         "HDF JSON"
       ],
@@ -458,8 +460,8 @@
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-23T00:40:55Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
     },
     {
       "id": "E017",
@@ -475,7 +477,8 @@
       "purpose": "Normalizar saídas de ferramentas e apoiar pipelines de segurança.",
       "output": "Dados normalizados e validações",
       "priority": "P2",
-      "status": "n/v",
+      "status": "ativo",
+      "version": "1.8.0 (tag)",
       "formats": [
         "HDF JSON"
       ],
@@ -485,13 +488,13 @@
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-23T00:42:24Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
     },
     {
       "id": "E018",
       "name": "Vulcan",
-      "url": "https://saf.mitre.org/",
+      "url": "https://github.com/mitre/vulcan",
       "origin": "MITRE",
       "owner_type": "mitre",
       "layer": "conformidade",
@@ -502,17 +505,18 @@
       "purpose": "Criar e gerenciar orientação e baselines de segurança; acessar Apps → Vulcan.",
       "output": "Baseline de requisitos",
       "priority": "P2",
-      "status": "n/v",
+      "status": "ativo",
+      "version": "v2.4.2 (tag)",
       "relations": [
         "E015"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 11/11/2026"
     },
     {
       "id": "E019",
       "name": "eMASSer",
-      "url": "https://saf.mitre.org/",
+      "url": "https://github.com/mitre/emasser",
       "origin": "MITRE",
       "owner_type": "mitre",
       "layer": "conformidade",
@@ -523,12 +527,13 @@
       "purpose": "Integrar workflows de avaliação ao eMASS; acessar Apps → eMASSer.",
       "output": "Integração de resultados de avaliação",
       "priority": "P2",
-      "status": "n/v",
+      "status": "ativo",
+      "version": "3.22.0 (tag)",
       "relations": [
         "E015"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 06/05/2026"
     },
     {
       "id": "E020",
@@ -660,7 +665,7 @@
       "output": "Coleções locais e anotações",
       "priority": "P1",
       "status": "ativo",
-      "version": "v4.19.0 (tag)",
+      "version": "v4.19.0 (tag) · v4.20.0-alpha.1 em desenvolvimento",
       "formats": [
         "STIX 2.1"
       ],
@@ -671,8 +676,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-22T22:13:19Z",
-      "reviewed_on": "2026-11-17",
-      "verification": "Tags Git conferidas via git ls-remote em 17/11/2026: v4.19.0 (commit de 16/11/2026) é a estável; v4.18.1-beta.1 (12/11/2026) e v4.19.0-beta.1 (13/11/2026) foram as pré-versões"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tags Git conferidas via git ls-remote em 21/11/2026: v4.19.0 (commit de 16/11/2026) segue como estável; v4.20.0-alpha.1 é a pré-versão mais recente"
     },
     {
       "id": "E026",
@@ -752,7 +757,7 @@
       "output": "Consultas e exportações reproduzíveis",
       "priority": "P1",
       "status": "ativo",
-      "version": "6.4.0 · 05/11/2026 (PyPI)",
+      "version": "6.4.1 · 18/11/2026 (PyPI)",
       "formats": [
         "Python"
       ],
@@ -763,9 +768,9 @@
       "notes": "MitreAttackData, exportação Excel, diffStix e layers.",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-13T21:29:30Z",
-      "reviewed_on": "2026-11-11",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+      "pushed_at": "2026-11-18T16:31:58Z",
+      "reviewed_on": "2026-11-21",
+      "verification": "PyPI (upload de 18/11/2026) e tag Git v6.4.1 conferidos em 21/11/2026"
     },
     {
       "id": "E029",
@@ -833,6 +838,7 @@
       "output": "Plano de exercício e evidências",
       "priority": "P1",
       "status": "baixa-atividade",
+      "version": "v5.0.2 (tag)",
       "formats": [
         "Markdown",
         "YAML"
@@ -845,8 +851,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-28T19:37:18Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 28/05/2025"
     },
     {
       "id": "E032",
@@ -896,6 +902,7 @@
       "output": "Sugestões de técnicas para revisão humana",
       "priority": "P2",
       "status": "baixa-atividade",
+      "version": "v1.3.1 (tag)",
       "formats": [
         "JSON"
       ],
@@ -906,8 +913,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-06T13:52:16Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 06/05/2025"
     },
     {
       "id": "E034",
@@ -924,14 +931,15 @@
       "output": "Relatório com contexto e decisões",
       "priority": "P1",
       "status": "baixa-atividade",
+      "version": "v1.0.0 (tag)",
       "relations": [
         "E001"
       ],
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-03-20T15:58:24Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 20/03/2025"
     },
     {
       "id": "E035",
@@ -948,14 +956,15 @@
       "output": "Hipóteses de investigação contextualizadas",
       "priority": "P2",
       "status": "ativo",
+      "version": "v2.0.0 (tag)",
       "relations": [
         "E001"
       ],
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-07-06T19:56:47Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 06/07/2026"
     },
     {
       "id": "E036",
@@ -972,6 +981,7 @@
       "output": "Lista inicial de técnicas; adaptar ao ambiente",
       "priority": "P1",
       "status": "ativo",
+      "version": "v2.0.0 (tag)",
       "formats": [
         "JSON"
       ],
@@ -982,8 +992,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-20T14:43:00Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 28/05/2025"
     },
     {
       "id": "E037",
@@ -1001,6 +1011,7 @@
       "output": "Crosswalk documentado de capacidades",
       "priority": "P1",
       "status": "ativo",
+      "version": "mappings_explorer-v1.1.0 (tag)",
       "formats": [
         "JSON",
         "CSV",
@@ -1012,14 +1023,18 @@
         "E001",
         "E010",
         "E067",
-        "E083"
+        "E083",
+        "E137",
+        "E138",
+        "E139",
+        "E140"
       ],
       "notes": "NIST 800-53, CVE/KEV, AWS/Azure/GCP, M365, VERIS, CSA CCM e CIS Controls (projeto CIS Controls for Threat Mitigations, 05/10/2026: Safeguards mapeados a técnicas com justificativa, em ctid.mitre.org/mappings/external/cis/).",
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-05T02:10:24Z",
-      "reviewed_on": "2026-11-11",
-      "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 18/11/2026"
     },
     {
       "id": "E038",
@@ -1036,6 +1051,7 @@
       "output": "Apoio à análise de textos",
       "priority": "P2",
       "status": "ativo",
+      "version": "v1.13.0 (tag)",
       "formats": [
         "Extensão de navegador"
       ],
@@ -1045,8 +1061,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-04-29T18:04:29Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 10/11/2026"
     },
     {
       "id": "E039",
@@ -1084,6 +1100,7 @@
       "output": "Hipóteses; não fatos de inteligência",
       "priority": "P2",
       "status": "ativo",
+      "version": "v1.0.0 (tag)",
       "formats": [
         "JSON"
       ],
@@ -1095,8 +1112,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-09-04T16:00:56Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 10/11/2026"
     },
     {
       "id": "E041",
@@ -1145,14 +1162,15 @@
       "output": "Blueprint e hipóteses de detecção",
       "priority": "P2",
       "status": "baixa-atividade",
+      "version": "v1.0.1 (tag)",
       "relations": [
         "E001"
       ],
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2023-04-25T15:07:36Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 11/08/2022"
     },
     {
       "id": "E043",
@@ -1169,6 +1187,7 @@
       "output": "Plano de telemetria",
       "priority": "P1",
       "status": "baixa-atividade",
+      "version": "v1.0.0 (tag)",
       "relations": [
         "E055",
         "E087"
@@ -1176,8 +1195,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-06-21T09:40:49Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/06/2025"
     },
     {
       "id": "E044",
@@ -1193,7 +1212,8 @@
       "purpose": "Estudar observações e prevalência de técnicas.",
       "output": "Contexto empírico de priorização",
       "priority": "P2",
-      "status": "baixa-atividade",
+      "status": "ativo",
+      "version": "v2.0.0 (tag)",
       "formats": [
         "JSON"
       ],
@@ -1203,8 +1223,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-28T19:15:26Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 20/11/2026"
     },
     {
       "id": "E045",
@@ -1224,13 +1244,14 @@
       "version": "lançado em 09/04/2026",
       "relations": [
         "E001",
-        "E076"
+        "E076",
+        "E139"
       ],
       "notes": "Útil para clientes financeiros (Pix, mobile banking).",
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-22T15:46:27Z",
-      "reviewed_on": "2026-10-22",
+      "reviewed_on": "2026-11-21",
       "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
     },
     {
@@ -1273,6 +1294,7 @@
       "output": "Modelo conectado a comportamentos adversários",
       "priority": "P1",
       "status": "baixa-atividade",
+      "version": "v1.0.1 (tag)",
       "relations": [
         "E001",
         "E002"
@@ -1280,8 +1302,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-28T19:44:29Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 28/05/2025"
     },
     {
       "id": "E048",
@@ -1298,6 +1320,7 @@
       "output": "Coleção contextual para OT",
       "priority": "P1",
       "status": "baixa-atividade",
+      "version": "v1.0.0 (tag)",
       "relations": [
         "E115",
         "E002"
@@ -1305,8 +1328,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-28T19:21:23Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 28/05/2025"
     },
     {
       "id": "E049",
@@ -1323,15 +1346,15 @@
       "output": "Mapeamentos com justificativa",
       "priority": "P2",
       "status": "ativo",
-      "version": "beta público",
+      "version": "mappings_editor-v2.0.0 (tag)",
       "relations": [
         "E037"
       ],
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-22T14:07:00Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 12/11/2026"
     },
     {
       "id": "E050",
@@ -1348,6 +1371,7 @@
       "output": "Coleção de ameaças IaaS",
       "priority": "P2",
       "status": "baixa-atividade",
+      "version": "v1.0.0 (tag)",
       "relations": [
         "E001",
         "E037"
@@ -1355,8 +1379,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-28T19:26:01Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 28/05/2025"
     },
     {
       "id": "E051",
@@ -1373,14 +1397,15 @@
       "output": "Pontuação contextual de CWEs",
       "priority": "P2",
       "status": "baixa-atividade",
+      "version": "v1.0.0 (tag)",
       "relations": [
         "E009"
       ],
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2024-07-16T17:47:29Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 20/06/2024"
     },
     {
       "id": "E052",
@@ -1592,6 +1617,7 @@
       "output": "Grafo de CTI com proveniência",
       "priority": "P2",
       "status": "ativo",
+      "version": "7.261119.0 (tag)",
       "formats": [
         "STIX 2.1"
       ],
@@ -1602,8 +1628,8 @@
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-23T00:04:40Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
     },
     {
       "id": "E060",
@@ -1622,6 +1648,7 @@
       "output": "Enriquecimento e classificação",
       "priority": "P2",
       "status": "ativo",
+      "version": "v2.4.197 (tag)",
       "formats": [
         "JSON"
       ],
@@ -1633,8 +1660,8 @@
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-16T11:59:04Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 16/11/2026"
     },
     {
       "id": "E061",
@@ -1652,6 +1679,7 @@
       "output": "Telemetria de laboratório",
       "priority": "P2",
       "status": "ativo",
+      "version": "v5.0.0 (tag)",
       "relations": [
         "E058",
         "E062"
@@ -1659,8 +1687,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-20T19:10:39Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 03/11/2026"
     },
     {
       "id": "E062",
@@ -1678,6 +1706,7 @@
       "output": "Analíticas adaptadas para Splunk",
       "priority": "P2",
       "status": "ativo",
+      "version": "v6.11.0 (tag)",
       "formats": [
         "YAML"
       ],
@@ -1688,8 +1717,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-22T22:13:10Z",
-      "reviewed_on": "2026-10-22",
-      "verification": "Fonte primária consultada; execução não testada"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
     },
     {
       "id": "E063",
@@ -1952,7 +1981,7 @@
       "output": "Base ATT&CK própria acessível por API",
       "priority": "P2",
       "status": "ativo",
-      "version": "v4.26.1 (tag) · v4.27.0-alpha.1 em desenvolvimento",
+      "version": "v4.26.1 (tag) · v4.27.0-alpha.2 em desenvolvimento",
       "formats": [
         "REST",
         "STIX 2.1"
@@ -1962,8 +1991,8 @@
         "E030",
         "E074"
       ],
-      "reviewed_on": "2026-11-17",
-      "verification": "Tags Git conferidas via git ls-remote em 17/11/2026: v4.26.1 de 11/11/2026 (atualização de dependência attack-data-model 4.12.0); v4.27.0-alpha.1 de 09/11/2026"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tags Git conferidas via git ls-remote em 21/11/2026: v4.26.1 segue como última estável; v4.27.0-alpha.2 substitui a alpha.1"
     },
     {
       "id": "E074",
@@ -2010,7 +2039,7 @@
       "output": "Espelho interno do site com a versão fixada",
       "priority": "P2",
       "status": "ativo",
-      "version": "website-v4.4.1 (tag)",
+      "version": "v5.2.1 · 05/11/2026 (CHANGELOG; última tag Git: website-v4.4.1)",
       "formats": [
         "HTML",
         "Python"
@@ -2019,8 +2048,8 @@
         "E026",
         "E001"
       ],
-      "reviewed_on": "2026-11-11",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+      "reviewed_on": "2026-11-21",
+      "verification": "CHANGELOG.md da branch master lido em 21/11/2026: Website v5.2.1 de 05/11/2026, com o conteúdo ATT&CK v20.1. As versões 5.x não têm tag Git; a última tag é website-v4.4.1 (git ls-remote em 21/11/2026)"
     },
     {
       "id": "E076",
@@ -2221,9 +2250,10 @@
       "relations": [
         "E010",
         "E037",
-        "E070"
+        "E070",
+        "E138"
       ],
-      "reviewed_on": "2026-10-22",
+      "reviewed_on": "2026-11-21",
       "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
     },
     {
@@ -2317,7 +2347,7 @@
       "purpose": "Padronizar e documentar eventos de segurança e seus campos.",
       "output": "Dicionário de dados e modelo comum",
       "priority": "P2",
-      "status": "n/v",
+      "status": "baixa-atividade",
       "formats": [
         "YAML"
       ],
@@ -2325,8 +2355,8 @@
         "E011",
         "E043"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+      "reviewed_on": "2026-11-21",
+      "verification": "Repositório conferido via git em 21/11/2026: sem tags; último commit da branch padrão em 26/02/2023"
     },
     {
       "id": "E088",
@@ -2395,7 +2425,7 @@
       "output": "Execução cloud com detonação e limpeza",
       "priority": "P1",
       "status": "ativo",
-      "version": "v2.38.0 (tag)",
+      "version": "v2.38.1 (tag)",
       "formats": [
         "Go"
       ],
@@ -2403,8 +2433,8 @@
         "E058",
         "E001"
       ],
-      "reviewed_on": "2026-11-11",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 17/11/2026"
     },
     {
       "id": "E091",
@@ -2468,13 +2498,13 @@
       "purpose": "Simular movimentação lateral e gerar relatório por técnica.",
       "output": "Relatório de exposição mapeado ao ATT&CK",
       "priority": "P2",
-      "status": "n/v",
+      "status": "ativo",
       "version": "v2.3.0 (tag)",
       "relations": [
         "E001"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git v2.3.0 conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 03/11/2026"
     },
     {
       "id": "E094",
@@ -2690,7 +2720,7 @@
       "output": "Achados forenses por regra e técnica",
       "priority": "P2",
       "status": "ativo",
-      "version": "v2.17.1 (tag)",
+      "version": "v2.18.0 (tag)",
       "formats": [
         "Rust"
       ],
@@ -2698,8 +2728,8 @@
         "E057",
         "E101"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 15/11/2026"
     },
     {
       "id": "E103",
@@ -3018,6 +3048,7 @@
       "output": "Inventário de fontes e detecções para layers Navigator",
       "priority": "P1",
       "status": "ativo",
+      "version": "v1.4.4 (tag)",
       "relations": [
         "E055",
         "E024",
@@ -3028,8 +3059,8 @@
       "archived": false,
       "license_api": "GPL-3.0",
       "pushed_at": "2026-01-22T08:45:57Z",
-      "reviewed_on": "2026-11-06",
-      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 22/01/2026"
     },
     {
       "id": "E119",
@@ -3046,6 +3077,7 @@
       "output": "Campanha de validação e registro de lacunas",
       "priority": "P1",
       "status": "ativo",
+      "version": "3.261118.0 (tag)",
       "relations": [
         "E059",
         "E031",
@@ -3056,8 +3088,8 @@
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-23T10:00:58Z",
-      "reviewed_on": "2026-11-06",
-      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
     },
     {
       "id": "E120",
@@ -3074,6 +3106,7 @@
       "output": "Teste repetível com correlação entre execução e evidência",
       "priority": "P1",
       "status": "ativo",
+      "version": "v1.5.0 (tag)",
       "relations": [
         "E090",
         "E063",
@@ -3084,8 +3117,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-19T07:01:10Z",
-      "reviewed_on": "2026-11-06",
-      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 16/11/2026"
     },
     {
       "id": "E121",
@@ -3101,6 +3134,7 @@
       "output": "Procedimentos versionados para exercícios purple team",
       "priority": "P1",
       "status": "ativo",
+      "version": "v1.5.0 (tag)",
       "relations": [
         "E058",
         "E031",
@@ -3111,8 +3145,8 @@
       "archived": false,
       "license_api": "MIT",
       "pushed_at": "2026-09-30T13:53:10Z",
-      "reviewed_on": "2026-11-06",
-      "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 30/09/2026"
     },
     {
       "id": "E122",
@@ -3260,7 +3294,7 @@
       "purpose": "Explorar extratores de referências ATT&CK, D3FEND, artefatos digitais e CWE em texto.",
       "output": "Anotações e relações candidatas para revisão",
       "priority": "P2",
-      "status": "n/v",
+      "status": "ativo",
       "relations": [
         "E002",
         "E008",
@@ -3268,8 +3302,8 @@
         "E077"
       ],
       "notes": "Agrupa ferramentas do portal, sem contar cada extrator separadamente. Extração não valida a semântica do mapeamento nem demonstra eficácia de contramedidas.",
-      "reviewed_on": "2026-11-06",
-      "verification": "Catálogo oficial de ferramentas consultado; extratores não executados."
+      "reviewed_on": "2026-11-21",
+      "verification": "Página d3fend.mitre.org/tools lida em 21/11/2026: lista ATT&CK Extractor e D3FEND Extractor entre as ferramentas"
     },
     {
       "id": "E128",
@@ -3415,7 +3449,7 @@
       "output": "Alvo de laboratório para os plugins do Caldera for OT",
       "priority": "P2",
       "status": "ativo",
-      "version": "v2.1.1 (tag)",
+      "version": "v4.0.0 (tag)",
       "relations": [
         "E131"
       ],
@@ -3424,8 +3458,8 @@
       "archived": false,
       "license_api": "NOASSERTION",
       "pushed_at": "2026-10-09",
-      "reviewed_on": "2026-11-11",
-      "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
+      "reviewed_on": "2026-11-21",
+      "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 13/11/2026"
     },
     {
       "id": "E134",
@@ -3473,6 +3507,130 @@
       ],
       "reviewed_on": "2026-11-17",
       "verification": "Página attack.mitre.org/resources/attack-advisory-council/ lida em 14/11 e 16/11/2026 (conselho anunciado em 25/02/2026, papel apenas consultivo); disponibilidade da página reconferida em 17/11/2026"
+    },
+    {
+      "id": "E136",
+      "name": "ATT&CK em Excel",
+      "url": "https://attack.mitre.org/resources/attack-data-and-tools/",
+      "origin": "MITRE",
+      "owner_type": "mitre",
+      "layer": "dados",
+      "domains": [
+        "enterprise",
+        "mobile",
+        "ics-ot"
+      ],
+      "purpose": "Planilhas oficiais geradas a partir do STIX do ATT&CK, com uma planilha mestra por domínio e planilhas por tipo de objeto (técnicas, grupos, software, campanhas, mitigações, estratégias de detecção, analytics, componentes de dados e relações).",
+      "output": "Consulta e filtragem do ATT&CK sem programação",
+      "priority": "P2",
+      "status": "ativo",
+      "version": "v20.1 · 05/11/2026",
+      "formats": [
+        "Excel"
+      ],
+      "relations": [
+        "E001",
+        "E026",
+        "E028"
+      ],
+      "reviewed_on": "2026-11-21",
+      "verification": "Página attack.mitre.org/resources/attack-data-and-tools/ lida em 20/11 e 21/11/2026: links para as planilhas enterprise-attack-v20.1 (inclusive por tipo de objeto)"
+    },
+    {
+      "id": "E137",
+      "name": "CIS Controls for Threat Mitigations",
+      "url": "https://ctid.mitre.org/projects/cis-controls-for-threat-mitigations/",
+      "origin": "MITRE / CTID",
+      "owner_type": "ctid",
+      "layer": "defesa",
+      "domains": [
+        "enterprise"
+      ],
+      "purpose": "Mapear as capacidades dos CIS Safeguards (CIS Critical Security Controls) para técnicas e subtécnicas do ATT&CK, com a justificativa de cada relação.",
+      "output": "Cobertura defensiva baseada em CIS e lacunas por técnica",
+      "priority": "P2",
+      "status": "ativo",
+      "version": "publicado em 05/10/2026",
+      "relations": [
+        "E001",
+        "E037"
+      ],
+      "notes": "Faz parte do programa Mappings Explorer (E037): os dados são navegados e baixados por lá.",
+      "reviewed_on": "2026-11-21",
+      "verification": "Página do projeto em ctid.mitre.org/projects lida em 21/11/2026 (listada como out/2026); data de 05/10/2026 registrada na revisão de 11/11/2026"
+    },
+    {
+      "id": "E138",
+      "name": "Prioritize Known Exploited Vulnerabilities",
+      "url": "https://ctid.mitre.org/projects/prioritize-known-exploited-vulnerabilties/",
+      "origin": "MITRE / CTID",
+      "owner_type": "ctid",
+      "layer": "vulnerabilidade",
+      "domains": [
+        "enterprise"
+      ],
+      "purpose": "Caracterizar o impacto de vulnerabilidades exploradas (KEV) com os comportamentos adversários do ATT&CK, ligando CVE a técnicas.",
+      "output": "Priorização de CVEs pelo que o adversário consegue fazer com elas",
+      "priority": "P2",
+      "status": "ativo",
+      "version": "publicado em 02/2025",
+      "relations": [
+        "E001",
+        "E010",
+        "E037",
+        "E083"
+      ],
+      "notes": "Faz parte do programa Mappings Explorer (E037): os dados são navegados e baixados por lá.",
+      "reviewed_on": "2026-11-21",
+      "verification": "Página do projeto em ctid.mitre.org/projects lida em 21/11/2026 (publicação de fev/2025)"
+    },
+    {
+      "id": "E139",
+      "name": "TID for the Financial Sector",
+      "url": "https://ctid.mitre.org/projects/tid-financial-sector/",
+      "origin": "MITRE / CTID",
+      "owner_type": "ctid",
+      "layer": "defesa",
+      "domains": [
+        "enterprise",
+        "fraude"
+      ],
+      "purpose": "Ligar mitigações de ameaças do ATT&CK aos recursos de programa de segurança do setor financeiro, em especial o Cyber Risk Institute (CRI) Profile.",
+      "output": "Controles do CRI Profile justificados por técnica adversária",
+      "priority": "P2",
+      "status": "ativo",
+      "version": "publicado em 06/2025",
+      "relations": [
+        "E001",
+        "E037",
+        "E045"
+      ],
+      "notes": "Faz parte do programa Mappings Explorer (E037): os dados são navegados e baixados por lá. Útil para instituições financeiras; combine com o Fight Fraud Framework (E045).",
+      "reviewed_on": "2026-11-21",
+      "verification": "Página do projeto em ctid.mitre.org/projects lida em 21/11/2026 (publicação de jun/2025)"
+    },
+    {
+      "id": "E140",
+      "name": "Hardware-Enabled Defense (Security Stack Mappings)",
+      "url": "https://ctid.mitre.org/projects/security-stack-mappings-hardware-enabled-defense/",
+      "origin": "MITRE / CTID",
+      "owner_type": "ctid",
+      "layer": "defesa",
+      "domains": [
+        "enterprise"
+      ],
+      "purpose": "Ligar recursos de segurança de hardware de sistemas corporativos a comportamentos adversários do ATT&CK, pela metodologia de security stack mappings.",
+      "output": "Recursos de hardware justificados por técnica adversária",
+      "priority": "P2",
+      "status": "ativo",
+      "version": "publicado em 01/2025",
+      "relations": [
+        "E001",
+        "E037"
+      ],
+      "notes": "Faz parte do programa Mappings Explorer (E037): os dados são navegados e baixados por lá.",
+      "reviewed_on": "2026-11-21",
+      "verification": "Página do projeto em ctid.mitre.org/projects lida em 21/11/2026 (publicação de jan/2025)"
     }
   ],
   "historical": [

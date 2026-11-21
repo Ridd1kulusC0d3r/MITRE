@@ -1,0 +1,28 @@
+{
+  "id": "E136",
+  "name": "ATT&CK em Excel",
+  "url": "https://attack.mitre.org/resources/attack-data-and-tools/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "dados",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Planilhas oficiais geradas a partir do STIX do ATT&CK, com uma planilha mestra por domínio e planilhas por tipo de objeto (técnicas, grupos, software, campanhas, mitigações, estratégias de detecção, analytics, componentes de dados e relações).",
+  "output": "Consulta e filtragem do ATT&CK sem programação",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "v20.1 · 05/11/2026",
+  "formats": [
+    "Excel"
+  ],
+  "relations": [
+    "E001",
+    "E026",
+    "E028"
+  ],
+  "reviewed_on": "2026-11-21",
+  "verification": "Página attack.mitre.org/resources/attack-data-and-tools/ lida em 20/11 e 21/11/2026: links para as planilhas enterprise-attack-v20.1 (inclusive por tipo de objeto)"
+}
