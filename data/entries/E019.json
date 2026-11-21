@@ -1,7 +1,7 @@
 {
   "id": "E019",
   "name": "eMASSer",
-  "url": "https://saf.mitre.org/",
+  "url": "https://github.com/mitre/emasser",
   "origin": "MITRE",
   "owner_type": "mitre",
   "layer": "conformidade",
@@ -12,10 +12,11 @@
   "purpose": "Integrar workflows de avaliação ao eMASS; acessar Apps → eMASSer.",
   "output": "Integração de resultados de avaliação",
   "priority": "P2",
-  "status": "n/v",
+  "status": "ativo",
+  "version": "3.22.0 (tag)",
   "relations": [
     "E015"
   ],
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 06/05/2026"
 }

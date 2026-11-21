@@ -3,14 +3,14 @@
 <!-- hero:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="MITRE Ecosystem Atlas — da inteligência à defesa validada: 132 recursos em 15 camadas" width="100%">
+  <img src="assets/banner-light.svg" alt="MITRE Ecosystem Atlas — da inteligência à defesa validada: 137 recursos em 15 camadas" width="100%">
 </picture>
 
 [![ATT&CK](https://img.shields.io/badge/ATT%26CK-v20.1-f2545b?style=flat-square)](https://attack.mitre.org/)
 [![D3FEND](https://img.shields.io/badge/D3FEND-1.6.0-3cc8d6?style=flat-square)](https://d3fend.mitre.org/)
 [![ATLAS](https://img.shields.io/badge/ATLAS-v2026.10-a86df5?style=flat-square)](https://atlas.mitre.org/)
 [![Python](https://img.shields.io/badge/Python-stdlib%20only-3776ab?style=flat-square&logo=python&logoColor=white)](atlas/)
-[![revisão](https://img.shields.io/badge/revis%C3%A3o-17%2F11%2F2026-1f9e8f?style=flat-square)](docs/historico-e-manutencao.md)
+[![revisão](https://img.shields.io/badge/revis%C3%A3o-21%2F11%2F2026-1f9e8f?style=flat-square)](docs/historico-e-manutencao.md)
 [![idioma](https://img.shields.io/badge/idioma-pt--BR-009c3b?style=flat-square)](#)
 <!-- hero:end -->
 
@@ -24,10 +24,14 @@ CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incide
 <!-- stats:start -->
 | 📦 Entradas | 🟦 MITRE | 🟩 CTID | 🟨🟧 Comunidade e fornecedores | 🔗 Relações | 🧱 Camadas | ✅ Ativos | 🗄️ Históricos |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **132** | 57 | 27 | 32 | 271 | 15 | 90 | 21 |
+| **137** | 58 | 31 | 32 | 291 | 15 | 104 | 21 |
 <!-- stats:end -->
  
 ---
+
+## 🆕 Atualização — 21/11/2026
+
+[**5 entradas novas e 10 "não verificadas" conferidas na fonte**](docs/novas-referencias-2026-11-21.md): ATT&CK em Excel e quatro mapeamentos do CTID (CIS Controls, KEV, setor financeiro e defesa por hardware). EMB3D v2.0.2, SAF e Infection Monkey passam a ativos; 29 ferramentas ganharam a versão conferida por tag.
 
 ## 🆕 Atualização — 11/11/2026
 
@@ -69,7 +73,7 @@ CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incide
 | 🧪 [Validação](docs/catalogo.md#validacao) | Como validar a capacidade? | Atomic Red Team · Apache Caldera · Stratus Red Team |
 | 🚑 [Resposta](docs/catalogo.md#resposta) | Como responder e investigar? | RE&CT · NIST SP 800-61r3 · Hayabusa |
 | 📈 [Maturidade](docs/catalogo.md#maturidade) | Como evoluir o programa? | INFORM · 11 Strategies |
-| 🩹 [Vulnerabilidade](docs/catalogo.md#vulnerabilidade) | Que fraquezas existem? | CVE · CWE · KEV · EPSS |
+| 🩹 [Vulnerabilidade](docs/catalogo.md#vulnerabilidade) | Que fraquezas existem? | CVE · CWE · KEV · EPSS · [KEV × ATT&CK](https://ctid.mitre.org/projects/prioritize-known-exploited-vulnerabilties/) |
 | 🕵️ [CTI](docs/catalogo.md#cti) | Como produzir e compartilhar inteligência? | OpenCTI · MISP Galaxy · TIE · Decider |
 | 🗄️ [Dados](docs/catalogo.md#dados) | Como consumir por código? | attack-stix-data · mitreattack-python · Navigator |
 
@@ -147,7 +151,7 @@ Mais receitas e endpoints: [docs/dados-e-apis.md](docs/dados-e-apis.md).
 | OT e embarcados | ATT&CK ICS → Defending OT → EMB3D/ESTM → D3FEND (ICS) | cenário com restrições operacionais |
 | 5G e telecom | [FiGHT](https://fight.mitre.org/) → ATT&CK Enterprise/Mobile → D3FEND → validação em laboratório | cenário 5G com cada técnica marcada como teórica, PoC ou observada |
 | IA | ATLAS → Secure AI → T1698/T1699 → validação | caso de abuso e evidência de mitigação |
-| Fraude (BR) | F3 → ATT&CK Mobile → T1684/T1696 → antifraude | [caso 5](examples/casos-guiados.md#caso-5--fraude-via-pix-e-mobile-banking) |
+| Fraude (BR) | F3 → ATT&CK Mobile → T1684/T1696 → antifraude → [TID for the Financial Sector](https://ctid.mitre.org/projects/tid-financial-sector/) | [caso 5](examples/casos-guiados.md#caso-5--fraude-via-pix-e-mobile-banking) |
 | Contribuir com o ATT&CK | procedimento observado → evidência → Attack Flow → [formulário de contribuição](https://attack.mitre.org/resources/engage-with-attack/contribute/) | crédito como contribuidor na técnica |
 | ATT&CK interno | [Workbench Deployment](https://github.com/mitre-attack/attack-workbench-deployment) → extensões da casa → TAXII interno | base com grupos BR/LATAM do time |
 
@@ -203,7 +207,7 @@ Mais receitas e endpoints: [docs/dados-e-apis.md](docs/dados-e-apis.md).
 
 ## 🔍 Escopo e qualidade
 
-Base de referência **documental**, revisada em <!-- reviewed:start -->**17/11/2026**<!-- reviewed:end -->. Versões do ATT&CK, D3FEND, ATLAS e das principais ferramentas foram conferidas na fonte (bundle STIX, changelog, tag Git ou PyPI); o restante vem de pesquisa web e está marcado como tal no JSON. As ferramentas de terceiros não foram executadas nem certificadas. "Top" significa utilidade para o fluxo descrito, não contagem de estrelas.
+Base de referência **documental**, revisada em <!-- reviewed:start -->**21/11/2026**<!-- reviewed:end -->. Versões do ATT&CK, D3FEND, ATLAS e das principais ferramentas foram conferidas na fonte (bundle STIX, changelog, tag Git ou PyPI); o restante vem de pesquisa web e está marcado como tal no JSON. As ferramentas de terceiros não foram executadas nem certificadas. "Top" significa utilidade para o fluxo descrito, não contagem de estrelas.
 
 Veja [fontes, sinais de manutenção e limitações](docs/historico-e-manutencao.md). Marcas, dados e ferramentas pertencem aos respectivos titulares; cada fonte tem seus próprios termos.
 

@@ -19,8 +19,9 @@
   "relations": [
     "E010",
     "E037",
-    "E070"
+    "E070",
+    "E138"
   ],
-  "reviewed_on": "2026-10-22",
+  "reviewed_on": "2026-11-21",
   "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
 }

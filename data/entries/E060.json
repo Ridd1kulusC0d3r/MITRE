@@ -15,6 +15,7 @@
   "output": "Enriquecimento e classificação",
   "priority": "P2",
   "status": "ativo",
+  "version": "v2.4.197 (tag)",
   "formats": [
     "JSON"
   ],
@@ -26,6 +27,6 @@
   "archived": false,
   "license_api": "NOASSERTION",
   "pushed_at": "2026-10-16T11:59:04Z",
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 16/11/2026"
 }

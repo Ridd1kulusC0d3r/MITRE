@@ -13,12 +13,13 @@
   "output": "Pontuação contextual de CWEs",
   "priority": "P2",
   "status": "baixa-atividade",
+  "version": "v1.0.0 (tag)",
   "relations": [
     "E009"
   ],
   "archived": false,
   "license_api": "Apache-2.0",
   "pushed_at": "2024-07-16T17:47:29Z",
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 20/06/2024"
 }

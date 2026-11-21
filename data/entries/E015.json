@@ -12,7 +12,7 @@
   "purpose": "Automatizar avaliação e normalização de resultados de segurança.",
   "output": "Resultados comparáveis de controles",
   "priority": "P2",
-  "status": "n/v",
+  "status": "ativo",
   "formats": [
     "HDF JSON"
   ],
@@ -20,6 +20,6 @@
     "E016",
     "E017"
   ],
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "reviewed_on": "2026-11-21",
+  "verification": "saf.mitre.org respondeu em 21/11/2026; os repositórios do SAF (heimdall2, saf, vulcan) têm commits de novembro de 2026"
 }
