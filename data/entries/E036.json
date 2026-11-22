@@ -13,6 +13,7 @@
   "output": "Lista inicial de técnicas; adaptar ao ambiente",
   "priority": "P1",
   "status": "ativo",
+  "version": "v2.0.0 (tag)",
   "formats": [
     "JSON"
   ],
@@ -22,7 +23,8 @@
   ],
   "archived": false,
   "license_api": "Apache-2.0",
-  "pushed_at": "2026-10-20T14:43:00Z",
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "pushed_at": "2026-11-16T18:32:54Z",
+  "latest_release": "v2.0.0 · 2024-07-17",
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 28/05/2025"
 }

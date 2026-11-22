@@ -21,6 +21,10 @@
     "E001",
     "E033"
   ],
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-02-20T22:24:57Z",
+  "latest_release": "v3.0.0 · 2023-09-26",
   "reviewed_on": "2026-10-22",
   "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
 }

@@ -19,6 +19,8 @@
   ],
   "notes": "Construído sobre Langflow; requer uv e um provedor de LLM com uso de ferramentas. Os dados embutidos são da v2026.7, três versões atrás da 2026.10: IDs renomeados ou movidos depois disso não aparecem. Conferir toda resposta na base oficial.",
   "repo": "mitre-atlas/atlas-knowledge-base-agent",
+  "archived": false,
+  "pushed_at": "2026-08-05T13:42:54Z",
   "reviewed_on": "2026-11-11",
   "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
 }

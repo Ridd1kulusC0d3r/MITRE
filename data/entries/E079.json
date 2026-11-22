@@ -23,6 +23,10 @@
     "E004"
   ],
   "notes": "dist/ATLAS.yaml está depreciado; use dist/ATLAS-latest.yaml ou o arquivo versionado em dist/v6/. O repositório atlas-navigator-data foi depreciado: STIX e camadas do Navigator passaram a sair daqui.",
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-10-28T22:54:41Z",
+  "latest_release": "v2026.10 · 2026-10-28",
   "reviewed_on": "2026-11-11",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
 }

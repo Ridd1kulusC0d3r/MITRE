@@ -14,7 +14,7 @@
   "output": "Espelho interno do site com a versão fixada",
   "priority": "P2",
   "status": "ativo",
-  "version": "v5.2.1 · 05/11/2026 (CHANGELOG e rodapé do site; última tag Git: website-v4.4.1)",
+  "version": "v5.2.1 · 05/11/2026 (CHANGELOG; última tag Git: website-v4.4.1)",
   "formats": [
     "HTML",
     "Python"
@@ -23,6 +23,10 @@
     "E026",
     "E001"
   ],
-  "reviewed_on": "2026-11-18",
-  "verification": "CHANGELOG.md da branch master (commit eb28977) e rodapé de attack.mitre.org lidos em 18/11/2026: Website v5.2.1 de 05/11/2026, com o conteúdo ATT&CK v20.1. As versões 5.x não têm tag Git; a última tag é website-v4.4.1 (git ls-remote em 18/11/2026)."
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-11-05T17:35:36Z",
+  "latest_release": "archived-website-files · 2025-09-18",
+  "reviewed_on": "2026-11-21",
+  "verification": "CHANGELOG.md da branch master lido em 21/11/2026: Website v5.2.1 de 05/11/2026, com o conteúdo ATT&CK v20.1. As versões 5.x não têm tag Git; a última tag é website-v4.4.1 (git ls-remote em 21/11/2026)"
 }

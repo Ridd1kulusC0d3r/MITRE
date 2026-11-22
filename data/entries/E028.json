@@ -15,7 +15,7 @@
   "output": "Consultas e exportações reproduzíveis",
   "priority": "P1",
   "status": "ativo",
-  "version": "6.4.0 · 05/11/2026 (PyPI)",
+  "version": "6.4.1 · 18/11/2026 (PyPI)",
   "formats": [
     "Python"
   ],
@@ -26,7 +26,8 @@
   "notes": "MitreAttackData, exportação Excel, diffStix e layers.",
   "archived": false,
   "license_api": "Apache-2.0",
-  "pushed_at": "2026-10-13T21:29:30Z",
-  "reviewed_on": "2026-11-11",
-  "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+  "pushed_at": "2026-11-18T16:31:58Z",
+  "latest_release": "v6.4.1 · 2026-11-18",
+  "reviewed_on": "2026-11-21",
+  "verification": "PyPI (upload de 18/11/2026) e tag Git v6.4.1 conferidos em 21/11/2026"
 }

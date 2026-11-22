@@ -1,7 +1,7 @@
 {
   "id": "E018",
   "name": "Vulcan",
-  "url": "https://saf.mitre.org/",
+  "url": "https://github.com/mitre/vulcan",
   "origin": "MITRE",
   "owner_type": "mitre",
   "layer": "conformidade",
@@ -12,10 +12,11 @@
   "purpose": "Criar e gerenciar orientação e baselines de segurança; acessar Apps → Vulcan.",
   "output": "Baseline de requisitos",
   "priority": "P2",
-  "status": "n/v",
+  "status": "ativo",
+  "version": "v2.4.2 (tag)",
   "relations": [
     "E015"
   ],
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 11/11/2026"
 }

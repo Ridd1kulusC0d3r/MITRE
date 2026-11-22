@@ -19,7 +19,8 @@
   "repo": "mitre/hipcheck",
   "archived": false,
   "license_api": "Apache-2.0",
-  "pushed_at": "2026-11-03",
+  "pushed_at": "2026-11-16T20:30:24Z",
+  "latest_release": "identity-v0.6.0 · 2026-05-08",
   "reviewed_on": "2026-11-11",
   "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
 }

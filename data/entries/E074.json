@@ -24,6 +24,9 @@
     "E030"
   ],
   "notes": "Caminho mais curto para manter um ATT&CK local com extensões (ex.: grupos BR/LATAM do MSSP).",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-16T20:24:08Z",
   "reviewed_on": "2026-10-22",
   "verification": "README do repositório consultado em 22/10/2026"
 }

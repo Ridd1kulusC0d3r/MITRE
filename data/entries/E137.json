@@ -1,0 +1,23 @@
+{
+  "id": "E137",
+  "name": "CIS Controls for Threat Mitigations",
+  "url": "https://ctid.mitre.org/projects/cis-controls-for-threat-mitigations/",
+  "origin": "MITRE / CTID",
+  "owner_type": "ctid",
+  "layer": "defesa",
+  "domains": [
+    "enterprise"
+  ],
+  "purpose": "Mapear as capacidades dos CIS Safeguards (CIS Critical Security Controls) para técnicas e subtécnicas do ATT&CK, com a justificativa de cada relação.",
+  "output": "Cobertura defensiva baseada em CIS e lacunas por técnica",
+  "priority": "P2",
+  "status": "ativo",
+  "version": "publicado em 05/10/2026",
+  "relations": [
+    "E001",
+    "E037"
+  ],
+  "notes": "Faz parte do programa Mappings Explorer (E037): os dados são navegados e baixados por lá.",
+  "reviewed_on": "2026-11-21",
+  "verification": "Página do projeto em ctid.mitre.org/projects lida em 21/11/2026 (listada como out/2026); data de 05/10/2026 registrada na revisão de 11/11/2026"
+}

@@ -26,7 +26,8 @@
   "notes": "Um bundle por versão (enterprise-attack-20.1.json) e um 'latest'; index.json lista coleções.",
   "archived": false,
   "license_api": "NOASSERTION",
-  "pushed_at": "2026-10-13T19:11:18Z",
+  "pushed_at": "2026-11-05T16:45:25Z",
+  "latest_release": "v20.1 · 2026-11-05",
   "reviewed_on": "2026-11-11",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
 }

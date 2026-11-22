@@ -27,7 +27,8 @@
   "notes": "Suporta ATT&CK v18 (modelo Data Components → Analytics → Detection Strategies). Suporte a v19/v20 não declarado.",
   "archived": false,
   "license_api": "GPL-3.0",
-  "pushed_at": "2026-10-19T09:19:41Z",
+  "pushed_at": "2026-11-05T19:15:00Z",
+  "latest_release": "v2.2.0 · 2026-01-21",
   "reviewed_on": "2026-10-22",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
 }

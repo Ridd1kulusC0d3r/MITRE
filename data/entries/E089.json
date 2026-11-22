@@ -21,6 +21,10 @@
     "E057"
   ],
   "notes": "sigma-cli mudou de versão principal (3.x → 4.0.0): teste pipelines e backends antes de atualizar em produção.",
+  "archived": false,
+  "license_api": "LGPL-2.1",
+  "pushed_at": "2026-11-15T11:33:14Z",
+  "latest_release": "v2.1.0 · 2026-11-09",
   "reviewed_on": "2026-11-11",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
 }

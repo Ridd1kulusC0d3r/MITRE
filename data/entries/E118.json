@@ -12,6 +12,7 @@
   "output": "Inventário de fontes e detecções para layers Navigator",
   "priority": "P1",
   "status": "ativo",
+  "version": "v1.4.4 (tag)",
   "relations": [
     "E055",
     "E024",
@@ -22,6 +23,7 @@
   "archived": false,
   "license_api": "GPL-3.0",
   "pushed_at": "2026-01-22T08:45:57Z",
-  "reviewed_on": "2026-11-06",
-  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+  "latest_release": "v1.4.4 · 2024-12-06",
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 22/01/2026"
 }

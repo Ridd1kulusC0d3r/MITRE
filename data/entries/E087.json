@@ -11,7 +11,7 @@
   "purpose": "Padronizar e documentar eventos de segurança e seus campos.",
   "output": "Dicionário de dados e modelo comum",
   "priority": "P2",
-  "status": "n/v",
+  "status": "baixa-atividade",
   "formats": [
     "YAML"
   ],
@@ -19,6 +19,9 @@
     "E011",
     "E043"
   ],
-  "reviewed_on": "2026-10-22",
-  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+  "archived": false,
+  "license_api": "MIT",
+  "pushed_at": "2023-02-27T02:58:11Z",
+  "reviewed_on": "2026-11-21",
+  "verification": "Repositório conferido via git em 21/11/2026: sem tags; último commit da branch padrão em 26/02/2023"
 }

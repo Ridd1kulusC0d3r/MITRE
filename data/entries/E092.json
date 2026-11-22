@@ -19,6 +19,10 @@
   "relations": [
     "E058"
   ],
+  "archived": false,
+  "license_api": "BSD-3-Clause",
+  "pushed_at": "2026-02-23T02:45:24Z",
+  "latest_release": "v1.3 · 2021-09-18",
   "reviewed_on": "2026-10-22",
   "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
 }

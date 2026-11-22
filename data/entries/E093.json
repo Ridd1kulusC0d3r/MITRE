@@ -11,11 +11,15 @@
   "purpose": "Simular movimentação lateral e gerar relatório por técnica.",
   "output": "Relatório de exposição mapeado ao ATT&CK",
   "priority": "P2",
-  "status": "n/v",
+  "status": "ativo",
   "version": "v2.3.0 (tag)",
   "relations": [
     "E001"
   ],
-  "reviewed_on": "2026-10-22",
-  "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
+  "archived": false,
+  "license_api": "GPL-3.0",
+  "pushed_at": "2026-11-03T11:56:39Z",
+  "latest_release": "v2.3.0 · 2023-09-19",
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git v2.3.0 conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 03/11/2026"
 }

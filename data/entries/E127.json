@@ -11,7 +11,7 @@
   "purpose": "Explorar extratores de referências ATT&CK, D3FEND, artefatos digitais e CWE em texto.",
   "output": "Anotações e relações candidatas para revisão",
   "priority": "P2",
-  "status": "n/v",
+  "status": "ativo",
   "relations": [
     "E002",
     "E008",
@@ -19,6 +19,6 @@
     "E077"
   ],
   "notes": "Agrupa ferramentas do portal, sem contar cada extrator separadamente. Extração não valida a semântica do mapeamento nem demonstra eficácia de contramedidas.",
-  "reviewed_on": "2026-11-06",
-  "verification": "Catálogo oficial de ferramentas consultado; extratores não executados."
+  "reviewed_on": "2026-11-21",
+  "verification": "Página d3fend.mitre.org/tools lida em 21/11/2026: lista ATT&CK Extractor e D3FEND Extractor entre as ferramentas"
 }

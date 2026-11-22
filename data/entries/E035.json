@@ -13,12 +13,14 @@
   "output": "Hipóteses de investigação contextualizadas",
   "priority": "P2",
   "status": "ativo",
+  "version": "v2.0.0 (tag)",
   "relations": [
     "E001"
   ],
   "archived": false,
   "license_api": "Apache-2.0",
   "pushed_at": "2026-07-06T19:56:47Z",
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "latest_release": "v2.0.0 · 2024-03-05",
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 06/07/2026"
 }

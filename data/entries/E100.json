@@ -19,6 +19,10 @@
   "relations": [
     "E058"
   ],
+  "archived": false,
+  "license_api": "MIT",
+  "pushed_at": "2025-09-08T17:44:23Z",
+  "latest_release": "v2.3.0 · 2025-02-28",
   "reviewed_on": "2026-10-22",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
 }

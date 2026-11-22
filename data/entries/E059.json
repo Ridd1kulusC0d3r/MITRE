@@ -13,6 +13,7 @@
   "output": "Grafo de CTI com proveniência",
   "priority": "P2",
   "status": "ativo",
+  "version": "7.261119.0 (tag)",
   "formats": [
     "STIX 2.1"
   ],
@@ -22,7 +23,8 @@
   ],
   "archived": false,
   "license_api": "NOASSERTION",
-  "pushed_at": "2026-10-23T00:04:40Z",
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "pushed_at": "2026-11-16T20:31:31Z",
+  "latest_release": "7.261116.0 · 2026-11-16",
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
 }

@@ -26,6 +26,10 @@
   ],
   "notes": "Doado à Apache Software Foundation: Apache Caldera (Incubating), repo apache/caldera.",
   "repo": "apache/caldera",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-10-12T19:16:34Z",
+  "latest_release": "5.3.0 · 2025-04-24",
   "reviewed_on": "2026-10-22",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
 }

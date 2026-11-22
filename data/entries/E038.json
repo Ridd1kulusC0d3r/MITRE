@@ -13,6 +13,7 @@
   "output": "Apoio à análise de textos",
   "priority": "P2",
   "status": "ativo",
+  "version": "v1.13.0 (tag)",
   "formats": [
     "Extensão de navegador"
   ],
@@ -21,7 +22,7 @@
   ],
   "archived": false,
   "license_api": "Apache-2.0",
-  "pushed_at": "2026-04-29T18:04:29Z",
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "pushed_at": "2026-11-10T18:12:14Z",
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 10/11/2026"
 }

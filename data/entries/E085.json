@@ -21,6 +21,9 @@
     "E001"
   ],
   "notes": "Sem atualização desde 2022.",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2022-05-25T11:05:20Z",
   "reviewed_on": "2026-10-22",
   "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
 }

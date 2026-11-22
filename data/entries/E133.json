@@ -12,15 +12,16 @@
   "output": "Alvo de laboratório para os plugins do Caldera for OT",
   "priority": "P2",
   "status": "ativo",
-  "version": "v2.1.1 (tag)",
+  "version": "v4.0.0 (tag)",
   "relations": [
     "E131"
   ],
   "notes": "Simulação simplificada, criada por estudantes em colaboração com a MITRE; não representa uma subestação real. Licença Apache-2.0 (arquivo LICENSE).",
   "repo": "mitre/grid-watch",
   "archived": false,
-  "license_api": "NOASSERTION",
-  "pushed_at": "2026-10-09",
-  "reviewed_on": "2026-11-11",
-  "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-11-14T07:21:35Z",
+  "latest_release": "v4.0.0 · 2026-11-14",
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 13/11/2026"
 }

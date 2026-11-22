@@ -12,13 +12,16 @@
   "purpose": "Analisar SMB/RPC com scripts Zeek orientados a comportamentos ATT&CK.",
   "output": "Referência de detecção de rede",
   "priority": "P2",
-  "status": "n/v",
+  "status": "baixa-atividade",
   "formats": [
     "Zeek scripts"
   ],
   "relations": [
     "E011"
   ],
-  "reviewed_on": "2026-10-22",
-  "verification": "Fonte primária consultada; execução não testada"
+  "archived": false,
+  "license_api": "BSD-3-Clause",
+  "pushed_at": "2024-06-26T16:32:59Z",
+  "reviewed_on": "2026-11-21",
+  "verification": "Repositório conferido via git em 21/11/2026: sem tags; último commit da branch padrão em 26/06/2024"
 }

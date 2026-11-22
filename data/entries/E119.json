@@ -13,6 +13,7 @@
   "output": "Campanha de validação e registro de lacunas",
   "priority": "P1",
   "status": "ativo",
+  "version": "3.261118.0 (tag)",
   "relations": [
     "E059",
     "E031",
@@ -22,7 +23,8 @@
   "repo": "OpenAEV-Platform/openaev",
   "archived": false,
   "license_api": "NOASSERTION",
-  "pushed_at": "2026-10-23T10:00:58Z",
-  "reviewed_on": "2026-11-06",
-  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+  "pushed_at": "2026-11-16T21:04:21Z",
+  "latest_release": "3.261116.1 · 2026-11-16",
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
 }

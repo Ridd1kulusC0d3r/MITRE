@@ -25,7 +25,8 @@
   ],
   "archived": false,
   "license_api": "Apache-2.0",
-  "pushed_at": "2026-10-20T18:53:56Z",
+  "pushed_at": "2026-11-13T22:30:11Z",
+  "latest_release": "v5.3.2 · 2026-04-21",
   "reviewed_on": "2026-10-22",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
 }

@@ -12,6 +12,7 @@
   "output": "Procedimentos versionados para exercícios purple team",
   "priority": "P1",
   "status": "ativo",
+  "version": "v1.5.0 (tag)",
   "relations": [
     "E058",
     "E031",
@@ -22,6 +23,7 @@
   "archived": false,
   "license_api": "MIT",
   "pushed_at": "2026-09-30T13:53:10Z",
-  "reviewed_on": "2026-11-06",
-  "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
+  "latest_release": "v1.5.0 · 2026-06-03",
+  "reviewed_on": "2026-11-21",
+  "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 30/09/2026"
 }
