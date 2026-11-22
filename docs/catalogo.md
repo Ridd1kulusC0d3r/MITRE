@@ -4,7 +4,7 @@
 
 [← Início](../README.md) · [Explorador interativo](../index.html) · [Crosswalks](crosswalks.md) · [Novidades 2026](novidades-2026.md) · [Histórico](historico-e-manutencao.md)
 
-Revisão: **2026-11-21** · **137 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
+Revisão: **2026-11-22** · **137 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
 
 **Legenda.** Origem: 🟦 MITRE oficial · 🟩 MITRE CTID · 🟪 Colaboração MITRE · 🟫 Fundação aberta (código MITRE doado) · ⬛ Governo · ⬜ Organismo de padrão · 🟨 Comunidade · 🟧 Fornecedor · ◻️ Outro  
 Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificado
@@ -362,7 +362,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[Workbench Deployment](https://github.com/mitre-attack/attack-workbench-deployment)** `E074` | 🟦 MITRE | Subir o Workbench completo (frontend, REST API, banco e TAXII opcional) com Docker Compose ou Kubernetes. | — | Enterprise, Mobile, ICS/OT | P1 |
 | ✅ | **[Workbench TAXII Server](https://github.com/mitre-attack/attack-workbench-taxii-server)** `E030` | 🟦 MITRE | Servir coleções ATT&CK via TAXII. | v2.0.1 (tag) | Enterprise | P1 |
 | ✅ | **[ATLAS Agent](https://github.com/mitre-atlas/atlas-knowledge-base-agent)** `E134` | 🟦 MITRE | Consultar a base ATLAS em linguagem natural, com busca semântica, consulta estruturada e grafo de relações; expõe servidor MCP e API. | 1.1.0 · dados ATLAS v2026.7 | IA | P2 |
-| ✅ | **[ATLAS Navigator](https://github.com/mitre-atlas/atlas-navigator)** `E104` | 🟦 MITRE | Visualizar e anotar a matriz ATLAS. | v4.5.5 (tag) | IA | P2 |
+| ⏸️ | **[ATLAS Navigator](https://github.com/mitre-atlas/atlas-navigator)** `E104` | 🟦 MITRE | Visualizar e anotar a matriz ATLAS. | v4.5.5 (tag) | IA | P2 |
 | ✅ | **[ATT&CK em Excel](https://attack.mitre.org/resources/attack-data-and-tools/)** `E136` | 🟦 MITRE | Planilhas oficiais geradas a partir do STIX do ATT&CK, com uma planilha mestra por domínio e planilhas por tipo de objeto (técnicas, grupos, software, campanhas, mitigações, estratégias de detecção, analytics, componentes de dados e relações). | v20.1 · 05/11/2026 | Enterprise, Mobile, ICS/OT | P2 |
 | ✅ | **[ATT&CK Sync](https://github.com/center-for-threat-informed-defense/attack-sync)** `E046` | 🟩 MITRE / CTID | Apoiar adoção de mudanças entre versões ATT&CK. | — | Enterprise | P2 |
 | ✅ | **[ATT&CK TAXII 2.1 (público)](https://attack-taxii.mitre.org/)** `E099` | 🟦 MITRE | Servir o ATT&CK por TAXII 2.1. | — | Enterprise, Mobile, ICS/OT | P2 |

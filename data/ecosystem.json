@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "reviewed_on": "2026-11-21",
+  "reviewed_on": "2026-11-22",
   "timezone": "America/Sao_Paulo",
   "scope": "Ecossistema de cibersegurança MITRE e recursos externos relacionados; não inventário institucional exaustivo",
   "verification_limits": "Pesquisa documental; ferramentas não executadas. Campos ausentes: não coletados. archived=false não comprova manutenção ativa. pushed_at não equivale a último release. license_api não substitui leitura da licença. Status 'n/v' = não verificado. Tag Git indica marco publicado, não necessariamente release estável.",
@@ -348,6 +348,9 @@
       "relations": [
         "E011"
       ],
+      "archived": false,
+      "license_api": "BSD-3-Clause",
+      "pushed_at": "2024-06-26T16:32:59Z",
       "reviewed_on": "2026-11-21",
       "verification": "Repositório conferido via git em 21/11/2026: sem tags; último commit da branch padrão em 26/06/2024"
     },
@@ -379,6 +382,10 @@
       ],
       "notes": "Doado à Apache Software Foundation: Apache Caldera (Incubating), repo apache/caldera.",
       "repo": "apache/caldera",
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-10-12T19:16:34Z",
+      "latest_release": "5.3.0 · 2025-04-24",
       "reviewed_on": "2026-10-22",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
     },
@@ -459,7 +466,8 @@
       ],
       "archived": false,
       "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-23T00:40:55Z",
+      "pushed_at": "2026-11-14T02:39:27Z",
+      "latest_release": "v2.15.0 · 2026-10-30",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
     },
@@ -487,7 +495,8 @@
       ],
       "archived": false,
       "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-23T00:42:24Z",
+      "pushed_at": "2026-11-14T01:15:13Z",
+      "latest_release": "1.8.0 · 2026-11-02",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
     },
@@ -644,7 +653,8 @@
       ],
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-20T18:53:56Z",
+      "pushed_at": "2026-11-13T22:30:11Z",
+      "latest_release": "v5.3.2 · 2026-04-21",
       "reviewed_on": "2026-10-22",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
     },
@@ -675,7 +685,8 @@
       ],
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-22T22:13:19Z",
+      "pushed_at": "2026-11-13T16:06:55Z",
+      "latest_release": "v4.6.10 · 2026-06-25",
       "reviewed_on": "2026-11-21",
       "verification": "Tags Git conferidas via git ls-remote em 21/11/2026: v4.19.0 (commit de 16/11/2026) segue como estável; v4.20.0-alpha.1 é a pré-versão mais recente"
     },
@@ -707,7 +718,8 @@
       "notes": "Um bundle por versão (enterprise-attack-20.1.json) e um 'latest'; index.json lista coleções.",
       "archived": false,
       "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-13T19:11:18Z",
+      "pushed_at": "2026-11-05T16:45:25Z",
+      "latest_release": "v20.1 · 2026-11-05",
       "reviewed_on": "2026-11-11",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
@@ -737,6 +749,10 @@
         "E008"
       ],
       "notes": "Também distribui o CAPEC em STIX.",
+      "archived": false,
+      "license_api": "NOASSERTION",
+      "pushed_at": "2026-11-05T16:33:31Z",
+      "latest_release": "ATT&CK-v20.1 · 2026-11-05",
       "reviewed_on": "2026-11-11",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
@@ -769,6 +785,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-11-18T16:31:58Z",
+      "latest_release": "v6.4.1 · 2026-11-18",
       "reviewed_on": "2026-11-21",
       "verification": "PyPI (upload de 18/11/2026) e tag Git v6.4.1 conferidos em 21/11/2026"
     },
@@ -795,6 +812,10 @@
       "relations": [
         "E026"
       ],
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-11-11T21:52:53Z",
+      "latest_release": "v4.10.1 · 2026-05-06",
       "reviewed_on": "2026-11-17",
       "verification": "Tags Git e registro npm @mitre-attack/attack-data-model conferidos em 17/11/2026: 4.12.0 publicada em 11/11/2026 com dist-tag next; latest aponta para 4.10.1; 5.0.0-beta.3 (09/12/2025) na dist-tag beta"
     },
@@ -820,6 +841,10 @@
       "relations": [
         "E025"
       ],
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-10-16T20:24:22Z",
+      "latest_release": "v2.0.1 · 2026-06-17",
       "reviewed_on": "2026-11-11",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
@@ -851,6 +876,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-28T19:37:18Z",
+      "latest_release": "v5.0.2 · 2023-04-21",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 28/05/2025"
     },
@@ -883,7 +909,8 @@
       "notes": "v4.1 trouxe integração com D3FEND.",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-14T19:37:37Z",
+      "pushed_at": "2026-10-27T21:05:44Z",
+      "latest_release": "v4.1.0 · 2026-10-14",
       "reviewed_on": "2026-10-22",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
     },
@@ -913,6 +940,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-06T13:52:16Z",
+      "latest_release": "v1.3.0 · 2023-08-28",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 06/05/2025"
     },
@@ -938,6 +966,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-03-20T15:58:24Z",
+      "latest_release": "v1.0.0 · 2023-06-12",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 20/03/2025"
     },
@@ -963,6 +992,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-07-06T19:56:47Z",
+      "latest_release": "v2.0.0 · 2024-03-05",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 06/07/2026"
     },
@@ -991,7 +1021,8 @@
       ],
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-20T14:43:00Z",
+      "pushed_at": "2026-11-16T18:32:54Z",
+      "latest_release": "v2.0.0 · 2024-07-17",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 28/05/2025"
     },
@@ -1032,7 +1063,8 @@
       "notes": "NIST 800-53, CVE/KEV, AWS/Azure/GCP, M365, VERIS, CSA CCM e CIS Controls (projeto CIS Controls for Threat Mitigations, 05/10/2026: Safeguards mapeados a técnicas com justificativa, em ctid.mitre.org/mappings/external/cis/).",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-05T02:10:24Z",
+      "pushed_at": "2026-11-06T22:37:25Z",
+      "latest_release": "mappings_explorer-v1.1.0 · 2024-04-15",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 18/11/2026"
     },
@@ -1060,7 +1092,7 @@
       ],
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-04-29T18:04:29Z",
+      "pushed_at": "2026-11-10T18:12:14Z",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 10/11/2026"
     },
@@ -1111,7 +1143,8 @@
       ],
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-09-04T16:00:56Z",
+      "pushed_at": "2026-11-10T18:05:43Z",
+      "latest_release": "v1.0.0 · 2024-09-07",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 10/11/2026"
     },
@@ -1144,6 +1177,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-09-29T16:14:11Z",
+      "latest_release": "v2.0.0 · 2024-12-13",
       "reviewed_on": "2026-10-22",
       "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
     },
@@ -1169,6 +1203,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2023-04-25T15:07:36Z",
+      "latest_release": "v1.0.1 · 2022-08-01",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 11/08/2022"
     },
@@ -1195,6 +1230,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-06-21T09:40:49Z",
+      "latest_release": "v1.0.0 · 2023-12-12",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/06/2025"
     },
@@ -1223,6 +1259,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-28T19:15:26Z",
+      "latest_release": "v2.0.0 · 2024-03-12",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 20/11/2026"
     },
@@ -1250,7 +1287,7 @@
       "notes": "Útil para clientes financeiros (Pix, mobile banking).",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-22T15:46:27Z",
+      "pushed_at": "2026-11-13T21:26:29Z",
       "reviewed_on": "2026-11-21",
       "verification": "Fonte primária consultada; execução não testada; versão/estado por pesquisa web 22/10/2026"
     },
@@ -1275,7 +1312,7 @@
       ],
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-14T18:55:52Z",
+      "pushed_at": "2026-11-05T19:18:01Z",
       "reviewed_on": "2026-10-22",
       "verification": "Fonte primária consultada; execução não testada"
     },
@@ -1302,6 +1339,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-28T19:44:29Z",
+      "latest_release": "v1.0.0 · 2024-07-23",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 28/05/2025"
     },
@@ -1328,6 +1366,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-28T19:21:23Z",
+      "latest_release": "v1.0.0 · 2024-08-13",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 28/05/2025"
     },
@@ -1352,7 +1391,8 @@
       ],
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-22T14:07:00Z",
+      "pushed_at": "2026-11-12T21:04:07Z",
+      "latest_release": "mappings_editor-v2.0.0 · 2026-05-15",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 12/11/2026"
     },
@@ -1379,6 +1419,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-28T19:26:01Z",
+      "latest_release": "v1.0.0 · 2022-11-17",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 28/05/2025"
     },
@@ -1404,6 +1445,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2024-07-16T17:47:29Z",
+      "latest_release": "v1.0.0 · 2024-06-20",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 20/06/2024"
     },
@@ -1506,7 +1548,8 @@
       "notes": "Suporta ATT&CK v18 (modelo Data Components → Analytics → Detection Strategies). Suporte a v19/v20 não declarado.",
       "archived": false,
       "license_api": "GPL-3.0",
-      "pushed_at": "2026-10-19T09:19:41Z",
+      "pushed_at": "2026-11-05T19:15:00Z",
+      "latest_release": "v2.2.0 · 2026-01-21",
       "reviewed_on": "2026-10-22",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
     },
@@ -1568,7 +1611,8 @@
       "notes": "Tags attack.tXXXX nas regras.",
       "archived": false,
       "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-21T03:04:45Z",
+      "pushed_at": "2026-11-15T01:38:10Z",
+      "latest_release": "r2026-07-01 · 2026-07-09",
       "reviewed_on": "2026-10-22",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
     },
@@ -1598,7 +1642,7 @@
       "notes": "Um diretório por técnica (atomics/TXXXX).",
       "archived": false,
       "license_api": "MIT",
-      "pushed_at": "2026-10-21T00:15:54Z",
+      "pushed_at": "2026-11-16T11:26:01Z",
       "reviewed_on": "2026-10-22",
       "verification": "Fonte primária consultada; execução não testada"
     },
@@ -1627,7 +1671,8 @@
       ],
       "archived": false,
       "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-23T00:04:40Z",
+      "pushed_at": "2026-11-16T20:31:31Z",
+      "latest_release": "7.261116.0 · 2026-11-16",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
     },
@@ -1659,7 +1704,8 @@
       ],
       "archived": false,
       "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-16T11:59:04Z",
+      "pushed_at": "2026-11-16T20:44:43Z",
+      "latest_release": "2026031300 · 2026-03-13",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 16/11/2026"
     },
@@ -1686,7 +1732,8 @@
       ],
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-20T19:10:39Z",
+      "pushed_at": "2026-11-14T01:56:46Z",
+      "latest_release": "v5.0.0 · 2026-02-09",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 03/11/2026"
     },
@@ -1716,7 +1763,8 @@
       ],
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-22T22:13:10Z",
+      "pushed_at": "2026-11-16T20:07:00Z",
+      "latest_release": "v6.10.0 · 2026-11-04",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
     },
@@ -1745,7 +1793,8 @@
       "notes": "Elastic License v2.",
       "archived": false,
       "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-23T00:19:38Z",
+      "pushed_at": "2026-11-16T21:00:31Z",
+      "latest_release": "dev-v3.0.0 · 2026-09-25",
       "reviewed_on": "2026-10-22",
       "verification": "Fonte primária consultada; execução não testada"
     },
@@ -1774,6 +1823,7 @@
       "archived": false,
       "license_api": "MIT",
       "pushed_at": "2024-03-20T20:19:19Z",
+      "latest_release": "0.0.2 · 2019-05-19",
       "reviewed_on": "2026-10-22",
       "verification": "Fonte primária consultada; execução não testada"
     },
@@ -1991,6 +2041,10 @@
         "E030",
         "E074"
       ],
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-11-11T22:06:47Z",
+      "latest_release": "v4.17.4 · 2026-10-19",
       "reviewed_on": "2026-11-21",
       "verification": "Tags Git conferidas via git ls-remote em 21/11/2026: v4.26.1 segue como última estável; v4.27.0-alpha.2 substitui a alpha.1"
     },
@@ -2020,6 +2074,9 @@
         "E030"
       ],
       "notes": "Caminho mais curto para manter um ATT&CK local com extensões (ex.: grupos BR/LATAM do MSSP).",
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-10-16T20:24:08Z",
       "reviewed_on": "2026-10-22",
       "verification": "README do repositório consultado em 22/10/2026"
     },
@@ -2048,6 +2105,10 @@
         "E026",
         "E001"
       ],
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-11-05T17:35:36Z",
+      "latest_release": "archived-website-files · 2025-09-18",
       "reviewed_on": "2026-11-21",
       "verification": "CHANGELOG.md da branch master lido em 21/11/2026: Website v5.2.1 de 05/11/2026, com o conteúdo ATT&CK v20.1. As versões 5.x não têm tag Git; a última tag é website-v4.4.1 (git ls-remote em 21/11/2026)"
     },
@@ -2150,6 +2211,10 @@
         "E004"
       ],
       "notes": "dist/ATLAS.yaml está depreciado; use dist/ATLAS-latest.yaml ou o arquivo versionado em dist/v6/. O repositório atlas-navigator-data foi depreciado: STIX e camadas do Navigator passaram a sair daqui.",
+      "archived": false,
+      "license_api": "NOASSERTION",
+      "pushed_at": "2026-10-28T22:54:41Z",
+      "latest_release": "v2026.10 · 2026-10-28",
       "reviewed_on": "2026-11-11",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
@@ -2178,6 +2243,7 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2025-05-28T19:37:18Z",
+      "latest_release": "v5.0.2 · 2023-04-21",
       "reviewed_on": "2026-10-22",
       "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
     },
@@ -2226,6 +2292,10 @@
         "E001",
         "E033"
       ],
+      "archived": false,
+      "license_api": "NOASSERTION",
+      "pushed_at": "2026-02-20T22:24:57Z",
+      "latest_release": "v3.0.0 · 2023-09-26",
       "reviewed_on": "2026-10-22",
       "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
     },
@@ -2305,6 +2375,9 @@
         "E001"
       ],
       "notes": "Sem atualização desde 2022.",
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2022-05-25T11:05:20Z",
       "reviewed_on": "2026-10-22",
       "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
     },
@@ -2331,6 +2404,9 @@
         "E071",
         "E001"
       ],
+      "archived": false,
+      "license_api": "MIT",
+      "pushed_at": "2026-01-12T00:17:37Z",
       "reviewed_on": "2026-10-22",
       "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
     },
@@ -2355,6 +2431,9 @@
         "E011",
         "E043"
       ],
+      "archived": false,
+      "license_api": "MIT",
+      "pushed_at": "2023-02-27T02:58:11Z",
       "reviewed_on": "2026-11-21",
       "verification": "Repositório conferido via git em 21/11/2026: sem tags; último commit da branch padrão em 26/02/2023"
     },
@@ -2382,6 +2461,10 @@
         "E099",
         "E028"
       ],
+      "archived": false,
+      "license_api": "BSD-3-Clause",
+      "pushed_at": "2025-12-19T07:01:03Z",
+      "latest_release": "0.6.4 · 2025-12-19",
       "reviewed_on": "2026-10-22",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
     },
@@ -2408,6 +2491,10 @@
         "E057"
       ],
       "notes": "sigma-cli mudou de versão principal (3.x → 4.0.0): teste pipelines e backends antes de atualizar em produção.",
+      "archived": false,
+      "license_api": "LGPL-2.1",
+      "pushed_at": "2026-11-15T11:33:14Z",
+      "latest_release": "v2.1.0 · 2026-11-09",
       "reviewed_on": "2026-11-11",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
@@ -2433,6 +2520,10 @@
         "E058",
         "E001"
       ],
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-11-16T19:54:09Z",
+      "latest_release": "v2.38.1 · 2026-11-16",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 17/11/2026"
     },
@@ -2458,6 +2549,9 @@
         "E058",
         "E013"
       ],
+      "archived": false,
+      "pushed_at": "2026-08-14T15:11:50Z",
+      "latest_release": "ce-9.14.1 · 2026-08-14",
       "reviewed_on": "2026-10-22",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
     },
@@ -2482,6 +2576,10 @@
       "relations": [
         "E058"
       ],
+      "archived": false,
+      "license_api": "BSD-3-Clause",
+      "pushed_at": "2026-02-23T02:45:24Z",
+      "latest_release": "v1.3 · 2021-09-18",
       "reviewed_on": "2026-10-22",
       "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
     },
@@ -2503,6 +2601,10 @@
       "relations": [
         "E001"
       ],
+      "archived": false,
+      "license_api": "GPL-3.0",
+      "pushed_at": "2026-11-03T11:56:39Z",
+      "latest_release": "v2.3.0 · 2023-09-19",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git v2.3.0 conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 03/11/2026"
     },
@@ -2600,6 +2702,10 @@
         "E065",
         "E028"
       ],
+      "archived": false,
+      "license_api": "BSD-3-Clause",
+      "pushed_at": "2026-11-13T21:01:08Z",
+      "latest_release": "v3.0.2 · 2026-02-12",
       "reviewed_on": "2026-10-22",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
     },
@@ -2625,6 +2731,10 @@
         "E066",
         "E099"
       ],
+      "archived": false,
+      "license_api": "BSD-3-Clause",
+      "pushed_at": "2024-04-15T21:01:49Z",
+      "latest_release": "v2.3.0 · 2021-03-12",
       "reviewed_on": "2026-10-22",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
     },
@@ -2676,6 +2786,10 @@
       "relations": [
         "E058"
       ],
+      "archived": false,
+      "license_api": "MIT",
+      "pushed_at": "2025-09-08T17:44:23Z",
+      "latest_release": "v2.3.0 · 2025-02-28",
       "reviewed_on": "2026-10-22",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
     },
@@ -2703,6 +2817,10 @@
         "E057",
         "E102"
       ],
+      "archived": false,
+      "license_api": "AGPL-3.0",
+      "pushed_at": "2026-11-10T12:24:39Z",
+      "latest_release": "v4.4.0 · 2026-11-10",
       "reviewed_on": "2026-11-11",
       "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
     },
@@ -2728,6 +2846,10 @@
         "E057",
         "E101"
       ],
+      "archived": false,
+      "license_api": "GPL-3.0",
+      "pushed_at": "2026-11-15T13:59:27Z",
+      "latest_release": "v2.18.0 · 2026-11-15",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 15/11/2026"
     },
@@ -2768,7 +2890,7 @@
       "purpose": "Visualizar e anotar a matriz ATLAS.",
       "output": "Layers ATLAS",
       "priority": "P2",
-      "status": "ativo",
+      "status": "baixa-atividade",
       "version": "v4.5.5 (tag)",
       "formats": [
         "Navigator layer JSON"
@@ -2777,8 +2899,11 @@
         "E004",
         "E024"
       ],
-      "reviewed_on": "2026-10-22",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2024-06-24T21:17:01Z",
+      "reviewed_on": "2026-11-22",
+      "verification": "Tag Git v4.5.5 conferida em 11/11/2026; sem push desde 24/06/2024 segundo o monitor de 16/11/2026 (issue #9)"
     },
     {
       "id": "E108",
@@ -2802,6 +2927,9 @@
         "E013"
       ],
       "notes": "Sem atualização desde abr/2021. Fontes divergem sobre o arquivamento (listagem da org vs. checagem de 23/10/2026); confirme na página do repositório. Prefira Adversary Emulation Library e Apache Caldera.",
+      "archived": false,
+      "license_api": "Apache-2.0",
+      "pushed_at": "2021-04-20T15:05:25Z",
       "reviewed_on": "2026-10-22",
       "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
     },
@@ -2826,6 +2954,9 @@
         "E011"
       ],
       "notes": "Sem atualização desde ago/2020.",
+      "archived": false,
+      "license_api": "NOASSERTION",
+      "pushed_at": "2020-08-21T01:21:56Z",
       "reviewed_on": "2026-10-22",
       "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
     },
@@ -3059,6 +3190,7 @@
       "archived": false,
       "license_api": "GPL-3.0",
       "pushed_at": "2026-01-22T08:45:57Z",
+      "latest_release": "v1.4.4 · 2024-12-06",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 22/01/2026"
     },
@@ -3087,7 +3219,8 @@
       "repo": "OpenAEV-Platform/openaev",
       "archived": false,
       "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-23T10:00:58Z",
+      "pushed_at": "2026-11-16T21:04:21Z",
+      "latest_release": "3.261116.1 · 2026-11-16",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 21/11/2026"
     },
@@ -3116,7 +3249,8 @@
       "repo": "DataDog/threatest",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-19T07:01:10Z",
+      "pushed_at": "2026-11-16T20:09:22Z",
+      "latest_release": "v1.5.0 · 2026-09-09",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 16/11/2026"
     },
@@ -3145,6 +3279,7 @@
       "archived": false,
       "license_api": "MIT",
       "pushed_at": "2026-09-30T13:53:10Z",
+      "latest_release": "v1.5.0 · 2026-06-03",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 30/09/2026"
     },
@@ -3172,7 +3307,7 @@
       "repo": "splunk/attack_data",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-10-22T18:21:51Z",
+      "pushed_at": "2026-11-16T16:08:17Z",
       "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
@@ -3198,7 +3333,7 @@
       "repo": "elastic/protections-artifacts",
       "archived": false,
       "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-23T07:11:16Z",
+      "pushed_at": "2026-11-09T11:10:09Z",
       "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
@@ -3225,7 +3360,7 @@
       "repo": "aws-samples/aws-customer-playbook-framework",
       "archived": false,
       "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-22T23:13:43Z",
+      "pushed_at": "2026-11-15T23:08:43Z",
       "reviewed_on": "2026-11-06",
       "verification": "README/fonte primária e metadados GitHub consultados; execução e compatibilidade não testadas. Status editorial baseado em atividade observada."
     },
@@ -3380,7 +3515,7 @@
       "repo": "mitre/mcp",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-09-03",
+      "pushed_at": "2026-09-03T16:33:15Z",
       "reviewed_on": "2026-11-11",
       "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
     },
@@ -3406,7 +3541,7 @@
       "repo": "mitre/caldera-ot",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-09-16",
+      "pushed_at": "2026-11-14T20:50:27Z",
       "reviewed_on": "2026-11-11",
       "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
     },
@@ -3431,7 +3566,8 @@
       "repo": "mitre/hipcheck",
       "archived": false,
       "license_api": "Apache-2.0",
-      "pushed_at": "2026-11-03",
+      "pushed_at": "2026-11-16T20:30:24Z",
+      "latest_release": "identity-v0.6.0 · 2026-05-08",
       "reviewed_on": "2026-11-11",
       "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
     },
@@ -3456,8 +3592,9 @@
       "notes": "Simulação simplificada, criada por estudantes em colaboração com a MITRE; não representa uma subestação real. Licença Apache-2.0 (arquivo LICENSE).",
       "repo": "mitre/grid-watch",
       "archived": false,
-      "license_api": "NOASSERTION",
-      "pushed_at": "2026-10-09",
+      "license_api": "Apache-2.0",
+      "pushed_at": "2026-11-14T07:21:35Z",
+      "latest_release": "v4.0.0 · 2026-11-14",
       "reviewed_on": "2026-11-21",
       "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 13/11/2026"
     },
@@ -3482,6 +3619,8 @@
       ],
       "notes": "Construído sobre Langflow; requer uv e um provedor de LLM com uso de ferramentas. Os dados embutidos são da v2026.7, três versões atrás da 2026.10: IDs renomeados ou movidos depois disso não aparecem. Conferir toda resposta na base oficial.",
       "repo": "mitre-atlas/atlas-knowledge-base-agent",
+      "archived": false,
+      "pushed_at": "2026-08-05T13:42:54Z",
       "reviewed_on": "2026-11-11",
       "verification": "README e metadados do repositório consultados em 11/11/2026; não instalado nem executado."
     },

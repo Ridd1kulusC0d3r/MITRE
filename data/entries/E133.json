@@ -19,8 +19,9 @@
   "notes": "Simulação simplificada, criada por estudantes em colaboração com a MITRE; não representa uma subestação real. Licença Apache-2.0 (arquivo LICENSE).",
   "repo": "mitre/grid-watch",
   "archived": false,
-  "license_api": "NOASSERTION",
-  "pushed_at": "2026-10-09",
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-11-14T07:21:35Z",
+  "latest_release": "v4.0.0 · 2026-11-14",
   "reviewed_on": "2026-11-21",
   "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 13/11/2026"
 }

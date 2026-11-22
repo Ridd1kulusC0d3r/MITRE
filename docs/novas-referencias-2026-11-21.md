@@ -50,4 +50,5 @@ Outras 25 entradas que não tinham versão ganharam a tag Git mais recente, entr
 - **Tags:** `git ls-remote --tags` em cada repositório, em 21/11/2026. Tag Git não é sinônimo de release estável.
 - **Atividade:** data do último commit da branch padrão. Em repositórios que desenvolvem em outra branch essa data fica atrás das tags, como no Workbench.
 - **Sites:** EMB3D, D3FEND, attack.mitre.org e as páginas de projeto do CTID foram lidos diretamente.
-- **Não foi feito:** nenhuma ferramenta foi instalada ou executada, e `pushed_at` só foi atualizado onde havia fonte (PyPI do `mitreattack-python`). Rode `scripts/check_repos.py` com token para atualizar os demais.
+- **Sinais de manutenção:** `archived`, `license_api`, `pushed_at` e `latest_release` de 74 entradas vêm do relatório do monitor de 16/11/2026 (issue #9), gerado pela API do GitHub. `latest_release` é o que o GitHub marca como último release e pode ficar atrás das tags: no Workbench aparece `v4.6.10`, enquanto a tag estável é `v4.19.0`.
+- **Não foi feito:** nenhuma ferramenta foi instalada ou executada.

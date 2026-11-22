@@ -21,7 +21,8 @@
   ],
   "archived": false,
   "license_api": "Apache-2.0",
-  "pushed_at": "2026-10-20T19:10:39Z",
+  "pushed_at": "2026-11-14T01:56:46Z",
+  "latest_release": "v5.0.0 · 2026-02-09",
   "reviewed_on": "2026-11-21",
   "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 03/11/2026"
 }

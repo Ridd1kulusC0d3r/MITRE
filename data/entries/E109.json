@@ -19,6 +19,9 @@
     "E011"
   ],
   "notes": "Sem atualização desde ago/2020.",
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2020-08-21T01:21:56Z",
   "reviewed_on": "2026-10-22",
   "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
 }

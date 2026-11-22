@@ -25,7 +25,8 @@
   ],
   "archived": false,
   "license_api": "Apache-2.0",
-  "pushed_at": "2026-10-22T22:13:19Z",
+  "pushed_at": "2026-11-13T16:06:55Z",
+  "latest_release": "v4.6.10 · 2026-06-25",
   "reviewed_on": "2026-11-21",
   "verification": "Tags Git conferidas via git ls-remote em 21/11/2026: v4.19.0 (commit de 16/11/2026) segue como estável; v4.20.0-alpha.1 é a pré-versão mais recente"
 }

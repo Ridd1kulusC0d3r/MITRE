@@ -22,6 +22,10 @@
     "E099",
     "E028"
   ],
+  "archived": false,
+  "license_api": "BSD-3-Clause",
+  "pushed_at": "2025-12-19T07:01:03Z",
+  "latest_release": "0.6.4 · 2025-12-19",
   "reviewed_on": "2026-10-22",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
 }

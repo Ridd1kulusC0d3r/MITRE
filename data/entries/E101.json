@@ -22,6 +22,10 @@
     "E057",
     "E102"
   ],
+  "archived": false,
+  "license_api": "AGPL-3.0",
+  "pushed_at": "2026-11-10T12:24:39Z",
+  "latest_release": "v4.4.0 · 2026-11-10",
   "reviewed_on": "2026-11-11",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
 }

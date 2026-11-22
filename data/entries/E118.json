@@ -23,6 +23,7 @@
   "archived": false,
   "license_api": "GPL-3.0",
   "pushed_at": "2026-01-22T08:45:57Z",
+  "latest_release": "v1.4.4 · 2024-12-06",
   "reviewed_on": "2026-11-21",
   "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 22/01/2026"
 }

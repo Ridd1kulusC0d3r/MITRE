@@ -26,7 +26,8 @@
   ],
   "archived": false,
   "license_api": "NOASSERTION",
-  "pushed_at": "2026-10-16T11:59:04Z",
+  "pushed_at": "2026-11-16T20:44:43Z",
+  "latest_release": "2026031300 · 2026-03-13",
   "reviewed_on": "2026-11-21",
   "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 16/11/2026"
 }

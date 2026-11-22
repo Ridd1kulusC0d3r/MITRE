@@ -20,6 +20,10 @@
     "E057",
     "E101"
   ],
+  "archived": false,
+  "license_api": "GPL-3.0",
+  "pushed_at": "2026-11-15T13:59:27Z",
+  "latest_release": "v2.18.0 · 2026-11-15",
   "reviewed_on": "2026-11-21",
   "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 15/11/2026"
 }

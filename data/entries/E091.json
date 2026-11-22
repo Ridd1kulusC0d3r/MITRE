@@ -20,6 +20,9 @@
     "E058",
     "E013"
   ],
+  "archived": false,
+  "pushed_at": "2026-08-14T15:11:50Z",
+  "latest_release": "ce-9.14.1 · 2026-08-14",
   "reviewed_on": "2026-10-22",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
 }

@@ -21,6 +21,9 @@
     "E071",
     "E001"
   ],
+  "archived": false,
+  "license_api": "MIT",
+  "pushed_at": "2026-01-12T00:17:37Z",
   "reviewed_on": "2026-10-22",
   "verification": "Pesquisa web em 22/10/2026; confirmar antes de uso crítico"
 }

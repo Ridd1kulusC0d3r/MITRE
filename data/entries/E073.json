@@ -24,6 +24,10 @@
     "E030",
     "E074"
   ],
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2026-11-11T22:06:47Z",
+  "latest_release": "v4.17.4 · 2026-10-19",
   "reviewed_on": "2026-11-21",
   "verification": "Tags Git conferidas via git ls-remote em 21/11/2026: v4.26.1 segue como última estável; v4.27.0-alpha.2 substitui a alpha.1"
 }

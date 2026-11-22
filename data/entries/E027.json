@@ -24,6 +24,10 @@
     "E008"
   ],
   "notes": "Também distribui o CAPEC em STIX.",
+  "archived": false,
+  "license_api": "NOASSERTION",
+  "pushed_at": "2026-11-05T16:33:31Z",
+  "latest_release": "ATT&CK-v20.1 · 2026-11-05",
   "reviewed_on": "2026-11-11",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
 }

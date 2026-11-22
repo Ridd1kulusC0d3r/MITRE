@@ -27,7 +27,8 @@
   "notes": "v4.1 trouxe integração com D3FEND.",
   "archived": false,
   "license_api": "Apache-2.0",
-  "pushed_at": "2026-10-14T19:37:37Z",
+  "pushed_at": "2026-10-27T21:05:44Z",
+  "latest_release": "v4.1.0 · 2026-10-14",
   "reviewed_on": "2026-10-22",
   "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 22/10/2026"
 }

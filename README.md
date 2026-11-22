@@ -10,7 +10,7 @@
 [![D3FEND](https://img.shields.io/badge/D3FEND-1.6.0-3cc8d6?style=flat-square)](https://d3fend.mitre.org/)
 [![ATLAS](https://img.shields.io/badge/ATLAS-v2026.10-a86df5?style=flat-square)](https://atlas.mitre.org/)
 [![Python](https://img.shields.io/badge/Python-stdlib%20only-3776ab?style=flat-square&logo=python&logoColor=white)](atlas/)
-[![revisão](https://img.shields.io/badge/revis%C3%A3o-21%2F11%2F2026-1f9e8f?style=flat-square)](docs/historico-e-manutencao.md)
+[![revisão](https://img.shields.io/badge/revis%C3%A3o-22%2F11%2F2026-1f9e8f?style=flat-square)](docs/historico-e-manutencao.md)
 [![idioma](https://img.shields.io/badge/idioma-pt--BR-009c3b?style=flat-square)](#)
 <!-- hero:end -->
 
@@ -24,7 +24,7 @@ CTI · Threat Modeling · Detection Engineering · Adversary Emulation · Incide
 <!-- stats:start -->
 | 📦 Entradas | 🟦 MITRE | 🟩 CTID | 🟨🟧 Comunidade e fornecedores | 🔗 Relações | 🧱 Camadas | ✅ Ativos | 🗄️ Históricos |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **137** | 58 | 31 | 32 | 291 | 15 | 104 | 21 |
+| **137** | 58 | 31 | 32 | 291 | 15 | 103 | 21 |
 <!-- stats:end -->
  
 ---
@@ -207,7 +207,7 @@ Mais receitas e endpoints: [docs/dados-e-apis.md](docs/dados-e-apis.md).
 
 ## 🔍 Escopo e qualidade
 
-Base de referência **documental**, revisada em <!-- reviewed:start -->**21/11/2026**<!-- reviewed:end -->. Versões do ATT&CK, D3FEND, ATLAS e das principais ferramentas foram conferidas na fonte (bundle STIX, changelog, tag Git ou PyPI); o restante vem de pesquisa web e está marcado como tal no JSON. As ferramentas de terceiros não foram executadas nem certificadas. "Top" significa utilidade para o fluxo descrito, não contagem de estrelas.
+Base de referência **documental**, revisada em <!-- reviewed:start -->**22/11/2026**<!-- reviewed:end -->. Versões do ATT&CK, D3FEND, ATLAS e das principais ferramentas foram conferidas na fonte (bundle STIX, changelog, tag Git ou PyPI); o restante vem de pesquisa web e está marcado como tal no JSON. As ferramentas de terceiros não foram executadas nem certificadas. "Top" significa utilidade para o fluxo descrito, não contagem de estrelas.
 
 Veja [fontes, sinais de manutenção e limitações](docs/historico-e-manutencao.md). Marcas, dados e ferramentas pertencem aos respectivos titulares; cada fonte tem seus próprios termos.
 

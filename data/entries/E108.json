@@ -20,6 +20,9 @@
     "E013"
   ],
   "notes": "Sem atualização desde abr/2021. Fontes divergem sobre o arquivamento (listagem da org vs. checagem de 23/10/2026); confirme na página do repositório. Prefira Adversary Emulation Library e Apache Caldera.",
+  "archived": false,
+  "license_api": "Apache-2.0",
+  "pushed_at": "2021-04-20T15:05:25Z",
   "reviewed_on": "2026-10-22",
   "verification": "Página da organização mitre-attack no GitHub e attack.mitre.org consultadas em 22/10/2026"
 }

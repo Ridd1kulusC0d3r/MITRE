@@ -19,6 +19,9 @@
   "relations": [
     "E011"
   ],
+  "archived": false,
+  "license_api": "BSD-3-Clause",
+  "pushed_at": "2024-06-26T16:32:59Z",
   "reviewed_on": "2026-11-21",
   "verification": "Repositório conferido via git em 21/11/2026: sem tags; último commit da branch padrão em 26/06/2024"
 }

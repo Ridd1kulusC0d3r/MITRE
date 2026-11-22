@@ -35,7 +35,8 @@
   "notes": "NIST 800-53, CVE/KEV, AWS/Azure/GCP, M365, VERIS, CSA CCM e CIS Controls (projeto CIS Controls for Threat Mitigations, 05/10/2026: Safeguards mapeados a técnicas com justificativa, em ctid.mitre.org/mappings/external/cis/).",
   "archived": false,
   "license_api": "Apache-2.0",
-  "pushed_at": "2026-10-05T02:10:24Z",
+  "pushed_at": "2026-11-06T22:37:25Z",
+  "latest_release": "mappings_explorer-v1.1.0 · 2024-04-15",
   "reviewed_on": "2026-11-21",
   "verification": "Tag Git conferida via git ls-remote em 21/11/2026; último commit da branch padrão em 18/11/2026"
 }
