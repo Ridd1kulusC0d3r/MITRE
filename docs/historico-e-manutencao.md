@@ -193,3 +193,13 @@ Nenhum repositório novo na organização `mitre-attack`; ATT&CK segue em **v20.
 | ATT&CK Advisory Council (E135) | — | **nova entrada**: conselho consultivo anunciado em 25/02/2026, sem autoridade de governança; página no menu Resources do attack.mitre.org |
 
 Divergências entre as revisões e como ficaram: a de 15/11 tratava a 4.12.0 do Data Model como estável, mas o npm a publica como `next`; a E135 foi proposta nas camadas `maturidade` e `formacao` e ficou em `formacao`, com os mesmos domínios das outras páginas institucionais do ATT&CK (E111 a E113).
+
+### Revisão incremental — 22/11/2026
+
+Conferido na [lista de repositórios](https://github.com/orgs/mitre-attack/repositories) (busca da organização), em `git ls-remote`, no PyPI e no registro npm: **nenhum repositório novo** na organização `mitre-attack` (a busca retornou 20 repositórios, 8 deles arquivados, todos já conhecidos). ATT&CK segue em **v20.1** (05/11/2026). Sem mudança em Navigator `v5.3.2`, site `website-v4.4.1` e Data Model (`latest` 4.10.1, `next` 4.12.0, `beta` 5.0.0-beta.3).
+
+| Item | Antes | Agora |
+|---|---|---|
+| mitreattack-python (E028) | 6.4.0 · 05/11/2026 | **6.4.1** (PyPI e tag Git de 18/11/2026) |
+| Workbench (frontend, E025) | v4.19.0 | sem mudança na estável; nova pré-versão **v4.20.0-alpha.1** (20/11/2026) |
+| Workbench REST API (E073) | v4.26.1 · v4.27.0-alpha.1 | sem mudança na estável; pré-versão avança para **v4.27.0-alpha.2** (19/11/2026) |
