@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "reviewed_on": "2026-11-18",
+  "reviewed_on": "2026-11-21",
   "timezone": "America/Sao_Paulo",
   "scope": "Ecossistema de cibersegurança MITRE e recursos externos relacionados; não inventário institucional exaustivo",
   "verification_limits": "Pesquisa documental; ferramentas não executadas. Campos ausentes: não coletados. archived=false não comprova manutenção ativa. pushed_at não equivale a último release. license_api não substitui leitura da licença. Status 'n/v' = não verificado. Tag Git indica marco publicado, não necessariamente release estável.",
@@ -660,7 +660,7 @@
       "output": "Coleções locais e anotações",
       "priority": "P1",
       "status": "ativo",
-      "version": "v4.19.0 (tag)",
+      "version": "v4.19.0 (tag) · v4.20.0-alpha.1 em desenvolvimento",
       "formats": [
         "STIX 2.1"
       ],
@@ -671,8 +671,8 @@
       "archived": false,
       "license_api": "Apache-2.0",
       "pushed_at": "2026-10-22T22:13:19Z",
-      "reviewed_on": "2026-11-17",
-      "verification": "Tags Git conferidas via git ls-remote em 17/11/2026: v4.19.0 (commit de 16/11/2026) é a estável; v4.18.1-beta.1 (12/11/2026) e v4.19.0-beta.1 (13/11/2026) foram as pré-versões"
+      "reviewed_on": "2026-11-21",
+      "verification": "Tags Git conferidas via git ls-remote em 21/11/2026: v4.19.0 (commit de 16/11/2026) segue como estável; v4.20.0-alpha.1 (commit de 20/11/2026, merge do PR #1003 da branch beta) é a pré-versão mais recente"
     },
     {
       "id": "E026",
