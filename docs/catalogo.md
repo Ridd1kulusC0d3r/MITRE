@@ -4,7 +4,7 @@
 
 [← Início](../README.md) · [Explorador interativo](../index.html) · [Crosswalks](crosswalks.md) · [Novidades 2026](novidades-2026.md) · [Histórico](historico-e-manutencao.md)
 
-Revisão: **2026-11-17** · **132 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
+Revisão: **2026-11-18** · **132 entradas** (frameworks, ferramentas, dados, padrões e publicações). P1 = comece aqui; P2 = aprofunde por necessidade. Não é ranking de mercado.
 
 **Legenda.** Origem: 🟦 MITRE oficial · 🟩 MITRE CTID · 🟪 Colaboração MITRE · 🟫 Fundação aberta (código MITRE doado) · ⬛ Governo · ⬜ Organismo de padrão · 🟨 Comunidade · 🟧 Fornecedor · ◻️ Outro  
 Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificado
@@ -357,7 +357,7 @@ Status: ✅ Ativo · ⏸️ Baixa atividade · 🧊 Parado · ❔ Não verificad
 | ✅ | **[ATLAS Navigator](https://github.com/mitre-atlas/atlas-navigator)** `E104` | 🟦 MITRE | Visualizar e anotar a matriz ATLAS. | v4.5.5 (tag) | IA | P2 |
 | ✅ | **[ATT&CK Sync](https://github.com/center-for-threat-informed-defense/attack-sync)** `E046` | 🟩 MITRE / CTID | Apoiar adoção de mudanças entre versões ATT&CK. | — | Enterprise | P2 |
 | ✅ | **[ATT&CK TAXII 2.1 (público)](https://attack-taxii.mitre.org/)** `E099` | 🟦 MITRE | Servir o ATT&CK por TAXII 2.1. | — | Enterprise, Mobile, ICS/OT | P2 |
-| ✅ | **[ATT&CK Website (código)](https://github.com/mitre-attack/attack-website)** `E075` | 🟦 MITRE | Consultar o código do site oficial e gerá-lo localmente, inclusive para uso offline ou em rede isolada. | website-v4.4.1 (tag) | Enterprise, Mobile, ICS/OT | P2 |
+| ✅ | **[ATT&CK Website (código)](https://github.com/mitre-attack/attack-website)** `E075` | 🟦 MITRE | Consultar o código do site oficial e gerá-lo localmente, inclusive para uso offline ou em rede isolada. | v5.2.1 · 05/11/2026 (CHANGELOG e rodapé do site; última tag Git: website-v4.4.1) | Enterprise, Mobile, ICS/OT | P2 |
 | ✅ | **[attackcti](https://github.com/OTRF/ATTACK-Python-Client)** `E088` | 🟨 OTRF | Consultar ATT&CK via TAXII em Python. | 0.6.4 · 19/12/2025 (PyPI) | Enterprise, Mobile, ICS/OT | P2 |
 | ⏸️ | **[BRAWL public game 001](https://github.com/mitre/brawl-public-game-001)** `E126` | 🟦 MITRE | Estudar dados de um exercício automatizado de emulação adversária. | — | Enterprise | P2 |
 | ✅ | **[stix2 (Python)](https://github.com/oasis-open/cti-python-stix2)** `E097` | ⬜ OASIS | Criar, validar e consultar objetos STIX 2.x. | 3.0.2 (PyPI) | Geral | P2 |

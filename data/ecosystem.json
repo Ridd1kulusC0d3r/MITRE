@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "reviewed_on": "2026-11-17",
+  "reviewed_on": "2026-11-18",
   "timezone": "America/Sao_Paulo",
   "scope": "Ecossistema de cibersegurança MITRE e recursos externos relacionados; não inventário institucional exaustivo",
   "verification_limits": "Pesquisa documental; ferramentas não executadas. Campos ausentes: não coletados. archived=false não comprova manutenção ativa. pushed_at não equivale a último release. license_api não substitui leitura da licença. Status 'n/v' = não verificado. Tag Git indica marco publicado, não necessariamente release estável.",
@@ -2010,7 +2010,7 @@
       "output": "Espelho interno do site com a versão fixada",
       "priority": "P2",
       "status": "ativo",
-      "version": "website-v4.4.1 (tag)",
+      "version": "v5.2.1 · 05/11/2026 (CHANGELOG e rodapé do site; última tag Git: website-v4.4.1)",
       "formats": [
         "HTML",
         "Python"
@@ -2019,8 +2019,8 @@
         "E026",
         "E001"
       ],
-      "reviewed_on": "2026-11-11",
-      "verification": "Verificado na fonte (dados, tag Git ou PyPI) em 11/11/2026"
+      "reviewed_on": "2026-11-18",
+      "verification": "CHANGELOG.md da branch master (commit eb28977) e rodapé de attack.mitre.org lidos em 18/11/2026: Website v5.2.1 de 05/11/2026, com o conteúdo ATT&CK v20.1. As versões 5.x não têm tag Git; a última tag é website-v4.4.1 (git ls-remote em 18/11/2026)."
     },
     {
       "id": "E076",
