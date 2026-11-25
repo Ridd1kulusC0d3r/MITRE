@@ -1,0 +1,24 @@
+{
+  "id": "E141",
+  "name": "ATT&CK Benefactors Program",
+  "url": "https://attack.mitre.org/resources/engage-with-attack/benefactors/",
+  "origin": "MITRE",
+  "owner_type": "mitre",
+  "layer": "formacao",
+  "domains": [
+    "enterprise",
+    "mobile",
+    "ics-ot"
+  ],
+  "purpose": "Programa de doações financeiras que sustenta a evolução do ATT&CK (pesquisa em domínios sub-representados, ameaças emergentes e engajamento da comunidade); benfeitores recebem reconhecimento público e briefings com a liderança do ATT&CK. Não é ferramenta nem conteúdo técnico.",
+  "output": "Contexto de financiamento e sustentabilidade do ATT&CK; caminho para apoio institucional (via ctid.mitre.org/donate)",
+  "priority": "P2",
+  "status": "ativo",
+  "relations": [
+    "E001",
+    "E110",
+    "E135"
+  ],
+  "reviewed_on": "2026-11-25",
+  "verification": "Página attack.mitre.org/resources/engage-with-attack/benefactors/ lida em 25/11/2026 (link no menu Resources; níveis Advocates, Friends e Supporters; botão 'Become a Benefactor' aponta para ctid.mitre.org/donate)"
+}
