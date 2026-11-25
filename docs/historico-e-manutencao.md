@@ -207,3 +207,9 @@ Cinco entradas novas (E136–E140), 10 entradas tiradas de "não verificado" e v
 ### Unificação — 22/11/2026
 
 A atualização de 21/11 foi mesclada com a `main` (que já tinha recebido as revisões de 18/11 e 21/11) e com as revisões diárias de 19, 20 e 22/11, que repetiam mitreattack-python 6.4.1, Workbench REST API v4.27.0-alpha.2 e ATT&CK em Excel. Entraram também os sinais do monitor de 16/11/2026 (issue #9): `archived`, `license_api`, `pushed_at` e `latest_release` em 74 entradas, sem alterar `reviewed_on`. O **ATLAS Navigator (E104)** passou de `ativo` para `baixa-atividade`: não recebe push desde 24/06/2024.
+
+### Revisão incremental — 25/11/2026
+
+Varredura de `attack.mitre.org` (página inicial, menu Resources, ATT&CK Data & Tools e `CHANGELOG.md` do site) e da organização `mitre-attack` (20 repositórios na busca, mais `caret`). Nenhuma ferramenta, framework ou repositório novo, e nenhuma tag nova: Navigator `v5.3.2`, Workbench `v4.19.0` (`v4.20.0-alpha.1`), REST API `v4.26.1` (`v4.27.0-alpha.2`), TAXII Server `v2.0.1`, `attack-stix-data` `v20.1`, `mitreattack-python` `v6.4.1` e ATT&CK Data Model `v4.12.0` (`v5.0.0-beta.3`). ATT&CK segue em **v20.1** e o site em **v5.2.1** (05/11/2026).
+
+Lacuna preenchida: **ATT&CK Benefactors Program (E141)**. A página fica no menu Resources e descreve o programa de doações que financia o ATT&CK. Não é ferramenta; entrou ao lado das outras páginas institucionais (E110, E113 e E135).
